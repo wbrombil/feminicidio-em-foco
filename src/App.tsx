@@ -214,8 +214,8 @@ function App() {
       <footer className="site-footer">
         <div className="credits">
           <span>Trabalho da disciplina Gênero e Sexualidade · Faculdade de Educação · UFRGS</span>
-          <span>Thalyne Alves Arriche · Stefani Paz dos Santos</span>
-          <span>Desenvolvedor: Wesley Mateus Brombil</span>
+          <span>Stefani Paz dos Santos · Thalyne Alves Arriche</span>
+          <span>Desenvolvedor: Wesley Mateus Brombil · <a href="https://github.com/wbrombil" target="_blank" rel="noreferrer">GitHub</a></span>
         </div>
         <span>Rio Grande do Sul, Brasil</span>
       </footer>
