@@ -5,6 +5,7 @@ import municipalityCrosswalkUrl from '../../data/ibge/ssp-rs-municipality-crossw
 type CaseNewsRecord = {
   municipality: string
   publisher: string
+  title: string
   url: string
   publishedAt: string | null
 }
@@ -105,6 +106,7 @@ function LatestCaseNews() {
                   <time dateTime={record.publishedAt}>{formatDate(record.publishedAt)}</time>
                   <p className="latest-news-municipality">{record.municipalityLabel}</p>
                   <p className="latest-news-publisher">{record.publisher}</p>
+                  <p className="latest-news-title">{record.title}</p>
                   <a href={record.url} target="_blank" rel="noreferrer" aria-label={`Acessar matéria de ${record.publisher} sobre ${record.municipalityLabel}`}>
                     Acessar matéria <span aria-hidden="true">↗</span>
                   </a>

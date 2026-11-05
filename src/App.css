@@ -482,10 +482,11 @@
   background: var(--surface);
 }
 
-.latest-news-card time { color: var(--accent); font-size: 1rem; font-weight: 700; }
+.latest-news-card time { color: var(--ink); font-size: 1rem; font-weight: 700; }
 .latest-news-municipality { margin: 0.45rem 0 0; font-size: var(--text-reading); font-weight: 700; }
 .latest-news-publisher { margin: 0.2rem 0 0; color: var(--muted); font-size: var(--text-meta); }
-.latest-news-card a { margin-top: auto; padding-top: 0.75rem; color: var(--ink); font-size: var(--text-compact); text-underline-offset: 3px; }
+.latest-news-title { flex: 1; min-width: 0; margin: 0.65rem 0 0; color: var(--ink); font-size: var(--text-sm); font-weight: 600; line-height: 1.4; }
+.latest-news-card a { margin-top: auto; padding-top: 0.75rem; color: var(--accent); font-size: var(--text-compact); text-underline-offset: 3px; }
 .latest-news-card a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 
 @media (max-width: 1050px) {

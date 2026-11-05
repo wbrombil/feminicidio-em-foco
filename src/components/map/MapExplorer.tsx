@@ -110,6 +110,7 @@ type CaseNewsRecord = {
   month: number
   municipality: string
   publisher: string
+  title: string
   url: string
   publishedAt: string | null
   dateForOrdering: string | null
@@ -557,14 +558,14 @@ export default function MapExplorer() {
         return response.json()
       })
       .then((data: CaseNewsData) => {
-        if (data.schemaVersion !== 1 || !data.checkedAt || !Array.isArray(data.records)) {
+        if (data.schemaVersion !== 2 || !data.checkedAt || !Array.isArray(data.records)) {
           throw new Error('O arquivo de referências jornalísticas tem estrutura inesperada.')
         }
         const keys = new Set<string>()
         for (const record of data.records) {
           const key = `${record.month}|${record.municipality}|${record.url}`
           if (!Number.isInteger(record.month) || record.month < 1 || record.month > 12
-            || !record.municipality || !record.publisher || !record.url.startsWith('https://') || keys.has(key)
+            || !record.municipality || !record.publisher || !record.title?.trim() || !record.url.startsWith('https://') || keys.has(key)
             || (record.publishedAt !== null && !isValidIsoDate(record.publishedAt))
             || (record.dateForOrdering !== null && !isValidIsoDate(record.dateForOrdering))
             || typeof record.publicationDateEvidence !== 'string' || !record.publicationDateEvidence.trim()) {
@@ -935,7 +936,7 @@ export default function MapExplorer() {
                                     {record.publishedAt ? formatIsoDate(record.publishedAt) : record.publicationDateDisplay ?? 'Data de publicação não informada'}
                                   </time>
                                 </div>
-                                <a href={record.url} target="_blank" rel="noreferrer">Abrir referência jornalística<span className="visually-hidden">, abre em nova aba</span></a>
+                                <a href={record.url} target="_blank" rel="noreferrer">{record.title}<span className="visually-hidden">, abre em nova aba</span></a>
                                 </article>
                               </li>
                             ))}
