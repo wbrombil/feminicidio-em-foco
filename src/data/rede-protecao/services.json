@@ -1,0 +1,1697 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-11-02",
+  "source": {
+    "publisher": "Infraestrutura Estadual de Dados Espaciais do Rio Grande do Sul (IEDE/RS)",
+    "serviceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+    "queryUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0/query?where=status%3D1&outFields=objectid,municipio,tp_unidade,telefone,email,endereco,complemento,horario_atendimento,fonte,nm_unidade,status,cod_ibge,mun_jurisdicionados,latitude,longitude&returnGeometry=true&outSR=4326&f=geojson",
+    "license": "CC BY-NC 4.0",
+    "attribution": "Secretaria do Planejamento, Governança e Gestão do Estado do Rio Grande do Sul",
+    "note": "A camada declara pontos geolocalizados a partir de endereços e não fornece data confiável da última edição. Registros sem endereço público mantêm coordinates=null."
+  },
+  "counts": {
+    "Centros de Referência de Atendimento à Mulher": 54,
+    "Delegacia de Proteção a Grupos Vulneráveis": 7,
+    "Delegacia Especializada no Atendimento à Mulher (DEAM)": 22,
+    "Posto Policial de Proteção à Mulher (PPPM)": 1
+  },
+  "services": [
+    {
+      "id": "361",
+      "municipality": "Alegrete",
+      "sourceMunicipality": "Alegrete",
+      "ibgeCode": "4300406",
+      "category": "crm",
+      "officialType": "Centros de Referência de Atendimento à Mulher",
+      "name": "Centro de Referência de Atendimento à Mulher (CRAM)",
+      "address": "Rua Demétrio Ribeiro, 283",
+      "phone": "(55) 31201024",
+      "email": "cramalegrete@gmail.com",
+      "hours": null,
+      "sourceName": "Secretaria da Mulher do Rio Grande do Sul",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -29.783678729175296,
+        -55.786649879788
+      ]
+    },
+    {
+      "id": "368",
+      "municipality": "Alegria",
+      "sourceMunicipality": "Alegria",
+      "ibgeCode": "4300455",
+      "category": "crm",
+      "officialType": "Centros de Referência de Atendimento à Mulher",
+      "name": "Centro de Referência de Atendimento à Mulher em Situação de Violência – CRM",
+      "address": "Rua São Lourenço, 53 - Centro",
+      "phone": "(55) 999310873",
+      "email": "assistenciasocialalegria@gmail.com",
+      "hours": null,
+      "sourceName": "Secretaria da Mulher do Rio Grande do Sul",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -27.83428626921558,
+        -54.06111596023328
+      ]
+    },
+    {
+      "id": "291",
+      "municipality": "Alvorada",
+      "sourceMunicipality": "Alvorada",
+      "ibgeCode": "4300604",
+      "category": "police-specialized",
+      "officialType": "Delegacia Especializada no Atendimento à Mulher (DEAM)",
+      "name": "Delegacia de Polícia Especializada de Proteção à Mulher Alvorada",
+      "address": "Rua Alberto Pasqualine, 404 - Bairro Sumaré",
+      "phone": "(51) 3442-1114 / (51) 3442-7992",
+      "email": "alvorada-deam@pc.rs.gov.br",
+      "hours": "Segunda a sexta, das 8h30min às 12h e das 13h30min às 18h",
+      "sourceName": "Delegacia de Polícia Online da Mulher - Polícia Civil",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -29.995337999331007,
+        -51.07780100001599
+      ]
+    },
+    {
+      "id": "367",
+      "municipality": "Antônio Prado",
+      "sourceMunicipality": "Antônio Prado",
+      "ibgeCode": "4300802",
+      "category": "crm",
+      "officialType": "Centros de Referência de Atendimento à Mulher",
+      "name": "Centro de Referência de Atendimento à Mulher em Situação de Violência – CRM",
+      "address": "Rua Onze de Fevereiro, 1 - Bairro Aparecida",
+      "phone": "(54) 992742086",
+      "email": "cooordenadoriadamulherap@gmail.com",
+      "hours": null,
+      "sourceName": "Secretaria da Mulher do Rio Grande do Sul",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -28.84863870961005,
+        -51.277845700418595
+      ]
+    },
+    {
+      "id": "364",
+      "municipality": "Bagé",
+      "sourceMunicipality": "Bagé",
+      "ibgeCode": "4301602",
+      "category": "crm",
+      "officialType": "Centros de Referência de Atendimento à Mulher",
+      "name": "Centro de Referência da Mulher (CRM)",
+      "address": "Rua Marechal Floriano, 1476 - Centro",
+      "phone": "(53) 32426551/  (53) 999663829",
+      "email": "semppmulher@bage.rs.gov.br",
+      "hours": "8h às 14h",
+      "sourceName": "Secretaria da Mulher do Rio Grande do Sul",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -31.32381056956298,
+        -54.105502310083416
+      ]
+    },
+    {
+      "id": "107",
+      "municipality": "Bagé",
+      "sourceMunicipality": "Bagé",
+      "ibgeCode": "4301602",
+      "category": "police-specialized",
+      "officialType": "Delegacia Especializada no Atendimento à Mulher (DEAM)",
+      "name": "Delegacia de Polícia Especializada de Proteção à Mulher Bagé – DEAM/9DPRI/DPI",
+      "address": "Avenida Sete de Setembro, 634 - Centro",
+      "phone": "(53) 3241-3709",
+      "email": "bage-deam@pc.rs.gov.br",
+      "hours": "Segunda a sexta, das 8h30min às 12h e das 13h30min às 18h",
+      "sourceName": "Observatório da Violência Contra a Mulher - SSP",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -31.335400600418,
+        -54.10503869967613
+      ]
+    },
+    {
+      "id": "369",
+      "municipality": "Balneário Pinhal",
+      "sourceMunicipality": "Balneário Pinhal",
+      "ibgeCode": "4301636",
+      "category": "crm",
+      "officialType": "Centros de Referência de Atendimento à Mulher",
+      "name": "Centro de Referência para Mulher (CRM)",
+      "address": "Rua 25 de março, 302 - Centro",
+      "phone": "(51) 991951753",
+      "email": "crm@balneariopinhal.rs.gov.br",
+      "hours": null,
+      "sourceName": "Secretaria da Mulher do Rio Grande do Sul",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -30.25852630931919,
+        -50.23745628957596
+      ]
+    },
+    {
+      "id": "73",
+      "municipality": "Barão",
+      "sourceMunicipality": "Barão",
+      "ibgeCode": "4301651",
+      "category": "crm",
+      "officialType": "Centros de Referência de Atendimento à Mulher",
+      "name": "Casa da Mulher",
+      "address": "Rua da Estação, 1411 – bairro Centro",
+      "phone": "(51) 36962271 / (51) 999608242",
+      "email": "crmulher@baraors.gov.br",
+      "hours": "7h30 às 11h30 e 13h às 17h",
+      "sourceName": "Secretaria da Mulher do Rio Grande do Sul",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -29.37466729914876,
+        -51.50358050003991
+      ]
+    },
+    {
+      "id": "359",
+      "municipality": "Barra do Ribeiro",
+      "sourceMunicipality": "Barra do Ribeiro",
+      "ibgeCode": "4301909",
+      "category": "crm",
+      "officialType": "Centros de Referência de Atendimento à Mulher",
+      "name": "Centro de Referência de Atendimento à Mulher em Situação de Violência – CRM",
+      "address": "Rua Daltro Filho, nº 56 - Centro",
+      "phone": "(51) 99740-0930 / (51) 34822105",
+      "email": "casadamulher.barradoribeiro@gmail.com",
+      "hours": null,
+      "sourceName": "Secretaria da Mulher do Rio Grande do Sul",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -30.290546999021743,
+        -51.30020720010208
+      ]
+    },
+    {
+      "id": "391",
+      "municipality": "Bento Gonçalves",
+      "sourceMunicipality": "Bento Gonçalves",
+      "ibgeCode": "4302105",
+      "category": "crm",
+      "officialType": "Centros de Referência de Atendimento à Mulher",
+      "name": "Centro de Referência à Mulher em Situação de Violência (REVIVI)",
+      "address": "Rua 10 de Novembro, 190 – bairro Cidade Alta",
+      "phone": "(54) 30557418 / (54) 991328148",
+      "email": "revivi@bentogoncalves.rs.gov.br",
+      "hours": "2ª feira à 6ª feira – 8h às 17h (sem fechar ao meio dia)",
+      "sourceName": "Secretaria da Mulher do Rio Grande do Sul",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -29.173903358748667,
+        -51.519126949848726
+      ]
+    },
+    {
+      "id": "135",
+      "municipality": "Bento Gonçalves",
+      "sourceMunicipality": "Bento Gonçalves",
+      "ibgeCode": "4302105",
+      "category": "police-specialized",
+      "officialType": "Delegacia Especializada no Atendimento à Mulher (DEAM)",
+      "name": "Delegacia de Polícia Especializada de Proteção à Mulher Bento Gonçalves – DEAM/8DPRI/DPI",
+      "address": "Rua Marechal Floriano, 142 - Centro",
+      "phone": "(54) 3454-2899",
+      "email": "bentogoncalves-deam@pc.rs.gov.br",
+      "hours": "Segunda a sexta, das 8h30min às 12h e das 13h30min às 18h",
+      "sourceName": "Observatório da Violência Contra a Mulher - SSP",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -29.16870760027125,
+        -51.517654200281015
+      ]
+    },
+    {
+      "id": "190",
+      "municipality": "Cachoeira do Sul",
+      "sourceMunicipality": "Cachoeira do Sul",
+      "ibgeCode": "4303004",
+      "category": "police-specialized",
+      "officialType": "Delegacia de Proteção a Grupos Vulneráveis",
+      "name": "Delegacia de Polícia Especializada de Proteção à Mulher Cachoeira do Sul",
+      "address": "Rua Gaspar Martins, 1285",
+      "phone": "(51) 3722-5988",
+      "email": null,
+      "hours": null,
+      "sourceName": "Delegacia de Polícia Online da Mulher - Polícia Civil",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -30.036767399876737,
+        -52.89989759989419
+      ]
+    },
+    {
+      "id": "360",
+      "municipality": "Cachoeirinha",
+      "sourceMunicipality": "Cachoeirinha",
+      "ibgeCode": "4303103",
+      "category": "crm",
+      "officialType": "Centros de Referência de Atendimento à Mulher",
+      "name": "Centro de Referência de Atendimento à Mulher em Situação de Violência – CRM",
+      "address": "Av. Francisco Brochado da Rocha, 1020 - Vila City",
+      "phone": "(51) 30745602 / (51) 980317313",
+      "email": "cachoeirinhaflorescer@gmail.com",
+      "hours": null,
+      "sourceName": "Secretaria da Mulher do Rio Grande do Sul",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -29.94023757898377,
+        -51.09856027024017
+      ]
+    },
+    {
+      "id": "63",
+      "municipality": "Canela",
+      "sourceMunicipality": "Canela",
+      "ibgeCode": "4304408",
+      "category": "crm",
+      "officialType": "Centros de Referência de Atendimento à Mulher",
+      "name": "Centro de Referência de Atendimento à Mulher em Situação de Violência – CRM",
+      "address": "Rua Pedro Álvares Cabral, 216 - Bairro São Rafael",
+      "phone": "(54) 981215174",
+      "email": "casavitoriacanela@hotmail.com",
+      "hours": null,
+      "sourceName": "Secretaria da Mulher do Rio Grande do Sul",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -29.34179758918012,
+        -50.79428903970728
+      ]
+    },
+    {
+      "id": "189",
+      "municipality": "Canela",
+      "sourceMunicipality": "Canela",
+      "ibgeCode": "4304408",
+      "category": "police-specialized",
+      "officialType": "Posto Policial de Proteção à Mulher (PPPM)",
+      "name": "Posto Policial de Proteção à Mulher de Canela",
+      "address": "Avenida Osvaldo Aranha, 497 - Centro",
+      "phone": "(54) 3278-0032",
+      "email": "canela-ppm@pc.rs.gov.br",
+      "hours": "Segunda a sexta, das 8h30min às 12h e das 13h30min às 18h",
+      "sourceName": "Observatório da Violência Contra a Mulher - SSP",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -29.36258269962431,
+        -50.819234299723064
+      ]
+    },
+    {
+      "id": "365",
+      "municipality": "Canoas",
+      "sourceMunicipality": "Canoas",
+      "ibgeCode": "4304606",
+      "category": "crm",
+      "officialType": "Centros de Referência de Atendimento à Mulher",
+      "name": "Centro de Referência as Mulheres Vítimas de Violências (CRM) Patrícia Esber",
+      "address": "Rua Siqueira Campos, 321 – bairro Centro",
+      "phone": "(51) 34760706 / (51) 998153503",
+      "email": "crm@canoas.rs.gov.br",
+      "hours": "9h às 17h – não fecha ao meio dia",
+      "sourceName": "Secretaria da Mulher do Rio Grande do Sul",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -29.91269999888901,
+        -51.18100629960094
+      ]
+    },
+    {
+      "id": "131",
+      "municipality": "Canoas",
+      "sourceMunicipality": "Canoas",
+      "ibgeCode": "4304606",
+      "category": "police-specialized",
+      "officialType": "Delegacia Especializada no Atendimento à Mulher (DEAM)",
+      "name": "Delegacia de Polícia Especializada de Proteção à Mulher Canoas – DEAM/2DPRM/DPM",
+      "address": "Rua Humaitá, 1.120 - Bairro Marechal Rondon",
+      "phone": "(51) 3462-6700",
+      "email": "canoas-dm@pc.rs.gov.br",
+      "hours": "Segunda a sexta, das 8h30min às 18h",
+      "sourceName": "Observatório da Violência Contra a Mulher - SSP",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -29.92642289968,
+        -51.17698030010064
+      ]
+    },
+    {
+      "id": "366",
+      "municipality": "Capão da Canoa",
+      "sourceMunicipality": "Capão da Canoa",
+      "ibgeCode": "4304630",
+      "category": "crm",
+      "officialType": "Centros de Referência de Atendimento à Mulher",
+      "name": "Centro de Referência de Atendimento à Mulher (CRAM)",
+      "address": "Av. Paraguassu, 756 - Zona Nova",
+      "phone": "(51) 993573351",
+      "email": "crm@capaodacanoa.rs.gov.br",
+      "hours": null,
+      "sourceName": "Secretaria da Mulher do Rio Grande do Sul",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -29.748825398958886,
+        -50.01235100009848
+      ]
+    },
+    {
+      "id": "256",
+      "municipality": "Carazinho",
+      "sourceMunicipality": "Carazinho",
+      "ibgeCode": "4304705",
+      "category": "police-specialized",
+      "officialType": "Delegacia de Proteção a Grupos Vulneráveis",
+      "name": "Delegacia de Polícia Especializada de Proteção à Mulher Carazinho",
+      "address": "Avenida Flores da Cunha, 532 - Centro",
+      "phone": "(54) 3329-8623",
+      "email": null,
+      "hours": null,
+      "sourceName": "Delegacia de Polícia Online da Mulher - Polícia Civil",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -28.28128830002647,
+        -52.78145299955617
+      ]
+    },
+    {
+      "id": "74",
+      "municipality": "Caxias do Sul",
+      "sourceMunicipality": "Caxias do Sul",
+      "ibgeCode": "4305108",
+      "category": "crm",
+      "officialType": "Centros de Referência de Atendimento à Mulher",
+      "name": "Centro de Referência para Mulher (CRM) Rompendo Paradigmas",
+      "address": "Rua Alfredo Chaves, 1333, 3º andar – bairro Exposição",
+      "phone": "(54) 3218-6112 Fax: (54) 984034144",
+      "email": "cavr@caxias.rs.gov.br",
+      "hours": "9h às 17h",
+      "sourceName": "Secretaria da Mulher do Rio Grande do Sul",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -29.173210599285404,
+        -51.17682690004131
+      ]
+    },
+    {
+      "id": "132",
+      "municipality": "Caxias do Sul",
+      "sourceMunicipality": "Caxias do Sul",
+      "ibgeCode": "4305108",
+      "category": "police-specialized",
+      "officialType": "Delegacia Especializada no Atendimento à Mulher (DEAM)",
+      "name": "Delegacia de Polícia Especializada de Proteção à Mulher Caxias do Sul – DEAM/8DPRI/DPI",
+      "address": "Rua Dr. Montaury, 1387 - Bairro Madureira",
+      "phone": "(54) 3220-9280",
+      "email": "caxiasdosul-dm@pc.rs.gov.br",
+      "hours": "Segunda a sexta, das 8h30min às 12h e das 13h30min às 18h",
+      "sourceName": "Observatório da Violência Contra a Mulher - SSP",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -29.16873640016047,
+        -51.18020230029583
+      ]
+    },
+    {
+      "id": "392",
+      "municipality": "Chuvisca",
+      "sourceMunicipality": "Chuvisca",
+      "ibgeCode": "4305447",
+      "category": "crm",
+      "officialType": "Centros de Referência de Atendimento à Mulher",
+      "name": "Centro de Referência de Atendimento à Mulher em Situação de Violência de Chuvisca",
+      "address": "Av. 28 de dezembro, 2401 – Centro",
+      "phone": "(51) 920013123",
+      "email": "crmchuvisca@gmail.com",
+      "hours": null,
+      "sourceName": "Secretaria da Mulher do Rio Grande do Sul",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -30.754264208895698,
+        -51.979777369929536
+      ]
+    },
+    {
+      "id": "355",
+      "municipality": "Cidreira",
+      "sourceMunicipality": "Cidreira",
+      "ibgeCode": "4305454",
+      "category": "crm",
+      "officialType": "Centros de Referência de Atendimento à Mulher",
+      "name": "Centro de Referência de Atendimento à Mulher em Situação de Violência – CRM",
+      "address": "Rua João Neves, 194 – Centro, Cidreira – RS 95595-000",
+      "phone": "(51) 982243847",
+      "email": "crmcidreirars@gmail.com",
+      "hours": null,
+      "sourceName": "Secretaria da Mulher do Rio Grande do Sul",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -30.183764178352856,
+        -50.2072961308117
+      ]
+    },
+    {
+      "id": "351",
+      "municipality": "Cruz Alta",
+      "sourceMunicipality": "Cruz Alta",
+      "ibgeCode": "4306106",
+      "category": "crm",
+      "officialType": "Centros de Referência de Atendimento à Mulher",
+      "name": "Centro de Referência (CRMM) Maria Mulher",
+      "address": "Rua General Felipe Portinho,1123 – 98005-050",
+      "phone": "(51) 980341981",
+      "email": "maria.mulher@hotmail.com",
+      "hours": "7h30 às 13h30",
+      "sourceName": "Secretaria da Mulher do Rio Grande do Sul",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -28.64346284274097,
+        -53.610354918844344
+      ]
+    },
+    {
+      "id": "133",
+      "municipality": "Cruz Alta",
+      "sourceMunicipality": "Cruz Alta",
+      "ibgeCode": "4306106",
+      "category": "police-specialized",
+      "officialType": "Delegacia Especializada no Atendimento à Mulher (DEAM)",
+      "name": "Delegacia de Polícia Especializada de Proteção à Mulher Cruz Alta – DEAM/5DPRI/DPI",
+      "address": "Rua Cel. José Gabriel, 21 - Bairro Schettert CEP 98025-460",
+      "phone": "(55) 3322-6160 - ramal 5",
+      "email": "cruzalta-dm@pc.rs.gov.br",
+      "hours": "Segunda a sexta, das 8h30min às 12h e das 13h30min às 18h, registro de ocorrências 24 h",
+      "sourceName": "Observatório da Violência Contra a Mulher - SSP",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -28.628862100210966,
+        -53.60716789957877
+      ]
+    },
+    {
+      "id": "353",
+      "municipality": "Erechim",
+      "sourceMunicipality": "Erechim",
+      "ibgeCode": "4307005",
+      "category": "crm",
+      "officialType": "Centros de Referência de Atendimento à Mulher",
+      "name": "Centro de Referência de Atendimento à Mulher (CRAM)",
+      "address": "Rua Benjamim Mosena, 181 – Bela Vista",
+      "phone": "(54) 991391480",
+      "email": "c.mulher.erechim@erechim.gov.br",
+      "hours": null,
+      "sourceName": "Secretaria da Mulher do Rio Grande do Sul",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -27.65139877905348,
+        -52.26112685102323
+      ]
+    },
+    {
+      "id": "134",
+      "municipality": "Erechim",
+      "sourceMunicipality": "Erechim",
+      "ibgeCode": "4307005",
+      "category": "police-specialized",
+      "officialType": "Delegacia de Proteção a Grupos Vulneráveis",
+      "name": "Delegacia de Polícia Especializada de Proteção à Mulher Erechim DEAM/11DPRI/DPI",
+      "address": "Rua Flores da Cunha, 91 - Bairro Dal Molin",
+      "phone": "(54) 3520-4561",
+      "email": "erechim-dm@pc.rs.gov.br",
+      "hours": "Segunda a sexta, das 8h30min às 12h e das 13h30min às 18h",
+      "sourceName": "Observatório da Violência Contra a Mulher - SSP",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -27.632614599907267,
+        -52.28601320004901
+      ]
+    },
+    {
+      "id": "329",
+      "municipality": "Esteio",
+      "sourceMunicipality": "Esteio",
+      "ibgeCode": "4307708",
+      "category": "police-specialized",
+      "officialType": "Delegacia Especializada no Atendimento à Mulher (DEAM)",
+      "name": "Delegacia de Polícia Especializada de Proteção à Mulher Esteio",
+      "address": "Rua Presidente Vargas, nº 1142, Centro - CEP 93270-070",
+      "phone": "(51) 3458-9662",
+      "email": null,
+      "hours": null,
+      "sourceName": "Observatório da Violência Contra a Mulher - SSP",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -29.84136409875848,
+        -51.17490319982272
+      ]
+    },
+    {
+      "id": "358",
+      "municipality": "Estrela",
+      "sourceMunicipality": "Estrela",
+      "ibgeCode": "4307807",
+      "category": "crm",
+      "officialType": "Centros de Referência de Atendimento à Mulher",
+      "name": "Centro de Referência de Atendimento à Mulher (CRAM)",
+      "address": "Rua Tiradentes, n° 484 - Centro",
+      "phone": "(51) 39816936 / (51) 98997-2220",
+      "email": "administrativo.cram@estrela.rs.gov.br",
+      "hours": null,
+      "sourceName": "Secretaria da Mulher do Rio Grande do Sul",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -29.502217533402444,
+        -51.96564360306974
+      ]
+    },
+    {
+      "id": "357",
+      "municipality": "Farroupilha",
+      "sourceMunicipality": "Farroupilha",
+      "ibgeCode": "4307906",
+      "category": "crm",
+      "officialType": "Centros de Referência de Atendimento à Mulher",
+      "name": "Centro de Referência de Atendimento à Mulher em Situação de Violência – CRM",
+      "address": "Praça da Emancipação, n° 116, Bairro Centro",
+      "phone": "(54) 997105229",
+      "email": "coordemulher@farroupilha.rs.gov.br",
+      "hours": null,
+      "sourceName": "Secretaria da Mulher do Rio Grande do Sul",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -29.224047894089797,
+        -51.34826335946633
+      ]
+    },
+    {
+      "id": "356",
+      "municipality": "Gravataí",
+      "sourceMunicipality": "Gravataí",
+      "ibgeCode": "4309209",
+      "category": "crm",
+      "officialType": "Centros de Referência de Atendimento à Mulher",
+      "name": "Centro de Referência de Atendimento à Mulher (CRAM) Casa Lilás",
+      "address": "Rua Heitor de Jesus, 232 - Centro",
+      "phone": "(51) 36007722",
+      "email": "smdh.casalilas@gravatai.rs.gov.br",
+      "hours": "8h às 17h30 – não fecha ao meio dia",
+      "sourceName": "Secretaria da Mulher do Rio Grande do Sul",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -29.94202009913092,
+        -50.99552059969579
+      ]
+    },
+    {
+      "id": "146",
+      "municipality": "Gravataí",
+      "sourceMunicipality": "Gravataí",
+      "ibgeCode": "4309209",
+      "category": "police-specialized",
+      "officialType": "Delegacia Especializada no Atendimento à Mulher (DEAM)",
+      "name": "Delegacia de Polícia Especializada de Proteção à Mulher Gravataí – DEAM/1DPRM/DPM",
+      "address": "Estrada RS 030, nº 1013, CEP 94035-370",
+      "phone": "(51) 3945-2711 / (51) 3945-2712",
+      "email": "gravatai-dm@pc.rs.gov.br",
+      "hours": "Segunda a sexta, das 8h30min às 12h e das 13h30min às 18h",
+      "sourceName": "Observatório da Violência Contra a Mulher - SSP",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -29.9495718988066,
+        -51.02014499959193
+      ]
+    },
+    {
+      "id": "390",
+      "municipality": "Guaíba",
+      "sourceMunicipality": "Guaíba",
+      "ibgeCode": "4309308",
+      "category": "crm",
+      "officialType": "Centros de Referência de Atendimento à Mulher",
+      "name": "Centro de Referência de Atendimento à Mulher (CRAM)",
+      "address": "Rua Santa Catarina, 81- Centro, 92704-345",
+      "phone": "(51) 994841985",
+      "email": "cram@guaiba.rs.gov.br",
+      "hours": null,
+      "sourceName": "Secretaria da Mulher do Rio Grande do Sul",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -30.107756699492043,
+        -51.3234910201943
+      ]
+    },
+    {
+      "id": "379",
+      "municipality": "Humaitá",
+      "sourceMunicipality": "Humaitá",
+      "ibgeCode": "4309704",
+      "category": "crm",
+      "officialType": "Centros de Referência de Atendimento à Mulher",
+      "name": "Centro de Referência de Atendimento à Mulher em Situação de Violência – CRM",
+      "address": "Rua Luis Cornelius, 80 - Vila Jardim, Humaitá - RS 98670-000",
+      "phone": "(55) 997246360",
+      "email": "assistenciasocial@humaita.rs.gov.br",
+      "hours": null,
+      "sourceName": "Secretaria da Mulher do Rio Grande do Sul",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -27.562674649040524,
+        -53.960047240287786
+      ]
+    },
+    {
+      "id": "385",
+      "municipality": "Ijuí",
+      "sourceMunicipality": "Ijuí",
+      "ibgeCode": "4310207",
+      "category": "crm",
+      "officialType": "Centros de Referência de Atendimento à Mulher",
+      "name": null,
+      "address": "Rua Benjamim Constant, n° 232, Centro",
+      "phone": "(55) 33316149 / (55) 33330850",
+      "email": "coordenadoriadamulher@ijui.rs.gov.br",
+      "hours": null,
+      "sourceName": "Secretaria da Mulher do Rio Grande do Sul",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -28.390863779149544,
+        -53.91558685015292
+      ]
+    },
+    {
+      "id": "140",
+      "municipality": "Ijuí",
+      "sourceMunicipality": "Ijuí",
+      "ibgeCode": "4310207",
+      "category": "police-specialized",
+      "officialType": "Delegacia Especializada no Atendimento à Mulher (DEAM)",
+      "name": "Delegacia de Polícia Especializada de Proteção à Mulher Ijuí – DEAM/26DPRI/DPI",
+      "address": "Avenida Coronel Dico, 747 - Bairro Assis Brasil",
+      "phone": "(55) 3331-9750",
+      "email": "ijui-dm@pc.rs.gov.br",
+      "hours": "Segunda a sexta, das 8h30min às 12h e das 13h30min às 18h",
+      "sourceName": "Observatório da Violência Contra a Mulher - SSP",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -28.38871409998523,
+        -53.90322160009663
+      ]
+    },
+    {
+      "id": "384",
+      "municipality": "Imbé",
+      "sourceMunicipality": "Imbé",
+      "ibgeCode": "4310330",
+      "category": "crm",
+      "officialType": "Centros de Referência de Atendimento à Mulher",
+      "name": "Centro de Referência de Atendimento à Mulher em Situação de Violência – CRM",
+      "address": "Avenida Paraguassú, 2070, Prédio Anexo I, Centro",
+      "phone": "(51) 36278526",
+      "email": "semdhi@imbe.rs.gov.br",
+      "hours": null,
+      "sourceName": "Secretaria da Mulher do Rio Grande do Sul",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -29.963862679201615,
+        -50.13360997032373
+      ]
+    },
+    {
+      "id": "363",
+      "municipality": "Ivoti",
+      "sourceMunicipality": "Ivoti",
+      "ibgeCode": "4310801",
+      "category": "crm",
+      "officialType": "Centros de Referência de Atendimento à Mulher",
+      "name": "Centro de Referência da Mulher – Iracy Cidonha Klein",
+      "address": "Rua Arthur Augusto Gernhardt – bairro Morada do Sol",
+      "phone": "(51) 3563-2151",
+      "email": "mulher@ivoti.rs.gov.br",
+      "hours": "8h às 11h30 e 13h às 17h",
+      "sourceName": "Secretaria da Mulher do Rio Grande do Sul",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -29.605962348871564,
+        -51.17983023997346
+      ]
+    },
+    {
+      "id": "386",
+      "municipality": "Lajeado",
+      "sourceMunicipality": "Lajeado",
+      "ibgeCode": "4311403",
+      "category": "crm",
+      "officialType": "Centros de Referência de Atendimento à Mulher",
+      "name": "Centro de Referência e Atendimento à Mulher – CRAM",
+      "address": "Rua Santos Filho, 401 (sala 207) - Centro",
+      "phone": "(51) 980483256 / (51) 39821460",
+      "email": "cram.assis@lajeado.rs.gov.br",
+      "hours": "das 8h às 11h30 e das 13h30 às 16h45",
+      "sourceName": "Secretaria da Mulher do Rio Grande do Sul",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -29.464584689222697,
+        -51.965619209858524
+      ]
+    },
+    {
+      "id": "141",
+      "municipality": "Lajeado",
+      "sourceMunicipality": "Lajeado",
+      "ibgeCode": "4311403",
+      "category": "police-specialized",
+      "officialType": "Delegacia Especializada no Atendimento à Mulher (DEAM)",
+      "name": "Delegacia de Polícia Especializada de Proteção à Mulher Lajeado – DEAM/19DPRI/DPI",
+      "address": "Rua Onze de junho, nº 66 - Bairro São Cristóvão, CEP 95900-182",
+      "phone": "(51) 3458-9694 / (51) 3458-9695",
+      "email": "lajeado-dm@pc.rs.gov.br",
+      "hours": "Segunda a sexta, das 8h30min às 12h e das 13h30min às 18h",
+      "sourceName": "Observatório da Violência Contra a Mulher - SSP",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -29.450147599023367,
+        -51.96648099959833
+      ]
+    },
+    {
+      "id": "362",
+      "municipality": "Montenegro",
+      "sourceMunicipality": "Montenegro",
+      "ibgeCode": "4312401",
+      "category": "crm",
+      "officialType": "Centros de Referência de Atendimento à Mulher",
+      "name": "Centro de Referência da Mulher",
+      "address": "Rua Oliveira Lima, 205",
+      "phone": "(51) 36491480 / (51) 995690054",
+      "email": "assistenciasocial@nonoai.rs.gov.br",
+      "hours": null,
+      "sourceName": "Secretaria da Mulher do Rio Grande do Sul",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -29.683071758941487,
+        -51.45785569008791
+      ]
+    },
+    {
+      "id": "142",
+      "municipality": "Montenegro",
+      "sourceMunicipality": "Montenegro",
+      "ibgeCode": "4312401",
+      "category": "police-specialized",
+      "officialType": "Delegacia Especializada no Atendimento à Mulher (DEAM)",
+      "name": "Delegacia de Polícia Especializada de Proteção à Mulher Montenegro – DEAM/1DPRI/DPI",
+      "address": "Rua José Luiz, 1755/Térreo, Centro -CEP 92510-030",
+      "phone": "(51) 3649-0023",
+      "email": "montenegro-deam@pc.rs.gov.br",
+      "hours": "Segunda a sexta, das 8h30min às 12h e das 13h30min às 18h",
+      "sourceName": "Observatório da Violência Contra a Mulher - SSP",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -29.689668798762927,
+        -51.45974600027756
+      ]
+    },
+    {
+      "id": "354",
+      "municipality": "Nonoai",
+      "sourceMunicipality": "Nonoai",
+      "ibgeCode": "4312708",
+      "category": "crm",
+      "officialType": "Centros de Referência de Atendimento à Mulher",
+      "name": "CRM",
+      "address": "Rua Oliveira Lima, 205, 99600-000",
+      "phone": "(54)  33621944",
+      "email": "assistenciasocial@nonoai.rs.gov.br",
+      "hours": null,
+      "sourceName": "Secretaria da Mulher do Rio Grande do Sul",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -27.361954554187854,
+        -52.77264759980676
+      ]
+    },
+    {
+      "id": "383",
+      "municipality": "Novo Barreiro",
+      "sourceMunicipality": "Novo Barreiro",
+      "ibgeCode": "4313490",
+      "category": "crm",
+      "officialType": "Centros de Referência de Atendimento à Mulher",
+      "name": "Centro de Referência de Atendimento à Mulher em Situação de Violência – CRM",
+      "address": "Rua 1° de Maio,15",
+      "phone": "(55) 37571100",
+      "email": "assistenciapmnb@hotmail.com",
+      "hours": null,
+      "sourceName": "Secretaria da Mulher do Rio Grande do Sul",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -27.907919698853295,
+        -53.11059105033661
+      ]
+    },
+    {
+      "id": "143",
+      "municipality": "Novo Hamburgo",
+      "sourceMunicipality": "Novo Hamburgo",
+      "ibgeCode": "4313409",
+      "category": "police-specialized",
+      "officialType": "Delegacia Especializada no Atendimento à Mulher (DEAM)",
+      "name": "Delegacia de Polícia Especializada de Proteção à Mulher de Novo Hamburgo – DEAM/3DPRM/DPM",
+      "address": "Rua Julio de Castilhos, 806 - Centro",
+      "phone": "(51)3584-5805 (51)3584-5804",
+      "email": "nh-dm@pc.rs.gov.br",
+      "hours": "Segunda a sexta, das 8h30min às 12h e das 13h30min às 18h",
+      "sourceName": "Observatório da Violência Contra a Mulher - SSP",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -29.680980300087796,
+        -51.12403530018884
+      ]
+    },
+    {
+      "id": "370",
+      "municipality": "Panambi",
+      "sourceMunicipality": "Panambi",
+      "ibgeCode": "4313904",
+      "category": "crm",
+      "officialType": "Centros de Referência de Atendimento à Mulher",
+      "name": "Centro de Referência da Mulher (CRM) Vanessa da Silva Santos",
+      "address": "Rua Assis Brasil, 74, bairro Bela Vista",
+      "phone": "(55) 984026154",
+      "email": "crm@panambi.rs.gov.br",
+      "hours": "9h às 11h30 e 13h30 às 17h",
+      "sourceName": "Secretaria da Mulher do Rio Grande do Sul",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -28.289303259549094,
+        -53.50970611034858
+      ]
+    },
+    {
+      "id": "352",
+      "municipality": "Parobé",
+      "sourceMunicipality": "Parobé",
+      "ibgeCode": "4314050",
+      "category": "crm",
+      "officialType": "Centros de Referência de Atendimento à Mulher",
+      "name": "Centro de Referência de Atendimento à Mulher (CRAM) Geni Lenyn",
+      "address": "Rua Vera Cruz, 701 – bairro Centro",
+      "phone": "(51) 35438660 / (51) 991883486",
+      "email": "cmulher@parobe.rs.gov.br",
+      "hours": null,
+      "sourceName": "Secretaria da Mulher do Rio Grande do Sul",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -29.633933798793542,
+        -50.83508619976817
+      ]
+    },
+    {
+      "id": "75",
+      "municipality": "Passo Fundo",
+      "sourceMunicipality": "Passo Fundo",
+      "ibgeCode": "4314100",
+      "category": "crm",
+      "officialType": "Centros de Referência de Atendimento à Mulher",
+      "name": "Centro de Referência de Atendimento à Mulher – CRAM",
+      "address": "Rua Pantaleão Bolner, 286 – bairro José Alexandre Záchia",
+      "phone": "(54) 3138654",
+      "email": "cram@pmpf.rs.gov.br / elenirc@pmpf.rs.gov.br",
+      "hours": null,
+      "sourceName": "Secretaria da Mulher do Rio Grande do Sul",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -28.22215259917562,
+        -52.436822600382584
+      ]
+    },
+    {
+      "id": "144",
+      "municipality": "Passo Fundo",
+      "sourceMunicipality": "Passo Fundo",
+      "ibgeCode": "4314100",
+      "category": "police-specialized",
+      "officialType": "Delegacia Especializada no Atendimento à Mulher (DEAM)",
+      "name": "Delegacia de Polícia Especializada de Proteção à Mulher Passo Fundo – DEAM/6DPRI/DPI",
+      "address": "Rua Bento Gonçalves, nº 720, Centro - CEP 99010-010",
+      "phone": "(54) 3318-1400",
+      "email": "passofundo-dm@pc.rs.gov.br",
+      "hours": "Segunda a sexta, das 8h30min às 12h e das 13h30min às 18h",
+      "sourceName": "Observatório da Violência Contra a Mulher - SSP",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -28.259337198764573,
+        -52.40803872990335
+      ]
+    },
+    {
+      "id": "76",
+      "municipality": "Pelotas",
+      "sourceMunicipality": "Pelotas",
+      "ibgeCode": "4314407",
+      "category": "crm",
+      "officialType": "Centros de Referência de Atendimento à Mulher",
+      "name": "Centro de Referência da Mulher de Pelotas",
+      "address": "Rua Dom Pedro II, 813 – Centro",
+      "phone": "(53) 991860475",
+      "email": "secretaria.smpm@pelotas.rs.gov.br",
+      "hours": null,
+      "sourceName": "Secretaria da Mulher do Rio Grande do Sul",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -31.77355859930405,
+        -52.342857600098064
+      ]
+    },
+    {
+      "id": "176",
+      "municipality": "Pelotas",
+      "sourceMunicipality": "Pelotas",
+      "ibgeCode": "4314407",
+      "category": "police-specialized",
+      "officialType": "Delegacia Especializada no Atendimento à Mulher (DEAM)",
+      "name": "Delegacia de Polícia Especializada de Proteção à Mulher Pelotas – DEAM/18DPRI/DPI",
+      "address": "Rua Barros Cassal, 516- Bairro Areal",
+      "phone": "(53) 3310-8181",
+      "email": "pelotas-dm@pc.rs.gov.br",
+      "hours": "Segunda a sexta, das 8h30min às 12h e das 13h30min às 18h",
+      "sourceName": "Observatório da Violência Contra a Mulher - SSP",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -31.761509899816343,
+        -52.32431989994331
+      ]
+    },
+    {
+      "id": "52",
+      "municipality": "Porto Alegre",
+      "sourceMunicipality": "Porto Alegre",
+      "ibgeCode": "4314902",
+      "category": "crm",
+      "officialType": "Centros de Referência de Atendimento à Mulher",
+      "name": "Centro de Referência de Atendimento da Mulher – Márcia Calixto",
+      "address": "Av. João Pessoa, 1105 – Farroupilha",
+      "phone": "(51) 98151-5249",
+      "email": "cram@smdh.prefpoa.com.br",
+      "hours": "8h30 às 17:30h – não fecha ao meio dia",
+      "sourceName": "Secretaria da Mulher do Rio Grande do Sul",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -30.041097349544067,
+        -51.216676189954114
+      ]
+    },
+    {
+      "id": "382",
+      "municipality": "Porto Alegre",
+      "sourceMunicipality": "Porto Alegre",
+      "ibgeCode": "4314902",
+      "category": "crm",
+      "officialType": "Centros de Referência de Atendimento à Mulher",
+      "name": "Centro de Referência Estadual da Mulher Vânia Araújo Machado",
+      "address": "Rua Miguel Tostes, 823",
+      "phone": "0800 541 0803",
+      "email": "crm@justica.rs.gov.br",
+      "hours": null,
+      "sourceName": "Secretaria da Mulher do Rio Grande do Sul",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -30.03544860884734,
+        -51.20591142017577
+      ]
+    },
+    {
+      "id": "177",
+      "municipality": "Porto Alegre",
+      "sourceMunicipality": "Porto Alegre",
+      "ibgeCode": "4314902",
+      "category": "police-specialized",
+      "officialType": "Delegacia Especializada no Atendimento à Mulher (DEAM)",
+      "name": "1ª Delegacia de Polícia Especializada de Proteção à Mulher Porto Alegre/DIPAM/DPGV",
+      "address": "Avenida Ipiranga, 180, Bairro Santana - CEP 90160-093",
+      "phone": "(51) 3288-2171",
+      "email": "poa-dm@pc.rs.gov.br",
+      "hours": "Plantão 24h. Secretaria: segunda a sexta, das 8h30min às 12h e das 13h30min às 18h.",
+      "sourceName": "Observatório da Violência Contra a Mulher - SSP",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -30.047124185913386,
+        -51.21058237477667
+      ]
+    },
+    {
+      "id": "330",
+      "municipality": "Porto Alegre",
+      "sourceMunicipality": "Porto Alegre",
+      "ibgeCode": "4314902",
+      "category": "police-specialized",
+      "officialType": "Delegacia Especializada no Atendimento à Mulher (DEAM)",
+      "name": "2ª Delegacia de Polícia Especializada de Proteção à Mulher Porto Alegre/DIPAM/DPGV",
+      "address": "Rua Tenente Ary Tarragô, 685 - Jardim Itu - 91225-000",
+      "phone": "(51) 3288-2537/ (51)3288.2538",
+      "email": null,
+      "hours": "Segunda a sexta, das 8h30min às 12h e das 13h30min às 18h",
+      "sourceName": "Observatório da Violência Contra a Mulher - SSP",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -30.03616145376919,
+        -51.13519807483118
+      ]
+    },
+    {
+      "id": "380",
+      "municipality": "Quaraí",
+      "sourceMunicipality": "Quaraí",
+      "ibgeCode": "4315305",
+      "category": "crm",
+      "officialType": "Centros de Referência de Atendimento à Mulher",
+      "name": "Centro de Referência de Atendimento à Mulher (CRAM)",
+      "address": "Rua Félix da Cunha, 1243 - Centro",
+      "phone": "(55) 3410 0090",
+      "email": "cram.quarairs@hotmail.com",
+      "hours": null,
+      "sourceName": "Secretaria da Mulher do Rio Grande do Sul",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -30.378444778879004,
+        -56.452828799909064
+      ]
+    },
+    {
+      "id": "378",
+      "municipality": "Rio Grande",
+      "sourceMunicipality": "Rio Grande",
+      "ibgeCode": "4315602",
+      "category": "crm",
+      "officialType": "Centros de Referência de Atendimento à Mulher",
+      "name": "Centro de Referência de Atendimento à Mulher (CRAM)",
+      "address": "Av. Silva Paes, n° 191 (5º e 6º), Bairro Centro",
+      "phone": "(53) 32374242",
+      "email": "cram@riogrande.rs.gov.br",
+      "hours": null,
+      "sourceName": "Secretaria da Mulher do Rio Grande do Sul",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -32.033844689131485,
+        -52.09283745038789
+      ]
+    },
+    {
+      "id": "145",
+      "municipality": "Rio Grande",
+      "sourceMunicipality": "Rio Grande",
+      "ibgeCode": "4315602",
+      "category": "police-specialized",
+      "officialType": "Delegacia de Proteção a Grupos Vulneráveis",
+      "name": "Delegacia de Polícia Especializada de Proteção à Mulher Rio Grande – DEAM/7DPRI/DPI",
+      "address": "R. Ver. Athaydes Rodrigues, 662 - Rio Grande, RS, 96208-100",
+      "phone": "(53) 3236-2016",
+      "email": "riogrande-pppm@policiacivil.rs.gov.br",
+      "hours": "Segunda a sexta, das 8h30min às 12h e das 13h30min às 18h",
+      "sourceName": "Observatório da Violência Contra a Mulher - SSP",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -32.184005330230015,
+        -52.17182696873948
+      ]
+    },
+    {
+      "id": "377",
+      "municipality": "Sagrada Família",
+      "sourceMunicipality": "Sagrada Família",
+      "ibgeCode": "4316428",
+      "category": "crm",
+      "officialType": "Centros de Referência de Atendimento à Mulher",
+      "name": "Centro de Referência de Atendimento à Mulher em Situação de Violência – CRM",
+      "address": null,
+      "phone": "(55) 984454939",
+      "email": "crmdesagradafamilia@gmail.com",
+      "hours": null,
+      "sourceName": "Secretaria da Mulher do Rio Grande do Sul",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": null
+    },
+    {
+      "id": "50",
+      "municipality": "Sant'Ana do Livramento",
+      "sourceMunicipality": "Santana do Livramento",
+      "ibgeCode": "4317103",
+      "category": "crm",
+      "officialType": "Centros de Referência de Atendimento à Mulher",
+      "name": "Centro de Referência de Atendimento à Mulher (CRAM) Professora Deise",
+      "address": "Rua dos Andradas, 1157 – bairro Centro",
+      "phone": "(55) 984227657",
+      "email": "centroreferenciamulher.lvto@gmail.com",
+      "hours": "7h30 às 13h30",
+      "sourceName": "Secretaria da Mulher do Rio Grande do Sul",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -30.887080699482233,
+        -55.52821460012359
+      ]
+    },
+    {
+      "id": "178",
+      "municipality": "Santa Cruz do Sul",
+      "sourceMunicipality": "Santa Cruz do Sul",
+      "ibgeCode": "4316808",
+      "category": "police-specialized",
+      "officialType": "Delegacia Especializada no Atendimento à Mulher (DEAM)",
+      "name": "Delegacia de Polícia Especializada de Proteção à Mulher Santa Cruz do Sul – DEAM/16DPRI/DPI",
+      "address": "Avenida Dep. Euclydes Nicolau Kliemann, 1515- Bairro Ana Nery",
+      "phone": "(51) 3715-6963 / (51) 3713-4340",
+      "email": "santacruz-dm@pc.rs.gov.br",
+      "hours": "Segunda a sexta, das 8h30min às 12h e das 13h30min às 18h",
+      "sourceName": "Observatório da Violência Contra a Mulher - SSP",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -29.74022079983605,
+        -52.423747400322156
+      ]
+    },
+    {
+      "id": "381",
+      "municipality": "Santa Maria",
+      "sourceMunicipality": "Santa Maria",
+      "ibgeCode": "4316907",
+      "category": "crm",
+      "officialType": "Centros de Referência de Atendimento à Mulher",
+      "name": "Centro de Referência de Atendimento à Mulher em Situação de Violência – CRM",
+      "address": "R. Tuiuti, 1835 - Nossa Sra. de Fátima, Santa Maria - RS, 97015-663",
+      "phone": "(55) 3174-1519 / (55) 99139-4971",
+      "email": "crm@santamaria.rs.gov.br",
+      "hours": null,
+      "sourceName": "Secretaria da Mulher do Rio Grande do Sul",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -29.689561588783143,
+        -53.80671473979328
+      ]
+    },
+    {
+      "id": "147",
+      "municipality": "Santa Maria",
+      "sourceMunicipality": "Santa Maria",
+      "ibgeCode": "4316907",
+      "category": "police-specialized",
+      "officialType": "Delegacia Especializada no Atendimento à Mulher (DEAM)",
+      "name": "Delegacia de Polícia Especializada de Proteção à Mulher Santa Maria – DEAM/3DPRI/DPI",
+      "address": "R. Duque de Caxias, nº 1169, Bairro Medianeira - CEP 97015-190",
+      "phone": "(55) 3222-9646",
+      "email": "santamaria-dm@pc.rs.gov.br",
+      "hours": "Segunda a sexta, das 8h30min às 12h e das 13h30min às 18h",
+      "sourceName": "Observatório da Violência Contra a Mulher - SSP",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -29.688150000309147,
+        -53.812827099890626
+      ]
+    },
+    {
+      "id": "77",
+      "municipality": "Santa Rosa",
+      "sourceMunicipality": "Santa Rosa",
+      "ibgeCode": "4317202",
+      "category": "crm",
+      "officialType": "Centros de Referência de Atendimento à Mulher",
+      "name": "Centro de Referencia Regional de Atendimento à Mulher Dirce Grösz",
+      "address": "Rua Caxias, 235, apto 05 – Centro",
+      "phone": "(55) 35115102",
+      "email": "mulher@santarosa.rs.gov.br",
+      "hours": null,
+      "sourceName": "Secretaria da Mulher do Rio Grande do Sul",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -27.87298189891439,
+        -54.48585110004814
+      ]
+    },
+    {
+      "id": "185",
+      "municipality": "Santa Rosa",
+      "sourceMunicipality": "Santa Rosa",
+      "ibgeCode": "4317202",
+      "category": "police-specialized",
+      "officialType": "Delegacia Especializada no Atendimento à Mulher (DEAM)",
+      "name": "Delegacia de Polícia Especializada de Proteção à Mulher Santa Rosa DEAM/10DPRI/DPI",
+      "address": "Rua Angelo Menuci, 88 - Bairro Cruzeiro",
+      "phone": "(55) 3513-1620",
+      "email": "santarosa-dm@pc.rs.gov.br",
+      "hours": "Segunda a sexta, das 8h30min às 12h e das 13h30min às 18h",
+      "sourceName": "Observatório da Violência Contra a Mulher - SSP",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -27.861829399925995,
+        -54.436287099569874
+      ]
+    },
+    {
+      "id": "51",
+      "municipality": "Santiago",
+      "sourceMunicipality": "Santiago",
+      "ibgeCode": "4317400",
+      "category": "crm",
+      "officialType": "Centros de Referência de Atendimento à Mulher",
+      "name": "Centro de Referência de Atendimento à Mulher (CRAM)",
+      "address": "Rua Severino Azambuja, 38",
+      "phone": "(55) 3251-1155 / (55) 3251-4808",
+      "email": "coordenadoriamulherstg@hotmail.com",
+      "hours": "8h às 12h e 13h30 às 17h30",
+      "sourceName": "Secretaria da Mulher do Rio Grande do Sul",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -29.185330289456708,
+        -54.865218969779505
+      ]
+    },
+    {
+      "id": "376",
+      "municipality": "Santo Ângelo",
+      "sourceMunicipality": "Santo Ângelo",
+      "ibgeCode": "4317509",
+      "category": "crm",
+      "officialType": "Centros de Referência de Atendimento à Mulher",
+      "name": "Centro de Referência de Atendimento à Mulher em Situação de Violência – CRM",
+      "address": "Rua Antunes Ribas, n° 3591, Centro",
+      "phone": "(55) 996747599",
+      "email": "dmmulhersa@gmail.com",
+      "hours": null,
+      "sourceName": "Secretaria da Mulher do Rio Grande do Sul",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -28.282946668765167,
+        -54.263545269698334
+      ]
+    },
+    {
+      "id": "172",
+      "municipality": "Santo Ângelo",
+      "sourceMunicipality": "Santo Ângelo",
+      "ibgeCode": "4317509",
+      "category": "police-specialized",
+      "officialType": "Delegacia de Proteção a Grupos Vulneráveis",
+      "name": "Delegacia de Polícia Especializada de Proteção à Mulher Santo Ângelo – DEAM/13DPRI/DPI",
+      "address": "Avenida Venâncio Aires, 1988 - Centro",
+      "phone": "(55) 3931-3289/ (55) 3931-3290",
+      "email": "santoangelo-deam@pc.rs.gov.br",
+      "hours": "Segunda a sexta, das 8h30min às 12h e das 13h30min às 18h",
+      "sourceName": "Observatório da Violência Contra a Mulher - SSP",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -28.296301399701026,
+        -54.258707900049444
+      ]
+    },
+    {
+      "id": "79",
+      "municipality": "São Leopoldo",
+      "sourceMunicipality": "São Leopoldo",
+      "ibgeCode": "4318705",
+      "category": "crm",
+      "officialType": "Centros de Referência de Atendimento à Mulher",
+      "name": "Centro Jacobina de Atendimento e Apoio à Mulher",
+      "address": "Rua Lindolfo Collor, 918",
+      "phone": "(51) 3591-2184 / (51) 3566-1777",
+      "email": "cjacobina@saoleopoldo.rs.gov.br",
+      "hours": "8h às 14h",
+      "sourceName": "Secretaria da Mulher do Rio Grande do Sul",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -29.769328389379197,
+        -51.14992695006856
+      ]
+    },
+    {
+      "id": "186",
+      "municipality": "São Leopoldo",
+      "sourceMunicipality": "São Leopoldo",
+      "ibgeCode": "4318705",
+      "category": "police-specialized",
+      "officialType": "Delegacia Especializada no Atendimento à Mulher (DEAM)",
+      "name": "Delegacia de Polícia Especializada de Proteção à Mulher São Leopoldo – DEAM/3DPRM/DPM",
+      "address": "Rua São Paulo, 970 - Centro",
+      "phone": "(51) 3591-3333",
+      "email": "saoleopoldo-deam@pc.rs.gov.br",
+      "hours": "Segunda a sexta, das 8h30min às 12h e das 13h30min às 18h",
+      "sourceName": "Observatório da Violência Contra a Mulher - SSP",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -29.7660499000684,
+        -51.14222520013277
+      ]
+    },
+    {
+      "id": "257",
+      "municipality": "São Luiz Gonzaga",
+      "sourceMunicipality": "São Luiz Gonzaga",
+      "ibgeCode": "4318903",
+      "category": "police-specialized",
+      "officialType": "Delegacia de Proteção a Grupos Vulneráveis",
+      "name": "Delegacia de Polícia Especializada de Proteção à Mulher São Luiz Gonzaga",
+      "address": "Rua Borges de Medeiros, 2208 - Centro",
+      "phone": "(55) 3352-8111",
+      "email": null,
+      "hours": null,
+      "sourceName": "Delegacia de Polícia Online da Mulher - Polícia Civil",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -28.410481000307016,
+        -54.9631049997958
+      ]
+    },
+    {
+      "id": "375",
+      "municipality": "São Sepé",
+      "sourceMunicipality": "São Sepé",
+      "ibgeCode": "4319604",
+      "category": "crm",
+      "officialType": "Centros de Referência de Atendimento à Mulher",
+      "name": "Centro de Referência de Atendimento à Mulher em Situação de Violência – CRM",
+      "address": "Rua Riachuelo 1504 – Centro, 97340-000",
+      "phone": "(55) 999541562",
+      "email": "escritoriocidadania@saosepe.rs.gov.br",
+      "hours": null,
+      "sourceName": "Secretaria da Mulher do Rio Grande do Sul",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -30.169336939327234,
+        -53.57158782991428
+      ]
+    },
+    {
+      "id": "78",
+      "municipality": "Sapiranga",
+      "sourceMunicipality": "Sapiranga",
+      "ibgeCode": "4319901",
+      "category": "crm",
+      "officialType": "Centros de Referência de Atendimento à Mulher",
+      "name": "Centro de Referência de Atendimento à Mulher (CRAM) Alzira Valesca Lampert Fett",
+      "address": "Avenida 20 de Setembro, 1695 – bairro Oeste",
+      "phone": "(55) 999541562",
+      "email": "escritoriocidadania@saosepe.rs.gov.br",
+      "hours": "12h30 às 18h30",
+      "sourceName": "Secretaria da Mulher do Rio Grande do Sul",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -29.638464578765028,
+        -51.02532624031363
+      ]
+    },
+    {
+      "id": "80",
+      "municipality": "Sapucaia do Sul",
+      "sourceMunicipality": "Sapucaia do Sul",
+      "ibgeCode": "4320008",
+      "category": "crm",
+      "officialType": "Centros de Referência de Atendimento à Mulher",
+      "name": "Centro de Referência das Mulheres Vítimas de Violências (CRM)",
+      "address": "Av. Leonidas de Souza, n° 957, Bairro Santa Catarina",
+      "phone": "(51) 99239753",
+      "email": "coordenadoriadamulhersapucaia@gmail.com",
+      "hours": "12h às 18h",
+      "sourceName": "Secretaria da Mulher do Rio Grande do Sul",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -29.827888699488458,
+        -51.15799090015981
+      ]
+    },
+    {
+      "id": "374",
+      "municipality": "Sarandi",
+      "sourceMunicipality": "Sarandi",
+      "ibgeCode": "4320107",
+      "category": "crm",
+      "officialType": "Centros de Referência de Atendimento à Mulher",
+      "name": "Centro de Referência de Atendimento à Mulher em Situação de Violência – CRM",
+      "address": "Rua Cosme Fravetto, 830",
+      "phone": "(55) 991390438",
+      "email": "crm.sar@sarandi.rs.gov.br",
+      "hours": null,
+      "sourceName": "Secretaria da Mulher do Rio Grande do Sul",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -27.939950969079632,
+        -52.926926009927286
+      ]
+    },
+    {
+      "id": "373",
+      "municipality": "Taquara",
+      "sourceMunicipality": "Taquara",
+      "ibgeCode": "4321204",
+      "category": "crm",
+      "officialType": "Centros de Referência de Atendimento à Mulher",
+      "name": "Centro de Referência de Atendimento à Mulher em Situação de Violência – CRM",
+      "address": "Rua Ernesto Alves, 2784, Bairro Jardim Prado",
+      "phone": "(51) 35414184",
+      "email": "crm@taquara.rs.gov.br",
+      "hours": null,
+      "sourceName": "Secretaria da Mulher do Rio Grande do Sul",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -29.646309119457893,
+        -50.784801610305976
+      ]
+    },
+    {
+      "id": "389",
+      "municipality": "Torres",
+      "sourceMunicipality": "Torres",
+      "ibgeCode": "4321501",
+      "category": "crm",
+      "officialType": "Centros de Referência de Atendimento à Mulher",
+      "name": "Centro de Referência da Mulher Pricila Selau",
+      "address": "Av. Do Riacho, 850, Igra Sul (Campo do Torrense)",
+      "phone": "(51) 36269150 / (51) 3636.9951",
+      "email": "crm.pricilaselau@torres.rs.gov.br",
+      "hours": null,
+      "sourceName": "Secretaria da Mulher do Rio Grande do Sul",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -29.33609699897018,
+        -49.73891230016239
+      ]
+    },
+    {
+      "id": "388",
+      "municipality": "Três de Maio",
+      "sourceMunicipality": "Três de Maio",
+      "ibgeCode": "4321808",
+      "category": "crm",
+      "officialType": "Centros de Referência de Atendimento à Mulher",
+      "name": "Centro de Referência da Mulher Flor de Lis",
+      "address": "Rua Uruguai, 644 – bairro Centro",
+      "phone": "(55) 35358770",
+      "email": "secmulher@tresdemaio.rs.gov.br",
+      "hours": "7h30 às 13h30",
+      "sourceName": "Secretaria da Mulher do Rio Grande do Sul",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -27.778395699122914,
+        -54.23413549985332
+      ]
+    },
+    {
+      "id": "387",
+      "municipality": "Uruguaiana",
+      "sourceMunicipality": "Uruguaiana",
+      "ibgeCode": "4322400",
+      "category": "crm",
+      "officialType": "Centros de Referência de Atendimento à Mulher",
+      "name": "Centro de Referência de Atendimento à Mulher (CRAM)",
+      "address": "Rua Dr. Maia, 3112",
+      "phone": "(55) 999398735",
+      "email": "cram.sedesh@uruguaiana.rs.gov.br",
+      "hours": "8h às 14h",
+      "sourceName": "Secretaria da Mulher do Rio Grande do Sul",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -29.75993799952473,
+        -57.08221269955636
+      ]
+    },
+    {
+      "id": "187",
+      "municipality": "Uruguaiana",
+      "sourceMunicipality": "Uruguaiana",
+      "ibgeCode": "4322400",
+      "category": "police-specialized",
+      "officialType": "Delegacia Especializada no Atendimento à Mulher (DEAM)",
+      "name": "Delegacia de Polícia Especializada de Proteção à Mulher Uruguaiana – DEAM/4DPRI/DPI",
+      "address": "Avenida Presidente Getúlio Vargas, 3905 - Bairro Santana",
+      "phone": "(55) 3411-1125 / (55) 3411-1168",
+      "email": "uruguaiana-deam@pc.rs.gov.br",
+      "hours": "Segunda a sexta, das 8h30min às 12h e das 13h30min às 18h",
+      "sourceName": "Observatório da Violência Contra a Mulher - SSP",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -29.75809309970253,
+        -57.07404140009044
+      ]
+    },
+    {
+      "id": "371",
+      "municipality": "Vacaria",
+      "sourceMunicipality": "Vacaria",
+      "ibgeCode": "4322509",
+      "category": "crm",
+      "officialType": "Centros de Referência de Atendimento à Mulher",
+      "name": "Centro de Referência para Mulher (CRM) Márcia Santana",
+      "address": "Rua Taquari, 40",
+      "phone": "(54) 981233573",
+      "email": "coordenadoria.mulher@vacaria.rs.gov.br",
+      "hours": "8h às 12 e 13h15 às 17h15",
+      "sourceName": "Secretaria da Mulher do Rio Grande do Sul",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -28.486156312771364,
+        -50.935823869375945
+      ]
+    },
+    {
+      "id": "258",
+      "municipality": "Vacaria",
+      "sourceMunicipality": "Vacaria",
+      "ibgeCode": "4322509",
+      "category": "police-specialized",
+      "officialType": "Delegacia de Proteção a Grupos Vulneráveis",
+      "name": "Delegacia de Polícia Especializada de Proteção à Mulher Vacaria",
+      "address": "Rua Julio de Castilhos, 1194 - Centro",
+      "phone": "(54) 3232-0777",
+      "email": null,
+      "hours": null,
+      "sourceName": "Delegacia de Polícia Online da Mulher - Polícia Civil",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -28.50526859967352,
+        -50.93582470034955
+      ]
+    },
+    {
+      "id": "372",
+      "municipality": "Viamão",
+      "sourceMunicipality": "Viamão",
+      "ibgeCode": "4323002",
+      "category": "crm",
+      "officialType": "Centros de Referência de Atendimento à Mulher",
+      "name": "Centro de Referência de Atendimento à Mulher em Situação de Violência – CRM",
+      "address": "Rua Mário Antunes da Veiga, 135",
+      "phone": "(51) 3446-6301",
+      "email": "atendimentocrmviamao@gmail.com",
+      "hours": "8h às 17h",
+      "sourceName": "Secretaria da Mulher do Rio Grande do Sul",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -30.08346637075672,
+        -51.024750935007546
+      ]
+    },
+    {
+      "id": "188",
+      "municipality": "Viamão",
+      "sourceMunicipality": "Viamão",
+      "ibgeCode": "4323002",
+      "category": "police-specialized",
+      "officialType": "Delegacia Especializada no Atendimento à Mulher (DEAM)",
+      "name": "Delegacia de Polícia Especializada de Proteção à Mulher Viamão – DEAM/1DPRM/DPM",
+      "address": "Largo Antônio Curtis Giordani, 07 - Centro",
+      "phone": "(51) 3435-9315",
+      "email": "viamao-deam@pc.rs.gov.br",
+      "hours": "Segunda a sexta, das 8h30min às 12h e das 13h30min às 18h",
+      "sourceName": "Observatório da Violência Contra a Mulher - SSP",
+      "sourceUrl": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0",
+      "checkedAt": "2026-11-02",
+      "coordinates": [
+        -30.082570199935144,
+        -51.025940700302954
+      ]
+    }
+  ]
+}

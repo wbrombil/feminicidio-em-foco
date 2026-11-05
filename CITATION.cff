@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Se utilizar este projeto, cite-o incluindo todas as pessoas autoras listadas."
+type: software
+title: "Feminicídio em Foco: Dados, Justiça e Rede de Proteção"
+authors:
+  - family-names: "Paz dos Santos"
+    given-names: "Stefani"
+  - family-names: "Arriche"
+    given-names: "Thalyne Alves"
+  - family-names: "Brombil"
+    given-names: "Wesley Mateus"
+abstract: >-
+  Projeto educativo que reúne dados agregados sobre feminicídios consumados
+  no Rio Grande do Sul, referências jornalísticas, informações sobre a rede
+  de proteção e conteúdo educativo.

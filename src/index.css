@@ -1,0 +1,63 @@
+:root {
+  --ink: #28241f;
+  --muted: #716c63;
+  --paper: #f7f4ee;
+  --accent: #9b3e4a;
+  --accent-hover: #7f303b;
+  --line: #d9d2c7;
+  --surface: #fbf9f5;
+  --surface-muted: #efede7;
+  --surface-highlight: #f1e7e3;
+  --surface-cell: #f0ede7;
+  --surface-map-card: #fffdf9;
+  --surface-map-marker: #fffdf8;
+  --selection-accent: #a23e4a;
+  --service-crm: #6f4a7a;
+  --service-police: #344b68;
+  --shadow-marker: rgb(40 36 31 / 35%);
+  --shadow-marker-selected: rgb(40 36 31 / 48%);
+  --border-map-swatch: rgb(40 36 31 / 15%);
+  --backdrop-dialog: rgb(28 25 22 / 58%);
+  --white: #fff;
+  --font-sans: Arial, Helvetica, sans-serif;
+  --section-padding: 3.5rem 0 4rem;
+  --text-xs: 0.75rem;
+  --text-compact: 0.8rem;
+  --text-meta: 0.78rem;
+  --text-sm: 0.875rem;
+  --text-reading: 0.9rem;
+  --text-base: 1rem;
+  --text-lg: 1.25rem;
+  font-family: var(--font-sans);
+  color: var(--ink);
+  background: var(--paper);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-synthesis: none;
+}
+
+* { box-sizing: border-box; }
+
+html { min-width: 320px; scroll-behavior: smooth; }
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+button, a { font: inherit; }
+
+::selection { color: var(--white); background: var(--accent); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

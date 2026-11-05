@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "records": [
+    {
+      "id": "80",
+      "source": {
+        "publisher": "Secretaria da Mulher do Estado do Rio Grande do Sul",
+        "url": "https://mulher.rs.gov.br/centro-especializado-de-atendimento-a-mulher",
+        "checkedAt": "2026-11-03"
+      },
+      "fields": {
+        "email": "coordenadoriadamulhersapucaia@gmail.com"
+      }
+    },
+    {
+      "id": "78",
+      "source": {
+        "publisher": "Prefeitura Municipal de Sapiranga",
+        "url": "https://www.sapiranga.rs.gov.br/departamentos/cram/",
+        "checkedAt": "2026-11-03"
+      },
+      "fields": {
+        "phone": "(51) 3959-1052 / (51) 99599-9657",
+        "email": "coordenadoriadamulher@sapiranga.rs.gov.br",
+        "hours": "Segunda a sexta-feira, das 12h30 às 18h30"
+      }
+    },
+    {
+      "id": "75",
+      "source": {
+        "publisher": "Prefeitura Municipal de Passo Fundo",
+        "url": "https://www.pmpf.rs.gov.br/secretaria-de-cidadania-e-assistencia-social/centro-de-referencia-de-atendimento-a-mulher-cram/",
+        "checkedAt": "2026-11-03"
+      },
+      "fields": {
+        "phone": "(54) 3313-8654"
+      }
+    },
+    {
+      "id": "144",
+      "source": {
+        "publisher": "Polícia Civil do Estado do Rio Grande do Sul",
+        "url": "https://www4.pc.rs.gov.br/orgaos",
+        "checkedAt": "2026-11-03"
+      },
+      "fields": {
+        "phone": "(54) 3581-0725",
+        "address": "Rua Nascimento Vargas, nº 153, Passo Fundo/RS",
+        "coordinates": null
+      },
+      "note": "O endereço oficial vigente diverge do endereço associado ao ponto da camada IEDE. O marcador foi ocultado até que as coordenadas do novo endereço sejam confirmadas por fonte adequada."
+    }
+  ]
+}

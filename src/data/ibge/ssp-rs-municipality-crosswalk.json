@@ -1,0 +1,2996 @@
+{
+  "schemaVersion": 1,
+  "sources": {
+    "sspRs": "https://www.ssp.rs.gov.br/indicadores-da-violencia-contra-a-mulher",
+    "ibgeMesh": "https://geoftp.ibge.gov.br/organizacao_do_territorio/malhas_territoriais/malhas_municipais/municipio_2025/UFs/RS/RS_Municipios_2025.zip",
+    "meshEdition": 2025
+  },
+  "matching": {
+    "normalizedExactNameMatches": 492,
+    "explicitCodeAliases": 5
+  },
+  "municipalities": [
+    {
+      "sspMunicipality": "ACEGUA",
+      "ibgeCode": "4300034",
+      "ibgeMunicipality": "Aceguá",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "AGUA SANTA",
+      "ibgeCode": "4300059",
+      "ibgeMunicipality": "Água Santa",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "AGUDO",
+      "ibgeCode": "4300109",
+      "ibgeMunicipality": "Agudo",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "AJURICABA",
+      "ibgeCode": "4300208",
+      "ibgeMunicipality": "Ajuricaba",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "ALECRIM",
+      "ibgeCode": "4300307",
+      "ibgeMunicipality": "Alecrim",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "ALEGRETE",
+      "ibgeCode": "4300406",
+      "ibgeMunicipality": "Alegrete",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "ALEGRIA",
+      "ibgeCode": "4300455",
+      "ibgeMunicipality": "Alegria",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "ALMIRANTE TAMANDARE DO SUL",
+      "ibgeCode": "4300471",
+      "ibgeMunicipality": "Almirante Tamandaré do Sul",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "ALPESTRE",
+      "ibgeCode": "4300505",
+      "ibgeMunicipality": "Alpestre",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "ALTO ALEGRE",
+      "ibgeCode": "4300554",
+      "ibgeMunicipality": "Alto Alegre",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "ALTO FELIZ",
+      "ibgeCode": "4300570",
+      "ibgeMunicipality": "Alto Feliz",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "ALVORADA",
+      "ibgeCode": "4300604",
+      "ibgeMunicipality": "Alvorada",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "AMARAL FERRADOR",
+      "ibgeCode": "4300638",
+      "ibgeMunicipality": "Amaral Ferrador",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "AMETISTA DO SUL",
+      "ibgeCode": "4300646",
+      "ibgeMunicipality": "Ametista do Sul",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "ANDRE DA ROCHA",
+      "ibgeCode": "4300661",
+      "ibgeMunicipality": "André da Rocha",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "ANTA GORDA",
+      "ibgeCode": "4300703",
+      "ibgeMunicipality": "Anta Gorda",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "ANTONIO PRADO",
+      "ibgeCode": "4300802",
+      "ibgeMunicipality": "Antônio Prado",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "ARAMBARE",
+      "ibgeCode": "4300851",
+      "ibgeMunicipality": "Arambaré",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "ARARICA",
+      "ibgeCode": "4300877",
+      "ibgeMunicipality": "Araricá",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "ARATIBA",
+      "ibgeCode": "4300901",
+      "ibgeMunicipality": "Aratiba",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "ARROIO DO MEIO",
+      "ibgeCode": "4301008",
+      "ibgeMunicipality": "Arroio do Meio",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "ARROIO DO SAL",
+      "ibgeCode": "4301057",
+      "ibgeMunicipality": "Arroio do Sal",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "ARROIO DO PADRE",
+      "ibgeCode": "4301073",
+      "ibgeMunicipality": "Arroio do Padre",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "ARROIO DOS RATOS",
+      "ibgeCode": "4301107",
+      "ibgeMunicipality": "Arroio dos Ratos",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "ARROIO DO TIGRE",
+      "ibgeCode": "4301206",
+      "ibgeMunicipality": "Arroio do Tigre",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "ARROIO GRANDE",
+      "ibgeCode": "4301305",
+      "ibgeMunicipality": "Arroio Grande",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "ARVOREZINHA",
+      "ibgeCode": "4301404",
+      "ibgeMunicipality": "Arvorezinha",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "AUGUSTO PESTANA",
+      "ibgeCode": "4301503",
+      "ibgeMunicipality": "Augusto Pestana",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "AUREA",
+      "ibgeCode": "4301552",
+      "ibgeMunicipality": "Áurea",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "BAGE",
+      "ibgeCode": "4301602",
+      "ibgeMunicipality": "Bagé",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "BALNEARIO PINHAL",
+      "ibgeCode": "4301636",
+      "ibgeMunicipality": "Balneário Pinhal",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "BARAO",
+      "ibgeCode": "4301651",
+      "ibgeMunicipality": "Barão",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "BARAO DO COTEGIPE",
+      "ibgeCode": "4301701",
+      "ibgeMunicipality": "Barão de Cotegipe",
+      "matchMethod": "alias-manual-por-codigo"
+    },
+    {
+      "sspMunicipality": "BARAO DO TRIUNFO",
+      "ibgeCode": "4301750",
+      "ibgeMunicipality": "Barão do Triunfo",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "BARRACAO",
+      "ibgeCode": "4301800",
+      "ibgeMunicipality": "Barracão",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "BARRA DO GUARITA",
+      "ibgeCode": "4301859",
+      "ibgeMunicipality": "Barra do Guarita",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "BARRA DO QUARAI",
+      "ibgeCode": "4301875",
+      "ibgeMunicipality": "Barra do Quaraí",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "BARRA DO RIBEIRO",
+      "ibgeCode": "4301909",
+      "ibgeMunicipality": "Barra do Ribeiro",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "BARRA DO RIO AZUL",
+      "ibgeCode": "4301925",
+      "ibgeMunicipality": "Barra do Rio Azul",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "BARRA FUNDA",
+      "ibgeCode": "4301958",
+      "ibgeMunicipality": "Barra Funda",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "BARROS CASSAL",
+      "ibgeCode": "4302006",
+      "ibgeMunicipality": "Barros Cassal",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "BENJAMIN CONSTANT DO SUL",
+      "ibgeCode": "4302055",
+      "ibgeMunicipality": "Benjamin Constant do Sul",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "BENTO GONCALVES",
+      "ibgeCode": "4302105",
+      "ibgeMunicipality": "Bento Gonçalves",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "BOA VISTA DAS MISSOES",
+      "ibgeCode": "4302154",
+      "ibgeMunicipality": "Boa Vista das Missões",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "BOA VISTA DO BURICA",
+      "ibgeCode": "4302204",
+      "ibgeMunicipality": "Boa Vista do Buricá",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "BOA VISTA DO CADEADO",
+      "ibgeCode": "4302220",
+      "ibgeMunicipality": "Boa Vista do Cadeado",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "BOA VISTA DO INCRA",
+      "ibgeCode": "4302238",
+      "ibgeMunicipality": "Boa Vista do Incra",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "BOA VISTA DO SUL",
+      "ibgeCode": "4302253",
+      "ibgeMunicipality": "Boa Vista do Sul",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "BOM JESUS",
+      "ibgeCode": "4302303",
+      "ibgeMunicipality": "Bom Jesus",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "BOM PRINCIPIO",
+      "ibgeCode": "4302352",
+      "ibgeMunicipality": "Bom Princípio",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "BOM PROGRESSO",
+      "ibgeCode": "4302378",
+      "ibgeMunicipality": "Bom Progresso",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "BOM RETIRO DO SUL",
+      "ibgeCode": "4302402",
+      "ibgeMunicipality": "Bom Retiro do Sul",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "BOQUEIRAO DO LEAO",
+      "ibgeCode": "4302451",
+      "ibgeMunicipality": "Boqueirão do Leão",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "BOSSOROCA",
+      "ibgeCode": "4302501",
+      "ibgeMunicipality": "Bossoroca",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "BOZANO",
+      "ibgeCode": "4302584",
+      "ibgeMunicipality": "Bozano",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "BRAGA",
+      "ibgeCode": "4302600",
+      "ibgeMunicipality": "Braga",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "BROCHIER",
+      "ibgeCode": "4302659",
+      "ibgeMunicipality": "Brochier",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "BUTIA",
+      "ibgeCode": "4302709",
+      "ibgeMunicipality": "Butiá",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CACAPAVA DO SUL",
+      "ibgeCode": "4302808",
+      "ibgeMunicipality": "Caçapava do Sul",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CACEQUI",
+      "ibgeCode": "4302907",
+      "ibgeMunicipality": "Cacequi",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CACHOEIRA DO SUL",
+      "ibgeCode": "4303004",
+      "ibgeMunicipality": "Cachoeira do Sul",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CACHOEIRINHA",
+      "ibgeCode": "4303103",
+      "ibgeMunicipality": "Cachoeirinha",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CACIQUE DOBLE",
+      "ibgeCode": "4303202",
+      "ibgeMunicipality": "Cacique Doble",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CAIBATE",
+      "ibgeCode": "4303301",
+      "ibgeMunicipality": "Caibaté",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CAICARA",
+      "ibgeCode": "4303400",
+      "ibgeMunicipality": "Caiçara",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CAMAQUA",
+      "ibgeCode": "4303509",
+      "ibgeMunicipality": "Camaquã",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CAMARGO",
+      "ibgeCode": "4303558",
+      "ibgeMunicipality": "Camargo",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CAMBARA DO SUL",
+      "ibgeCode": "4303608",
+      "ibgeMunicipality": "Cambará do Sul",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CAMPESTRE DA SERRA",
+      "ibgeCode": "4303673",
+      "ibgeMunicipality": "Campestre da Serra",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CAMPINA DAS MISSOES",
+      "ibgeCode": "4303707",
+      "ibgeMunicipality": "Campina das Missões",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CAMPINAS DO SUL",
+      "ibgeCode": "4303806",
+      "ibgeMunicipality": "Campinas do Sul",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CAMPO BOM",
+      "ibgeCode": "4303905",
+      "ibgeMunicipality": "Campo Bom",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CAMPO NOVO",
+      "ibgeCode": "4304002",
+      "ibgeMunicipality": "Campo Novo",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CAMPOS BORGES",
+      "ibgeCode": "4304101",
+      "ibgeMunicipality": "Campos Borges",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CANDELARIA",
+      "ibgeCode": "4304200",
+      "ibgeMunicipality": "Candelária",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CANDIDO GODOI",
+      "ibgeCode": "4304309",
+      "ibgeMunicipality": "Cândido Godói",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CANDIOTA",
+      "ibgeCode": "4304358",
+      "ibgeMunicipality": "Candiota",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CANELA",
+      "ibgeCode": "4304408",
+      "ibgeMunicipality": "Canela",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CANGUCU",
+      "ibgeCode": "4304507",
+      "ibgeMunicipality": "Canguçu",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CANOAS",
+      "ibgeCode": "4304606",
+      "ibgeMunicipality": "Canoas",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CANUDOS DO VALE",
+      "ibgeCode": "4304614",
+      "ibgeMunicipality": "Canudos do Vale",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CAPAO BONITO DO SUL",
+      "ibgeCode": "4304622",
+      "ibgeMunicipality": "Capão Bonito do Sul",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CAPAO DA CANOA",
+      "ibgeCode": "4304630",
+      "ibgeMunicipality": "Capão da Canoa",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CAPAO DO CIPO",
+      "ibgeCode": "4304655",
+      "ibgeMunicipality": "Capão do Cipó",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CAPAO DO LEAO",
+      "ibgeCode": "4304663",
+      "ibgeMunicipality": "Capão do Leão",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CAPIVARI DO SUL",
+      "ibgeCode": "4304671",
+      "ibgeMunicipality": "Capivari do Sul",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CAPELA DE SANTANA",
+      "ibgeCode": "4304689",
+      "ibgeMunicipality": "Capela de Santana",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CAPITAO",
+      "ibgeCode": "4304697",
+      "ibgeMunicipality": "Capitão",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CARAZINHO",
+      "ibgeCode": "4304705",
+      "ibgeMunicipality": "Carazinho",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CARAA",
+      "ibgeCode": "4304713",
+      "ibgeMunicipality": "Caraá",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CARLOS BARBOSA",
+      "ibgeCode": "4304804",
+      "ibgeMunicipality": "Carlos Barbosa",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CARLOS GOMES",
+      "ibgeCode": "4304853",
+      "ibgeMunicipality": "Carlos Gomes",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CASCA",
+      "ibgeCode": "4304903",
+      "ibgeMunicipality": "Casca",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CASEIROS",
+      "ibgeCode": "4304952",
+      "ibgeMunicipality": "Caseiros",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CATUIPE",
+      "ibgeCode": "4305009",
+      "ibgeMunicipality": "Catuípe",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CAXIAS DO SUL",
+      "ibgeCode": "4305108",
+      "ibgeMunicipality": "Caxias do Sul",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CENTENARIO",
+      "ibgeCode": "4305116",
+      "ibgeMunicipality": "Centenário",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CERRITO",
+      "ibgeCode": "4305124",
+      "ibgeMunicipality": "Cerrito",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CERRO BRANCO",
+      "ibgeCode": "4305132",
+      "ibgeMunicipality": "Cerro Branco",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CERRO GRANDE",
+      "ibgeCode": "4305157",
+      "ibgeMunicipality": "Cerro Grande",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CERRO GRANDE DO SUL",
+      "ibgeCode": "4305173",
+      "ibgeMunicipality": "Cerro Grande do Sul",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CERRO LARGO",
+      "ibgeCode": "4305207",
+      "ibgeMunicipality": "Cerro Largo",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CHAPADA",
+      "ibgeCode": "4305306",
+      "ibgeMunicipality": "Chapada",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CHARQUEADAS",
+      "ibgeCode": "4305355",
+      "ibgeMunicipality": "Charqueadas",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CHARRUA",
+      "ibgeCode": "4305371",
+      "ibgeMunicipality": "Charrua",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CHIAPETTA",
+      "ibgeCode": "4305405",
+      "ibgeMunicipality": "Chiapetta",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CHUI",
+      "ibgeCode": "4305439",
+      "ibgeMunicipality": "Chuí",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CHUVISCA",
+      "ibgeCode": "4305447",
+      "ibgeMunicipality": "Chuvisca",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CIDREIRA",
+      "ibgeCode": "4305454",
+      "ibgeMunicipality": "Cidreira",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CIRIACO",
+      "ibgeCode": "4305504",
+      "ibgeMunicipality": "Ciríaco",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "COLINAS",
+      "ibgeCode": "4305587",
+      "ibgeMunicipality": "Colinas",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "COLORADO",
+      "ibgeCode": "4305603",
+      "ibgeMunicipality": "Colorado",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CONDOR",
+      "ibgeCode": "4305702",
+      "ibgeMunicipality": "Condor",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CONSTANTINA",
+      "ibgeCode": "4305801",
+      "ibgeMunicipality": "Constantina",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "COQUEIRO BAIXO",
+      "ibgeCode": "4305835",
+      "ibgeMunicipality": "Coqueiro Baixo",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "COQUEIROS DO SUL",
+      "ibgeCode": "4305850",
+      "ibgeMunicipality": "Coqueiros do Sul",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CORONEL BARROS",
+      "ibgeCode": "4305871",
+      "ibgeMunicipality": "Coronel Barros",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CORONEL BICACO",
+      "ibgeCode": "4305900",
+      "ibgeMunicipality": "Coronel Bicaco",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CORONEL PILAR",
+      "ibgeCode": "4305934",
+      "ibgeMunicipality": "Coronel Pilar",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "COTIPORA",
+      "ibgeCode": "4305959",
+      "ibgeMunicipality": "Cotiporã",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "COXILHA",
+      "ibgeCode": "4305975",
+      "ibgeMunicipality": "Coxilha",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CRISSIUMAL",
+      "ibgeCode": "4306007",
+      "ibgeMunicipality": "Crissiumal",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CRISTAL",
+      "ibgeCode": "4306056",
+      "ibgeMunicipality": "Cristal",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CRISTAL DO SUL",
+      "ibgeCode": "4306072",
+      "ibgeMunicipality": "Cristal do Sul",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CRUZ ALTA",
+      "ibgeCode": "4306106",
+      "ibgeMunicipality": "Cruz Alta",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CRUZALTENSE",
+      "ibgeCode": "4306130",
+      "ibgeMunicipality": "Cruzaltense",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "CRUZEIRO DO SUL",
+      "ibgeCode": "4306205",
+      "ibgeMunicipality": "Cruzeiro do Sul",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "DAVID CANABARRO",
+      "ibgeCode": "4306304",
+      "ibgeMunicipality": "David Canabarro",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "DERRUBADAS",
+      "ibgeCode": "4306320",
+      "ibgeMunicipality": "Derrubadas",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "DEZESSEIS DE NOVEMBRO",
+      "ibgeCode": "4306353",
+      "ibgeMunicipality": "Dezesseis de Novembro",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "DILERMANDO DE AGUIAR",
+      "ibgeCode": "4306379",
+      "ibgeMunicipality": "Dilermando de Aguiar",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "DOIS IRMAOS",
+      "ibgeCode": "4306403",
+      "ibgeMunicipality": "Dois Irmãos",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "DOIS IRMAOS DAS MISSOES",
+      "ibgeCode": "4306429",
+      "ibgeMunicipality": "Dois Irmãos das Missões",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "DOIS LAJEADOS",
+      "ibgeCode": "4306452",
+      "ibgeMunicipality": "Dois Lajeados",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "DOM FELICIANO",
+      "ibgeCode": "4306502",
+      "ibgeMunicipality": "Dom Feliciano",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "DOM PEDRO DE ALCANTARA",
+      "ibgeCode": "4306551",
+      "ibgeMunicipality": "Dom Pedro de Alcântara",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "DOM PEDRITO",
+      "ibgeCode": "4306601",
+      "ibgeMunicipality": "Dom Pedrito",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "DONA FRANCISCA",
+      "ibgeCode": "4306700",
+      "ibgeMunicipality": "Dona Francisca",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "DR MAURICIO CARDOSO",
+      "ibgeCode": "4306734",
+      "ibgeMunicipality": "Doutor Maurício Cardoso",
+      "matchMethod": "alias-manual-por-codigo"
+    },
+    {
+      "sspMunicipality": "DOUTOR RICARDO",
+      "ibgeCode": "4306759",
+      "ibgeMunicipality": "Doutor Ricardo",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "ELDORADO DO SUL",
+      "ibgeCode": "4306767",
+      "ibgeMunicipality": "Eldorado do Sul",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "ENCANTADO",
+      "ibgeCode": "4306809",
+      "ibgeMunicipality": "Encantado",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "ENCRUZILHADA DO SUL",
+      "ibgeCode": "4306908",
+      "ibgeMunicipality": "Encruzilhada do Sul",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "ENGENHO VELHO",
+      "ibgeCode": "4306924",
+      "ibgeMunicipality": "Engenho Velho",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "ENTRE IJUIS",
+      "ibgeCode": "4306932",
+      "ibgeMunicipality": "Entre-Ijuís",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "ENTRE RIOS DO SUL",
+      "ibgeCode": "4306957",
+      "ibgeMunicipality": "Entre Rios do Sul",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "EREBANGO",
+      "ibgeCode": "4306973",
+      "ibgeMunicipality": "Erebango",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "ERECHIM",
+      "ibgeCode": "4307005",
+      "ibgeMunicipality": "Erechim",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "ERNESTINA",
+      "ibgeCode": "4307054",
+      "ibgeMunicipality": "Ernestina",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "HERVAL",
+      "ibgeCode": "4307104",
+      "ibgeMunicipality": "Herval",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "ERVAL GRANDE",
+      "ibgeCode": "4307203",
+      "ibgeMunicipality": "Erval Grande",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "ERVAL SECO",
+      "ibgeCode": "4307302",
+      "ibgeMunicipality": "Erval Seco",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "ESMERALDA",
+      "ibgeCode": "4307401",
+      "ibgeMunicipality": "Esmeralda",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "ESPERANCA DO SUL",
+      "ibgeCode": "4307450",
+      "ibgeMunicipality": "Esperança do Sul",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "ESPUMOSO",
+      "ibgeCode": "4307500",
+      "ibgeMunicipality": "Espumoso",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "ESTACAO",
+      "ibgeCode": "4307559",
+      "ibgeMunicipality": "Estação",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "ESTANCIA VELHA",
+      "ibgeCode": "4307609",
+      "ibgeMunicipality": "Estância Velha",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "ESTEIO",
+      "ibgeCode": "4307708",
+      "ibgeMunicipality": "Esteio",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "ESTRELA",
+      "ibgeCode": "4307807",
+      "ibgeMunicipality": "Estrela",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "ESTRELA VELHA",
+      "ibgeCode": "4307815",
+      "ibgeMunicipality": "Estrela Velha",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "EUGENIO DE CASTRO",
+      "ibgeCode": "4307831",
+      "ibgeMunicipality": "Eugênio de Castro",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "FAGUNDES VARELA",
+      "ibgeCode": "4307864",
+      "ibgeMunicipality": "Fagundes Varela",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "FARROUPILHA",
+      "ibgeCode": "4307906",
+      "ibgeMunicipality": "Farroupilha",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "FAXINAL DO SOTURNO",
+      "ibgeCode": "4308003",
+      "ibgeMunicipality": "Faxinal do Soturno",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "FAXINALZINHO",
+      "ibgeCode": "4308052",
+      "ibgeMunicipality": "Faxinalzinho",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "FAZENDA VILA NOVA",
+      "ibgeCode": "4308078",
+      "ibgeMunicipality": "Fazenda Vilanova",
+      "matchMethod": "alias-manual-por-codigo"
+    },
+    {
+      "sspMunicipality": "FELIZ",
+      "ibgeCode": "4308102",
+      "ibgeMunicipality": "Feliz",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "FLORES DA CUNHA",
+      "ibgeCode": "4308201",
+      "ibgeMunicipality": "Flores da Cunha",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "FLORIANO PEIXOTO",
+      "ibgeCode": "4308250",
+      "ibgeMunicipality": "Floriano Peixoto",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "FONTOURA XAVIER",
+      "ibgeCode": "4308300",
+      "ibgeMunicipality": "Fontoura Xavier",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "FORMIGUEIRO",
+      "ibgeCode": "4308409",
+      "ibgeMunicipality": "Formigueiro",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "FORQUETINHA",
+      "ibgeCode": "4308433",
+      "ibgeMunicipality": "Forquetinha",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "FORTALEZA DOS VALOS",
+      "ibgeCode": "4308458",
+      "ibgeMunicipality": "Fortaleza dos Valos",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "FREDERICO WESTPHALEN",
+      "ibgeCode": "4308508",
+      "ibgeMunicipality": "Frederico Westphalen",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "GARIBALDI",
+      "ibgeCode": "4308607",
+      "ibgeMunicipality": "Garibaldi",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "GARRUCHOS",
+      "ibgeCode": "4308656",
+      "ibgeMunicipality": "Garruchos",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "GAURAMA",
+      "ibgeCode": "4308706",
+      "ibgeMunicipality": "Gaurama",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "GENERAL CAMARA",
+      "ibgeCode": "4308805",
+      "ibgeMunicipality": "General Câmara",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "GENTIL",
+      "ibgeCode": "4308854",
+      "ibgeMunicipality": "Gentil",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "GETULIO VARGAS",
+      "ibgeCode": "4308904",
+      "ibgeMunicipality": "Getúlio Vargas",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "GIRUA",
+      "ibgeCode": "4309001",
+      "ibgeMunicipality": "Giruá",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "GLORINHA",
+      "ibgeCode": "4309050",
+      "ibgeMunicipality": "Glorinha",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "GRAMADO",
+      "ibgeCode": "4309100",
+      "ibgeMunicipality": "Gramado",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "GRAMADO DOS LOUREIROS",
+      "ibgeCode": "4309126",
+      "ibgeMunicipality": "Gramado dos Loureiros",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "GRAMADO XAVIER",
+      "ibgeCode": "4309159",
+      "ibgeMunicipality": "Gramado Xavier",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "GRAVATAI",
+      "ibgeCode": "4309209",
+      "ibgeMunicipality": "Gravataí",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "GUABIJU",
+      "ibgeCode": "4309258",
+      "ibgeMunicipality": "Guabiju",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "GUAIBA",
+      "ibgeCode": "4309308",
+      "ibgeMunicipality": "Guaíba",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "GUAPORE",
+      "ibgeCode": "4309407",
+      "ibgeMunicipality": "Guaporé",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "GUARANI DAS MISSOES",
+      "ibgeCode": "4309506",
+      "ibgeMunicipality": "Guarani das Missões",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "HARMONIA",
+      "ibgeCode": "4309555",
+      "ibgeMunicipality": "Harmonia",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "HERVEIRAS",
+      "ibgeCode": "4309571",
+      "ibgeMunicipality": "Herveiras",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "HORIZONTINA",
+      "ibgeCode": "4309605",
+      "ibgeMunicipality": "Horizontina",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "HULHA NEGRA",
+      "ibgeCode": "4309654",
+      "ibgeMunicipality": "Hulha Negra",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "HUMAITA",
+      "ibgeCode": "4309704",
+      "ibgeMunicipality": "Humaitá",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "IBARAMA",
+      "ibgeCode": "4309753",
+      "ibgeMunicipality": "Ibarama",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "IBIACA",
+      "ibgeCode": "4309803",
+      "ibgeMunicipality": "Ibiaçá",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "IBIRAIARAS",
+      "ibgeCode": "4309902",
+      "ibgeMunicipality": "Ibiraiaras",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "IBIRAPUITA",
+      "ibgeCode": "4309951",
+      "ibgeMunicipality": "Ibirapuitã",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "IBIRUBA",
+      "ibgeCode": "4310009",
+      "ibgeMunicipality": "Ibirubá",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "IGREJINHA",
+      "ibgeCode": "4310108",
+      "ibgeMunicipality": "Igrejinha",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "IJUI",
+      "ibgeCode": "4310207",
+      "ibgeMunicipality": "Ijuí",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "ILOPOLIS",
+      "ibgeCode": "4310306",
+      "ibgeMunicipality": "Ilópolis",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "IMBE",
+      "ibgeCode": "4310330",
+      "ibgeMunicipality": "Imbé",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "IMIGRANTE",
+      "ibgeCode": "4310363",
+      "ibgeMunicipality": "Imigrante",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "INDEPENDENCIA",
+      "ibgeCode": "4310405",
+      "ibgeMunicipality": "Independência",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "INHACORA",
+      "ibgeCode": "4310413",
+      "ibgeMunicipality": "Inhacorá",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "IPE",
+      "ibgeCode": "4310439",
+      "ibgeMunicipality": "Ipê",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "IPIRANGA DO SUL",
+      "ibgeCode": "4310462",
+      "ibgeMunicipality": "Ipiranga do Sul",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "IRAI",
+      "ibgeCode": "4310504",
+      "ibgeMunicipality": "Iraí",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "ITAARA",
+      "ibgeCode": "4310538",
+      "ibgeMunicipality": "Itaara",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "ITACURUBI",
+      "ibgeCode": "4310553",
+      "ibgeMunicipality": "Itacurubi",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "ITAPUCA",
+      "ibgeCode": "4310579",
+      "ibgeMunicipality": "Itapuca",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "ITAQUI",
+      "ibgeCode": "4310603",
+      "ibgeMunicipality": "Itaqui",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "ITATI",
+      "ibgeCode": "4310652",
+      "ibgeMunicipality": "Itati",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "ITATIBA DO SUL",
+      "ibgeCode": "4310702",
+      "ibgeMunicipality": "Itatiba do Sul",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "IVORA",
+      "ibgeCode": "4310751",
+      "ibgeMunicipality": "Ivorá",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "IVOTI",
+      "ibgeCode": "4310801",
+      "ibgeMunicipality": "Ivoti",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "JABOTICABA",
+      "ibgeCode": "4310850",
+      "ibgeMunicipality": "Jaboticaba",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "JACUIZINHO",
+      "ibgeCode": "4310876",
+      "ibgeMunicipality": "Jacuizinho",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "JACUTINGA",
+      "ibgeCode": "4310900",
+      "ibgeMunicipality": "Jacutinga",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "JAGUARAO",
+      "ibgeCode": "4311007",
+      "ibgeMunicipality": "Jaguarão",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "JAGUARI",
+      "ibgeCode": "4311106",
+      "ibgeMunicipality": "Jaguari",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "JAQUIRANA",
+      "ibgeCode": "4311122",
+      "ibgeMunicipality": "Jaquirana",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "JARI",
+      "ibgeCode": "4311130",
+      "ibgeMunicipality": "Jari",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "JOIA",
+      "ibgeCode": "4311155",
+      "ibgeMunicipality": "Jóia",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "JULIO DE CASTILHOS",
+      "ibgeCode": "4311205",
+      "ibgeMunicipality": "Júlio de Castilhos",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "LAGOA BONITA DO SUL",
+      "ibgeCode": "4311239",
+      "ibgeMunicipality": "Lagoa Bonita do Sul",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "LAGOAO",
+      "ibgeCode": "4311254",
+      "ibgeMunicipality": "Lagoão",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "LAGOA DOS TRES CANTOS",
+      "ibgeCode": "4311270",
+      "ibgeMunicipality": "Lagoa dos Três Cantos",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "LAGOA VERMELHA",
+      "ibgeCode": "4311304",
+      "ibgeMunicipality": "Lagoa Vermelha",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "LAJEADO",
+      "ibgeCode": "4311403",
+      "ibgeMunicipality": "Lajeado",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "LAJEADO DO BUGRE",
+      "ibgeCode": "4311429",
+      "ibgeMunicipality": "Lajeado do Bugre",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "LAVRAS DO SUL",
+      "ibgeCode": "4311502",
+      "ibgeMunicipality": "Lavras do Sul",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "LIBERATO SALZANO",
+      "ibgeCode": "4311601",
+      "ibgeMunicipality": "Liberato Salzano",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "LINDOLFO COLLOR",
+      "ibgeCode": "4311627",
+      "ibgeMunicipality": "Lindolfo Collor",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "LINHA NOVA",
+      "ibgeCode": "4311643",
+      "ibgeMunicipality": "Linha Nova",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "MACHADINHO",
+      "ibgeCode": "4311700",
+      "ibgeMunicipality": "Machadinho",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "MACAMBARA",
+      "ibgeCode": "4311718",
+      "ibgeMunicipality": "Maçambará",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "MAMPITUBA",
+      "ibgeCode": "4311734",
+      "ibgeMunicipality": "Mampituba",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "MANOEL VIANA",
+      "ibgeCode": "4311759",
+      "ibgeMunicipality": "Manoel Viana",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "MAQUINE",
+      "ibgeCode": "4311775",
+      "ibgeMunicipality": "Maquiné",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "MARATA",
+      "ibgeCode": "4311791",
+      "ibgeMunicipality": "Maratá",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "MARAU",
+      "ibgeCode": "4311809",
+      "ibgeMunicipality": "Marau",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "MARCELINO RAMOS",
+      "ibgeCode": "4311908",
+      "ibgeMunicipality": "Marcelino Ramos",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "MARIANA PIMENTEL",
+      "ibgeCode": "4311981",
+      "ibgeMunicipality": "Mariana Pimentel",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "MARIANO MORO",
+      "ibgeCode": "4312005",
+      "ibgeMunicipality": "Mariano Moro",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "MARQUES DE SOUZA",
+      "ibgeCode": "4312054",
+      "ibgeMunicipality": "Marques de Souza",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "MATA",
+      "ibgeCode": "4312104",
+      "ibgeMunicipality": "Mata",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "MATO CASTELHANO",
+      "ibgeCode": "4312138",
+      "ibgeMunicipality": "Mato Castelhano",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "MATO LEITAO",
+      "ibgeCode": "4312153",
+      "ibgeMunicipality": "Mato Leitão",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "MATO QUEIMADO",
+      "ibgeCode": "4312179",
+      "ibgeMunicipality": "Mato Queimado",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "MAXIMILIANO DE ALMEIDA",
+      "ibgeCode": "4312203",
+      "ibgeMunicipality": "Maximiliano de Almeida",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "MINAS DO LEAO",
+      "ibgeCode": "4312252",
+      "ibgeMunicipality": "Minas do Leão",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "MIRAGUAI",
+      "ibgeCode": "4312302",
+      "ibgeMunicipality": "Miraguaí",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "MONTAURI",
+      "ibgeCode": "4312351",
+      "ibgeMunicipality": "Montauri",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "MONTE ALEGRE DOS CAMPOS",
+      "ibgeCode": "4312377",
+      "ibgeMunicipality": "Monte Alegre dos Campos",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "MONTE BELO DO SUL",
+      "ibgeCode": "4312385",
+      "ibgeMunicipality": "Monte Belo do Sul",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "MONTENEGRO",
+      "ibgeCode": "4312401",
+      "ibgeMunicipality": "Montenegro",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "MORMACO",
+      "ibgeCode": "4312427",
+      "ibgeMunicipality": "Mormaço",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "MORRINHOS DO SUL",
+      "ibgeCode": "4312443",
+      "ibgeMunicipality": "Morrinhos do Sul",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "MORRO REDONDO",
+      "ibgeCode": "4312450",
+      "ibgeMunicipality": "Morro Redondo",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "MORRO REUTER",
+      "ibgeCode": "4312476",
+      "ibgeMunicipality": "Morro Reuter",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "MOSTARDAS",
+      "ibgeCode": "4312500",
+      "ibgeMunicipality": "Mostardas",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "MUCUM",
+      "ibgeCode": "4312609",
+      "ibgeMunicipality": "Muçum",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "MUITOS CAPOES",
+      "ibgeCode": "4312617",
+      "ibgeMunicipality": "Muitos Capões",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "MULITERNO",
+      "ibgeCode": "4312625",
+      "ibgeMunicipality": "Muliterno",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "NAO ME TOQUE",
+      "ibgeCode": "4312658",
+      "ibgeMunicipality": "Não-Me-Toque",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "NICOLAU VERGUEIRO",
+      "ibgeCode": "4312674",
+      "ibgeMunicipality": "Nicolau Vergueiro",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "NONOAI",
+      "ibgeCode": "4312708",
+      "ibgeMunicipality": "Nonoai",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "NOVA ALVORADA",
+      "ibgeCode": "4312757",
+      "ibgeMunicipality": "Nova Alvorada",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "NOVA ARACA",
+      "ibgeCode": "4312807",
+      "ibgeMunicipality": "Nova Araçá",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "NOVA BASSANO",
+      "ibgeCode": "4312906",
+      "ibgeMunicipality": "Nova Bassano",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "NOVA BOA VISTA",
+      "ibgeCode": "4312955",
+      "ibgeMunicipality": "Nova Boa Vista",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "NOVA BRESCIA",
+      "ibgeCode": "4313003",
+      "ibgeMunicipality": "Nova Bréscia",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "NOVA CANDELARIA",
+      "ibgeCode": "4313011",
+      "ibgeMunicipality": "Nova Candelária",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "NOVA ESPERANCA DO SUL",
+      "ibgeCode": "4313037",
+      "ibgeMunicipality": "Nova Esperança do Sul",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "NOVA HARTZ",
+      "ibgeCode": "4313060",
+      "ibgeMunicipality": "Nova Hartz",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "NOVA PADUA",
+      "ibgeCode": "4313086",
+      "ibgeMunicipality": "Nova Pádua",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "NOVA PALMA",
+      "ibgeCode": "4313102",
+      "ibgeMunicipality": "Nova Palma",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "NOVA PETROPOLIS",
+      "ibgeCode": "4313201",
+      "ibgeMunicipality": "Nova Petrópolis",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "NOVA PRATA",
+      "ibgeCode": "4313300",
+      "ibgeMunicipality": "Nova Prata",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "NOVA RAMADA",
+      "ibgeCode": "4313334",
+      "ibgeMunicipality": "Nova Ramada",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "NOVA ROMA DO SUL",
+      "ibgeCode": "4313359",
+      "ibgeMunicipality": "Nova Roma do Sul",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "NOVA SANTA RITA",
+      "ibgeCode": "4313375",
+      "ibgeMunicipality": "Nova Santa Rita",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "NOVO CABRAIS",
+      "ibgeCode": "4313391",
+      "ibgeMunicipality": "Novo Cabrais",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "NOVO HAMBURGO",
+      "ibgeCode": "4313409",
+      "ibgeMunicipality": "Novo Hamburgo",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "NOVO MACHADO",
+      "ibgeCode": "4313425",
+      "ibgeMunicipality": "Novo Machado",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "NOVO TIRADENTES",
+      "ibgeCode": "4313441",
+      "ibgeMunicipality": "Novo Tiradentes",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "NOVO XINGU",
+      "ibgeCode": "4313466",
+      "ibgeMunicipality": "Novo Xingu",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "NOVO BARREIRO",
+      "ibgeCode": "4313490",
+      "ibgeMunicipality": "Novo Barreiro",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "OSORIO",
+      "ibgeCode": "4313508",
+      "ibgeMunicipality": "Osório",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "PAIM FILHO",
+      "ibgeCode": "4313607",
+      "ibgeMunicipality": "Paim Filho",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "PALMARES DO SUL",
+      "ibgeCode": "4313656",
+      "ibgeMunicipality": "Palmares do Sul",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "PALMEIRA DAS MISSOES",
+      "ibgeCode": "4313706",
+      "ibgeMunicipality": "Palmeira das Missões",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "PALMITINHO",
+      "ibgeCode": "4313805",
+      "ibgeMunicipality": "Palmitinho",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "PANAMBI",
+      "ibgeCode": "4313904",
+      "ibgeMunicipality": "Panambi",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "PANTANO GRANDE",
+      "ibgeCode": "4313953",
+      "ibgeMunicipality": "Pantano Grande",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "PARAI",
+      "ibgeCode": "4314001",
+      "ibgeMunicipality": "Paraí",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "PARAISO DO SUL",
+      "ibgeCode": "4314027",
+      "ibgeMunicipality": "Paraíso do Sul",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "PARECI NOVO",
+      "ibgeCode": "4314035",
+      "ibgeMunicipality": "Pareci Novo",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "PAROBE",
+      "ibgeCode": "4314050",
+      "ibgeMunicipality": "Parobé",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "PASSA SETE",
+      "ibgeCode": "4314068",
+      "ibgeMunicipality": "Passa Sete",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "PASSO DO SOBRADO",
+      "ibgeCode": "4314076",
+      "ibgeMunicipality": "Passo do Sobrado",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "PASSO FUNDO",
+      "ibgeCode": "4314100",
+      "ibgeMunicipality": "Passo Fundo",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "PAULO BENTO",
+      "ibgeCode": "4314134",
+      "ibgeMunicipality": "Paulo Bento",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "PAVERAMA",
+      "ibgeCode": "4314159",
+      "ibgeMunicipality": "Paverama",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "PEDRAS ALTAS",
+      "ibgeCode": "4314175",
+      "ibgeMunicipality": "Pedras Altas",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "PEDRO OSORIO",
+      "ibgeCode": "4314209",
+      "ibgeMunicipality": "Pedro Osório",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "PEJUCARA",
+      "ibgeCode": "4314308",
+      "ibgeMunicipality": "Pejuçara",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "PELOTAS",
+      "ibgeCode": "4314407",
+      "ibgeMunicipality": "Pelotas",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "PICADA CAFE",
+      "ibgeCode": "4314423",
+      "ibgeMunicipality": "Picada Café",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "PINHAL",
+      "ibgeCode": "4314456",
+      "ibgeMunicipality": "Pinhal",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "PINHAL DA SERRA",
+      "ibgeCode": "4314464",
+      "ibgeMunicipality": "Pinhal da Serra",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "PINHAL GRANDE",
+      "ibgeCode": "4314472",
+      "ibgeMunicipality": "Pinhal Grande",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "PINHEIRINHO DO VALE",
+      "ibgeCode": "4314498",
+      "ibgeMunicipality": "Pinheirinho do Vale",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "PINHEIRO MACHADO",
+      "ibgeCode": "4314506",
+      "ibgeMunicipality": "Pinheiro Machado",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "PINTO BANDEIRA",
+      "ibgeCode": "4314548",
+      "ibgeMunicipality": "Pinto Bandeira",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "PIRAPO",
+      "ibgeCode": "4314555",
+      "ibgeMunicipality": "Pirapó",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "PIRATINI",
+      "ibgeCode": "4314605",
+      "ibgeMunicipality": "Piratini",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "PLANALTO",
+      "ibgeCode": "4314704",
+      "ibgeMunicipality": "Planalto",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "POCO DAS ANTAS",
+      "ibgeCode": "4314753",
+      "ibgeMunicipality": "Poço das Antas",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "PONTAO",
+      "ibgeCode": "4314779",
+      "ibgeMunicipality": "Pontão",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "PONTE PRETA",
+      "ibgeCode": "4314787",
+      "ibgeMunicipality": "Ponte Preta",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "PORTAO",
+      "ibgeCode": "4314803",
+      "ibgeMunicipality": "Portão",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "PORTO ALEGRE",
+      "ibgeCode": "4314902",
+      "ibgeMunicipality": "Porto Alegre",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "PORTO LUCENA",
+      "ibgeCode": "4315008",
+      "ibgeMunicipality": "Porto Lucena",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "PORTO MAUA",
+      "ibgeCode": "4315057",
+      "ibgeMunicipality": "Porto Mauá",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "PORTO VERA CRUZ",
+      "ibgeCode": "4315073",
+      "ibgeMunicipality": "Porto Vera Cruz",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "PORTO XAVIER",
+      "ibgeCode": "4315107",
+      "ibgeMunicipality": "Porto Xavier",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "POUSO NOVO",
+      "ibgeCode": "4315131",
+      "ibgeMunicipality": "Pouso Novo",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "PRESIDENTE LUCENA",
+      "ibgeCode": "4315149",
+      "ibgeMunicipality": "Presidente Lucena",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "PROGRESSO",
+      "ibgeCode": "4315156",
+      "ibgeMunicipality": "Progresso",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "PROTASIO ALVES",
+      "ibgeCode": "4315172",
+      "ibgeMunicipality": "Protásio Alves",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "PUTINGA",
+      "ibgeCode": "4315206",
+      "ibgeMunicipality": "Putinga",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "QUARAI",
+      "ibgeCode": "4315305",
+      "ibgeMunicipality": "Quaraí",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "QUATRO IRMAOS",
+      "ibgeCode": "4315313",
+      "ibgeMunicipality": "Quatro Irmãos",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "QUEVEDOS",
+      "ibgeCode": "4315321",
+      "ibgeMunicipality": "Quevedos",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "QUINZE DE NOVEMBRO",
+      "ibgeCode": "4315354",
+      "ibgeMunicipality": "Quinze de Novembro",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "REDENTORA",
+      "ibgeCode": "4315404",
+      "ibgeMunicipality": "Redentora",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "RELVADO",
+      "ibgeCode": "4315453",
+      "ibgeMunicipality": "Relvado",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "RESTINGA SECA",
+      "ibgeCode": "4315503",
+      "ibgeMunicipality": "Restinga Sêca",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "RIO DOS INDIOS",
+      "ibgeCode": "4315552",
+      "ibgeMunicipality": "Rio dos Índios",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "RIO GRANDE",
+      "ibgeCode": "4315602",
+      "ibgeMunicipality": "Rio Grande",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "RIO PARDO",
+      "ibgeCode": "4315701",
+      "ibgeMunicipality": "Rio Pardo",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "RIOZINHO",
+      "ibgeCode": "4315750",
+      "ibgeMunicipality": "Riozinho",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "ROCA SALES",
+      "ibgeCode": "4315800",
+      "ibgeMunicipality": "Roca Sales",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "RODEIO BONITO",
+      "ibgeCode": "4315909",
+      "ibgeMunicipality": "Rodeio Bonito",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "ROLADOR",
+      "ibgeCode": "4315958",
+      "ibgeMunicipality": "Rolador",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "ROLANTE",
+      "ibgeCode": "4316006",
+      "ibgeMunicipality": "Rolante",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "RONDA ALTA",
+      "ibgeCode": "4316105",
+      "ibgeMunicipality": "Ronda Alta",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "RONDINHA",
+      "ibgeCode": "4316204",
+      "ibgeMunicipality": "Rondinha",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "ROQUE GONZALES",
+      "ibgeCode": "4316303",
+      "ibgeMunicipality": "Roque Gonzales",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "ROSARIO DO SUL",
+      "ibgeCode": "4316402",
+      "ibgeMunicipality": "Rosário do Sul",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SAGRADA FAMILIA",
+      "ibgeCode": "4316428",
+      "ibgeMunicipality": "Sagrada Família",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SALDANHA MARINHO",
+      "ibgeCode": "4316436",
+      "ibgeMunicipality": "Saldanha Marinho",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SALTO DO JACUI",
+      "ibgeCode": "4316451",
+      "ibgeMunicipality": "Salto do Jacuí",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SALVADOR DAS MISSOES",
+      "ibgeCode": "4316477",
+      "ibgeMunicipality": "Salvador das Missões",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SALVADOR DO SUL",
+      "ibgeCode": "4316501",
+      "ibgeMunicipality": "Salvador do Sul",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SANANDUVA",
+      "ibgeCode": "4316600",
+      "ibgeMunicipality": "Sananduva",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SANTA BARBARA DO SUL",
+      "ibgeCode": "4316709",
+      "ibgeMunicipality": "Santa Bárbara do Sul",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SANTA CECILIA DO SUL",
+      "ibgeCode": "4316733",
+      "ibgeMunicipality": "Santa Cecília do Sul",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SANTA CLARA DO SUL",
+      "ibgeCode": "4316758",
+      "ibgeMunicipality": "Santa Clara do Sul",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SANTA CRUZ DO SUL",
+      "ibgeCode": "4316808",
+      "ibgeMunicipality": "Santa Cruz do Sul",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SANTA MARIA",
+      "ibgeCode": "4316907",
+      "ibgeMunicipality": "Santa Maria",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SANTA MARIA DO HERVAL",
+      "ibgeCode": "4316956",
+      "ibgeMunicipality": "Santa Maria do Herval",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SANTA MARGARIDA DO SUL",
+      "ibgeCode": "4316972",
+      "ibgeMunicipality": "Santa Margarida do Sul",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SANTANA DA BOA VISTA",
+      "ibgeCode": "4317004",
+      "ibgeMunicipality": "Santana da Boa Vista",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SANTANA DO LIVRAMENTO",
+      "ibgeCode": "4317103",
+      "ibgeMunicipality": "Sant'Ana do Livramento",
+      "matchMethod": "alias-manual-por-codigo"
+    },
+    {
+      "sspMunicipality": "SANTA ROSA",
+      "ibgeCode": "4317202",
+      "ibgeMunicipality": "Santa Rosa",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SANTA TEREZA",
+      "ibgeCode": "4317251",
+      "ibgeMunicipality": "Santa Tereza",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SANTA VITORIA DO PALMAR",
+      "ibgeCode": "4317301",
+      "ibgeMunicipality": "Santa Vitória do Palmar",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SANTIAGO",
+      "ibgeCode": "4317400",
+      "ibgeMunicipality": "Santiago",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SANTO ANGELO",
+      "ibgeCode": "4317509",
+      "ibgeMunicipality": "Santo Ângelo",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SANTO ANTONIO DO PALMA",
+      "ibgeCode": "4317558",
+      "ibgeMunicipality": "Santo Antônio do Palma",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SANTO ANTONIO DA PATRULHA",
+      "ibgeCode": "4317608",
+      "ibgeMunicipality": "Santo Antônio da Patrulha",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SANTO ANTONIO DAS MISSOES",
+      "ibgeCode": "4317707",
+      "ibgeMunicipality": "Santo Antônio das Missões",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SANTO ANTONIO DO PLANALTO",
+      "ibgeCode": "4317756",
+      "ibgeMunicipality": "Santo Antônio do Planalto",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SANTO AUGUSTO",
+      "ibgeCode": "4317806",
+      "ibgeMunicipality": "Santo Augusto",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SANTO CRISTO",
+      "ibgeCode": "4317905",
+      "ibgeMunicipality": "Santo Cristo",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SANTO EXPEDITO DO SUL",
+      "ibgeCode": "4317954",
+      "ibgeMunicipality": "Santo Expedito do Sul",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SAO BORJA",
+      "ibgeCode": "4318002",
+      "ibgeMunicipality": "São Borja",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SAO DOMINGOS DO SUL",
+      "ibgeCode": "4318051",
+      "ibgeMunicipality": "São Domingos do Sul",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SAO FRANCISCO DE ASSIS",
+      "ibgeCode": "4318101",
+      "ibgeMunicipality": "São Francisco de Assis",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SAO FRANCISCO DE PAULA",
+      "ibgeCode": "4318200",
+      "ibgeMunicipality": "São Francisco de Paula",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SAO GABRIEL",
+      "ibgeCode": "4318309",
+      "ibgeMunicipality": "São Gabriel",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SAO JERONIMO",
+      "ibgeCode": "4318408",
+      "ibgeMunicipality": "São Jerônimo",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SAO JOAO DA URTIGA",
+      "ibgeCode": "4318424",
+      "ibgeMunicipality": "São João da Urtiga",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SAO JOAO DO POLESINE",
+      "ibgeCode": "4318432",
+      "ibgeMunicipality": "São João do Polêsine",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SAO JORGE",
+      "ibgeCode": "4318440",
+      "ibgeMunicipality": "São Jorge",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SAO JOSE DAS MISSOES",
+      "ibgeCode": "4318457",
+      "ibgeMunicipality": "São José das Missões",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SAO JOSE DO HERVAL",
+      "ibgeCode": "4318465",
+      "ibgeMunicipality": "São José do Herval",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SAO JOSE DO HORTENCIO",
+      "ibgeCode": "4318481",
+      "ibgeMunicipality": "São José do Hortêncio",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SAO JOSE DO INHACORA",
+      "ibgeCode": "4318499",
+      "ibgeMunicipality": "São José do Inhacorá",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SAO JOSE DO NORTE",
+      "ibgeCode": "4318507",
+      "ibgeMunicipality": "São José do Norte",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SAO JOSE DO OURO",
+      "ibgeCode": "4318606",
+      "ibgeMunicipality": "São José do Ouro",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SAO JOSE DO SUL",
+      "ibgeCode": "4318614",
+      "ibgeMunicipality": "São José do Sul",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SAO JOSE DOS AUSENTES",
+      "ibgeCode": "4318622",
+      "ibgeMunicipality": "São José dos Ausentes",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SAO LEOPOLDO",
+      "ibgeCode": "4318705",
+      "ibgeMunicipality": "São Leopoldo",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SAO LOURENCO DO SUL",
+      "ibgeCode": "4318804",
+      "ibgeMunicipality": "São Lourenço do Sul",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SAO LUIZ GONZAGA",
+      "ibgeCode": "4318903",
+      "ibgeMunicipality": "São Luiz Gonzaga",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SAO MARCOS",
+      "ibgeCode": "4319000",
+      "ibgeMunicipality": "São Marcos",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SAO MARTINHO",
+      "ibgeCode": "4319109",
+      "ibgeMunicipality": "São Martinho",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SAO MARTINHO DA SERRA",
+      "ibgeCode": "4319125",
+      "ibgeMunicipality": "São Martinho da Serra",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SAO MIGUEL DAS MISSOES",
+      "ibgeCode": "4319158",
+      "ibgeMunicipality": "São Miguel das Missões",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SAO NICOLAU",
+      "ibgeCode": "4319208",
+      "ibgeMunicipality": "São Nicolau",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SAO PAULO DAS MISSOES",
+      "ibgeCode": "4319307",
+      "ibgeMunicipality": "São Paulo das Missões",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SAO PEDRO DA SERRA",
+      "ibgeCode": "4319356",
+      "ibgeMunicipality": "São Pedro da Serra",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SAO PEDRO DAS MISSOES",
+      "ibgeCode": "4319364",
+      "ibgeMunicipality": "São Pedro das Missões",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SAO PEDRO DO BUTIA",
+      "ibgeCode": "4319372",
+      "ibgeMunicipality": "São Pedro do Butiá",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SAO PEDRO DO SUL",
+      "ibgeCode": "4319406",
+      "ibgeMunicipality": "São Pedro do Sul",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SAO SEBASTIAO DO CAI",
+      "ibgeCode": "4319505",
+      "ibgeMunicipality": "São Sebastião do Caí",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SAO SEPE",
+      "ibgeCode": "4319604",
+      "ibgeMunicipality": "São Sepé",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SAO VALENTIM",
+      "ibgeCode": "4319703",
+      "ibgeMunicipality": "São Valentim",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SAO VALENTIM DO SUL",
+      "ibgeCode": "4319711",
+      "ibgeMunicipality": "São Valentim do Sul",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SAO VALERIO DO SUL",
+      "ibgeCode": "4319737",
+      "ibgeMunicipality": "São Valério do Sul",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SAO VENDELINO",
+      "ibgeCode": "4319752",
+      "ibgeMunicipality": "São Vendelino",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SAO VICENTE DO SUL",
+      "ibgeCode": "4319802",
+      "ibgeMunicipality": "São Vicente do Sul",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SAPIRANGA",
+      "ibgeCode": "4319901",
+      "ibgeMunicipality": "Sapiranga",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SAPUCAIA DO SUL",
+      "ibgeCode": "4320008",
+      "ibgeMunicipality": "Sapucaia do Sul",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SARANDI",
+      "ibgeCode": "4320107",
+      "ibgeMunicipality": "Sarandi",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SEBERI",
+      "ibgeCode": "4320206",
+      "ibgeMunicipality": "Seberi",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SEDE NOVA",
+      "ibgeCode": "4320230",
+      "ibgeMunicipality": "Sede Nova",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SEGREDO",
+      "ibgeCode": "4320263",
+      "ibgeMunicipality": "Segredo",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SELBACH",
+      "ibgeCode": "4320305",
+      "ibgeMunicipality": "Selbach",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SENADOR SALGADO FILHO",
+      "ibgeCode": "4320321",
+      "ibgeMunicipality": "Senador Salgado Filho",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SENTINELA DO SUL",
+      "ibgeCode": "4320354",
+      "ibgeMunicipality": "Sentinela do Sul",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SERAFINA CORREA",
+      "ibgeCode": "4320404",
+      "ibgeMunicipality": "Serafina Corrêa",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SERIO",
+      "ibgeCode": "4320453",
+      "ibgeMunicipality": "Sério",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SERTAO",
+      "ibgeCode": "4320503",
+      "ibgeMunicipality": "Sertão",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SERTAO SANTANA",
+      "ibgeCode": "4320552",
+      "ibgeMunicipality": "Sertão Santana",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SETE DE SETEMBRO",
+      "ibgeCode": "4320578",
+      "ibgeMunicipality": "Sete de Setembro",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SEVERIANO DE ALMEIDA",
+      "ibgeCode": "4320602",
+      "ibgeMunicipality": "Severiano de Almeida",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SILVEIRA MARTINS",
+      "ibgeCode": "4320651",
+      "ibgeMunicipality": "Silveira Martins",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SINIMBU",
+      "ibgeCode": "4320677",
+      "ibgeMunicipality": "Sinimbu",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SOBRADINHO",
+      "ibgeCode": "4320701",
+      "ibgeMunicipality": "Sobradinho",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "SOLEDADE",
+      "ibgeCode": "4320800",
+      "ibgeMunicipality": "Soledade",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "TABAI",
+      "ibgeCode": "4320859",
+      "ibgeMunicipality": "Tabaí",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "TAPEJARA",
+      "ibgeCode": "4320909",
+      "ibgeMunicipality": "Tapejara",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "TAPERA",
+      "ibgeCode": "4321006",
+      "ibgeMunicipality": "Tapera",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "TAPES",
+      "ibgeCode": "4321105",
+      "ibgeMunicipality": "Tapes",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "TAQUARA",
+      "ibgeCode": "4321204",
+      "ibgeMunicipality": "Taquara",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "TAQUARI",
+      "ibgeCode": "4321303",
+      "ibgeMunicipality": "Taquari",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "TAQUARUCU DO SUL",
+      "ibgeCode": "4321329",
+      "ibgeMunicipality": "Taquaruçu do Sul",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "TAVARES",
+      "ibgeCode": "4321352",
+      "ibgeMunicipality": "Tavares",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "TENENTE PORTELA",
+      "ibgeCode": "4321402",
+      "ibgeMunicipality": "Tenente Portela",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "TERRA DE AREIA",
+      "ibgeCode": "4321436",
+      "ibgeMunicipality": "Terra de Areia",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "TEUTONIA",
+      "ibgeCode": "4321451",
+      "ibgeMunicipality": "Teutônia",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "TIO HUGO",
+      "ibgeCode": "4321469",
+      "ibgeMunicipality": "Tio Hugo",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "TIRADENTES DO SUL",
+      "ibgeCode": "4321477",
+      "ibgeMunicipality": "Tiradentes do Sul",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "TOROPI",
+      "ibgeCode": "4321493",
+      "ibgeMunicipality": "Toropi",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "TORRES",
+      "ibgeCode": "4321501",
+      "ibgeMunicipality": "Torres",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "TRAMANDAI",
+      "ibgeCode": "4321600",
+      "ibgeMunicipality": "Tramandaí",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "TRAVESSEIRO",
+      "ibgeCode": "4321626",
+      "ibgeMunicipality": "Travesseiro",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "TRES ARROIOS",
+      "ibgeCode": "4321634",
+      "ibgeMunicipality": "Três Arroios",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "TRES CACHOEIRAS",
+      "ibgeCode": "4321667",
+      "ibgeMunicipality": "Três Cachoeiras",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "TRES COROAS",
+      "ibgeCode": "4321709",
+      "ibgeMunicipality": "Três Coroas",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "TRES DE MAIO",
+      "ibgeCode": "4321808",
+      "ibgeMunicipality": "Três de Maio",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "TRES FORQUILHAS",
+      "ibgeCode": "4321832",
+      "ibgeMunicipality": "Três Forquilhas",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "TRES PALMEIRAS",
+      "ibgeCode": "4321857",
+      "ibgeMunicipality": "Três Palmeiras",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "TRES PASSOS",
+      "ibgeCode": "4321907",
+      "ibgeMunicipality": "Três Passos",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "TRINDADE DO SUL",
+      "ibgeCode": "4321956",
+      "ibgeMunicipality": "Trindade do Sul",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "TRIUNFO",
+      "ibgeCode": "4322004",
+      "ibgeMunicipality": "Triunfo",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "TUCUNDUVA",
+      "ibgeCode": "4322103",
+      "ibgeMunicipality": "Tucunduva",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "TUNAS",
+      "ibgeCode": "4322152",
+      "ibgeMunicipality": "Tunas",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "TUPANCI DO SUL",
+      "ibgeCode": "4322186",
+      "ibgeMunicipality": "Tupanci do Sul",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "TUPANCIRETA",
+      "ibgeCode": "4322202",
+      "ibgeMunicipality": "Tupanciretã",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "TUPANDI",
+      "ibgeCode": "4322251",
+      "ibgeMunicipality": "Tupandi",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "TUPARENDI",
+      "ibgeCode": "4322301",
+      "ibgeMunicipality": "Tuparendi",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "TURUCU",
+      "ibgeCode": "4322327",
+      "ibgeMunicipality": "Turuçu",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "UBIRETAMA",
+      "ibgeCode": "4322343",
+      "ibgeMunicipality": "Ubiretama",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "UNIAO DA SERRA",
+      "ibgeCode": "4322350",
+      "ibgeMunicipality": "União da Serra",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "UNISTALDA",
+      "ibgeCode": "4322376",
+      "ibgeMunicipality": "Unistalda",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "URUGUAIANA",
+      "ibgeCode": "4322400",
+      "ibgeMunicipality": "Uruguaiana",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "VACARIA",
+      "ibgeCode": "4322509",
+      "ibgeMunicipality": "Vacaria",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "VALE VERDE",
+      "ibgeCode": "4322525",
+      "ibgeMunicipality": "Vale Verde",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "VALE DO SOL",
+      "ibgeCode": "4322533",
+      "ibgeMunicipality": "Vale do Sol",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "VALE REAL",
+      "ibgeCode": "4322541",
+      "ibgeMunicipality": "Vale Real",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "VANINI",
+      "ibgeCode": "4322558",
+      "ibgeMunicipality": "Vanini",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "VENANCIO AIRES",
+      "ibgeCode": "4322608",
+      "ibgeMunicipality": "Venâncio Aires",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "VERA CRUZ",
+      "ibgeCode": "4322707",
+      "ibgeMunicipality": "Vera Cruz",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "VERANOPOLIS",
+      "ibgeCode": "4322806",
+      "ibgeMunicipality": "Veranópolis",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "VESPASIANO CORREA",
+      "ibgeCode": "4322855",
+      "ibgeMunicipality": "Vespasiano Corrêa",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "VIADUTOS",
+      "ibgeCode": "4322905",
+      "ibgeMunicipality": "Viadutos",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "VIAMAO",
+      "ibgeCode": "4323002",
+      "ibgeMunicipality": "Viamão",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "VICENTE DUTRA",
+      "ibgeCode": "4323101",
+      "ibgeMunicipality": "Vicente Dutra",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "VICTOR GRAEFF",
+      "ibgeCode": "4323200",
+      "ibgeMunicipality": "Victor Graeff",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "VILA FLORES",
+      "ibgeCode": "4323309",
+      "ibgeMunicipality": "Vila Flores",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "VILA LANGARO",
+      "ibgeCode": "4323358",
+      "ibgeMunicipality": "Vila Lângaro",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "VILA MARIA",
+      "ibgeCode": "4323408",
+      "ibgeMunicipality": "Vila Maria",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "VILA NOVA DO SUL",
+      "ibgeCode": "4323457",
+      "ibgeMunicipality": "Vila Nova do Sul",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "VISTA ALEGRE",
+      "ibgeCode": "4323507",
+      "ibgeMunicipality": "Vista Alegre",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "VISTA ALEGRE DO PRATA",
+      "ibgeCode": "4323606",
+      "ibgeMunicipality": "Vista Alegre do Prata",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "VISTA GAUCHA",
+      "ibgeCode": "4323705",
+      "ibgeMunicipality": "Vista Gaúcha",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "VITORIA DAS MISSOES",
+      "ibgeCode": "4323754",
+      "ibgeMunicipality": "Vitória das Missões",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "WESTFALIA",
+      "ibgeCode": "4323770",
+      "ibgeMunicipality": "Westfália",
+      "matchMethod": "nome-normalizado-unico"
+    },
+    {
+      "sspMunicipality": "XANGRILA",
+      "ibgeCode": "4323804",
+      "ibgeMunicipality": "Xangri-lá",
+      "matchMethod": "alias-manual-por-codigo"
+    }
+  ]
+}
