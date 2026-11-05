@@ -51,6 +51,9 @@ body {
 
 button, a { font: inherit; }
 
+a { color: var(--accent); }
+a:hover { color: var(--accent-hover); }
+
 ::selection { color: var(--white); background: var(--accent); }
 
 @media (prefers-reduced-motion: reduce) {

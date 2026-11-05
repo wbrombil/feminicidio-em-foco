@@ -350,7 +350,7 @@
 .municipality-panel .network-service-detail { overflow-wrap: anywhere; }
 .municipality-panel .selected-service-details dl { margin: 0; }
 .municipality-panel .selected-service-details .network-record-source { margin-top: 0.1rem; }
-.municipality-panel .network-service-detail a { color: inherit; text-underline-offset: 3px; }
+.municipality-panel .network-service-detail a { color: var(--accent); text-underline-offset: 3px; }
 .municipality-panel .network-service-detail a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 .network-record-source { display: inline-block; margin-top: 1rem; font-size: var(--text-xs); }
 .network-record-source:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
@@ -362,7 +362,7 @@
 }
 .network-enrichment-source p { margin: 0.35rem 0 0; font-size: var(--text-xs); overflow-wrap: anywhere; }
 .network-enrichment-source p:first-child { margin-top: 0; }
-.network-enrichment-source a { color: var(--ink); text-underline-offset: 3px; }
+.network-enrichment-source a { color: var(--accent); text-underline-offset: 3px; }
 .network-enrichment-source a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 
 .municipality-count {
@@ -534,7 +534,7 @@
 }
 
 .map-source-note a {
-  color: inherit;
+  color: var(--accent);
   text-underline-offset: 3px;
 }
 
