@@ -150,7 +150,16 @@ function AnnualDataDialog({ year }: { year: number }) {
             <h2 id={`annual-dialog-title-${year}`}>Dados municipais de {year}</h2>
             <p>Fonte: <a href={data?.source.url ?? annualSourceUrl} target="_blank" rel="noreferrer">SSP-RS — Indicadores da Violência Contra a Mulher</a></p>
           </div>
-          <button className="annual-dialog-close" type="button" aria-label="Fechar visualização dos dados" onClick={() => dialogRef.current?.close()}>×</button>
+          <div className="annual-dialog-actions">
+            {data && (
+              <nav className="annual-data-pagination" aria-label={`Navegação dos municípios de ${year}`}>
+                <button type="button" onClick={() => setPage((current) => Math.max(1, current - 1))} disabled={page <= 1}>Anterior</button>
+                <span>Página {page} de {pageCount}</span>
+                <button type="button" onClick={() => setPage((current) => Math.min(pageCount, current + 1))} disabled={page >= pageCount}>Próxima</button>
+              </nav>
+            )}
+            <button className="annual-dialog-close" type="button" aria-label="Fechar visualização dos dados" onClick={() => dialogRef.current?.close()}>×</button>
+          </div>
         </div>
         <div className="annual-dialog-body">
           {loading && <p role="status">Carregando dados…</p>}
@@ -214,11 +223,6 @@ function AnnualDataDialog({ year }: { year: number }) {
                 ))}
                 {visibleMunicipalities.length === 0 && <p className="annual-data-empty">Nenhum município corresponde à busca.</p>}
               </div>
-              <nav className="annual-data-pagination" aria-label={`Navegação dos municípios de ${year}`}>
-                <button type="button" onClick={() => setPage((current) => Math.max(1, current - 1))} disabled={page <= 1}>Anterior</button>
-                <span>Página {page} de {pageCount}</span>
-                <button type="button" onClick={() => setPage((current) => Math.min(pageCount, current + 1))} disabled={page >= pageCount}>Próxima</button>
-              </nav>
             </>
           )}
         </div>
