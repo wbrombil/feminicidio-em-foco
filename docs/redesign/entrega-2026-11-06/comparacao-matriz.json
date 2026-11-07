@@ -1,8 +1,0 @@
-{
-  "checked": 88,
-  "expected": 88,
-  "mismatches": [],
-  "missing": [],
-  "extra": [],
-  "note": "Compara resumo do mapa capturado com arquivos JSON locais; não audita planilhas originais ou todos os municípios."
-}

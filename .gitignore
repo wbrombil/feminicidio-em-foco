@@ -23,6 +23,7 @@ coverage
 
 # Local collaboration history,
 cntx.txt
+/docs/redesign/
 
 # Editor directories and files
 .vscode/*
