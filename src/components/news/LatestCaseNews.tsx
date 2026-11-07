@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import './LatestCaseNews.css'
 import caseNewsUrl from '../../data/ssp-rs/case-news-2026.json?url'
 import municipalityCrosswalkUrl from '../../data/ibge/ssp-rs-municipality-crosswalk.json?url'
 

@@ -1,0 +1,566 @@
+{
+  "url": "http://localhost:5173/",
+  "profile": "isolado temporário",
+  "views": {
+    "desktop": {
+      "width": 1440,
+      "height": 900,
+      "documentWidth": 1425,
+      "documentHeight": 6273,
+      "title": "Feminicídio em Foco — Dados, Justiça e Rede de Proteção",
+      "headings": [
+        "Feminicídio em Foco",
+        "Explore os dados por município",
+        "Serviços da rede de proteção",
+        "Escolha um município ou serviço",
+        "Serviços da rede de proteção no Rio Grande do Sul",
+        "Notícias recentes sobre feminicídios consumados",
+        "A violência pode assumir diferentes formas.",
+        "Física",
+        "Psicológica",
+        "Sexual",
+        "Patrimonial",
+        "Moral",
+        "Vicária",
+        "Sinais de controle e perseguição",
+        "Medidas protetivas: o que são e como buscar proteção",
+        "Violência sexual: atendimento de saúde e acolhimento",
+        "Qual serviço procurar?",
+        "Violência vicária e vicaricídio: qual a diferença?",
+        "Escute, acolha e respeite o tempo dela.",
+        "Precisa de apoio?",
+        "Brigada Militar",
+        "Central de Atendimento à Mulher",
+        "Escuta Lilás",
+        "Metodologia e fontes",
+        "Como interpretar",
+        "Ver data de atualização das planilhas incluídas",
+        "Sobre a camada de serviços"
+      ],
+      "summary": "REGISTROS NO RS\n56\nMUNICÍPIOS COM REGISTROS\n39 de 497\nRECORTE EXIBIDO\njaneiro a setembro de 2026",
+      "logo": "/logo-feminicidio-em-foco-horizontal.svg"
+    },
+    "celular": {
+      "width": 390,
+      "height": 844,
+      "documentWidth": 375,
+      "documentHeight": 10535,
+      "title": "Feminicídio em Foco — Dados, Justiça e Rede de Proteção",
+      "headings": [
+        "Feminicídio em Foco",
+        "Explore os dados por município",
+        "Serviços da rede de proteção",
+        "Escolha um município ou serviço",
+        "Serviços da rede de proteção no Rio Grande do Sul",
+        "Notícias recentes sobre feminicídios consumados",
+        "A violência pode assumir diferentes formas.",
+        "Física",
+        "Psicológica",
+        "Sexual",
+        "Patrimonial",
+        "Moral",
+        "Vicária",
+        "Sinais de controle e perseguição",
+        "Medidas protetivas: o que são e como buscar proteção",
+        "Violência sexual: atendimento de saúde e acolhimento",
+        "Qual serviço procurar?",
+        "Violência vicária e vicaricídio: qual a diferença?",
+        "Escute, acolha e respeite o tempo dela.",
+        "Precisa de apoio?",
+        "Brigada Militar",
+        "Central de Atendimento à Mulher",
+        "Escuta Lilás",
+        "Metodologia e fontes",
+        "Como interpretar",
+        "Ver data de atualização das planilhas incluídas",
+        "Sobre a camada de serviços"
+      ],
+      "summary": "REGISTROS NO RS\n56\nMUNICÍPIOS COM REGISTROS\n39 de 497\nRECORTE EXIBIDO\njaneiro a setembro de 2026",
+      "logo": "/logo-feminicidio-em-foco-horizontal.svg"
+    },
+    "estreito": {
+      "width": 320,
+      "height": 800,
+      "documentWidth": 305,
+      "documentHeight": 11758,
+      "title": "Feminicídio em Foco — Dados, Justiça e Rede de Proteção",
+      "headings": [
+        "Feminicídio em Foco",
+        "Explore os dados por município",
+        "Serviços da rede de proteção",
+        "Escolha um município ou serviço",
+        "Serviços da rede de proteção no Rio Grande do Sul",
+        "Notícias recentes sobre feminicídios consumados",
+        "A violência pode assumir diferentes formas.",
+        "Física",
+        "Psicológica",
+        "Sexual",
+        "Patrimonial",
+        "Moral",
+        "Vicária",
+        "Sinais de controle e perseguição",
+        "Medidas protetivas: o que são e como buscar proteção",
+        "Violência sexual: atendimento de saúde e acolhimento",
+        "Qual serviço procurar?",
+        "Violência vicária e vicaricídio: qual a diferença?",
+        "Escute, acolha e respeite o tempo dela.",
+        "Precisa de apoio?",
+        "Brigada Militar",
+        "Central de Atendimento à Mulher",
+        "Escuta Lilás",
+        "Metodologia e fontes",
+        "Como interpretar",
+        "Ver data de atualização das planilhas incluídas",
+        "Sobre a camada de serviços"
+      ],
+      "summary": "REGISTROS NO RS\n56\nMUNICÍPIOS COM REGISTROS\n39 de 497\nRECORTE EXIBIDO\njaneiro a setembro de 2026",
+      "logo": "/logo-feminicidio-em-foco-horizontal.svg"
+    },
+    "intermediario": {
+      "width": 768,
+      "height": 900,
+      "documentWidth": 753,
+      "documentHeight": 6395,
+      "title": "Feminicídio em Foco — Dados, Justiça e Rede de Proteção",
+      "headings": [
+        "Feminicídio em Foco",
+        "Explore os dados por município",
+        "Serviços da rede de proteção",
+        "Escolha um município ou serviço",
+        "Serviços da rede de proteção no Rio Grande do Sul",
+        "Notícias recentes sobre feminicídios consumados",
+        "A violência pode assumir diferentes formas.",
+        "Física",
+        "Psicológica",
+        "Sexual",
+        "Patrimonial",
+        "Moral",
+        "Vicária",
+        "Sinais de controle e perseguição",
+        "Medidas protetivas: o que são e como buscar proteção",
+        "Violência sexual: atendimento de saúde e acolhimento",
+        "Qual serviço procurar?",
+        "Violência vicária e vicaricídio: qual a diferença?",
+        "Escute, acolha e respeite o tempo dela.",
+        "Precisa de apoio?",
+        "Brigada Militar",
+        "Central de Atendimento à Mulher",
+        "Escuta Lilás",
+        "Metodologia e fontes",
+        "Como interpretar",
+        "Ver data de atualização das planilhas incluídas",
+        "Sobre a camada de serviços"
+      ],
+      "summary": "REGISTROS NO RS\n56\nMUNICÍPIOS COM REGISTROS\n39 de 497\nRECORTE EXIBIDO\njaneiro a setembro de 2026",
+      "logo": "/logo-feminicidio-em-foco-horizontal.svg"
+    },
+    "intermediario-largo": {
+      "width": 1024,
+      "height": 900,
+      "documentWidth": 1009,
+      "documentHeight": 6123,
+      "title": "Feminicídio em Foco — Dados, Justiça e Rede de Proteção",
+      "headings": [
+        "Feminicídio em Foco",
+        "Explore os dados por município",
+        "Serviços da rede de proteção",
+        "Escolha um município ou serviço",
+        "Serviços da rede de proteção no Rio Grande do Sul",
+        "Notícias recentes sobre feminicídios consumados",
+        "A violência pode assumir diferentes formas.",
+        "Física",
+        "Psicológica",
+        "Sexual",
+        "Patrimonial",
+        "Moral",
+        "Vicária",
+        "Sinais de controle e perseguição",
+        "Medidas protetivas: o que são e como buscar proteção",
+        "Violência sexual: atendimento de saúde e acolhimento",
+        "Qual serviço procurar?",
+        "Violência vicária e vicaricídio: qual a diferença?",
+        "Escute, acolha e respeite o tempo dela.",
+        "Precisa de apoio?",
+        "Brigada Militar",
+        "Central de Atendimento à Mulher",
+        "Escuta Lilás",
+        "Metodologia e fontes",
+        "Como interpretar",
+        "Ver data de atualização das planilhas incluídas",
+        "Sobre a camada de serviços"
+      ],
+      "summary": "REGISTROS NO RS\n56\nMUNICÍPIOS COM REGISTROS\n39 de 497\nRECORTE EXIBIDO\njaneiro a setembro de 2026",
+      "logo": "/logo-feminicidio-em-foco-horizontal.svg"
+    }
+  },
+  "interactions": {
+    "default": {
+      "selects": [
+        {
+          "value": "2026",
+          "options": 7
+        },
+        {
+          "value": "",
+          "options": 10
+        },
+        {
+          "value": "",
+          "options": 498
+        }
+      ],
+      "checks": [
+        true,
+        true
+      ],
+      "panel": "LEITURA DO MAPA\nEscolha um município ou serviço\nServiços da rede de proteção no Rio Grande do Sul"
+    },
+    "municipality": "MUNICÍPIO SELECIONADO\nLimpar seleção\nMunicípio Porto Alegre selecionado.\nPorto Alegre\n10\n\nregistros de feminicídio consumado no recorte.\n\nPeríodo\njaneiro a setembro de 2026\nCódigo IBGE\n4314902\nReferências jornalísticas\nServiços da rede de proteção em Porto Alegre",
+    "news": "Referências jornalísticas\nGZH\n28/07/2026\nEx-namorado de adolescente vítima de feminicídio na Zona Sul de Porto Alegre é preso\n, abre em nova aba\nRádio Pampa\n22/05/2026\nRS tem seu 34º feminicídio este ano. Vítima é uma idosa morta pelo neto em Porto Alegre\n, abre em nova aba\nCorreio do Povo\n09/05/2026\nMorre mulher baleada na cabeça em Porto Alegre e RS chega a 33 feminicídios em 2026\n, abre em nova aba\nABC+\n07/05/2026\nDois feminicídios em Porto Alegre elevam para 33 o número de vítimas no RS em 2026\n, abre em nova aba",
+    "directory": "Serviços da rede de proteção em Porto Alegre\nCentro de Referência de Atendimento da Mulher – Márcia Calixto\nPorto Alegre · Centro de Referência da Mulher\nCentro de Referência Estadual da Mulher Vânia Araújo Machado\nPorto Alegre · Centro de Referência da Mulher\n1ª Delegacia de Polícia Especializada de Proteção à Mulher Porto Alegre/DIPAM/DPGV\nPorto Alegre · Unidade policial especializada\n2ª Delegacia de Polícia Especializada de Proteção à Mulher Porto Alegre/DIPAM/DPGV\nPorto Alegre · Unidade policial especializada",
+    "annual2026": "Dados municipais de 2026\n\nFonte: SSP-RS — Indicadores da Violência Contra a Mulher\n\nAnterior\nPágina 1 de 20\nPróxima\n×\nBuscar município\n\n497 municípios · exibindo 1–25\n\nFeminicídios consumados registrados por município e mês — 2026\nMunicípio (SSP-RS)\tJaneiro\tFevereiro\tMarço\tAbril\tMaio\tJunho\tJulho\tAgosto\tSetembro\tOutubro\tNovembro\tDezembro\tTotal anual\nACEGUA\t0\t0\t0\t0\t0\t0\t0\t0\t0\tIndisponível\tIndisponível\tIndisponível\t0\nAGUA SANTA\t0\t0\t0\t0\t0\t0\t0\t0\t0\tIndisponível\tIndisponível\tIndisponível\t0\nAGUDO\t0\t0\t0\t0\t0\t0\t0\t0\t0\tIndisponível\tIndisponível\tIndisponível\t0\nAJURICABA\t0\t0\t0\t0\t0\t0\t0\t0\t0\tIndisponível\tIndisponível\tIndisponível\t0\nALECRIM\t0\t0\t0\t0\t0\t1\t0\t0\t0\tIndisponível\tIndisponível\tIndisponível\t1\nALEGRETE\t0\t0\t0\t0\t0\t0\t0\t0\t0\tIndisponível\tIndisponível\tIndisponível\t0\nALEGRIA\t0\t0\t0\t0\t0\t0\t0\t0\t0\tIndisponível\tIndisponível\tIndisponível\t0\nALMIRANTE TAMANDARE DO SUL\t0\t0\t0\t0\t0\t0\t0\t0\t0\tIndisponível\tIndisponível\tIndisponível\t0\nALPESTRE\t0\t0\t0\t0\t0\t0\t0\t0\t0\tIndisponível\tIndisponível\tIndisponível\t0\nALTO ALEGRE\t0\t0\t0\t0\t0\t0\t0\t0\t0\tIndisponível\tIndisponível\tIndisponível\t0\nALTO FELIZ\t0\t0\t0\t0\t0\t0\t0\t0\t0\tIndisponível\tIndisponível\tIndisponível\t0\nALVORADA\t0\t0\t0\t0\t0\t0\t0\t0\t0\tIndisponível\tIndisponível\tIndisponível\t0\nAMARAL FERRADOR\t0\t0\t0\t0\t0\t0\t0\t0\t0\tIndisponível\tIndisponível\tIndisponível\t0\nAMETISTA DO SUL\t0\t0\t0\t0\t0\t0\t0\t0\t0\tIndisponível\tIndisponível\tIndisponível\t0\nANDRE DA ROCHA\t0\t0\t0\t0\t0\t0\t0\t0\t0\tIndisponível\tIndisponível\tIndisponível\t0\nANTA GORDA\t0\t0\t0\t0\t0\t0\t0\t0\t0\tIndisponível\tIndisponível\tIndisponível\t0\nANTONIO PRADO\t0\t0\t0\t0\t0\t0\t0\t0\t0\tIndisponível\tIndisponível\tIndisponível\t0\nARAMBARE\t0\t0\t0\t0\t0\t0\t0\t0\t0\tIndisponível\tIndisponível\tIndisponível\t0\nARARICA\t0\t0\t0\t0\t0\t0\t0\t0\t0\tIndisponível\tIndisponível\tIndisponível\t0\nARATIBA\t0\t0\t0\t0\t0\t0\t0\t0\t0\tIndisponível\tIndisponível\tIndisponível\t0\nARROIO DO MEIO\t0\t0\t0\t0\t0\t0\t0\t0\t0\tIndisponível",
+    "education": "Sinais de controle e perseguição\n\nExigir senhas, vigiar conversas, controlar deslocamentos, restringir amizades e impedir estudo ou trabalho são comportamentos que merecem atenção. Ameaças e controle não precisam vir acompanhados de agressão física para que você procure orientação.\n\nSe você reconhece essas situações, pode conversar com alguém de confiança e buscar um serviço da rede. Para oferecer apoio, escute sem julgar e respeite as decisões da mulher.",
+    "filterCombinations": [
+      {
+        "checks": [
+          true,
+          true
+        ],
+        "summary": "REGISTROS NO RS\n56\nMUNICÍPIOS COM REGISTROS\n39 de 497\nRECORTE EXIBIDO\njaneiro a setembro de 2026",
+        "directory": "Serviços da rede de proteção em Porto Alegre\nCentro de Referência de Atendimento da Mulher – Márcia Calixto\nPorto Alegre · Centro de Referência da Mulher\nCentro de Referência Estadual da Mulher Vânia Araújo Machado\nPorto Alegre · Centro de Referência da Mulher\n1ª Delegacia de Polícia Especializada de Proteção à Mulher Porto Alegre/DIPAM/DPGV\nPorto Alegre · Unidade policial especializada\n2ª Delegacia de Polícia Especializada de Proteção à Mulher Porto Alegre/DIPAM/DPGV\nPorto Alegre · Unidade policial especializada"
+      },
+      {
+        "checks": [
+          true,
+          false
+        ],
+        "summary": "REGISTROS NO RS\n56\nMUNICÍPIOS COM REGISTROS\n39 de 497\nRECORTE EXIBIDO\njaneiro a setembro de 2026",
+        "directory": "Serviços da rede de proteção em Porto Alegre\nCentro de Referência de Atendimento da Mulher – Márcia Calixto\nPorto Alegre · Centro de Referência da Mulher\nCentro de Referência Estadual da Mulher Vânia Araújo Machado\nPorto Alegre · Centro de Referência da Mulher"
+      },
+      {
+        "checks": [
+          false,
+          true
+        ],
+        "summary": "REGISTROS NO RS\n56\nMUNICÍPIOS COM REGISTROS\n39 de 497\nRECORTE EXIBIDO\njaneiro a setembro de 2026",
+        "directory": "Serviços da rede de proteção em Porto Alegre\n1ª Delegacia de Polícia Especializada de Proteção à Mulher Porto Alegre/DIPAM/DPGV\nPorto Alegre · Unidade policial especializada\n2ª Delegacia de Polícia Especializada de Proteção à Mulher Porto Alegre/DIPAM/DPGV\nPorto Alegre · Unidade policial especializada"
+      },
+      {
+        "checks": [
+          false,
+          false
+        ],
+        "summary": "REGISTROS NO RS\n56\nMUNICÍPIOS COM REGISTROS\n39 de 497\nRECORTE EXIBIDO\njaneiro a setembro de 2026",
+        "directory": "Serviços da rede de proteção em Porto Alegre\nNenhum serviço corresponde aos filtros neste recorte."
+      }
+    ],
+    "service": "MUNICÍPIO SELECIONADO: PORTO ALEGRE\nLimpar seleção\nCentro de Referência de Atendimento da Mulher – Márcia Calixto, Porto Alegre selecionado.\nCENTRO DE REFERÊNCIA DA MULHER\nCentro de Referência de Atendimento da Mulher – Márcia Calixto\n\nPorto Alegre\n\nAv. João Pessoa, 1105 – Farroupilha\n\nTelefone: (51) 98151-5249\n\ncram@smdh.prefpoa.com.br\n\nAtendimento: 8h30 às 17:30h – não fecha ao meio dia\n\nConferido em\n2026-11-02\nVer endereço no Google Maps\nServiços da rede de proteção em Porto Alegre\nCentro de Referência de Atendimento da Mulher – Márcia Calixto\nPorto Alegre · Centro de Referência da Mulher · Serviço selecionado\nCentro de Referência Estadual da Mulher Vânia Araújo Machado\nPorto Alegre · Centro de Referência da Mulher\n1ª Delegacia de Polícia Especializada de Proteção à Mulher Porto Alegre/DIPAM/DPGV\nPorto Alegre · Unidade policial especializada\n2ª Delegacia de Polícia Especializada de Proteção à Mulher Porto Alegre/DIPAM/DPGV\nPorto Alegre · Unidade policial especializada",
+    "afterServiceClear": "MUNICÍPIO SELECIONADO\nLimpar seleção\nMunicípio Porto Alegre selecionado.\nPorto Alegre\n10\n\nregistros de feminicídio consumado no recorte.\n\nPeríodo\njaneiro a setembro de 2026\nCódigo IBGE\n4314902\nReferências jornalísticas\nServiços da rede de proteção em Porto Alegre\nCentro de Referência de Atendimento da Mulher – Márcia Calixto\nPorto Alegre · Centro de Referência da Mulher\nCentro de Referência Estadual da Mulher Vânia Araújo Machado\nPorto Alegre · Centro de Referência da Mulher\n1ª Delegacia de Polícia Especializada de Proteção à Mulher Porto Alegre/DIPAM/DPGV\nPorto Alegre · Unidade policial especializada\n2ª Delegacia de Polícia Especializada de Proteção à Mulher Porto Alegre/DIPAM/DPGV\nPorto Alegre · Unidade policial especializada",
+    "year2025": {
+      "summary": "REGISTROS NO RS\n80\nMUNICÍPIOS COM REGISTROS\n62 de 497\nRECORTE EXIBIDO\njaneiro a dezembro de 2025",
+      "selects": [
+        "2025",
+        "",
+        ""
+      ]
+    },
+    "annualYears": [
+      {
+        "title": "Dados municipais de 2020",
+        "count": "497 municípios · exibindo 1–25",
+        "rows": 26,
+        "hasUnavailable": false
+      },
+      {
+        "title": "Dados municipais de 2021",
+        "count": "497 municípios · exibindo 1–25",
+        "rows": 26,
+        "hasUnavailable": false
+      },
+      {
+        "title": "Dados municipais de 2022",
+        "count": "497 municípios · exibindo 1–25",
+        "rows": 26,
+        "hasUnavailable": false
+      },
+      {
+        "title": "Dados municipais de 2023",
+        "count": "497 municípios · exibindo 1–25",
+        "rows": 26,
+        "hasUnavailable": false
+      },
+      {
+        "title": "Dados municipais de 2024",
+        "count": "497 municípios · exibindo 1–25",
+        "rows": 26,
+        "hasUnavailable": false
+      },
+      {
+        "title": "Dados municipais de 2025",
+        "count": "497 municípios · exibindo 1–25",
+        "rows": 26,
+        "hasUnavailable": false
+      },
+      {
+        "title": "Dados municipais de 2026",
+        "count": "497 municípios · exibindo 1–25",
+        "rows": 26,
+        "hasUnavailable": true
+      }
+    ],
+    "annualPageTwo": "Anterior\nPágina 2 de 20\nPróxima",
+    "annualSearch": "Dados municipais de 2026\n\nFonte: SSP-RS — Indicadores da Violência Contra a Mulher\n\nAnterior\nPágina 1 de 1\nPróxima\n×\nBuscar município\n\n1 município · exibindo 1–1\n\nFeminicídios consumados registrados por município e mês — 2026\nMunicípio (SSP-RS)\tJaneiro\tFevereiro\tMarço\tAbril\tMaio\tJunho\tJulho\tAgosto\tSetembro\tOutubro\tNovembro\tDezembro\tTotal anual\nPORTO ALEGRE\t2\t0\t0\t1\t3\t0\t1\t3\t0\tIndisponível\tIndisponível\tIndisponível\t10",
+    "annualEmpty": true,
+    "focusAfterClose": "view-data-2026",
+    "educationExpanded": [
+      {
+        "summary": "Sinais de controle e perseguição",
+        "content": 425,
+        "open": true
+      },
+      {
+        "summary": "Medidas protetivas: o que são e como buscar proteção",
+        "content": 933,
+        "open": true
+      },
+      {
+        "summary": "Violência sexual: atendimento de saúde e acolhimento",
+        "content": 596,
+        "open": true
+      },
+      {
+        "summary": "Qual serviço procurar?",
+        "content": 1180,
+        "open": true
+      },
+      {
+        "summary": "Violência vicária e vicaricídio: qual a diferença?",
+        "content": 568,
+        "open": true
+      }
+    ],
+    "mobileDialog": {
+      "viewport": [
+        320,
+        800
+      ],
+      "dialog": {
+        "width": 304,
+        "height": 752,
+        "scrollWidth": 302,
+        "clientWidth": 302
+      },
+      "headingHeight": 204.25,
+      "bodyHeight": 545.75,
+      "cards": 10,
+      "unavailable": true
+    },
+    "escapeClose": {
+      "open": false,
+      "focus": "view-data-2026"
+    }
+  },
+  "errors": [],
+  "expectedErrors": [],
+  "content": {
+    "text": "Pular para o mapa\nMapa\nEntenda e busque apoio\nSobre o projeto e os dados\nDADOS, JUSTIÇA E REDE DE PROTEÇÃO\nFeminicídio em Foco\n\nNo Rio Grande do Sul, em 2025, uma mulher foi vítima de feminicídio consumado a cada aproximadamente 4,6 dias, em média.\n\nFonte: SSP-RS · 80 ocorrências\n↗\nExplorar o mapa\nSOBRE O PROJETO E OS DADOS\n\nEste projeto acadêmico reúne informações sobre feminicídios consumados no Rio Grande do Sul desde 2020, com registros organizados por município e mês, além de conteúdos educativos e caminhos de apoio. Os dados e as fontes são contextualizados com cuidado, respeitando a privacidade das pessoas envolvidas.\n\nO que é feminicídio? É o assassinato de uma mulher por razões relacionadas à condição de mulher, envolvendo violência doméstica e familiar ou menosprezo ou discriminação à condição de mulher. O recorte deste site reúne os feminicídios consumados registrados pela SSP-RS. Definição legal · Código Penal, art. 121-A.\n\nMAPA DE DADOS\nExplore os dados por município\n\nSelecione uma área no mapa ou busque um município. Os números mostram registros agregados da SSP-RS.\n\nAno\n2026\n2025\n2024\n2023\n2022\n2021\n2020\nMês\nTodos os meses disponíveis\njaneiro\nfevereiro\nmarço\nabril\nmaio\njunho\njulho\nagosto\nsetembro\noutubro\nnovembro\ndezembro\nSelecionar município\nSelecione um município\nAceguá\nÁgua Santa\nAgudo\nAjuricaba\nAlecrim\nAlegrete\nAlegria\nAlmirante Tamandaré do Sul\nAlpestre\nAlto Alegre\nAlto Feliz\nAlvorada\nAmaral Ferrador\nAmetista do Sul\nAndré da Rocha\nAnta Gorda\nAntônio Prado\nArambaré\nAraricá\nAratiba\nArroio do Meio\nArroio do Padre\nArroio do Sal\nArroio do Tigre\nArroio dos Ratos\nArroio Grande\nArvorezinha\nAugusto Pestana\nÁurea\nBagé\nBalneário Pinhal\nBarão\nBarão de Cotegipe\nBarão do Triunfo\nBarra do Guarita\nBarra do Quaraí\nBarra do Ribeiro\nBarra do Rio Azul\nBarra Funda\nBarracão\nBarros Cassal\nBenjamin Constant do Sul\nBento Gonçalves\nBoa Vista das Missões\nBoa Vista do Buricá\nBoa Vista do Cadeado\nBoa Vista do Incra\nBoa Vista do Sul\nBom Jesus\nBom Princípio\nBom Progresso\nBom Retiro do Sul\nBoqueirão do Leão\nBossoroca\nBozano\nBraga\nBrochier\nButiá\nCaçapava do Sul\nCacequi\nCachoeira do Sul\nCachoeirinha\nCacique Doble\nCaibaté\nCaiçara\nCamaquã\nCamargo\nCambará do Sul\nCampestre da Serra\nCampina das Missões\nCampinas do Sul\nCampo Bom\nCampo Novo\nCampos Borges\nCandelária\nCândido Godói\nCandiota\nCanela\nCanguçu\nCanoas\nCanudos do Vale\nCapão Bonito do Sul\nCapão da Canoa\nCapão do Cipó\nCapão do Leão\nCapela de Santana\nCapitão\nCapivari do Sul\nCaraá\nCarazinho\nCarlos Barbosa\nCarlos Gomes\nCasca\nCaseiros\nCatuípe\nCaxias do Sul\nCentenário\nCerrito\nCerro Branco\nCerro Grande\nCerro Grande do Sul\nCerro Largo\nChapada\nCharqueadas\nCharrua\nChiapetta\nChuí\nChuvisca\nCidreira\nCiríaco\nColinas\nColorado\nCondor\nConstantina\nCoqueiro Baixo\nCoqueiros do Sul\nCoronel Barros\nCoronel Bicaco\nCoronel Pilar\nCotiporã\nCoxilha\nCrissiumal\nCristal\nCristal do Sul\nCruz Alta\nCruzaltense\nCruzeiro do Sul\nDavid Canabarro\nDerrubadas\nDezesseis de Novembro\nDilermando de Aguiar\nDois Irmãos\nDois Irmãos das Missões\nDois Lajeados\nDom Feliciano\nDom Pedrito\nDom Pedro de Alcântara\nDona Francisca\nDoutor Maurício Cardoso\nDoutor Ricardo\nEldorado do Sul\nEncantado\nEncruzilhada do Sul\nEngenho Velho\nEntre Rios do Sul\nEntre-Ijuís\nErebango\nErechim\nErnestina\nErval Grande\nErval Seco\nEsmeralda\nEsperança do Sul\nEspumoso\nEstação\nEstância Velha\nEsteio\nEstrela\nEstrela Velha\nEugênio de Castro\nFagundes Varela\nFarroupilha\nFaxinal do Soturno\nFaxinalzinho\nFazenda Vilanova\nFeliz\nFlores da Cunha\nFloriano Peixoto\nFontoura Xavier\nFormigueiro\nForquetinha\nFortaleza dos Valos\nFrederico Westphalen\nGaribaldi\nGarruchos\nGaurama\nGeneral Câmara\nGentil\nGetúlio Vargas\nGiruá\nGlorinha\nGramado\nGramado dos Loureiros\nGramado Xavier\nGravataí\nGuabiju\nGuaíba\nGuaporé\nGuarani das Missões\nHarmonia\nHerval\nHerveiras\nHorizontina\nHulha Negra\nHumaitá\nIbarama\nIbiaçá\nIbiraiaras\nIbirapuitã\nIbirubá\nIgrejinha\nIjuí\nIlópolis\nImbé\nImigrante\nIndependência\nInhacorá\nIpê\nIpiranga do Sul\nIraí\nItaara\nItacurubi\nItapuca\nItaqui\nItati\nItatiba do Sul\nIvorá\nIvoti\nJaboticaba\nJacuizinho\nJacutinga\nJaguarão\nJaguari\nJaquirana\nJari\nJóia\nJúlio de Castilhos\nLagoa Bonita do Sul\nLagoa dos Três Cantos\nLagoa Vermelha\nLagoão\nLajeado\nLajeado do Bugre\nLavras do Sul\nLiberato Salzano\nLindolfo Collor\nLinha Nova\nMaçambará\nMachadinho\nMampituba\nManoel Viana\nMaquiné\nMaratá\nMarau\nMarcelino Ramos\nMariana Pimentel\nMariano Moro\nMarques de Souza\nMata\nMato Castelhano\nMato Leitão\nMato Queimado\nMaximiliano de Almeida\nMinas do Leão\nMiraguaí\nMontauri\nMonte Alegre dos Campos\nMonte Belo do Sul\nMontenegro\nMormaço\nMorrinhos do Sul\nMorro Redondo\nMorro Reuter\nMostardas\nMuçum\nMuitos Capões\nMuliterno\nNão-Me-Toque\nNicolau Vergueiro\nNonoai\nNova Alvorada\nNova Araçá\nNova Bassano\nNova Boa Vista\nNova Bréscia\nNova Candelária\nNova Esperança do Sul\nNova Hartz\nNova Pádua\nNova Palma\nNova Petrópolis\nNova Prata\nNova Ramada\nNova Roma do Sul\nNova Santa Rita\nNovo Barreiro\nNovo Cabrais\nNovo Hamburgo\nNovo Machado\nNovo Tiradentes\nNovo Xingu\nOsório\nPaim Filho\nPalmares do Sul\nPalmeira das Missões\nPalmitinho\nPanambi\nPantano Grande\nParaí\nParaíso do Sul\nPareci Novo\nParobé\nPassa Sete\nPasso do Sobrado\nPasso Fundo\nPaulo Bento\nPaverama\nPedras Altas\nPedro Osório\nPejuçara\nPelotas\nPicada Café\nPinhal\nPinhal da Serra\nPinhal Grande\nPinheirinho do Vale\nPinheiro Machado\nPinto Bandeira\nPirapó\nPiratini\nPlanalto\nPoço das Antas\nPontão\nPonte Preta\nPortão\nPorto Alegre\nPorto Lucena\nPorto Mauá\nPorto Vera Cruz\nPorto Xavier\nPouso Novo\nPresidente Lucena\nProgresso\nProtásio Alves\nPutinga\nQuaraí\nQuatro Irmãos\nQuevedos\nQuinze de Novembro\nRedentora\nRelvado\nRestinga Sêca\nRio dos Índios\nRio Grande\nRio Pardo\nRiozinho\nRoca Sales\nRodeio Bonito\nRolador\nRolante\nRonda Alta\nRondinha\nRoque Gonzales\nRosário do Sul\nSagrada Família\nSaldanha Marinho\nSalto do Jacuí\nSalvador das Missões\nSalvador do Sul\nSananduva\nSant'Ana do Livramento\nSanta Bárbara do Sul\nSanta Cecília do Sul\nSanta Clara do Sul\nSanta Cruz do Sul\nSanta Margarida do Sul\nSanta Maria\nSanta Maria do Herval\nSanta Rosa\nSanta Tereza\nSanta Vitória do Palmar\nSantana da Boa Vista\nSantiago\nSanto Ângelo\nSanto Antônio da Patrulha\nSanto Antônio das Missões\nSanto Antônio do Palma\nSanto Antônio do Planalto\nSanto Augusto\nSanto Cristo\nSanto Expedito do Sul\nSão Borja\nSão Domingos do Sul\nSão Francisco de Assis\nSão Francisco de Paula\nSão Gabriel\nSão Jerônimo\nSão João da Urtiga\nSão João do Polêsine\nSão Jorge\nSão José das Missões\nSão José do Herval\nSão José do Hortêncio\nSão José do Inhacorá\nSão José do Norte\nSão José do Ouro\nSão José do Sul\nSão José dos Ausentes\nSão Leopoldo\nSão Lourenço do Sul\nSão Luiz Gonzaga\nSão Marcos\nSão Martinho\nSão Martinho da Serra\nSão Miguel das Missões\nSão Nicolau\nSão Paulo das Missões\nSão Pedro da Serra\nSão Pedro das Missões\nSão Pedro do Butiá\nSão Pedro do Sul\nSão Sebastião do Caí\nSão Sepé\nSão Valentim\nSão Valentim do Sul\nSão Valério do Sul\nSão Vendelino\nSão Vicente do Sul\nSapiranga\nSapucaia do Sul\nSarandi\nSeberi\nSede Nova\nSegredo\nSelbach\nSenador Salgado Filho\nSentinela do Sul\nSerafina Corrêa\nSério\nSertão\nSertão Santana\nSete de Setembro\nSeveriano de Almeida\nSilveira Martins\nSinimbu\nSobradinho\nSoledade\nTabaí\nTapejara\nTapera\nTapes\nTaquara\nTaquari\nTaquaruçu do Sul\nTavares\nTenente Portela\nTerra de Areia\nTeutônia\nTio Hugo\nTiradentes do Sul\nToropi\nTorres\nTramandaí\nTravesseiro\nTrês Arroios\nTrês Cachoeiras\nTrês Coroas\nTrês de Maio\nTrês Forquilhas\nTrês Palmeiras\nTrês Passos\nTrindade do Sul\nTriunfo\nTucunduva\nTunas\nTupanci do Sul\nTupanciretã\nTupandi\nTuparendi\nTuruçu\nUbiretama\nUnião da Serra\nUnistalda\nUruguaiana\nVacaria\nVale do Sol\nVale Real\nVale Verde\nVanini\nVenâncio Aires\nVera Cruz\nVeranópolis\nVespasiano Corrêa\nViadutos\nViamão\nVicente Dutra\nVictor Graeff\nVila Flores\nVila Lângaro\nVila Maria\nVila Nova do Sul\nVista Alegre\nVista Alegre do Prata\nVista Gaúcha\nVitória das Missões\nWestfália\nXangri-lá\nDigite as primeiras letras para localizar um município na lista.\nServiços da rede de proteção\n\nCentros de Referência da Mulher e unidades policiais especializadas com endereço público na camada estadual.\n\nFiltrar serviços no mapa\nCentros de Referência da Mulher\n54\nUnidades policiais especializadas\n30\nREGISTROS NO RS\n80\nMUNICÍPIOS COM REGISTROS\n62 de 497\nRECORTE EXIBIDO\njaneiro a dezembro de 2025\n\nMapa interativo do Rio Grande do Sul. Use a busca para selecionar um município ou os controles do mapa para ampliar e deslocar a visualização. Para ampliar ou reduzir com a roda do mouse ou trackpad, mantenha o botão principal pressionado sobre o mapa enquanto rola.\n\n+\n−\n Leaflet\nRegistros por município\n0\n1–2\n3–5\n6 ou mais\nIndisponível\nCentro de Referência da Mulher\nUnidade policial especializada\nLEITURA DO MAPA\nEscolha um município ou serviço\nServiços da rede de proteção no Rio Grande do Sul\nDados SSP-RS · atualização da fonte: 6 de outubro de 2026\nMalha municipal: IBGE, edição 2025 · Fonte dos dados\nNotícias recentes sobre feminicídios consumados\n\nReferências conferidas em: 03/11/2026\n\nA data indicada é a de publicação da matéria e não representa necessariamente a data da ocorrência.\n\n18/09/2026\n\nSão Gabriel\n\nDiário de Santa Maria\n\nIdentificada mulher morta a facadas em São Gabriel; ex-companheiro suspeito do crime é preso\n\nAcessar matéria\n↗\n14/09/2026\n\nRio Grande\n\nGZH\n\nDNA encontrado sob unhas de vítima leva à prisão preventiva de suspeito por feminicídio\n\nAcessar matéria\n↗\n06/09/2026\n\nSarandi\n\nGZH\n\nHomem suspeito de matar esposa a tiros morre em confronto com a BM em Sarandi\n\nAcessar matéria\n↗\n31/08/2026\n\nEncantado\n\nCorreio do Povo\n\nEx-padrasto de adolescente é indiciado por feminicídio em Encantado\n\nAcessar matéria\n↗\n24/08/2026\n\nNova Prata\n\nGZH/Pioneiro\n\nMulher morta pelo companheiro em Nova Prata é identificada; ela não tinha medida protetiva\n\nAcessar matéria\n↗\nENTENDA E BUSQUE APOIO\nA violência pode assumir diferentes formas.\n\nA Lei Maria da Penha reconhece formas de violência que podem ocorrer juntas e não dependem de marcas físicas para serem levadas a sério.\n\nFísica\n\nCondutas que ofendem a integridade ou a saúde corporal, como empurrar, bater, puxar o cabelo ou sufocar. Podem ocorrer sem deixar marcas visíveis.\n\nPsicológica\n\nAmeaças, humilhações, perseguição e controle de decisões ou comportamentos. Inclui isolar de pessoas próximas, vigiar o celular ou impedir de estudar ou trabalhar.\n\nSexual\n\nImpor relações ou atos sexuais sem consentimento, por intimidação, ameaça, coação ou força; ou controlar a liberdade sexual e reprodutiva, como impedir o uso de contraceptivos ou forçar uma gravidez.\n\nPatrimonial\n\nReter, subtrair ou destruir documentos, bens ou instrumentos de trabalho; controlar o dinheiro da mulher ou fazer empréstimos em seu nome sem consentimento.\n\nMoral\n\nCalúnia, difamação e injúria: atribuir falsamente um crime à mulher, espalhar acusações que atinjam sua reputação ou ofender sua dignidade.\n\nVicária\n\nViolência contra descendentes, ascendentes, dependentes, enteados, parentes, pessoas sob guarda ou responsabilidade direta da mulher ou integrantes de sua rede de apoio, com a finalidade de atingi-la.\n\nA violência vicária foi incluída na Lei Maria da Penha pela Lei nº 15.384/2026. A violência também pode ocorrer por mensagens, redes sociais e outros meios digitais.\n\nSinais de controle e perseguição\n\nExigir senhas, vigiar conversas, controlar deslocamentos, restringir amizades e impedir estudo ou trabalho são comportamentos que merecem atenção. Ameaças e controle não precisam vir acompanhados de agressão física para que você procure orientação.\n\nSe você reconhece essas situações, pode conversar com alguém de confiança e buscar um serviço da rede. Para oferecer apoio, escute sem julgar e respeite as decisões da mulher.\n\nMedidas protetivas: o que são e como buscar proteção\n\nSão medidas para interromper a violência e proteger a mulher e seus dependentes. Conforme o caso, podem incluir afastamento da pessoa autora da violência, proibição de aproximação ou contato e proteção de bens.\n\nNão é necessário registrar boletim de ocorrência nem existir inquérito ou processo prévio para que sejam concedidas. Procure orientação na Defensoria Pública, no Ministério Público, no Juizado ou em uma delegacia. Os centros de referência também orientam sobre os caminhos disponíveis.\n\nAs medidas permanecem em vigor enquanto houver situação de risco. O descumprimento é crime: informe o ocorrido aos serviços responsáveis pela proteção e, se houver perigo imediato, ligue 190.\n\nAs medidas protetivas também podem alcançar violência de gênero fora do contexto doméstico, familiar ou afetivo, conforme decisão do STF.\n\nOrientações sobre medidas protetivas · Ministério das Mulheres · Alcance das medidas · STF, Tema 1.412\n\nViolência sexual: atendimento de saúde e acolhimento\n\nProcure um serviço de saúde o mais rápido possível. O SUS oferece cuidados, prevenção de infecções e de gravidez, conforme avaliação profissional, além de acolhimento e acompanhamento.\n\nO atendimento não depende de boletim de ocorrência. Se for possível, preserve roupas e outros vestígios. Mesmo que tenha tomado banho, trocado de roupa ou não tenha conseguido preservar vestígios, procure atendimento. Se já passou algum tempo, você também pode buscar cuidado e orientação.\n\nDireito ao atendimento de saúde · Lei do Minuto Seguinte · Orientações sobre violência sexual · Ministério das Mulheres\n\nQual serviço procurar?\nCentros de referência da mulher (CRM/CRAM)\nAcolhimento, orientação e encaminhamento para outros atendimentos, conforme a estrutura de cada serviço.\nDelegacias de Polícia\nRegistro de ocorrências, investigação e encaminhamento de pedidos de medidas protetivas. Você também pode procurar uma delegacia comum quando não houver unidade especializada.\nDefensoria Pública\nOrientação e assistência jurídica gratuita, conforme os critérios de atendimento, inclusive sobre proteção e questões de família.\nMinistério Público e Judiciário\nAtuação na garantia de direitos e nos pedidos de proteção, conforme suas atribuições.\nSaúde e assistência social\nUnidades de saúde, hospitais e serviços socioassistenciais, como CRAS e CREAS, podem oferecer cuidado, acolhimento e encaminhamentos conforme a necessidade.\n\nA proteção pode envolver filhos e dependentes, continuidade dos estudos, moradia e acesso à assistência, conforme os requisitos de cada medida ou serviço. A rede pode orientar sobre os direitos aplicáveis à sua situação.\n\nO Ligue 180 ajuda a localizar serviços. O mapa deste site mostra o recorte de centros de referência e unidades policiais especializadas descrito na metodologia.\n\nViolência vicária e vicaricídio: qual a diferença?\n\nA violência vicária pode assumir diferentes formas contra pessoas ligadas à mulher, com a finalidade de atingi-la. O vicaricídio é um crime específico: matar descendente, ascendente, dependente, enteado ou pessoa sob guarda ou responsabilidade direta da mulher para causar-lhe sofrimento, punição ou controle, no contexto de violência doméstica e familiar.\n\nEsses conceitos têm alcances diferentes. A série estatística apresentada neste site mantém a classificação de feminicídios consumados publicada pela SSP-RS.\n\nViolência vicária e vicaricídio · Lei nº 15.384/2026\n\nCOMO OFERECER APOIO\nEscute, acolha e respeite o tempo dela.\n\nOuça sem julgar nem minimizar. Não pressione nem decida por ela. Preserve a confidencialidade e, se for possível e seguro, ofereça ajuda prática ou companhia para buscar um serviço.\n\nA rede de apoio não precisa resolver tudo. O mais importante é não culpabilizar a mulher e ajudá-la a encontrar caminhos com segurança.\n\nHá risco imediato?\n\nSe a violência estiver acontecendo ou houver perigo imediato, ligue para a Brigada Militar no 190.\n\nPara orientação, acolhimento e informações sobre a rede, procure o Ligue 180 ou a Escuta Lilás.\n\nConteúdo baseado em fontes oficiais:\nFormas de violência · Ministério das Mulheres\nComo ser rede de apoio · Ministério das Mulheres\nCartilha de combate à violência doméstica contra a mulher · TJRS/CEVID, 2026 (PDF)\nREDE DE APOIO\nPrecisa de apoio?\n\nConheça os canais oficiais e escolha conforme a necessidade.\n\nEMERGÊNCIA IMEDIATA\nBrigada Militar\n\nAcione se a violência estiver acontecendo ou houver risco imediato.\n\n190\nSecretaria da Mulher/RS\nORIENTAÇÃO E DENÚNCIA\nCentral de Atendimento à Mulher\n\nGratuito, 24 horas. Orienta sobre direitos e serviços e recebe denúncias.\n\n180\nMinistério das Mulheres\nAtendimento em Libras\nESCUTA E ACOLHIMENTO NO RS\nEscuta Lilás\n\nCanal estadual para escuta, acolhimento e orientação. Atendimento 24 horas.\n\n0800 541 0803\nSecretaria da Mulher/RS\nMETODOLOGIA E FONTES\nMetodologia e fontes\nRECORTE DOS DADOS\n\nFeminicídios consumados registrados pela SSP-RS, por município e mês, de 2020 em diante.\n\nPERÍODO MAIS RECENTE\n\n2026: janeiro a setembro. A planilha foi atualizada pela SSP-RS em 6 de outubro de 2026.\n\nUNIDADE DO MAPA\n\nOs números são agregados por município. A malha de referência contém os 497 municípios do RS, edição IBGE 2025.\n\nComo interpretar\n\nZero significa que a planilha publicou zero casos naquele recorte. Dado indisponível indica que o mês não foi publicado; não é tratado como zero.\n\nOs dados refletem as planilhas oficiais disponíveis nas datas indicadas e podem ser revisados pela SSP-RS. A atualização dos arquivos desta versão foi manual; os dados foram conferidos antes da incorporação.\n\nO mapa não posiciona casos individuais e não infere endereços ou bairros. Os limites municipais servem à visualização temática, não a medições ou decisões sobre limites territoriais.\n\nVer data de atualização das planilhas incluídas\nAno dos dados\tMeses publicados\tAtualização informada\tVisualize os dados\n2026\tJaneiro a setembro\t6 out. 2026\t\nVisualizar dados\n\n2025\tJaneiro a dezembro\t6 out. 2026\t\nVisualizar dados\n\n2024\tJaneiro a dezembro\t5 jan. 2026\t\nVisualizar dados\n\n2023\tJaneiro a dezembro\t5 jan. 2026\t\nVisualizar dados\n\n2022\tJaneiro a dezembro\t6 jan. 2025\t\nVisualizar dados\n\n2021\tJaneiro a dezembro\t4 dez. 2023\t\nVisualizar dados\n\n2020\tJaneiro a dezembro\t5 mai. 2023\t\nVisualizar dados\nSobre a camada de serviços\n\nO recorte reúne 84 serviços selecionados da IEDE/RS. Destes, 82 têm ponto público confirmado no mapa; os outros dois também estão disponíveis na lista textual.\n\nConsultar camada oficial da IEDE/RS. Dados da Secretaria do Planejamento, Governança e Gestão do RS · licença CC BY-NC 4.0.\n\nFontes:\nIndicadores da Violência Contra a Mulher · SSP-RS\nMalhas territoriais · IBGE\nTRABALHO DA DISCIPLINA GÊNERO E SEXUALIDADE · FACULDADE DE EDUCAÇÃO · UFRGS\nSTEFANI PAZ DOS SANTOS · THALYNE ALVES ARRIECHE\nRIO GRANDE DO SUL, BRASIL\nDESENVOLVEDOR: WESLEY MATEUS BROMBIL · GITHUB",
+    "links": [
+      {
+        "text": "Pular para o mapa",
+        "href": "#mapa"
+      },
+      {
+        "text": "",
+        "href": "#inicio"
+      },
+      {
+        "text": "Mapa",
+        "href": "#mapa"
+      },
+      {
+        "text": "Entenda e busque apoio",
+        "href": "#entenda"
+      },
+      {
+        "text": "Sobre o projeto e os dados",
+        "href": "#sobre"
+      },
+      {
+        "text": "Fonte: SSP-RS · 80 ocorrências\n↗",
+        "href": "https://ssp.rs.gov.br/governador-eduardo-leite-detalha-queda-dos-indicadores-criminais-em-2025-o-ano-mais-seguro-da-historia-do-rs"
+      },
+      {
+        "text": "Explorar o mapa",
+        "href": "#mapa"
+      },
+      {
+        "text": "Definição legal · Código Penal, art. 121-A",
+        "href": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html"
+      },
+      {
+        "text": "+",
+        "href": "#"
+      },
+      {
+        "text": "−",
+        "href": "#"
+      },
+      {
+        "text": "Leaflet",
+        "href": "https://leafletjs.com"
+      },
+      {
+        "text": "IBGE, edição 2025",
+        "href": "https://www.ibge.gov.br/geociencias/todos-os-produtos-geociencias/15774-malhas.html"
+      },
+      {
+        "text": "Fonte dos dados",
+        "href": "https://www.ssp.rs.gov.br/indicadores-da-violencia-contra-a-mulher"
+      },
+      {
+        "text": "Acessar matéria\n↗",
+        "href": "https://diariosm.com.br/noticias/policia-seguranca/identificada-mulher-morta-a-facadas-em-sao-gabriel-ex-companheiro-suspeito-do-crime-e-preso.30897832"
+      },
+      {
+        "text": "Acessar matéria\n↗",
+        "href": "https://gauchazh.clicrbs.com.br/zona-sul/seguranca/noticia/2026/09/dna-encontrado-sob-unhas-de-vitima-leva-a-prisao-preventiva-de-suspeito-por-feminicidio-cmu1w945s00c9014xiyheqw3f.html"
+      },
+      {
+        "text": "Acessar matéria\n↗",
+        "href": "https://gauchazh.clicrbs.com.br/passo-fundo/seguranca/noticia/2026/09/homem-mata-esposa-a-tiros-e-morre-em-confronto-com-a-bm-em-sarandi-cmtpw8u2g02dq011jzqod4tu1.html"
+      },
+      {
+        "text": "Acessar matéria\n↗",
+        "href": "https://www.correiodopovo.com.br/not%C3%ADcias/pol%C3%ADcia/ex-padrasto-de-adolescente-e-indiciado-por-feminicidio-em-encantado-1.1743870"
+      },
+      {
+        "text": "Acessar matéria\n↗",
+        "href": "https://gauchazh.clicrbs.com.br/pioneiro/policia/noticia/2026/08/mulher-morta-pelo-companheiro-em-nova-prata-e-identificada-ela-nao-tinha-medida-protetiva-cmt77s0mz001q0179u1nteiio.html"
+      },
+      {
+        "text": "Lei nº 15.384/2026",
+        "href": "https://www2.camara.leg.br/legin/fed/lei/2026/lei-15384-9-abril-2026-798939-normaatualizada-pl.pdf"
+      },
+      {
+        "text": "190",
+        "href": "tel:190"
+      },
+      {
+        "text": "Orientações sobre medidas protetivas · Ministério das Mulheres",
+        "href": "https://www.gov.br/mulheres/pt-br/central-de-conteudos/noticias/2026/agosto-defeso-eleitoral/medidas-protetivas-o-que-sao-como-funcionam-e-como-solicitar-em-casos-de-violencia-domestica-e-familiar"
+      },
+      {
+        "text": "Alcance das medidas · STF, Tema 1.412",
+        "href": "https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=1412"
+      },
+      {
+        "text": "Direito ao atendimento de saúde · Lei do Minuto Seguinte",
+        "href": "https://www.gov.br/mulheres/pt-br/central-de-conteudos/noticias/2026/agosto-defeso-eleitoral/lei-do-minuto-seguinte-conheca-os-direitos-de-quem-sofre-violencia-sexual"
+      },
+      {
+        "text": "Orientações sobre violência sexual · Ministério das Mulheres",
+        "href": "https://www.gov.br/mulheres/pt-br/central-de-conteudos/publicacoes/CartilhaViolnciasexualversodigital.pdf"
+      },
+      {
+        "text": "Ligue 180",
+        "href": "tel:180"
+      },
+      {
+        "text": "Violência vicária e vicaricídio · Lei nº 15.384/2026",
+        "href": "https://www2.camara.leg.br/legin/fed/lei/2026/lei-15384-9-abril-2026-798939-normaatualizada-pl.pdf"
+      },
+      {
+        "text": "190",
+        "href": "tel:190"
+      },
+      {
+        "text": "Ligue 180 ou a Escuta Lilás",
+        "href": "#apoio"
+      },
+      {
+        "text": "Formas de violência · Ministério das Mulheres",
+        "href": "https://www.gov.br/mulheres/pt-br/central-de-conteudos/noticias/2026/agosto-defeso-eleitoral/lei-maria-da-penha-conheca-os-seis-tipos-de-violencia-domestica-e-familiar-contra-a-mulher-previstos-na-lei"
+      },
+      {
+        "text": "Como ser rede de apoio · Ministério das Mulheres",
+        "href": "https://www.gov.br/mulheres/pt-br/central-de-conteudos/noticias/2026/agosto-defeso-eleitoral/como-ser-rede-de-apoio-para-uma-mulher-em-situacao-de-violencia"
+      },
+      {
+        "text": "Cartilha de combate à violência doméstica contra a mulher · TJRS/CEVID, 2026 (PDF)",
+        "href": "https://www.tjrs.jus.br/novo/violencia-domestica/wp-content/uploads/sites/7/2026/04/Cartilha-Combate-a-Violencia-Domestica.pdf"
+      },
+      {
+        "text": "190",
+        "href": "tel:190"
+      },
+      {
+        "text": "Secretaria da Mulher/RS",
+        "href": "https://mulher.rs.gov.br/seguranca"
+      },
+      {
+        "text": "180",
+        "href": "tel:180"
+      },
+      {
+        "text": "Ministério das Mulheres",
+        "href": "https://www.gov.br/mulheres/pt-br/ligue180"
+      },
+      {
+        "text": "Atendimento em Libras",
+        "href": "https://www.gov.br/mulheres/pt-br/ligue180/libras"
+      },
+      {
+        "text": "0800 541 0803",
+        "href": "tel:08005410803"
+      },
+      {
+        "text": "Secretaria da Mulher/RS",
+        "href": "https://mulher.rs.gov.br/centro-especializado-de-atendimento-a-mulher"
+      },
+      {
+        "text": "SSP-RS — Indicadores da Violência Contra a Mulher",
+        "href": "https://www.ssp.rs.gov.br/indicadores-da-violencia-contra-a-mulher"
+      },
+      {
+        "text": "SSP-RS — Indicadores da Violência Contra a Mulher",
+        "href": "https://www.ssp.rs.gov.br/indicadores-da-violencia-contra-a-mulher"
+      },
+      {
+        "text": "SSP-RS — Indicadores da Violência Contra a Mulher",
+        "href": "https://www.ssp.rs.gov.br/indicadores-da-violencia-contra-a-mulher"
+      },
+      {
+        "text": "SSP-RS — Indicadores da Violência Contra a Mulher",
+        "href": "https://www.ssp.rs.gov.br/indicadores-da-violencia-contra-a-mulher"
+      },
+      {
+        "text": "SSP-RS — Indicadores da Violência Contra a Mulher",
+        "href": "https://www.ssp.rs.gov.br/indicadores-da-violencia-contra-a-mulher"
+      },
+      {
+        "text": "SSP-RS — Indicadores da Violência Contra a Mulher",
+        "href": "https://www.ssp.rs.gov.br/indicadores-da-violencia-contra-a-mulher"
+      },
+      {
+        "text": "SSP-RS — Indicadores da Violência Contra a Mulher",
+        "href": "https://www.ssp.rs.gov.br/indicadores-da-violencia-contra-a-mulher"
+      },
+      {
+        "text": "Consultar camada oficial da IEDE/RS",
+        "href": "https://iede.rs.gov.br/server/rest/services/SJCDH/locais_atendim_mulher_vitima_violencia/FeatureServer/0"
+      },
+      {
+        "text": "Indicadores da Violência Contra a Mulher · SSP-RS",
+        "href": "https://www.ssp.rs.gov.br/indicadores-da-violencia-contra-a-mulher"
+      },
+      {
+        "text": "Malhas territoriais · IBGE",
+        "href": "https://www.ibge.gov.br/geociencias/todos-os-produtos-geociencias/15774-malhas.html"
+      },
+      {
+        "text": "GITHUB",
+        "href": "https://github.com/wbrombil"
+      }
+    ]
+  }
+}

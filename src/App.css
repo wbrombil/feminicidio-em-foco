@@ -185,7 +185,78 @@
 .section-label::before { width: 2px; height: 0.9rem; background: var(--accent); content: ''; }
 .about-content { min-width: 0; }
 .about-content p { max-width: none; margin: 0; color: var(--muted); font-size: 1.05rem; line-height: 1.8; }
+.about-content p + p { margin-top: 1rem; }
 .about-content strong { color: var(--accent); font-weight: 700; }
+
+/* Piloto editorial: marca, abertura e contexto. */
+.site-header {
+  min-height: 5.5rem;
+  gap: clamp(1rem, 2.5vw, 2.5rem);
+  border-bottom-color: var(--editorial-ink);
+}
+.site-header .wordmark { width: clamp(10rem, 18vw, 15rem); }
+.site-header .primary-nav { gap: 0.25rem 1rem; }
+.site-header .primary-nav a { color: var(--editorial-ink); font-size: 0.95rem; font-weight: 600; }
+.site-header .primary-nav a:hover { color: var(--editorial-accent); border-bottom-color: var(--editorial-accent); }
+.site-header .header-note { max-width: 13rem; color: var(--editorial-muted); line-height: 1.5; text-align: right; }
+.site-header a:focus-visible, .intro a:focus-visible, .about a:focus-visible {
+  outline: 3px solid var(--editorial-focus);
+  outline-offset: 3px;
+}
+.intro {
+  min-height: 0;
+  padding: clamp(2.5rem, 5vw, 4.75rem) 0 clamp(2.5rem, 4vw, 4rem);
+}
+.intro h1 {
+  max-width: 20ch;
+  font-family: var(--editorial-display);
+  font-size: clamp(2.5rem, 5.5vw, 5.25rem);
+  font-weight: 700;
+  line-height: 1.03;
+  letter-spacing: -0.045em;
+  white-space: normal;
+}
+.intro h1 em { color: var(--editorial-accent); }
+.intro-feature-row {
+  grid-template-columns: minmax(0, 48rem) auto;
+  align-items: end;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-top: clamp(1.75rem, 3vw, 2.5rem);
+}
+.intro .statement {
+  max-width: 45rem;
+  padding-left: var(--editorial-space-3);
+  border-left: 3px solid var(--editorial-accent);
+}
+.intro .statement p { max-width: 43ch; font-size: clamp(1.125rem, 1.7vw, 1.5rem); line-height: 1.5; }
+.intro .statement-rule { width: 3rem; background: var(--editorial-accent); }
+.intro .source-link { color: var(--editorial-accent); font-size: 0.875rem; }
+.intro .explore-action { position: static; justify-self: end; transform: none; }
+.intro .explore-link { min-height: 3.25rem; border-color: var(--editorial-accent); border-radius: 0; background: var(--editorial-accent); font-size: 1rem; }
+.intro .explore-link:hover { border-color: var(--editorial-action-hover); background: var(--editorial-action-hover); }
+.about { gap: var(--editorial-space-3); padding-block: var(--editorial-space-5); }
+.about .section-label, .map-preview > .section-label { color: var(--editorial-accent); font-weight: 700; letter-spacing: 0.1em; }
+.about .section-label::before, .map-preview > .section-label::before { width: 1.75rem; height: 2px; background: var(--editorial-accent); }
+.about-content p { max-width: var(--editorial-reading-width); color: var(--editorial-muted); font-size: 1.0625rem; line-height: 1.75; }
+.about-content strong, .about-content a { color: var(--editorial-accent); }
+
+@media (max-width: 760px) {
+  .site-header { min-height: 0; padding-block: 0.9rem; }
+  .site-header .primary-nav { gap: 0.15rem 0.7rem; }
+  .site-header .primary-nav a { font-size: 0.875rem; }
+  .site-header .header-note { max-width: 9rem; }
+  .landing-page .intro { padding-block: 2.5rem; }
+  .landing-page .intro h1 { font-size: clamp(2.25rem, 9vw, 3.5rem); }
+  .intro-feature-row { grid-template-columns: minmax(0, 1fr); gap: 1.5rem; }
+  .intro .statement { padding-left: 1rem; }
+  .intro .explore-action { justify-self: start; }
+  .about { padding-block: 2.5rem; }
+}
+
+@media (max-width: 430px) {
+  .site-header .wordmark { width: clamp(7.5rem, 38vw, 9.5rem); }
+}
 
 .methodology {
   grid-column: 1;
@@ -374,6 +445,10 @@
   .annual-data-mobile-total dd { color: var(--accent); font-weight: 700; }
   .annual-data-mobile-list > .annual-data-empty { margin: 0; padding: 0.75rem 0; }
   .annual-data-pagination { justify-content: flex-end; gap: 0.4rem; }
+}
+
+@media (max-width: 430px) {
+  .annual-data-mobile-card dl { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
 .methodology-network { padding-top: 0.5rem; }
@@ -570,6 +645,20 @@
 .education-legal-note { margin: 0.75rem 0 0; color: var(--muted); font-size: var(--text-compact); line-height: 1.5; }
 .education-legal-note a { color: var(--accent); text-underline-offset: 3px; }
 
+.education-topics { display: grid; gap: 0.65rem; width: 100%; margin-top: 1.5rem; }
+.education-topic { min-width: 0; border: 1px solid var(--line); border-radius: 0.25rem; background: var(--surface); }
+.education-topic summary { padding: 0.85rem 1rem; cursor: pointer; font-size: var(--text-reading); font-weight: 700; line-height: 1.5; overflow-wrap: anywhere; }
+.education-topic summary:hover { color: var(--accent); }
+.education-topic summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.education-topic-content { padding: 0 1rem 1rem; font-size: var(--text-reading); line-height: 1.65; overflow-wrap: anywhere; }
+.education-topic-content p { margin: 0; color: var(--muted); }
+.education-topic-content p + p { margin-top: 0.75rem; }
+.education-topic-content strong { color: var(--ink); }
+.education-service-roles { margin: 0 0 1rem; }
+.education-service-roles > div + div { margin-top: 0.75rem; }
+.education-service-roles dt { color: var(--ink); font-weight: 700; }
+.education-service-roles dd { margin: 0.2rem 0 0; color: var(--muted); }
+
 .support-guidance {
   display: grid;
   grid-template-columns: minmax(0, 1.4fr) minmax(220px, 0.8fr);
@@ -678,6 +767,7 @@
   font-size: var(--text-xs);
   text-underline-offset: 3px;
 }
+.support-accessible { margin-top: 0.5rem; font-size: var(--text-xs); text-underline-offset: 3px; }
 
 .site-footer {
   display: flex;
@@ -762,4 +852,172 @@
     content: '';
   }
   .support-phone { margin-top: 0.75rem; }
+}
+
+/* Linguagem editorial: educação e caminhos de apoio. */
+.education,
+.support-contacts,
+.methodology-section {
+  gap: var(--editorial-space-3);
+  padding-block: clamp(3rem, 5vw, 5rem);
+  border-top-color: var(--editorial-border);
+}
+.education > .section-label,
+.support-contacts > .section-label,
+.methodology-section > .section-label {
+  color: var(--editorial-accent);
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+.education > .section-label::before,
+.support-contacts > .section-label::before,
+.methodology-section > .section-label::before {
+  width: 1.75rem;
+  height: 2px;
+  background: var(--editorial-accent);
+}
+.education-intro {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 0.75fr);
+  align-items: end;
+  gap: clamp(1.5rem, 4vw, 4rem);
+  margin-bottom: 2rem;
+}
+.education-intro h2,
+.support-intro h2 {
+  max-width: 24ch;
+  color: var(--editorial-ink);
+  font-family: var(--editorial-display);
+  font-size: clamp(2rem, 3.5vw, 3.5rem);
+  line-height: 1.12;
+  letter-spacing: -0.035em;
+}
+.education-intro p,
+.violence-item p,
+.support-guidance p,
+.education-help p,
+.support-intro p,
+.support-item p {
+  color: var(--editorial-muted);
+  font-size: 1rem;
+  line-height: 1.7;
+}
+.violence-grid { gap: 0 2rem; border: 0; border-top: 1px solid var(--editorial-border); }
+.violence-item,
+.violence-item:nth-child(n) {
+  display: block;
+  padding: 1.4rem 0;
+  border: 0;
+  border-bottom: 1px solid var(--editorial-border);
+  background: transparent;
+}
+.violence-item h3 { margin: 0 0 0.65rem; color: var(--editorial-accent); font-family: var(--editorial-display); font-size: 1.45rem; line-height: 1.2; }
+.education-legal-note { max-width: var(--editorial-reading-width); color: var(--editorial-muted); font-size: 0.875rem; line-height: 1.6; }
+.education-content > .education-legal-note { max-width: none; }
+.education-legal-note a,
+.education-topic-content a,
+.education-help a,
+.education-sources a,
+.support-source,
+.support-accessible { color: var(--editorial-accent); }
+.education-topics { gap: 0; margin-top: 2rem; border-top: 1px solid var(--editorial-border); }
+.education-topic { border: 0; border-bottom: 1px solid var(--editorial-border); border-radius: 0; background: transparent; }
+.education-topic summary { min-height: 3.5rem; padding: 1rem 0.25rem; color: var(--editorial-ink); font-size: 1rem; line-height: 1.5; }
+.education-topic summary:hover { color: var(--editorial-accent); }
+.education-topic-content { max-width: var(--editorial-reading-width); padding: 0 0.25rem 1.5rem; font-size: 1rem; line-height: 1.7; }
+.education-topic-content p,
+.education-service-roles dd { color: var(--editorial-muted); }
+.education-service-roles dt,
+.education-topic-content strong { color: var(--editorial-ink); }
+.support-guidance { gap: clamp(1.5rem, 4vw, 4rem); margin-top: 3rem; }
+.support-guidance h3 { max-width: 28ch; font-family: var(--editorial-display); font-size: clamp(1.6rem, 2.5vw, 2.2rem); }
+.support-guidance p { max-width: var(--editorial-reading-width); }
+.education-help { padding: 1.4rem 1.5rem; border-left-color: var(--editorial-accent); background: var(--editorial-tint); }
+.education-sources { gap: 0.5rem 1rem; margin-top: 2rem; color: var(--editorial-muted); font-size: 0.875rem; }
+.education-sources::before { background: var(--editorial-border); }
+.support-intro { margin-bottom: 2rem; }
+.support-list { gap: 0 2rem; border: 0; border-top: 1px solid var(--editorial-border); }
+.support-item,
+.support-item + .support-item {
+  padding: 1.5rem 0;
+  border: 0;
+  border-bottom: 1px solid var(--editorial-border);
+  background: transparent;
+}
+.support-item + .support-item::before { display: none; }
+.support-emergency { border-top: 3px solid var(--editorial-accent); }
+.support-label { color: var(--editorial-accent); }
+.support-item h3 { font-family: var(--editorial-display); font-size: 1.45rem; }
+.support-phone { display: inline-flex; min-height: 2.75rem; align-items: center; color: var(--editorial-accent); font-variant-numeric: tabular-nums; }
+.support-source,
+.support-accessible { font-size: 0.875rem; }
+.education :is(a, summary):focus-visible,
+.support-contacts a:focus-visible { outline: 3px solid var(--editorial-focus); outline-offset: 3px; }
+
+@media (max-width: 760px) {
+  .education-intro { grid-template-columns: minmax(0, 1fr); gap: 1rem; }
+  .support-guidance { grid-template-columns: minmax(0, 1fr); }
+}
+
+/* Metodologia, fontes e consulta anual compartilham os tokens editoriais. */
+.methodology { gap: 2rem; }
+.methodology-facts { gap: 0 2rem; padding-block: 0; border-block: 1px solid var(--editorial-border); }
+.methodology-facts::before,
+.methodology-facts::after,
+.methodology-facts article + article::before,
+.methodology-network::before { display: none; }
+.methodology-facts article,
+.methodology-facts article + article { padding: 1.25rem 0; border: 0; }
+.methodology-facts span { color: var(--editorial-accent); font-size: 0.8125rem; }
+.methodology-facts p,
+.methodology-reading p,
+.methodology-network p { max-width: var(--editorial-reading-width); color: var(--editorial-muted); font-size: 1rem; line-height: 1.7; }
+.methodology-reading h3,
+.methodology-network h3 { color: var(--editorial-ink); font-family: var(--editorial-display); font-size: 1.65rem; line-height: 1.2; }
+.methodology-history { border: 0; border-block: 1px solid var(--editorial-border); background: transparent; }
+.methodology-history summary { min-height: 3.5rem; padding: 1rem 0.25rem; color: var(--editorial-ink); font-size: 1rem; line-height: 1.5; }
+.methodology-table-scroll table { font-size: 0.9375rem; }
+.methodology-table-scroll thead { color: var(--editorial-ink); background: var(--editorial-tint); font-size: 0.875rem; }
+.methodology-table-scroll th,
+.methodology-table-scroll td { border-bottom: 1px solid var(--editorial-border); }
+.methodology-network { padding-top: 0; }
+.methodology-network a,
+.methodology-sources a,
+.annual-data-trigger,
+.annual-dialog-heading a { color: var(--editorial-accent); }
+.methodology-sources { color: var(--editorial-muted); font-size: 0.875rem; }
+.methodology-sources::before { background: var(--editorial-border); }
+.annual-data-trigger { min-height: 2.75rem; font-size: 0.875rem; }
+.annual-data-dialog { border: 1px solid var(--editorial-control-border); border-radius: 0; background: var(--paper); white-space: normal; }
+.annual-dialog-heading { border-bottom-color: var(--editorial-border); background: var(--editorial-surface); }
+.annual-dialog-heading h2 { color: var(--editorial-ink); font-family: var(--editorial-display); font-size: 1.5rem; }
+.annual-dialog-heading p,
+.annual-data-controls p,
+.annual-data-table caption { color: var(--editorial-muted); }
+.annual-dialog-close { width: 2.75rem; height: 2.75rem; border-color: var(--editorial-control-border); border-radius: 0; }
+.annual-dialog-close:hover { border-color: var(--editorial-accent); background: var(--editorial-accent); }
+.annual-data-controls label { color: var(--editorial-ink); font-size: 0.875rem; }
+.annual-data-controls input { min-height: 2.75rem; border-color: var(--editorial-control-border); border-radius: 0; }
+.annual-data-pagination button { min-height: 2.75rem; border-color: var(--editorial-control-border); border-radius: 0; }
+.annual-data-table thead th { background: var(--editorial-tint); }
+.annual-data-table th,
+.annual-data-table td { border-color: var(--editorial-border); }
+.annual-data-mobile-card { border-color: var(--editorial-border); border-radius: 0; background: var(--editorial-surface); }
+.annual-data-mobile-card dt { color: var(--editorial-muted); font-size: 0.75rem; }
+.annual-data-mobile-card dd { font-size: 0.875rem; }
+.annual-data-mobile-total dd { color: var(--editorial-accent); }
+.methodology :is(a, button, summary, [tabindex]):focus-visible,
+.annual-data-dialog :is(a, button, input, [tabindex]):focus-visible { outline: 3px solid var(--editorial-focus); outline-offset: 2px; }
+.site-footer { gap: 1.25rem; padding-block: 2rem 1rem; color: var(--editorial-muted); border-top-color: var(--editorial-border); font-size: 0.8125rem; line-height: 1.6; }
+.site-footer .credits-developer { font-size: 0.8125rem; }
+.site-footer a { color: var(--editorial-accent); }
+.site-footer a:focus-visible { outline: 3px solid var(--editorial-focus); outline-offset: 3px; }
+
+@media (max-width: 760px) {
+  .methodology-facts article + article { border-top: 1px solid var(--editorial-border); }
+}
+
+@media (max-width: 700px) {
+  .annual-dialog-heading > div:first-child { min-width: 0; overflow-wrap: anywhere; }
+  .annual-dialog-heading h2 { font-size: 1.25rem; }
+  .annual-dialog-actions { min-width: 0; justify-self: stretch; justify-content: space-between; flex-wrap: wrap; }
 }

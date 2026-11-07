@@ -1,0 +1,350 @@
+{
+  "baselineManifestFiles": 36,
+  "baselineMismatches": [],
+  "ambiente": "Chrome headless, 1440x900, servidor HTTP local, cache desativado, quinze rodadas alternadas, sem controle de CPU/rede; tempo de mapa inclui intervalo de sondagem",
+  "samples": {
+    "antes": [
+      {
+        "domContentLoaded": 363,
+        "load": 364,
+        "mapaDisponivel": 1857,
+        "recursos": 12
+      },
+      {
+        "domContentLoaded": 245,
+        "load": 245,
+        "mapaDisponivel": 1398,
+        "recursos": 11
+      },
+      {
+        "domContentLoaded": 1070,
+        "load": 1071,
+        "mapaDisponivel": 2014,
+        "recursos": 11
+      },
+      {
+        "domContentLoaded": 73,
+        "load": 73,
+        "mapaDisponivel": 669,
+        "recursos": 11
+      },
+      {
+        "domContentLoaded": 157,
+        "load": 158,
+        "mapaDisponivel": 707,
+        "recursos": 11
+      },
+      {
+        "domContentLoaded": 83,
+        "load": 83,
+        "mapaDisponivel": 749,
+        "recursos": 11
+      },
+      {
+        "domContentLoaded": 104,
+        "load": 105,
+        "mapaDisponivel": 972,
+        "recursos": 11
+      },
+      {
+        "domContentLoaded": 89,
+        "load": 89,
+        "mapaDisponivel": 750,
+        "recursos": 11
+      },
+      {
+        "domContentLoaded": 114,
+        "load": 115,
+        "mapaDisponivel": 849,
+        "recursos": 11
+      },
+      {
+        "domContentLoaded": 223,
+        "load": 223,
+        "mapaDisponivel": 944,
+        "recursos": 11
+      },
+      {
+        "domContentLoaded": 120,
+        "load": 120,
+        "mapaDisponivel": 757,
+        "recursos": 11
+      },
+      {
+        "domContentLoaded": 220,
+        "load": 221,
+        "mapaDisponivel": 1142,
+        "recursos": 11
+      },
+      {
+        "domContentLoaded": 152,
+        "load": 152,
+        "mapaDisponivel": 880,
+        "recursos": 11
+      },
+      {
+        "domContentLoaded": 242,
+        "load": 242,
+        "mapaDisponivel": 1081,
+        "recursos": 11
+      },
+      {
+        "domContentLoaded": 140,
+        "load": 140,
+        "mapaDisponivel": 775,
+        "recursos": 11
+      }
+    ],
+    "depois": [
+      {
+        "domContentLoaded": 256,
+        "load": 256,
+        "mapaDisponivel": 1402,
+        "recursos": 12
+      },
+      {
+        "domContentLoaded": 166,
+        "load": 167,
+        "mapaDisponivel": 887,
+        "recursos": 11
+      },
+      {
+        "domContentLoaded": 110,
+        "load": 110,
+        "mapaDisponivel": 658,
+        "recursos": 11
+      },
+      {
+        "domContentLoaded": 87,
+        "load": 87,
+        "mapaDisponivel": 599,
+        "recursos": 11
+      },
+      {
+        "domContentLoaded": 133,
+        "load": 133,
+        "mapaDisponivel": 638,
+        "recursos": 11
+      },
+      {
+        "domContentLoaded": 69,
+        "load": 70,
+        "mapaDisponivel": 688,
+        "recursos": 11
+      },
+      {
+        "domContentLoaded": 94,
+        "load": 94,
+        "mapaDisponivel": 666,
+        "recursos": 11
+      },
+      {
+        "domContentLoaded": 96,
+        "load": 96,
+        "mapaDisponivel": 719,
+        "recursos": 11
+      },
+      {
+        "domContentLoaded": 147,
+        "load": 148,
+        "mapaDisponivel": 1127,
+        "recursos": 11
+      },
+      {
+        "domContentLoaded": 128,
+        "load": 129,
+        "mapaDisponivel": 849,
+        "recursos": 11
+      },
+      {
+        "domContentLoaded": 154,
+        "load": 154,
+        "mapaDisponivel": 1135,
+        "recursos": 11
+      },
+      {
+        "domContentLoaded": 224,
+        "load": 224,
+        "mapaDisponivel": 1102,
+        "recursos": 11
+      },
+      {
+        "domContentLoaded": 154,
+        "load": 154,
+        "mapaDisponivel": 930,
+        "recursos": 11
+      },
+      {
+        "domContentLoaded": 141,
+        "load": 141,
+        "mapaDisponivel": 893,
+        "recursos": 11
+      },
+      {
+        "domContentLoaded": 125,
+        "load": 125,
+        "mapaDisponivel": 899,
+        "recursos": 11
+      }
+    ]
+  },
+  "builds": {
+    "antes": [
+      {
+        "file": "assets\\case-news-2026-BV2UmJAK.json",
+        "bytes": 27472
+      },
+      {
+        "file": "assets\\feminicidio-consumado-2020-D2GxPoU5.json",
+        "bytes": 471230
+      },
+      {
+        "file": "assets\\feminicidio-consumado-2021-Cip83JOS.json",
+        "bytes": 471218
+      },
+      {
+        "file": "assets\\feminicidio-consumado-2022-CibZZsKw.json",
+        "bytes": 471228
+      },
+      {
+        "file": "assets\\feminicidio-consumado-2023-dAOTMHrz.json",
+        "bytes": 471230
+      },
+      {
+        "file": "assets\\feminicidio-consumado-2024-CJpZ0weu.json",
+        "bytes": 471233
+      },
+      {
+        "file": "assets\\feminicidio-consumado-2025-D4ihk79_.json",
+        "bytes": 471240
+      },
+      {
+        "file": "assets\\feminicidio-consumado-2026-DIFLUGdw.json",
+        "bytes": 475570
+      },
+      {
+        "file": "assets\\index-DZUAE-bR.js",
+        "bytes": 436968
+      },
+      {
+        "file": "assets\\index-Zq2lW9a3.css",
+        "bytes": 50046
+      },
+      {
+        "file": "assets\\rs-municipios-2025-y2MlZlfS.geojson",
+        "bytes": 3287939
+      },
+      {
+        "file": "assets\\services-CzGzoiw7.json",
+        "bytes": 71241
+      },
+      {
+        "file": "assets\\ssp-rs-municipality-crosswalk-BL-wiE_I.json",
+        "bytes": 85576
+      },
+      {
+        "file": "favicon.svg",
+        "bytes": 9522
+      },
+      {
+        "file": "feminicidio-em-foco-icon.svg",
+        "bytes": 284
+      },
+      {
+        "file": "icons.svg",
+        "bytes": 5031
+      },
+      {
+        "file": "index.html",
+        "bytes": 822
+      },
+      {
+        "file": "logo-feminicidio-em-foco-compacto.svg",
+        "bytes": 202872
+      },
+      {
+        "file": "logo-feminicidio-em-foco-horizontal.svg",
+        "bytes": 306650
+      }
+    ],
+    "depois": [
+      {
+        "file": "assets\\case-news-2026-BV2UmJAK.json",
+        "bytes": 27472
+      },
+      {
+        "file": "assets\\feminicidio-consumado-2020-D2GxPoU5.json",
+        "bytes": 471230
+      },
+      {
+        "file": "assets\\feminicidio-consumado-2021-Cip83JOS.json",
+        "bytes": 471218
+      },
+      {
+        "file": "assets\\feminicidio-consumado-2022-CibZZsKw.json",
+        "bytes": 471228
+      },
+      {
+        "file": "assets\\feminicidio-consumado-2023-dAOTMHrz.json",
+        "bytes": 471230
+      },
+      {
+        "file": "assets\\feminicidio-consumado-2024-CJpZ0weu.json",
+        "bytes": 471233
+      },
+      {
+        "file": "assets\\feminicidio-consumado-2025-D4ihk79_.json",
+        "bytes": 471240
+      },
+      {
+        "file": "assets\\feminicidio-consumado-2026-DIFLUGdw.json",
+        "bytes": 475570
+      },
+      {
+        "file": "assets\\index-Byl_k6qs.css",
+        "bytes": 64468
+      },
+      {
+        "file": "assets\\index-Dgz-j4Vh.js",
+        "bytes": 436968
+      },
+      {
+        "file": "assets\\rs-municipios-2025-y2MlZlfS.geojson",
+        "bytes": 3287939
+      },
+      {
+        "file": "assets\\services-CzGzoiw7.json",
+        "bytes": 71241
+      },
+      {
+        "file": "assets\\ssp-rs-municipality-crosswalk-BL-wiE_I.json",
+        "bytes": 85576
+      },
+      {
+        "file": "favicon.svg",
+        "bytes": 9522
+      },
+      {
+        "file": "feminicidio-em-foco-icon.svg",
+        "bytes": 284
+      },
+      {
+        "file": "icons.svg",
+        "bytes": 5031
+      },
+      {
+        "file": "index.html",
+        "bytes": 822
+      },
+      {
+        "file": "logo-feminicidio-em-foco-compacto.svg",
+        "bytes": 202872
+      },
+      {
+        "file": "logo-feminicidio-em-foco-horizontal.svg",
+        "bytes": 306650
+      }
+    ]
+  },
+  "limites": "Medição local exploratória; não representa dispositivos reais nem prova ausência de regressão."
+}

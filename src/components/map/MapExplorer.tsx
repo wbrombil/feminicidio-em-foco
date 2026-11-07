@@ -34,12 +34,24 @@ type Crosswalk = {
   }>
 }
 
+type ServiceCategory = 'crm' | 'police-specialized' | 'acolhimento' | 'patrulha' | 'justica' | 'promotoria' | 'pml'
+
+const serviceCategories: Record<ServiceCategory, { label: string; marker: string }> = {
+  crm: { label: 'Centro de Referência da Mulher', marker: 'crm' },
+  'police-specialized': { label: 'Unidade policial especializada', marker: 'police' },
+  acolhimento: { label: 'Sala de acolhimento', marker: 'acolhimento' },
+  patrulha: { label: 'Base da Patrulha Maria da Penha', marker: 'patrulha' },
+  justica: { label: 'Juizado', marker: 'justica' },
+  promotoria: { label: 'Promotoria especializada', marker: 'promotoria' },
+  pml: { label: 'Posto Médico-Legal', marker: 'pml' },
+}
+
 type ProtectionService = {
   id: string
   municipality: string
   sourceMunicipality?: string | null
   ibgeCode: string
-  category: 'crm' | 'police-specialized'
+  category: ServiceCategory
   officialType: string
   name: string | null
   address: string | null
@@ -51,6 +63,10 @@ type ProtectionService = {
   checkedAt: string
   coordinates: [number, number] | null
   contactEnrichment?: ContactEnrichment
+}
+
+function getServiceMarkerShape(service: ProtectionService) {
+  return service.officialType === 'Sala das Margaridas' ? 'margarida' : serviceCategories[service.category].marker
 }
 
 type ContactEnrichment = {
@@ -327,7 +343,7 @@ function AccessibleServiceMarker({
     element.setAttribute('role', 'button')
     element.setAttribute('tabindex', '0')
     element.setAttribute('aria-pressed', String(selected))
-    const serviceType = service.category === 'crm' ? 'Centro de Referência da Mulher' : 'Atendimento policial especializado'
+    const serviceType = serviceCategories[service.category].label
     element.setAttribute('aria-label', `${serviceType}: ${service.name ?? service.officialType}, ${service.municipality}`)
     const handleKeyDown: EventListener = (rawEvent) => {
       const event = rawEvent as KeyboardEvent
@@ -340,7 +356,7 @@ function AccessibleServiceMarker({
     return () => element.removeEventListener('keydown', handleKeyDown)
   }, [onSelect, selected, service])
 
-  const markerShape = service.category === 'crm' ? 'crm' : 'police'
+  const markerShape = getServiceMarkerShape(service)
   const markerIcon = useMemo(() => L.divIcon({
     className: 'network-marker-icon',
     html: `<span class="network-marker-shape network-marker-${markerShape}${selected ? ' is-selected' : ''}" aria-hidden="true"></span>`,
@@ -420,6 +436,11 @@ export default function MapExplorer() {
   const [network, setNetwork] = useState<ProtectionNetwork | null>(null)
   const [showCrms, setShowCrms] = useState(true)
   const [showSpecializedPolice, setShowSpecializedPolice] = useState(true)
+  const [showAcolhimento, setShowAcolhimento] = useState(true)
+  const [showPatrulha, setShowPatrulha] = useState(true)
+  const [showJustica, setShowJustica] = useState(true)
+  const [showPromotoria, setShowPromotoria] = useState(true)
+  const [showPml, setShowPml] = useState(true)
   const [annualData, setAnnualData] = useState<AnnualData | null>(null)
   const [caseNews, setCaseNews] = useState<CaseNewsData | null>(null)
   const [caseNewsError, setCaseNewsError] = useState(false)
@@ -486,7 +507,7 @@ export default function MapExplorer() {
           if (!service.id || serviceIds.has(service.id) || !meshCodes.has(service.ibgeCode) || !service.municipality || !service.sourceUrl || !service.checkedAt) {
             throw new Error('O snapshot da rede contém serviço sem identificação, município, fonte ou data de conferência.')
           }
-          if (!['crm', 'police-specialized'].includes(service.category)) throw new Error(`Categoria de serviço inesperada: ${service.category}`)
+          if (!Object.hasOwn(serviceCategories, service.category)) throw new Error(`Categoria de serviço inesperada: ${service.category}`)
           if (service.coordinates && (service.coordinates.length !== 2 || !Number.isFinite(service.coordinates[0]) || !Number.isFinite(service.coordinates[1]))) {
             throw new Error(`Coordenadas inválidas para o serviço ${service.id}.`)
           }
@@ -637,8 +658,12 @@ export default function MapExplorer() {
   const currentData = annualData?.year === year ? annualData : null
   const selectedFeature = selectedCode ? featureByCode.get(selectedCode) ?? null : null
   const selectedService = network?.services.find((service) => service.id === selectedServiceId) ?? null
+  const activeNetworkFilters = [showCrms, showSpecializedPolice, showAcolhimento, showPatrulha, showJustica, showPromotoria, showPml].filter(Boolean).length
   const filteredServices = (network?.services ?? []).filter((service) => (
     (service.category === 'crm' && showCrms) || (service.category === 'police-specialized' && showSpecializedPolice)
+    || (service.category === 'acolhimento' && showAcolhimento) || (service.category === 'patrulha' && showPatrulha)
+    || (service.category === 'justica' && showJustica)
+    || (service.category === 'promotoria' && showPromotoria) || (service.category === 'pml' && showPml)
   ))
   const municipalityServices = filteredServices.filter((service) => !selectedCode || service.ibgeCode === selectedCode)
   const mappableServices = filteredServices.filter((service) => (
@@ -774,14 +799,22 @@ export default function MapExplorer() {
           <div className="network-controls-heading">
             <div>
               <h3 id="network-title">Serviços da rede de proteção</h3>
-              <p>Centros de Referência da Mulher e unidades policiais especializadas com endereço público na camada estadual.</p>
+              <p>Serviços de acolhimento, proteção policial e Justiça selecionados da camada estadual.</p>
             </div>
           </div>
+          <details className="network-filter-disclosure">
+            <summary>Filtros de serviços <span>{activeNetworkFilters} de 7 ativos</span></summary>
           <fieldset className="network-filters">
             <legend>Filtrar serviços no mapa</legend>
             <label><input type="checkbox" checked={showCrms} onChange={(event) => { setShowCrms(event.target.checked); if (!event.target.checked && selectedService?.category === 'crm') setSelectedServiceId(null) }} /> Centros de Referência da Mulher <span>{network.services.filter((service) => service.category === 'crm').length}</span></label>
             <label><input type="checkbox" checked={showSpecializedPolice} onChange={(event) => { setShowSpecializedPolice(event.target.checked); if (!event.target.checked && selectedService?.category === 'police-specialized') setSelectedServiceId(null) }} /> Unidades policiais especializadas <span>{network.services.filter((service) => service.category === 'police-specialized').length}</span></label>
+            <label><input type="checkbox" checked={showAcolhimento} onChange={(event) => { setShowAcolhimento(event.target.checked); if (!event.target.checked && selectedService?.category === 'acolhimento') setSelectedServiceId(null) }} /> Salas de acolhimento <span>{network.services.filter((service) => service.category === 'acolhimento').length}</span></label>
+            <label><input type="checkbox" checked={showPatrulha} onChange={(event) => { setShowPatrulha(event.target.checked); if (!event.target.checked && selectedService?.category === 'patrulha') setSelectedServiceId(null) }} /> Bases da Patrulha Maria da Penha <span>{network.services.filter((service) => service.category === 'patrulha').length}</span></label>
+            <label><input type="checkbox" checked={showJustica} onChange={(event) => { setShowJustica(event.target.checked); if (!event.target.checked && selectedService?.category === 'justica') setSelectedServiceId(null) }} /> Juizados <span>{network.services.filter((service) => service.category === 'justica').length}</span></label>
+            <label><input type="checkbox" checked={showPromotoria} onChange={(event) => { setShowPromotoria(event.target.checked); if (!event.target.checked && selectedService?.category === 'promotoria') setSelectedServiceId(null) }} /> Promotorias especializadas <span>{network.services.filter((service) => service.category === 'promotoria').length}</span></label>
+            <label><input type="checkbox" checked={showPml} onChange={(event) => { setShowPml(event.target.checked); if (!event.target.checked && selectedService?.category === 'pml') setSelectedServiceId(null) }} /> Postos Médico-Legais <span>{network.services.filter((service) => service.category === 'pml').length}</span></label>
           </fieldset>
+          </details>
         </section>
       )}
       {networkError && (
@@ -810,6 +843,7 @@ export default function MapExplorer() {
       ) : mesh && currentData ? (
         <div className={`map-workspace${selectedFeature || selectedService ? ' has-selection' : ''}`}>
           <div className="map-frame">
+            {network && <a className="network-list-jump" href="#lista-servicos">Ir para a lista de serviços</a>}
             <p className="visually-hidden" id="map-instructions">Mapa interativo do Rio Grande do Sul. Use a busca para selecionar um município ou os controles do mapa para ampliar e deslocar a visualização. Para ampliar ou reduzir com a roda do mouse ou trackpad, mantenha o botão principal pressionado sobre o mapa enquanto rola.</p>
             <MapContainer
               className="rs-map"
@@ -850,7 +884,13 @@ export default function MapExplorer() {
                 <MapLegend selectedMonth={month} />
                 <div className="network-legend" aria-label="Legenda dos serviços da rede">
                   <span><i className="network-dot network-dot-crm" aria-hidden="true" /> Centro de Referência da Mulher</span>
+                  <span><i className="network-dot network-dot-acolhimento" aria-hidden="true" /> Sala Lilás</span>
+                  <span><i className="network-dot-margarida" aria-hidden="true" /> Sala das Margaridas</span>
                   <span><i className="network-dot network-dot-police" aria-hidden="true" /> Unidade policial especializada</span>
+                  <span><i className="network-dot network-dot-patrulha" aria-hidden="true" /> Base da Patrulha Maria da Penha</span>
+                  <span><i className="network-dot network-dot-pml" aria-hidden="true" /> Posto Médico-Legal</span>
+                  <span><i className="network-dot network-dot-justica" aria-hidden="true" /> Juizado</span>
+                  <span><i className="network-dot network-dot-promotoria" aria-hidden="true" /> Promotoria especializada</span>
                 </div>
               </div>
             </section>
@@ -873,8 +913,11 @@ export default function MapExplorer() {
               </span>
               {selectedService ? (
                 <>
-                  <span className="municipality-panel-label">{selectedService.category === 'crm' ? 'Centro de Referência da Mulher' : 'Atendimento policial especializado'}</span>
-                  <h3>{selectedService.name ?? `${selectedService.officialType} — ${selectedService.municipality}`}</h3>
+                  <span className="municipality-panel-label">{selectedService.officialType}</span>
+                  <h3 className="selected-service-heading">
+                    <i className={getServiceMarkerShape(selectedService) === 'margarida' ? 'network-dot-margarida' : `network-dot network-dot-${getServiceMarkerShape(selectedService)}`} aria-hidden="true" />
+                    <span>{selectedService.name ?? `${selectedService.officialType} — ${selectedService.municipality}`}</span>
+                  </h3>
                   <div className="selected-service-details">
                     <p>{selectedService.municipality}</p>
                     {selectedServiceAddress && <p className="network-service-detail">{selectedServiceAddress}</p>}
@@ -887,6 +930,7 @@ export default function MapExplorer() {
                       </p>
                     )}
                     {selectedServiceHours && <p className="network-service-detail">Atendimento: {selectedServiceHours}</p>}
+                    {selectedService.category === 'pml' && <p className="network-service-detail">O encaminhamento deve ser feito pela autoridade policial. Antes de ir, ligue para confirmar os horários. <a href="https://igp.rs.gov.br/onde-tem-posto-medico-legal" target="_blank" rel="noreferrer">Orientações do IGP-RS</a>.</p>}
                     <dl>
                       <div><dt>Conferido em</dt><dd>{selectedService.checkedAt}</dd></div>
                     </dl>
@@ -955,7 +999,7 @@ export default function MapExplorer() {
               )}
               {network && (
                 <details className="network-directory">
-                  <summary>Serviços da rede de proteção{selectedFeature ? ` em ${selectedFeature.properties.NM_MUN}` : ' no Rio Grande do Sul'}</summary>
+                  <summary id="lista-servicos">Serviços da rede de proteção{selectedFeature ? ` em ${selectedFeature.properties.NM_MUN}` : ' no Rio Grande do Sul'}</summary>
                   <ul>
                     {municipalityServices.map((service) => {
                       const hasCoordinates = Boolean(getServiceCoordinates(service))
@@ -966,7 +1010,7 @@ export default function MapExplorer() {
                         <li key={service.id}>
                           <button type="button" className={isSelected ? 'is-selected' : undefined} onClick={() => chooseService(service)}>
                             <strong>{service.name ?? `${service.officialType} — ${service.municipality}`}</strong>
-                            <span>{service.municipality} · {service.category === 'crm' ? 'Centro de Referência da Mulher' : 'Unidade policial especializada'}{locationStatus}{isSelected ? ' · Serviço selecionado' : ''}</span>
+                            <span>{service.municipality} · {service.officialType}{locationStatus}{isSelected ? ' · Serviço selecionado' : ''}</span>
                           </button>
                         </li>
                       )

@@ -6,6 +6,42 @@
   line-height: 1.55;
 }
 
+/* Piloto editorial: controles e resultados mantêm a lógica existente. */
+.map-explorer .map-explorer-heading h2 {
+  max-width: 24ch;
+  color: var(--editorial-ink);
+  font-family: var(--editorial-display);
+  font-size: clamp(2rem, 3.5vw, 3.5rem);
+  line-height: 1.12;
+  letter-spacing: -0.035em;
+}
+.map-explorer .map-explorer-heading p { max-width: var(--editorial-reading-width); color: var(--editorial-muted); font-size: 1rem; }
+.map-explorer .map-controls { gap: 1rem; }
+.map-explorer .map-controls label { color: var(--editorial-ink); font-size: 0.875rem; font-weight: 700; }
+.map-explorer .map-controls select { min-height: 3rem; border-color: var(--editorial-control-border); background: var(--editorial-surface); font-size: 1rem; font-weight: 400; }
+.map-explorer .map-controls select:focus-visible,
+.map-explorer button:focus-visible,
+.map-explorer summary:focus-visible,
+.map-explorer a:focus-visible { outline: 3px solid var(--editorial-focus); outline-offset: 3px; }
+.map-explorer .network-controls { margin-block: 1.25rem; padding: 1.25rem 0; border-block: 1px solid var(--editorial-border); }
+.map-explorer .network-controls::after { display: none; }
+.map-explorer .network-controls-heading p { max-width: var(--editorial-reading-width); color: var(--editorial-muted); font-size: 0.875rem; }
+.map-explorer .network-filters legend { color: var(--editorial-muted); font-size: 0.875rem; }
+.map-explorer .network-filters label { min-height: 2.5rem; font-size: 0.9375rem; }
+.map-explorer .network-filters input { width: 1.125rem; height: 1.125rem; accent-color: var(--editorial-accent); }
+.map-explorer .map-summary { gap: 0; border-block: 1px solid var(--editorial-border); }
+.map-explorer .map-summary > div { padding: 1.125rem 1.25rem; background: transparent; }
+.map-explorer .map-summary > div + div { border-left: 1px solid var(--editorial-border); }
+.map-explorer .map-summary span, .map-explorer .map-summary small { color: var(--editorial-muted); }
+.map-explorer .map-summary strong { font-size: 1.375rem; font-variant-numeric: tabular-nums; }
+.map-explorer .map-guide, .map-explorer .municipality-panel { border-color: var(--editorial-border); background: var(--editorial-surface); }
+.map-explorer .municipality-panel-label { color: var(--editorial-accent); }
+
+@media (max-width: 480px) {
+  .map-explorer .map-summary > div + div { border-top: 1px solid var(--editorial-border); border-left: 0; }
+  .map-explorer .map-summary > div { padding: 0.9rem 0.75rem; }
+}
+
 .map-explorer-heading {
   display: flex;
   align-items: flex-start;
@@ -131,6 +167,10 @@
   font-size: var(--text-xs);
 }
 
+.network-filter-disclosure { margin: 0.9rem 0; border: 1px solid var(--editorial-border); background: var(--editorial-surface); }
+.network-filter-disclosure summary { min-height: 44px; padding: 0.7rem 1rem; color: var(--ink); cursor: pointer; font-weight: 700; }
+.network-filter-disclosure summary span { margin-left: 0.45rem; color: var(--editorial-muted); font-size: 0.875rem; font-weight: 400; }
+.network-filter-disclosure .network-filters { padding: 0 1rem 0.75rem; margin: 0; }
 .network-filters {
   width: 100%;
   min-width: 0;
@@ -229,6 +269,8 @@
   background: var(--surface-muted);
   font-family: var(--font-sans);
 }
+.network-list-jump { display: inline-block; padding: 0.65rem 0.8rem; color: var(--editorial-accent); text-underline-offset: 3px; }
+.network-list-jump:focus-visible { outline: 3px solid var(--ink); outline-offset: -3px; }
 
 .rs-map:focus-visible {
   outline: 3px solid var(--accent);
@@ -290,7 +332,10 @@
   box-shadow: 0 0 0 1px var(--shadow-marker);
   transform: translate(-50%, -50%);
 }
-.network-marker-police { border-radius: 1px; background: var(--service-police); transform: translate(-50%, -50%) rotate(45deg); }
+.network-marker-police { background: var(--service-police); }
+.network-marker-acolhimento { border-radius: 2px; background: var(--service-acolhimento); }
+.network-marker-patrulha { border-radius: 50% 50% 0 0; background: var(--service-patrulha); }
+.network-marker-justica { border-radius: 0; background: var(--service-justica); clip-path: polygon(50% 0, 100% 100%, 0 100%); }
 .network-marker-shape.is-selected {
   width: 14px;
   height: 14px;
@@ -298,11 +343,75 @@
   background: var(--selection-accent);
   box-shadow: 0 0 0 2px var(--surface-map-marker), 0 0 0 4px var(--shadow-marker-selected);
 }
-.network-marker-police.is-selected { transform: translate(-50%, -50%) rotate(45deg); }
+.network-marker-police, .network-marker-patrulha, .network-marker-justica, .network-marker-promotoria, .network-marker-pml,
+.network-marker-police.is-selected, .network-marker-patrulha.is-selected, .network-marker-justica.is-selected, .network-marker-promotoria.is-selected, .network-marker-pml.is-selected,
+.network-dot-police, .network-dot-patrulha, .network-dot-justica, .network-dot-promotoria, .network-dot-pml {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #b6a99b;
+  border-radius: 50%;
+  background: #fffdf8;
+  box-shadow: 0 0 0 1px var(--shadow-marker);
+  clip-path: none;
+}
+.network-marker-police::after, .network-marker-patrulha::after, .network-marker-justica::after, .network-marker-promotoria::after, .network-marker-pml::after,
+.network-dot-police::after, .network-dot-patrulha::after, .network-dot-justica::after, .network-dot-promotoria::after, .network-dot-pml::after {
+  display: block;
+  width: 100%;
+  height: 100%;
+  content: '';
+  -webkit-mask: var(--service-icon) center / 85% no-repeat;
+  mask: var(--service-icon) center / 85% no-repeat;
+  background: var(--service-icon-color);
+}
+.network-marker-police, .network-dot-police, .network-marker-pml, .network-dot-pml {
+  --service-icon-color: var(--service-police);
+  --service-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 1 3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5L12 1zm2.5 11.59.9 3.88L12 14.42l-3.4 2.05.9-3.87-3-2.59 3.96-.34L12 6.02l1.54 3.64L17.5 10l-3 2.59z'/%3E%3C/svg%3E");
+}
+.network-marker-patrulha, .network-dot-patrulha { --service-icon-color: var(--service-patrulha); --service-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 1 3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5L12 1zm2.5 11.59.9 3.88L12 14.42l-3.4 2.05.9-3.87-3-2.59 3.96-.34L12 6.02l1.54 3.64L17.5 10l-3 2.59z'/%3E%3C/svg%3E"); }
+.network-marker-justica, .network-dot-justica, .network-marker-promotoria, .network-dot-promotoria {
+  --service-icon-color: var(--service-justica);
+  --service-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect height='20' transform='matrix(.7075 -.7067 .7067 .7075 -5.6854 13.7194)' width='4' x='11.73' y='3.73'/%3E%3Crect height='8' transform='matrix(.707 -.7072 .7072 .707 .3157 11.246)' width='4' x='11.73' y='1.24'/%3E%3Crect height='8' transform='matrix(.7071 -.7071 .7071 .7071 -8.1722 7.7256)' width='4' x='3.24' y='9.73'/%3E%3Crect height='2' width='12' x='1' y='21'/%3E%3C/svg%3E");
+}
+.network-marker-promotoria, .network-dot-promotoria { --service-icon-color: var(--service-promotoria); }
+.network-marker-pml, .network-dot-pml { --service-icon-color: var(--service-pml); }
+.network-marker-margarida, .network-marker-margarida.is-selected, .network-dot-margarida {
+  width: 18px;
+  height: 18px;
+  border: 0;
+  border-radius: 0;
+  background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cg fill='%23ffd51c' stroke='%23552f00' stroke-width='1.3'%3E%3Cellipse cx='12' cy='5.2' rx='2.6' ry='4.1'/%3E%3Cellipse cx='12' cy='5.2' rx='2.6' ry='4.1' transform='rotate(45 12 12)'/%3E%3Cellipse cx='12' cy='5.2' rx='2.6' ry='4.1' transform='rotate(90 12 12)'/%3E%3Cellipse cx='12' cy='5.2' rx='2.6' ry='4.1' transform='rotate(135 12 12)'/%3E%3Cellipse cx='12' cy='5.2' rx='2.6' ry='4.1' transform='rotate(180 12 12)'/%3E%3Cellipse cx='12' cy='5.2' rx='2.6' ry='4.1' transform='rotate(225 12 12)'/%3E%3Cellipse cx='12' cy='5.2' rx='2.6' ry='4.1' transform='rotate(270 12 12)'/%3E%3Cellipse cx='12' cy='5.2' rx='2.6' ry='4.1' transform='rotate(315 12 12)'/%3E%3Ccircle cx='12' cy='12' r='3.2' fill='%23804a00'/%3E%3C/g%3E%3C/svg%3E") center / contain no-repeat;
+  box-shadow: none;
+}
+.network-dot-margarida { display: inline-block; flex: 0 0 auto; }
 .network-marker-icon:focus-visible .network-marker-shape { outline: 3px solid var(--ink); outline-offset: 3px; }
+.rs-map .network-marker-icon:focus-visible { outline: 3px solid var(--ink); outline-offset: 2px; }
+.network-marker-icon[aria-pressed='true'] { outline: 2px solid var(--ink); outline-offset: 2px; }
 .network-dot { display: inline-block; width: 0.7rem; height: 0.7rem; flex: 0 0 auto; border: 2px solid var(--surface-map-marker); border-radius: 50%; box-shadow: 0 0 0 1px var(--shadow-marker); }
+.network-dot.network-dot-police, .network-dot.network-dot-patrulha, .network-dot.network-dot-justica, .network-dot.network-dot-promotoria, .network-dot.network-dot-pml { width: 20px; height: 20px; border: 1px solid #b6a99b; background: #fffdf8; }
 .network-dot-crm { background: var(--service-crm); }
-.network-dot-police { border-radius: 1px; background: var(--service-police); transform: rotate(45deg); }
+.network-dot-acolhimento { border-radius: 2px; background: var(--service-acolhimento); }
+.network-marker-crm, .network-marker-acolhimento,
+.network-marker-crm.is-selected, .network-marker-acolhimento.is-selected,
+.network-dot.network-dot-crm, .network-dot.network-dot-acolhimento {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #9b8e80;
+  border-radius: 50%;
+  background: #fffdf8;
+  box-shadow: 0 0 0 1px var(--shadow-marker);
+}
+.network-marker-crm::after, .network-marker-acolhimento::after,
+.network-dot-crm::after, .network-dot-acolhimento::after {
+  display: block;
+  width: 100%;
+  height: 100%;
+  content: '';
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z'/%3E%3C/svg%3E") center / 85% no-repeat;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z'/%3E%3C/svg%3E") center / 85% no-repeat;
+  background: var(--service-crm);
+}
+.network-marker-acolhimento::after, .network-dot-acolhimento::after { background: var(--service-acolhimento); }
 
 .map-legend-swatch {
   width: 0.8rem;
@@ -338,6 +447,9 @@
   font-weight: 600;
   line-height: 1.4;
 }
+.municipality-panel .selected-service-heading { display: flex; align-items: flex-start; gap: 0.55rem; }
+.selected-service-heading > i { flex: 0 0 auto; margin-top: 0.15em; }
+.selected-service-heading > span { min-width: 0; overflow-wrap: anywhere; }
 
 .municipality-panel p {
   margin: 0;
@@ -504,7 +616,7 @@
 .network-directory button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .network-directory ul { display: grid; max-height: min(55vh, 28rem); gap: 0.35rem; margin: 0; padding: 0.6rem; overflow-y: auto; overscroll-behavior: contain; list-style: none; }
 .network-directory li { background: var(--surface-muted); }
-.network-directory .network-directory-empty { padding: 0.8rem; color: var(--muted); font-size: var(--text-xs); }
+.network-directory .network-directory-empty { padding: 0.8rem; color: var(--editorial-muted); font-size: var(--text-xs); }
 .network-directory button {
   display: grid;
   width: 100%;
@@ -520,7 +632,7 @@
 .network-directory button:hover { background: var(--surface-highlight); }
 .network-directory button.is-selected { box-shadow: inset 3px 0 var(--accent); background: var(--surface-highlight); }
 .network-directory button strong { font-size: var(--text-sm); font-weight: 600; }
-.network-directory button span { color: var(--muted); font-size: var(--text-xs); }
+.network-directory button span { color: var(--editorial-muted); font-size: var(--text-xs); }
 
 .map-source-note {
   display: flex;

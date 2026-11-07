@@ -1,0 +1,382 @@
+[
+  {
+    "zoom": 1,
+    "setting": {
+      "selected": "1",
+      "options": [
+        "100%"
+      ]
+    },
+    "metrics": {
+      "innerWidth": 1280,
+      "innerHeight": 900,
+      "devicePixelRatio": 1,
+      "visualScale": 1,
+      "clientWidth": 1265,
+      "docWidth": 1265,
+      "bodyWidth": 1265,
+      "excedentes": [],
+      "scrollLeftMax": 0,
+      "map": true,
+      "heading": "Feminicídio em Foco",
+      "screen": {
+        "width": 800,
+        "height": 600
+      }
+    }
+  },
+  {
+    "zoom": 2,
+    "setting": {
+      "selected": "2",
+      "options": [
+        "200%"
+      ]
+    },
+    "metrics": {
+      "innerWidth": 640,
+      "innerHeight": 450,
+      "devicePixelRatio": 2,
+      "visualScale": 1,
+      "clientWidth": 632,
+      "docWidth": 632,
+      "bodyWidth": 633,
+      "excedentes": [
+        {
+          "tag": "TABLE",
+          "cls": "",
+          "right": 740.48,
+          "width": 720
+        },
+        {
+          "tag": "THEAD",
+          "cls": "",
+          "right": 740.48,
+          "width": 720
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "right": 740.48,
+          "width": 720
+        },
+        {
+          "tag": "TH",
+          "cls": "",
+          "right": 740.48,
+          "width": 216.01
+        },
+        {
+          "tag": "TBODY",
+          "cls": "",
+          "right": 740.48,
+          "width": 720
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "right": 740.48,
+          "width": 720
+        },
+        {
+          "tag": "TD",
+          "cls": "",
+          "right": 740.48,
+          "width": 216.01
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "annual-data-trigger",
+          "right": 724.48,
+          "width": 140.86
+        },
+        {
+          "tag": "SPAN",
+          "cls": "",
+          "right": 717.28,
+          "width": 102.48
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "right": 740.48,
+          "width": 720
+        },
+        {
+          "tag": "TD",
+          "cls": "",
+          "right": 740.48,
+          "width": 216.01
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "annual-data-trigger",
+          "right": 724.48,
+          "width": 140.86
+        },
+        {
+          "tag": "SPAN",
+          "cls": "",
+          "right": 717.28,
+          "width": 102.48
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "right": 740.48,
+          "width": 720
+        },
+        {
+          "tag": "TD",
+          "cls": "",
+          "right": 740.48,
+          "width": 216.01
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "annual-data-trigger",
+          "right": 724.48,
+          "width": 140.86
+        },
+        {
+          "tag": "SPAN",
+          "cls": "",
+          "right": 717.28,
+          "width": 102.48
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "right": 740.48,
+          "width": 720
+        },
+        {
+          "tag": "TD",
+          "cls": "",
+          "right": 740.48,
+          "width": 216.01
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "annual-data-trigger",
+          "right": 724.48,
+          "width": 140.86
+        },
+        {
+          "tag": "SPAN",
+          "cls": "",
+          "right": 717.28,
+          "width": 102.48
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "right": 740.48,
+          "width": 720
+        },
+        {
+          "tag": "TD",
+          "cls": "",
+          "right": 740.48,
+          "width": 216.01
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "annual-data-trigger",
+          "right": 724.48,
+          "width": 140.86
+        },
+        {
+          "tag": "SPAN",
+          "cls": "",
+          "right": 717.28,
+          "width": 102.48
+        }
+      ],
+      "scrollLeftMax": 0,
+      "map": true,
+      "heading": "Feminicídio em Foco",
+      "screen": {
+        "width": 800,
+        "height": 600
+      }
+    }
+  },
+  {
+    "zoom": 4,
+    "setting": {
+      "selected": "4",
+      "options": [
+        "400%"
+      ]
+    },
+    "metrics": {
+      "innerWidth": 320,
+      "innerHeight": 225,
+      "devicePixelRatio": 4,
+      "visualScale": 1,
+      "clientWidth": 316,
+      "docWidth": 316,
+      "bodyWidth": 316,
+      "excedentes": [
+        {
+          "tag": "TABLE",
+          "cls": "",
+          "right": 737.6,
+          "width": 720
+        },
+        {
+          "tag": "THEAD",
+          "cls": "",
+          "right": 737.6,
+          "width": 720
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "right": 737.6,
+          "width": 720
+        },
+        {
+          "tag": "TH",
+          "cls": "",
+          "right": 327.2,
+          "width": 216
+        },
+        {
+          "tag": "TH",
+          "cls": "",
+          "right": 521.59,
+          "width": 194.4
+        },
+        {
+          "tag": "TH",
+          "cls": "",
+          "right": 737.6,
+          "width": 216
+        },
+        {
+          "tag": "TBODY",
+          "cls": "",
+          "right": 737.6,
+          "width": 720
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "right": 737.6,
+          "width": 720
+        },
+        {
+          "tag": "TD",
+          "cls": "",
+          "right": 327.2,
+          "width": 216
+        },
+        {
+          "tag": "TD",
+          "cls": "",
+          "right": 521.59,
+          "width": 194.4
+        },
+        {
+          "tag": "TD",
+          "cls": "",
+          "right": 737.6,
+          "width": 216
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "annual-data-trigger",
+          "right": 721.6,
+          "width": 140.87
+        },
+        {
+          "tag": "svg",
+          "cls": "[object SVGAnimatedString]",
+          "right": 605.53,
+          "width": 17.6
+        },
+        {
+          "tag": "path",
+          "cls": "[object SVGAnimatedString]",
+          "right": 603.91,
+          "width": 14.37
+        },
+        {
+          "tag": "circle",
+          "cls": "[object SVGAnimatedString]",
+          "right": 598.78,
+          "width": 4.11
+        },
+        {
+          "tag": "SPAN",
+          "cls": "",
+          "right": 714.4,
+          "width": 102.47
+        },
+        {
+          "tag": "TR",
+          "cls": "",
+          "right": 737.6,
+          "width": 720
+        },
+        {
+          "tag": "TD",
+          "cls": "",
+          "right": 327.2,
+          "width": 216
+        },
+        {
+          "tag": "TD",
+          "cls": "",
+          "right": 521.59,
+          "width": 194.4
+        },
+        {
+          "tag": "TD",
+          "cls": "",
+          "right": 737.6,
+          "width": 216
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "annual-data-trigger",
+          "right": 721.6,
+          "width": 140.87
+        },
+        {
+          "tag": "svg",
+          "cls": "[object SVGAnimatedString]",
+          "right": 605.53,
+          "width": 17.6
+        },
+        {
+          "tag": "path",
+          "cls": "[object SVGAnimatedString]",
+          "right": 603.91,
+          "width": 14.37
+        },
+        {
+          "tag": "circle",
+          "cls": "[object SVGAnimatedString]",
+          "right": 598.78,
+          "width": 4.11
+        },
+        {
+          "tag": "SPAN",
+          "cls": "",
+          "right": 714.4,
+          "width": 102.47
+        }
+      ],
+      "scrollLeftMax": 0,
+      "map": true,
+      "heading": "Feminicídio em Foco",
+      "screen": {
+        "width": 800,
+        "height": 600
+      }
+    }
+  }
+]

@@ -14,12 +14,24 @@ const selectedTypes = new Map([
   ['Delegacia Especializada no Atendimento à Mulher (DEAM)', 'police-specialized'],
   ['Delegacia de Proteção a Grupos Vulneráveis', 'police-specialized'],
   ['Posto Policial de Proteção à Mulher (PPPM)', 'police-specialized'],
+  ['Sala das Margaridas', 'acolhimento'],
+  ['Sala Lilás', 'acolhimento'],
+  ['Patrulha Maria da Penha', 'patrulha'],
+  ['Juizado de Violência Doméstica e Familiar Contra a Mulher', 'justica'],
+  ['Promotoria MPRS', 'promotoria'],
+  ['Posto Médico-Legal (PML)', 'pml'],
 ])
 const expectedCounts = new Map([
   ['Centros de Referência de Atendimento à Mulher', 54],
   ['Delegacia Especializada no Atendimento à Mulher (DEAM)', 22],
   ['Delegacia de Proteção a Grupos Vulneráveis', 7],
   ['Posto Policial de Proteção à Mulher (PPPM)', 1],
+  ['Sala das Margaridas', 96],
+  ['Sala Lilás', 9],
+  ['Patrulha Maria da Penha', 119],
+  ['Juizado de Violência Doméstica e Familiar Contra a Mulher', 14],
+  ['Promotoria MPRS', 12],
+  ['Posto Médico-Legal (PML)', 34],
 ])
 
 function clean(value) {
@@ -104,7 +116,7 @@ const services = filtered.map((feature) => {
   }
 })
 
-if (services.length !== 84) throw new Error(`Esperados 84 serviços selecionados; encontrados ${services.length}.`)
+if (services.length !== 368) throw new Error(`Esperados 368 serviços selecionados; encontrados ${services.length}.`)
 services.sort((a, b) => a.municipality.localeCompare(b.municipality, 'pt-BR') || a.officialType.localeCompare(b.officialType, 'pt-BR'))
 
 const output = {

@@ -1,0 +1,887 @@
+{
+  "views": [
+    {
+      "width": 1440,
+      "scrollWidth": 1425,
+      "clientWidth": 1425,
+      "markers": 366,
+      "directory": 368,
+      "filters": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "width": 390,
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "markers": 366,
+      "directory": 368,
+      "filters": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "width": 320,
+      "scrollWidth": 305,
+      "clientWidth": 305,
+      "markers": 366,
+      "directory": 368,
+      "filters": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    }
+  ],
+  "combinations": [
+    {
+      "mask": 0,
+      "markers": 0,
+      "directory": 0,
+      "summary": "0 de 7 ativos"
+    },
+    {
+      "mask": 1,
+      "markers": 53,
+      "directory": 54,
+      "summary": "1 de 7 ativos"
+    },
+    {
+      "mask": 2,
+      "markers": 29,
+      "directory": 30,
+      "summary": "1 de 7 ativos"
+    },
+    {
+      "mask": 3,
+      "markers": 82,
+      "directory": 84,
+      "summary": "2 de 7 ativos"
+    },
+    {
+      "mask": 4,
+      "markers": 105,
+      "directory": 105,
+      "summary": "1 de 7 ativos"
+    },
+    {
+      "mask": 5,
+      "markers": 158,
+      "directory": 159,
+      "summary": "2 de 7 ativos"
+    },
+    {
+      "mask": 6,
+      "markers": 134,
+      "directory": 135,
+      "summary": "2 de 7 ativos"
+    },
+    {
+      "mask": 7,
+      "markers": 187,
+      "directory": 189,
+      "summary": "3 de 7 ativos"
+    },
+    {
+      "mask": 8,
+      "markers": 119,
+      "directory": 119,
+      "summary": "1 de 7 ativos"
+    },
+    {
+      "mask": 9,
+      "markers": 172,
+      "directory": 173,
+      "summary": "2 de 7 ativos"
+    },
+    {
+      "mask": 10,
+      "markers": 148,
+      "directory": 149,
+      "summary": "2 de 7 ativos"
+    },
+    {
+      "mask": 11,
+      "markers": 201,
+      "directory": 203,
+      "summary": "3 de 7 ativos"
+    },
+    {
+      "mask": 12,
+      "markers": 224,
+      "directory": 224,
+      "summary": "2 de 7 ativos"
+    },
+    {
+      "mask": 13,
+      "markers": 277,
+      "directory": 278,
+      "summary": "3 de 7 ativos"
+    },
+    {
+      "mask": 14,
+      "markers": 253,
+      "directory": 254,
+      "summary": "3 de 7 ativos"
+    },
+    {
+      "mask": 15,
+      "markers": 306,
+      "directory": 308,
+      "summary": "4 de 7 ativos"
+    },
+    {
+      "mask": 16,
+      "markers": 14,
+      "directory": 14,
+      "summary": "1 de 7 ativos"
+    },
+    {
+      "mask": 17,
+      "markers": 67,
+      "directory": 68,
+      "summary": "2 de 7 ativos"
+    },
+    {
+      "mask": 18,
+      "markers": 43,
+      "directory": 44,
+      "summary": "2 de 7 ativos"
+    },
+    {
+      "mask": 19,
+      "markers": 96,
+      "directory": 98,
+      "summary": "3 de 7 ativos"
+    },
+    {
+      "mask": 20,
+      "markers": 119,
+      "directory": 119,
+      "summary": "2 de 7 ativos"
+    },
+    {
+      "mask": 21,
+      "markers": 172,
+      "directory": 173,
+      "summary": "3 de 7 ativos"
+    },
+    {
+      "mask": 22,
+      "markers": 148,
+      "directory": 149,
+      "summary": "3 de 7 ativos"
+    },
+    {
+      "mask": 23,
+      "markers": 201,
+      "directory": 203,
+      "summary": "4 de 7 ativos"
+    },
+    {
+      "mask": 24,
+      "markers": 133,
+      "directory": 133,
+      "summary": "2 de 7 ativos"
+    },
+    {
+      "mask": 25,
+      "markers": 186,
+      "directory": 187,
+      "summary": "3 de 7 ativos"
+    },
+    {
+      "mask": 26,
+      "markers": 162,
+      "directory": 163,
+      "summary": "3 de 7 ativos"
+    },
+    {
+      "mask": 27,
+      "markers": 215,
+      "directory": 217,
+      "summary": "4 de 7 ativos"
+    },
+    {
+      "mask": 28,
+      "markers": 238,
+      "directory": 238,
+      "summary": "3 de 7 ativos"
+    },
+    {
+      "mask": 29,
+      "markers": 291,
+      "directory": 292,
+      "summary": "4 de 7 ativos"
+    },
+    {
+      "mask": 30,
+      "markers": 267,
+      "directory": 268,
+      "summary": "4 de 7 ativos"
+    },
+    {
+      "mask": 31,
+      "markers": 320,
+      "directory": 322,
+      "summary": "5 de 7 ativos"
+    },
+    {
+      "mask": 32,
+      "markers": 12,
+      "directory": 12,
+      "summary": "1 de 7 ativos"
+    },
+    {
+      "mask": 33,
+      "markers": 65,
+      "directory": 66,
+      "summary": "2 de 7 ativos"
+    },
+    {
+      "mask": 34,
+      "markers": 41,
+      "directory": 42,
+      "summary": "2 de 7 ativos"
+    },
+    {
+      "mask": 35,
+      "markers": 94,
+      "directory": 96,
+      "summary": "3 de 7 ativos"
+    },
+    {
+      "mask": 36,
+      "markers": 117,
+      "directory": 117,
+      "summary": "2 de 7 ativos"
+    },
+    {
+      "mask": 37,
+      "markers": 170,
+      "directory": 171,
+      "summary": "3 de 7 ativos"
+    },
+    {
+      "mask": 38,
+      "markers": 146,
+      "directory": 147,
+      "summary": "3 de 7 ativos"
+    },
+    {
+      "mask": 39,
+      "markers": 199,
+      "directory": 201,
+      "summary": "4 de 7 ativos"
+    },
+    {
+      "mask": 40,
+      "markers": 131,
+      "directory": 131,
+      "summary": "2 de 7 ativos"
+    },
+    {
+      "mask": 41,
+      "markers": 184,
+      "directory": 185,
+      "summary": "3 de 7 ativos"
+    },
+    {
+      "mask": 42,
+      "markers": 160,
+      "directory": 161,
+      "summary": "3 de 7 ativos"
+    },
+    {
+      "mask": 43,
+      "markers": 213,
+      "directory": 215,
+      "summary": "4 de 7 ativos"
+    },
+    {
+      "mask": 44,
+      "markers": 236,
+      "directory": 236,
+      "summary": "3 de 7 ativos"
+    },
+    {
+      "mask": 45,
+      "markers": 289,
+      "directory": 290,
+      "summary": "4 de 7 ativos"
+    },
+    {
+      "mask": 46,
+      "markers": 265,
+      "directory": 266,
+      "summary": "4 de 7 ativos"
+    },
+    {
+      "mask": 47,
+      "markers": 318,
+      "directory": 320,
+      "summary": "5 de 7 ativos"
+    },
+    {
+      "mask": 48,
+      "markers": 26,
+      "directory": 26,
+      "summary": "2 de 7 ativos"
+    },
+    {
+      "mask": 49,
+      "markers": 79,
+      "directory": 80,
+      "summary": "3 de 7 ativos"
+    },
+    {
+      "mask": 50,
+      "markers": 55,
+      "directory": 56,
+      "summary": "3 de 7 ativos"
+    },
+    {
+      "mask": 51,
+      "markers": 108,
+      "directory": 110,
+      "summary": "4 de 7 ativos"
+    },
+    {
+      "mask": 52,
+      "markers": 131,
+      "directory": 131,
+      "summary": "3 de 7 ativos"
+    },
+    {
+      "mask": 53,
+      "markers": 184,
+      "directory": 185,
+      "summary": "4 de 7 ativos"
+    },
+    {
+      "mask": 54,
+      "markers": 160,
+      "directory": 161,
+      "summary": "4 de 7 ativos"
+    },
+    {
+      "mask": 55,
+      "markers": 213,
+      "directory": 215,
+      "summary": "5 de 7 ativos"
+    },
+    {
+      "mask": 56,
+      "markers": 145,
+      "directory": 145,
+      "summary": "3 de 7 ativos"
+    },
+    {
+      "mask": 57,
+      "markers": 198,
+      "directory": 199,
+      "summary": "4 de 7 ativos"
+    },
+    {
+      "mask": 58,
+      "markers": 174,
+      "directory": 175,
+      "summary": "4 de 7 ativos"
+    },
+    {
+      "mask": 59,
+      "markers": 227,
+      "directory": 229,
+      "summary": "5 de 7 ativos"
+    },
+    {
+      "mask": 60,
+      "markers": 250,
+      "directory": 250,
+      "summary": "4 de 7 ativos"
+    },
+    {
+      "mask": 61,
+      "markers": 303,
+      "directory": 304,
+      "summary": "5 de 7 ativos"
+    },
+    {
+      "mask": 62,
+      "markers": 279,
+      "directory": 280,
+      "summary": "5 de 7 ativos"
+    },
+    {
+      "mask": 63,
+      "markers": 332,
+      "directory": 334,
+      "summary": "6 de 7 ativos"
+    },
+    {
+      "mask": 64,
+      "markers": 34,
+      "directory": 34,
+      "summary": "1 de 7 ativos"
+    },
+    {
+      "mask": 65,
+      "markers": 87,
+      "directory": 88,
+      "summary": "2 de 7 ativos"
+    },
+    {
+      "mask": 66,
+      "markers": 63,
+      "directory": 64,
+      "summary": "2 de 7 ativos"
+    },
+    {
+      "mask": 67,
+      "markers": 116,
+      "directory": 118,
+      "summary": "3 de 7 ativos"
+    },
+    {
+      "mask": 68,
+      "markers": 139,
+      "directory": 139,
+      "summary": "2 de 7 ativos"
+    },
+    {
+      "mask": 69,
+      "markers": 192,
+      "directory": 193,
+      "summary": "3 de 7 ativos"
+    },
+    {
+      "mask": 70,
+      "markers": 168,
+      "directory": 169,
+      "summary": "3 de 7 ativos"
+    },
+    {
+      "mask": 71,
+      "markers": 221,
+      "directory": 223,
+      "summary": "4 de 7 ativos"
+    },
+    {
+      "mask": 72,
+      "markers": 153,
+      "directory": 153,
+      "summary": "2 de 7 ativos"
+    },
+    {
+      "mask": 73,
+      "markers": 206,
+      "directory": 207,
+      "summary": "3 de 7 ativos"
+    },
+    {
+      "mask": 74,
+      "markers": 182,
+      "directory": 183,
+      "summary": "3 de 7 ativos"
+    },
+    {
+      "mask": 75,
+      "markers": 235,
+      "directory": 237,
+      "summary": "4 de 7 ativos"
+    },
+    {
+      "mask": 76,
+      "markers": 258,
+      "directory": 258,
+      "summary": "3 de 7 ativos"
+    },
+    {
+      "mask": 77,
+      "markers": 311,
+      "directory": 312,
+      "summary": "4 de 7 ativos"
+    },
+    {
+      "mask": 78,
+      "markers": 287,
+      "directory": 288,
+      "summary": "4 de 7 ativos"
+    },
+    {
+      "mask": 79,
+      "markers": 340,
+      "directory": 342,
+      "summary": "5 de 7 ativos"
+    },
+    {
+      "mask": 80,
+      "markers": 48,
+      "directory": 48,
+      "summary": "2 de 7 ativos"
+    },
+    {
+      "mask": 81,
+      "markers": 101,
+      "directory": 102,
+      "summary": "3 de 7 ativos"
+    },
+    {
+      "mask": 82,
+      "markers": 77,
+      "directory": 78,
+      "summary": "3 de 7 ativos"
+    },
+    {
+      "mask": 83,
+      "markers": 130,
+      "directory": 132,
+      "summary": "4 de 7 ativos"
+    },
+    {
+      "mask": 84,
+      "markers": 153,
+      "directory": 153,
+      "summary": "3 de 7 ativos"
+    },
+    {
+      "mask": 85,
+      "markers": 206,
+      "directory": 207,
+      "summary": "4 de 7 ativos"
+    },
+    {
+      "mask": 86,
+      "markers": 182,
+      "directory": 183,
+      "summary": "4 de 7 ativos"
+    },
+    {
+      "mask": 87,
+      "markers": 235,
+      "directory": 237,
+      "summary": "5 de 7 ativos"
+    },
+    {
+      "mask": 88,
+      "markers": 167,
+      "directory": 167,
+      "summary": "3 de 7 ativos"
+    },
+    {
+      "mask": 89,
+      "markers": 220,
+      "directory": 221,
+      "summary": "4 de 7 ativos"
+    },
+    {
+      "mask": 90,
+      "markers": 196,
+      "directory": 197,
+      "summary": "4 de 7 ativos"
+    },
+    {
+      "mask": 91,
+      "markers": 249,
+      "directory": 251,
+      "summary": "5 de 7 ativos"
+    },
+    {
+      "mask": 92,
+      "markers": 272,
+      "directory": 272,
+      "summary": "4 de 7 ativos"
+    },
+    {
+      "mask": 93,
+      "markers": 325,
+      "directory": 326,
+      "summary": "5 de 7 ativos"
+    },
+    {
+      "mask": 94,
+      "markers": 301,
+      "directory": 302,
+      "summary": "5 de 7 ativos"
+    },
+    {
+      "mask": 95,
+      "markers": 354,
+      "directory": 356,
+      "summary": "6 de 7 ativos"
+    },
+    {
+      "mask": 96,
+      "markers": 46,
+      "directory": 46,
+      "summary": "2 de 7 ativos"
+    },
+    {
+      "mask": 97,
+      "markers": 99,
+      "directory": 100,
+      "summary": "3 de 7 ativos"
+    },
+    {
+      "mask": 98,
+      "markers": 75,
+      "directory": 76,
+      "summary": "3 de 7 ativos"
+    },
+    {
+      "mask": 99,
+      "markers": 128,
+      "directory": 130,
+      "summary": "4 de 7 ativos"
+    },
+    {
+      "mask": 100,
+      "markers": 151,
+      "directory": 151,
+      "summary": "3 de 7 ativos"
+    },
+    {
+      "mask": 101,
+      "markers": 204,
+      "directory": 205,
+      "summary": "4 de 7 ativos"
+    },
+    {
+      "mask": 102,
+      "markers": 180,
+      "directory": 181,
+      "summary": "4 de 7 ativos"
+    },
+    {
+      "mask": 103,
+      "markers": 233,
+      "directory": 235,
+      "summary": "5 de 7 ativos"
+    },
+    {
+      "mask": 104,
+      "markers": 165,
+      "directory": 165,
+      "summary": "3 de 7 ativos"
+    },
+    {
+      "mask": 105,
+      "markers": 218,
+      "directory": 219,
+      "summary": "4 de 7 ativos"
+    },
+    {
+      "mask": 106,
+      "markers": 194,
+      "directory": 195,
+      "summary": "4 de 7 ativos"
+    },
+    {
+      "mask": 107,
+      "markers": 247,
+      "directory": 249,
+      "summary": "5 de 7 ativos"
+    },
+    {
+      "mask": 108,
+      "markers": 270,
+      "directory": 270,
+      "summary": "4 de 7 ativos"
+    },
+    {
+      "mask": 109,
+      "markers": 323,
+      "directory": 324,
+      "summary": "5 de 7 ativos"
+    },
+    {
+      "mask": 110,
+      "markers": 299,
+      "directory": 300,
+      "summary": "5 de 7 ativos"
+    },
+    {
+      "mask": 111,
+      "markers": 352,
+      "directory": 354,
+      "summary": "6 de 7 ativos"
+    },
+    {
+      "mask": 112,
+      "markers": 60,
+      "directory": 60,
+      "summary": "3 de 7 ativos"
+    },
+    {
+      "mask": 113,
+      "markers": 113,
+      "directory": 114,
+      "summary": "4 de 7 ativos"
+    },
+    {
+      "mask": 114,
+      "markers": 89,
+      "directory": 90,
+      "summary": "4 de 7 ativos"
+    },
+    {
+      "mask": 115,
+      "markers": 142,
+      "directory": 144,
+      "summary": "5 de 7 ativos"
+    },
+    {
+      "mask": 116,
+      "markers": 165,
+      "directory": 165,
+      "summary": "4 de 7 ativos"
+    },
+    {
+      "mask": 117,
+      "markers": 218,
+      "directory": 219,
+      "summary": "5 de 7 ativos"
+    },
+    {
+      "mask": 118,
+      "markers": 194,
+      "directory": 195,
+      "summary": "5 de 7 ativos"
+    },
+    {
+      "mask": 119,
+      "markers": 247,
+      "directory": 249,
+      "summary": "6 de 7 ativos"
+    },
+    {
+      "mask": 120,
+      "markers": 179,
+      "directory": 179,
+      "summary": "4 de 7 ativos"
+    },
+    {
+      "mask": 121,
+      "markers": 232,
+      "directory": 233,
+      "summary": "5 de 7 ativos"
+    },
+    {
+      "mask": 122,
+      "markers": 208,
+      "directory": 209,
+      "summary": "5 de 7 ativos"
+    },
+    {
+      "mask": 123,
+      "markers": 261,
+      "directory": 263,
+      "summary": "6 de 7 ativos"
+    },
+    {
+      "mask": 124,
+      "markers": 284,
+      "directory": 284,
+      "summary": "5 de 7 ativos"
+    },
+    {
+      "mask": 125,
+      "markers": 337,
+      "directory": 338,
+      "summary": "6 de 7 ativos"
+    },
+    {
+      "mask": 126,
+      "markers": 313,
+      "directory": 314,
+      "summary": "6 de 7 ativos"
+    },
+    {
+      "mask": 127,
+      "markers": 366,
+      "directory": 368,
+      "summary": "7 de 7 ativos"
+    }
+  ],
+  "selections": [
+    {
+      "type": "Sala das Margaridas",
+      "selected": "Sala das Margaridas Agudo",
+      "panel": "Sala das Margaridas Agudo",
+      "pressed": 1,
+      "pmlGuidance": null
+    },
+    {
+      "type": "Sala Lilás",
+      "selected": "Sala Lilás Canoas",
+      "panel": "Sala Lilás Canoas",
+      "pressed": 1,
+      "pmlGuidance": null
+    },
+    {
+      "type": "Patrulha Maria da Penha",
+      "selected": "Alegria 4°BPAF - CRPO F.Noroeste",
+      "panel": "Alegria 4°BPAF - CRPO F.Noroeste",
+      "pressed": 1,
+      "pmlGuidance": null
+    },
+    {
+      "type": "Juizado de Violência Doméstica",
+      "selected": "Juizado de Violência Doméstica e Familiar Contra a Mulher de Alvorada",
+      "panel": "Juizado de Violência Doméstica e Familiar Contra a Mulher de Alvorada",
+      "pressed": 1,
+      "pmlGuidance": null
+    },
+    {
+      "type": "Promotoria MPRS",
+      "selected": "Promotoria de Justiça Especializada de Combate à Violência Doméstica e Familiar contra a Mulher de Alvorada",
+      "panel": "Promotoria de Justiça Especializada de Combate à Violência Doméstica e Familiar contra a Mulher de Alvorada",
+      "pressed": 1,
+      "pmlGuidance": null
+    },
+    {
+      "type": "Posto Médico-Legal",
+      "selected": "Posto Médico-Legal de Alegrete",
+      "panel": "Posto Médico-Legal de Alegrete",
+      "pressed": 1,
+      "pmlGuidance": true
+    }
+  ],
+  "errors": [],
+  "disclosure": {
+    "initiallyClosed": true,
+    "initialSummary": "Filtros de serviços 7 de 7 ativos",
+    "openedByKeyboard": true,
+    "closedWithFilterOff": {
+      "open": false,
+      "summary": "6 de 7 ativos"
+    },
+    "retained": true
+  },
+  "jump": {
+    "hash": "#lista-servicos",
+    "focused": "lista-servicos"
+  },
+  "justiceFocus": {
+    "focused": true,
+    "outline": "solid",
+    "width": "3px"
+  },
+  "success": true
+}

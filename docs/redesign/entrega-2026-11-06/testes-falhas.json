@@ -1,0 +1,199 @@
+{
+  "url": "http://localhost:5173/",
+  "injected": [
+    {
+      "url": "http://localhost:5173/src/data/rede-protecao/services.json",
+      "resourceType": "XHR",
+      "reason": "services"
+    },
+    {
+      "url": "http://localhost:5173/src/data/ssp-rs/generated/feminicidio-consumado-2020.json",
+      "resourceType": "XHR",
+      "reason": "annual"
+    },
+    {
+      "url": "http://localhost:5173/src/data/ssp-rs/case-news-2026.json",
+      "resourceType": "XHR",
+      "reason": "news"
+    },
+    {
+      "url": "http://localhost:5173/src/data/ssp-rs/case-news-2026.json",
+      "resourceType": "XHR",
+      "reason": "news"
+    },
+    {
+      "url": "http://localhost:5173/src/data/ssp-rs/case-news-2026.json",
+      "resourceType": "XHR",
+      "reason": "news"
+    },
+    {
+      "url": "http://localhost:5173/src/data/ssp-rs/case-news-2026.json",
+      "resourceType": "XHR",
+      "reason": "news"
+    }
+  ],
+  "observedFetches": [
+    {
+      "url": "http://localhost:5173/src/data/ibge/rs-municipios-2025.geojson",
+      "resourceType": "XHR"
+    },
+    {
+      "url": "http://localhost:5173/src/data/ibge/ssp-rs-municipality-crosswalk.json",
+      "resourceType": "XHR"
+    },
+    {
+      "url": "http://localhost:5173/src/data/ssp-rs/case-news-2026.json",
+      "resourceType": "XHR"
+    },
+    {
+      "url": "http://localhost:5173/src/data/ssp-rs/case-news-2026.json",
+      "resourceType": "XHR"
+    },
+    {
+      "url": "http://localhost:5173/src/data/ibge/ssp-rs-municipality-crosswalk.json",
+      "resourceType": "XHR"
+    },
+    {
+      "url": "http://localhost:5173/src/data/ibge/rs-municipios-2025.geojson",
+      "resourceType": "XHR"
+    },
+    {
+      "url": "http://localhost:5173/src/data/ibge/ssp-rs-municipality-crosswalk.json",
+      "resourceType": "XHR"
+    },
+    {
+      "url": "http://localhost:5173/src/data/ssp-rs/case-news-2026.json",
+      "resourceType": "XHR"
+    },
+    {
+      "url": "http://localhost:5173/src/data/ssp-rs/case-news-2026.json",
+      "resourceType": "XHR"
+    },
+    {
+      "url": "http://localhost:5173/src/data/ibge/ssp-rs-municipality-crosswalk.json",
+      "resourceType": "XHR"
+    },
+    {
+      "url": "http://localhost:5173/src/data/rede-protecao/services.json",
+      "resourceType": "XHR"
+    },
+    {
+      "url": "http://localhost:5173/src/data/rede-protecao/contact-enrichments.json",
+      "resourceType": "XHR"
+    },
+    {
+      "url": "http://localhost:5173/src/data/ssp-rs/generated/feminicidio-consumado-2026.json",
+      "resourceType": "XHR"
+    },
+    {
+      "url": "http://localhost:5173/src/data/rede-protecao/services.json",
+      "resourceType": "XHR"
+    },
+    {
+      "url": "http://localhost:5173/src/data/rede-protecao/contact-enrichments.json",
+      "resourceType": "XHR"
+    },
+    {
+      "url": "http://localhost:5173/src/data/ssp-rs/generated/feminicidio-consumado-2020.json",
+      "resourceType": "XHR"
+    },
+    {
+      "url": "http://localhost:5173/src/data/ssp-rs/generated/feminicidio-consumado-2020.json",
+      "resourceType": "XHR"
+    },
+    {
+      "url": "http://localhost:5173/src/data/ibge/rs-municipios-2025.geojson",
+      "resourceType": "XHR"
+    },
+    {
+      "url": "http://localhost:5173/src/data/ibge/ssp-rs-municipality-crosswalk.json",
+      "resourceType": "XHR"
+    },
+    {
+      "url": "http://localhost:5173/src/data/ssp-rs/case-news-2026.json",
+      "resourceType": "XHR"
+    },
+    {
+      "url": "http://localhost:5173/src/data/ssp-rs/case-news-2026.json",
+      "resourceType": "XHR"
+    },
+    {
+      "url": "http://localhost:5173/src/data/ibge/ssp-rs-municipality-crosswalk.json",
+      "resourceType": "XHR"
+    },
+    {
+      "url": "http://localhost:5173/src/data/ibge/rs-municipios-2025.geojson",
+      "resourceType": "XHR"
+    },
+    {
+      "url": "http://localhost:5173/src/data/ibge/ssp-rs-municipality-crosswalk.json",
+      "resourceType": "XHR"
+    },
+    {
+      "url": "http://localhost:5173/src/data/ssp-rs/case-news-2026.json",
+      "resourceType": "XHR"
+    },
+    {
+      "url": "http://localhost:5173/src/data/ssp-rs/case-news-2026.json",
+      "resourceType": "XHR"
+    },
+    {
+      "url": "http://localhost:5173/src/data/ibge/ssp-rs-municipality-crosswalk.json",
+      "resourceType": "XHR"
+    },
+    {
+      "url": "http://localhost:5173/src/data/rede-protecao/services.json",
+      "resourceType": "XHR"
+    },
+    {
+      "url": "http://localhost:5173/src/data/rede-protecao/contact-enrichments.json",
+      "resourceType": "XHR"
+    },
+    {
+      "url": "http://localhost:5173/src/data/ssp-rs/generated/feminicidio-consumado-2026.json",
+      "resourceType": "XHR"
+    },
+    {
+      "url": "http://localhost:5173/src/data/ssp-rs/case-news-2026.json",
+      "resourceType": "XHR"
+    },
+    {
+      "url": "http://localhost:5173/src/data/ibge/ssp-rs-municipality-crosswalk.json",
+      "resourceType": "XHR"
+    }
+  ],
+  "steps": {
+    "servicesFailure": {
+      "notice": "Não foi possível carregar a camada de serviços da rede. O mapa e os dados municipais continuam disponíveis.\n\nTentar novamente",
+      "mapSummary": "REGISTROS NO RS\n56\nMUNICÍPIOS COM REGISTROS\n39 de 497\nRECORTE EXIBIDO\njaneiro a setembro de 2026",
+      "retry": true
+    },
+    "servicesRecovery": {
+      "filters": "Filtrar serviços no mapa\nCentros de Referência da Mulher\n54\nUnidades policiais especializadas\n30",
+      "mapSummary": "REGISTROS NO RS\n56\nMUNICÍPIOS COM REGISTROS\n39 de 497\nRECORTE EXIBIDO\njaneiro a setembro de 2026",
+      "errorVisible": false
+    },
+    "annualFailure": {
+      "alert": "Não foi possível carregar os dados municipais deste ano.",
+      "dialog": "Dados municipais de 2020\n\nFonte: SSP-RS — Indicadores da Violência Contra a Mulher\n\n×\n\nNão foi possível carregar os dados municipais deste ano."
+    },
+    "annualRecovery": {
+      "title": "Dados municipais de 2020",
+      "rows": 25,
+      "alert": null,
+      "controls": "Buscar município\n\n497 municípios · exibindo 1–25"
+    },
+    "newsFailure": {
+      "notice": "Não foi possível carregar as referências recentes.\n\nTentar novamente",
+      "retry": true
+    },
+    "newsRecovery": {
+      "cards": 5,
+      "errorVisible": false
+    }
+  },
+  "limits": [
+    "Falhas simuladas por CDP em requisições Fetch locais; não mede problemas reais de rede."
+  ],
+  "success": true
+}

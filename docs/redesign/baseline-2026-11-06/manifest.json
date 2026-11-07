@@ -1,0 +1,193 @@
+{
+    "recordedAt":  "2026-11-06",
+    "root":  "C:\\Projetos\\feminicidio-em-foco",
+    "head":  "18421d6f12f5cbd549ae74d57cc27ec776012377",
+    "branch":  "main",
+    "status":  [
+                   " M src/App.css",
+                   " M src/App.tsx"
+               ],
+    "note":  "Baseline do working tree; capturas e validacao visual pendentes.",
+    "files":  [
+                  {
+                      "path":  "src/App.css",
+                      "bytes":  25716,
+                      "sha256":  "DB50C013885DA8C3D7C4AF57DB07A90DB6469D3E2B350E6731CDF2117D01E03D"
+                  },
+                  {
+                      "path":  "src/App.tsx",
+                      "bytes":  22989,
+                      "sha256":  "D96983DB693A7BA6EA2CC7D0D28DD7C4FA497247C3212090F452EC80C8061D73"
+                  },
+                  {
+                      "path":  "src/index.css",
+                      "bytes":  1659,
+                      "sha256":  "DF5C2C6CE22D328A493A96F9256BF9ADA4ACEA3B2F6897F306248C19C1EBA5EE"
+                  },
+                  {
+                      "path":  "src/main.tsx",
+                      "bytes":  300,
+                      "sha256":  "CEEB5527358DE1A4D8DE1E37DB41FDBC31493CC1EA8EFF4CF7064CBF42C54BD1"
+                  },
+                  {
+                      "path":  "src/assets/hero.png",
+                      "bytes":  13057,
+                      "sha256":  "881FFBCAAFC212E49ADDAD08846A5B82761355FA20624253AF3477BA33262C5C"
+                  },
+                  {
+                      "path":  "src/assets/react.svg",
+                      "bytes":  4126,
+                      "sha256":  "35EF61ED53B323AE94A16A8EC659B3D0AF3880698791133F23B084085AB1C2E5"
+                  },
+                  {
+                      "path":  "src/assets/vite.svg",
+                      "bytes":  8709,
+                      "sha256":  "5BE21ACD42EB7B896E517F4E0F0F11EB5C5D9E54FBBCEBE9453F033008FCCA6F"
+                  },
+                  {
+                      "path":  "src/components/annual-data/AnnualDataDialog.tsx",
+                      "bytes":  11073,
+                      "sha256":  "DB52E27862066DA06D74129C4457218D64E3F8E4BED999F52E00F78B26F5A0BA"
+                  },
+                  {
+                      "path":  "src/components/map/MapExplorer.css",
+                      "bytes":  14066,
+                      "sha256":  "C44E32DE56084137386C065A365C583363B0165147C4EDB5171FD438A475E793"
+                  },
+                  {
+                      "path":  "src/components/map/MapExplorer.tsx",
+                      "bytes":  46613,
+                      "sha256":  "32A558BABEE4912D6A32E76EE7683C2D97899065276CBC85D2564F237A861D70"
+                  },
+                  {
+                      "path":  "src/components/news/LatestCaseNews.tsx",
+                      "bytes":  5148,
+                      "sha256":  "72AADFFBB42CC6E2E378AAEE9E5B6914712A246353E3FE2D088BCF36DF699984"
+                  },
+                  {
+                      "path":  "src/data/ibge/README.md",
+                      "bytes":  2262,
+                      "sha256":  "386D398D3A89FE6BFEC3E141771451F5E1DED6E1DBF8AEE046D324F4D9F6BED8"
+                  },
+                  {
+                      "path":  "src/data/ibge/rs-municipios-2025.geojson",
+                      "bytes":  3287939,
+                      "sha256":  "45B4F1C9CB0B18614949AB4E7644E97CF08E00253ED978B1B2D580A0D5FB7C84"
+                  },
+                  {
+                      "path":  "src/data/ibge/ssp-name-code-aliases.json",
+                      "bytes":  170,
+                      "sha256":  "9202D4BD04FBC878691A1C097E576435DFD7F0186985CD7B034EBF44986FE679"
+                  },
+                  {
+                      "path":  "src/data/ibge/ssp-rs-municipality-crosswalk.json",
+                      "bytes":  85576,
+                      "sha256":  "8280EEAFACAD02CD69B0F6C2053B684B9F7709FEE8671EEA5C1D1398E42B395A"
+                  },
+                  {
+                      "path":  "src/data/rede-protecao/contact-enrichments.json",
+                      "bytes":  1738,
+                      "sha256":  "DC1F190F01CFF32E7262A3BD7AC928EAB81079D74BAAB2EC18F6FB80105B9E69"
+                  },
+                  {
+                      "path":  "src/data/rede-protecao/README.md",
+                      "bytes":  3808,
+                      "sha256":  "EE0A04FE342D4FAFAC78D2678C55F5FC4A70AA12BE374E0990D4338A584B479B"
+                  },
+                  {
+                      "path":  "src/data/rede-protecao/services.json",
+                      "bytes":  71241,
+                      "sha256":  "9D46BE503DAE01355189A1F9050D9390D1BC292D62533B43FC17E53B68A94E86"
+                  },
+                  {
+                      "path":  "src/data/ssp-rs/case-news-2026.json",
+                      "bytes":  27472,
+                      "sha256":  "708A6A8841B07CFB068527344B0DB21B3B04305CBF96E562ED0316568BA5044A"
+                  },
+                  {
+                      "path":  "src/data/ssp-rs/README.md",
+                      "bytes":  4863,
+                      "sha256":  "EC8AC035CDDDFDC11D6E810B8F31AA1701FEFAB05E4DF34B4BF742B2CA1EAEA9"
+                  },
+                  {
+                      "path":  "src/data/ssp-rs/generated/feminicidio-consumado-2020.json",
+                      "bytes":  471230,
+                      "sha256":  "EE3F36B048291C183984AA35273072770F3A2FB28333D9DB6F09AFF9A5EA5EBE"
+                  },
+                  {
+                      "path":  "src/data/ssp-rs/generated/feminicidio-consumado-2021.json",
+                      "bytes":  471218,
+                      "sha256":  "E034943FE7720A9B0DD31305886D1D56857DBA1F7899B0D18162799A556800F9"
+                  },
+                  {
+                      "path":  "src/data/ssp-rs/generated/feminicidio-consumado-2022.json",
+                      "bytes":  471228,
+                      "sha256":  "203DE303517D5F5E1E6F2E8CB25D880ADB2BD2B053276C741C962A73F05DB797"
+                  },
+                  {
+                      "path":  "src/data/ssp-rs/generated/feminicidio-consumado-2023.json",
+                      "bytes":  471230,
+                      "sha256":  "A61D6D7EC55988280A674806BB11BC1A21D61EBB76059E6951BE6D2F85AB1573"
+                  },
+                  {
+                      "path":  "src/data/ssp-rs/generated/feminicidio-consumado-2024.json",
+                      "bytes":  471233,
+                      "sha256":  "C0BC5CA6302473AB885707456964AC692B275D85F49E89C0A09F1C6DB1EC79AA"
+                  },
+                  {
+                      "path":  "src/data/ssp-rs/generated/feminicidio-consumado-2025.json",
+                      "bytes":  471240,
+                      "sha256":  "8E1362DA62DD47148F34666FE01664B90135C95E53FA78DA882B0BB22932E502"
+                  },
+                  {
+                      "path":  "src/data/ssp-rs/generated/feminicidio-consumado-2026.json",
+                      "bytes":  475570,
+                      "sha256":  "ACF22CC22023C99D230F5276AE94A4755CFE8265A0232FF6CD75BECC1BACE4BE"
+                  },
+                  {
+                      "path":  "public/favicon.svg",
+                      "bytes":  9522,
+                      "sha256":  "61BC9A161DE58248288E6905425D7180F0624C2865007B97D763FDAC12043A66"
+                  },
+                  {
+                      "path":  "public/feminicidio-em-foco-icon.svg",
+                      "bytes":  284,
+                      "sha256":  "102D02F975D53084C0CAB1E2D37B7AF5CA6EAB86FBF50E5ADB3512877CA0E8FD"
+                  },
+                  {
+                      "path":  "public/icons.svg",
+                      "bytes":  5031,
+                      "sha256":  "B45FA506195CFCDEF406BA9F0C77B36DDC1A7C224040926EC70ABC2FDEA7B93A"
+                  },
+                  {
+                      "path":  "public/logo-feminicidio-em-foco-compacto.svg",
+                      "bytes":  202872,
+                      "sha256":  "B2FEF56D74A695A7163B005CB977AA7BE8FE2797398DD5398D5E822F1198606A"
+                  },
+                  {
+                      "path":  "public/logo-feminicidio-em-foco-horizontal.svg",
+                      "bytes":  306650,
+                      "sha256":  "036C264C89A6AAD153CA4BDA31A8F2A2A24795F424BF3167E555A4C27D407DB3"
+                  },
+                  {
+                      "path":  "package.json",
+                      "bytes":  691,
+                      "sha256":  "3B8429695F917BD1F002212ABC27B84DC1F466F109FAA54794340BBA15D5D98A"
+                  },
+                  {
+                      "path":  "package-lock.json",
+                      "bytes":  160755,
+                      "sha256":  "7D43F98812DFA582D654C0F71F4D01FAD63FDABC46EF227767C627D8EC05DAC1"
+                  },
+                  {
+                      "path":  "index.html",
+                      "bytes":  724,
+                      "sha256":  "2E9A652B41554B1FEE5CDF26451C152B7996664611C884CF881DC297A00452FA"
+                  },
+                  {
+                      "path":  "vite.config.ts",
+                      "bytes":  161,
+                      "sha256":  "E1EEFD0ED1639C88D1213884EF760516884DB9E168190E223FEE6B063AD3E088"
+                  }
+              ]
+}

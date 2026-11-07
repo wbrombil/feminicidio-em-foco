@@ -1,0 +1,1033 @@
+{
+  "url": "http://localhost:5173/",
+  "mapa": [
+    {
+      "year": "2026",
+      "month": {
+        "value": "",
+        "text": "Todos os meses disponíveis"
+      },
+      "summary": "REGISTROS NO RS\n56\nMUNICÍPIOS COM REGISTROS\n39 de 497\nRECORTE EXIBIDO\njaneiro a setembro de 2026"
+    },
+    {
+      "year": "2026",
+      "month": {
+        "value": "1",
+        "text": "janeiro"
+      },
+      "summary": "REGISTROS NO RS\n11\nMUNICÍPIOS COM REGISTROS\n10 de 497\nRECORTE EXIBIDO\njaneiro · 2026"
+    },
+    {
+      "year": "2026",
+      "month": {
+        "value": "2",
+        "text": "fevereiro"
+      },
+      "summary": "REGISTROS NO RS\n8\nMUNICÍPIOS COM REGISTROS\n8 de 497\nRECORTE EXIBIDO\nfevereiro · 2026"
+    },
+    {
+      "year": "2026",
+      "month": {
+        "value": "3",
+        "text": "março"
+      },
+      "summary": "REGISTROS NO RS\n4\nMUNICÍPIOS COM REGISTROS\n4 de 497\nRECORTE EXIBIDO\nmarço · 2026"
+    },
+    {
+      "year": "2026",
+      "month": {
+        "value": "4",
+        "text": "abril"
+      },
+      "summary": "REGISTROS NO RS\n6\nMUNICÍPIOS COM REGISTROS\n5 de 497\nRECORTE EXIBIDO\nabril · 2026"
+    },
+    {
+      "year": "2026",
+      "month": {
+        "value": "5",
+        "text": "maio"
+      },
+      "summary": "REGISTROS NO RS\n7\nMUNICÍPIOS COM REGISTROS\n5 de 497\nRECORTE EXIBIDO\nmaio · 2026"
+    },
+    {
+      "year": "2026",
+      "month": {
+        "value": "6",
+        "text": "junho"
+      },
+      "summary": "REGISTROS NO RS\n5\nMUNICÍPIOS COM REGISTROS\n5 de 497\nRECORTE EXIBIDO\njunho · 2026"
+    },
+    {
+      "year": "2026",
+      "month": {
+        "value": "7",
+        "text": "julho"
+      },
+      "summary": "REGISTROS NO RS\n4\nMUNICÍPIOS COM REGISTROS\n4 de 497\nRECORTE EXIBIDO\njulho · 2026"
+    },
+    {
+      "year": "2026",
+      "month": {
+        "value": "8",
+        "text": "agosto"
+      },
+      "summary": "REGISTROS NO RS\n8\nMUNICÍPIOS COM REGISTROS\n6 de 497\nRECORTE EXIBIDO\nagosto · 2026"
+    },
+    {
+      "year": "2026",
+      "month": {
+        "value": "9",
+        "text": "setembro"
+      },
+      "summary": "REGISTROS NO RS\n3\nMUNICÍPIOS COM REGISTROS\n3 de 497\nRECORTE EXIBIDO\nsetembro · 2026"
+    },
+    {
+      "year": "2025",
+      "month": {
+        "value": "",
+        "text": "Todos os meses disponíveis"
+      },
+      "summary": "REGISTROS NO RS\n80\nMUNICÍPIOS COM REGISTROS\n62 de 497\nRECORTE EXIBIDO\njaneiro a dezembro de 2025"
+    },
+    {
+      "year": "2025",
+      "month": {
+        "value": "1",
+        "text": "janeiro"
+      },
+      "summary": "REGISTROS NO RS\n9\nMUNICÍPIOS COM REGISTROS\n9 de 497\nRECORTE EXIBIDO\njaneiro · 2025"
+    },
+    {
+      "year": "2025",
+      "month": {
+        "value": "2",
+        "text": "fevereiro"
+      },
+      "summary": "REGISTROS NO RS\n4\nMUNICÍPIOS COM REGISTROS\n4 de 497\nRECORTE EXIBIDO\nfevereiro · 2025"
+    },
+    {
+      "year": "2025",
+      "month": {
+        "value": "3",
+        "text": "março"
+      },
+      "summary": "REGISTROS NO RS\n3\nMUNICÍPIOS COM REGISTROS\n3 de 497\nRECORTE EXIBIDO\nmarço · 2025"
+    },
+    {
+      "year": "2025",
+      "month": {
+        "value": "4",
+        "text": "abril"
+      },
+      "summary": "REGISTROS NO RS\n11\nMUNICÍPIOS COM REGISTROS\n10 de 497\nRECORTE EXIBIDO\nabril · 2025"
+    },
+    {
+      "year": "2025",
+      "month": {
+        "value": "5",
+        "text": "maio"
+      },
+      "summary": "REGISTROS NO RS\n3\nMUNICÍPIOS COM REGISTROS\n2 de 497\nRECORTE EXIBIDO\nmaio · 2025"
+    },
+    {
+      "year": "2025",
+      "month": {
+        "value": "6",
+        "text": "junho"
+      },
+      "summary": "REGISTROS NO RS\n6\nMUNICÍPIOS COM REGISTROS\n6 de 497\nRECORTE EXIBIDO\njunho · 2025"
+    },
+    {
+      "year": "2025",
+      "month": {
+        "value": "7",
+        "text": "julho"
+      },
+      "summary": "REGISTROS NO RS\n10\nMUNICÍPIOS COM REGISTROS\n10 de 497\nRECORTE EXIBIDO\njulho · 2025"
+    },
+    {
+      "year": "2025",
+      "month": {
+        "value": "8",
+        "text": "agosto"
+      },
+      "summary": "REGISTROS NO RS\n10\nMUNICÍPIOS COM REGISTROS\n8 de 497\nRECORTE EXIBIDO\nagosto · 2025"
+    },
+    {
+      "year": "2025",
+      "month": {
+        "value": "9",
+        "text": "setembro"
+      },
+      "summary": "REGISTROS NO RS\n4\nMUNICÍPIOS COM REGISTROS\n4 de 497\nRECORTE EXIBIDO\nsetembro · 2025"
+    },
+    {
+      "year": "2025",
+      "month": {
+        "value": "10",
+        "text": "outubro"
+      },
+      "summary": "REGISTROS NO RS\n11\nMUNICÍPIOS COM REGISTROS\n11 de 497\nRECORTE EXIBIDO\noutubro · 2025"
+    },
+    {
+      "year": "2025",
+      "month": {
+        "value": "11",
+        "text": "novembro"
+      },
+      "summary": "REGISTROS NO RS\n4\nMUNICÍPIOS COM REGISTROS\n4 de 497\nRECORTE EXIBIDO\nnovembro · 2025"
+    },
+    {
+      "year": "2025",
+      "month": {
+        "value": "12",
+        "text": "dezembro"
+      },
+      "summary": "REGISTROS NO RS\n5\nMUNICÍPIOS COM REGISTROS\n5 de 497\nRECORTE EXIBIDO\ndezembro · 2025"
+    },
+    {
+      "year": "2024",
+      "month": {
+        "value": "",
+        "text": "Todos os meses disponíveis"
+      },
+      "summary": "REGISTROS NO RS\n73\nMUNICÍPIOS COM REGISTROS\n51 de 497\nRECORTE EXIBIDO\njaneiro a dezembro de 2024"
+    },
+    {
+      "year": "2024",
+      "month": {
+        "value": "1",
+        "text": "janeiro"
+      },
+      "summary": "REGISTROS NO RS\n12\nMUNICÍPIOS COM REGISTROS\n12 de 497\nRECORTE EXIBIDO\njaneiro · 2024"
+    },
+    {
+      "year": "2024",
+      "month": {
+        "value": "2",
+        "text": "fevereiro"
+      },
+      "summary": "REGISTROS NO RS\n7\nMUNICÍPIOS COM REGISTROS\n7 de 497\nRECORTE EXIBIDO\nfevereiro · 2024"
+    },
+    {
+      "year": "2024",
+      "month": {
+        "value": "3",
+        "text": "março"
+      },
+      "summary": "REGISTROS NO RS\n5\nMUNICÍPIOS COM REGISTROS\n5 de 497\nRECORTE EXIBIDO\nmarço · 2024"
+    },
+    {
+      "year": "2024",
+      "month": {
+        "value": "4",
+        "text": "abril"
+      },
+      "summary": "REGISTROS NO RS\n1\nMUNICÍPIOS COM REGISTROS\n1 de 497\nRECORTE EXIBIDO\nabril · 2024"
+    },
+    {
+      "year": "2024",
+      "month": {
+        "value": "5",
+        "text": "maio"
+      },
+      "summary": "REGISTROS NO RS\n3\nMUNICÍPIOS COM REGISTROS\n3 de 497\nRECORTE EXIBIDO\nmaio · 2024"
+    },
+    {
+      "year": "2024",
+      "month": {
+        "value": "6",
+        "text": "junho"
+      },
+      "summary": "REGISTROS NO RS\n3\nMUNICÍPIOS COM REGISTROS\n3 de 497\nRECORTE EXIBIDO\njunho · 2024"
+    },
+    {
+      "year": "2024",
+      "month": {
+        "value": "7",
+        "text": "julho"
+      },
+      "summary": "REGISTROS NO RS\n5\nMUNICÍPIOS COM REGISTROS\n5 de 497\nRECORTE EXIBIDO\njulho · 2024"
+    },
+    {
+      "year": "2024",
+      "month": {
+        "value": "8",
+        "text": "agosto"
+      },
+      "summary": "REGISTROS NO RS\n5\nMUNICÍPIOS COM REGISTROS\n4 de 497\nRECORTE EXIBIDO\nagosto · 2024"
+    },
+    {
+      "year": "2024",
+      "month": {
+        "value": "9",
+        "text": "setembro"
+      },
+      "summary": "REGISTROS NO RS\n7\nMUNICÍPIOS COM REGISTROS\n7 de 497\nRECORTE EXIBIDO\nsetembro · 2024"
+    },
+    {
+      "year": "2024",
+      "month": {
+        "value": "10",
+        "text": "outubro"
+      },
+      "summary": "REGISTROS NO RS\n10\nMUNICÍPIOS COM REGISTROS\n9 de 497\nRECORTE EXIBIDO\noutubro · 2024"
+    },
+    {
+      "year": "2024",
+      "month": {
+        "value": "11",
+        "text": "novembro"
+      },
+      "summary": "REGISTROS NO RS\n10\nMUNICÍPIOS COM REGISTROS\n8 de 497\nRECORTE EXIBIDO\nnovembro · 2024"
+    },
+    {
+      "year": "2024",
+      "month": {
+        "value": "12",
+        "text": "dezembro"
+      },
+      "summary": "REGISTROS NO RS\n5\nMUNICÍPIOS COM REGISTROS\n5 de 497\nRECORTE EXIBIDO\ndezembro · 2024"
+    },
+    {
+      "year": "2023",
+      "month": {
+        "value": "",
+        "text": "Todos os meses disponíveis"
+      },
+      "summary": "REGISTROS NO RS\n86\nMUNICÍPIOS COM REGISTROS\n61 de 497\nRECORTE EXIBIDO\njaneiro a dezembro de 2023"
+    },
+    {
+      "year": "2023",
+      "month": {
+        "value": "1",
+        "text": "janeiro"
+      },
+      "summary": "REGISTROS NO RS\n9\nMUNICÍPIOS COM REGISTROS\n7 de 497\nRECORTE EXIBIDO\njaneiro · 2023"
+    },
+    {
+      "year": "2023",
+      "month": {
+        "value": "2",
+        "text": "fevereiro"
+      },
+      "summary": "REGISTROS NO RS\n6\nMUNICÍPIOS COM REGISTROS\n6 de 497\nRECORTE EXIBIDO\nfevereiro · 2023"
+    },
+    {
+      "year": "2023",
+      "month": {
+        "value": "3",
+        "text": "março"
+      },
+      "summary": "REGISTROS NO RS\n9\nMUNICÍPIOS COM REGISTROS\n8 de 497\nRECORTE EXIBIDO\nmarço · 2023"
+    },
+    {
+      "year": "2023",
+      "month": {
+        "value": "4",
+        "text": "abril"
+      },
+      "summary": "REGISTROS NO RS\n6\nMUNICÍPIOS COM REGISTROS\n6 de 497\nRECORTE EXIBIDO\nabril · 2023"
+    },
+    {
+      "year": "2023",
+      "month": {
+        "value": "5",
+        "text": "maio"
+      },
+      "summary": "REGISTROS NO RS\n6\nMUNICÍPIOS COM REGISTROS\n6 de 497\nRECORTE EXIBIDO\nmaio · 2023"
+    },
+    {
+      "year": "2023",
+      "month": {
+        "value": "6",
+        "text": "junho"
+      },
+      "summary": "REGISTROS NO RS\n9\nMUNICÍPIOS COM REGISTROS\n9 de 497\nRECORTE EXIBIDO\njunho · 2023"
+    },
+    {
+      "year": "2023",
+      "month": {
+        "value": "7",
+        "text": "julho"
+      },
+      "summary": "REGISTROS NO RS\n9\nMUNICÍPIOS COM REGISTROS\n9 de 497\nRECORTE EXIBIDO\njulho · 2023"
+    },
+    {
+      "year": "2023",
+      "month": {
+        "value": "8",
+        "text": "agosto"
+      },
+      "summary": "REGISTROS NO RS\n5\nMUNICÍPIOS COM REGISTROS\n5 de 497\nRECORTE EXIBIDO\nagosto · 2023"
+    },
+    {
+      "year": "2023",
+      "month": {
+        "value": "9",
+        "text": "setembro"
+      },
+      "summary": "REGISTROS NO RS\n4\nMUNICÍPIOS COM REGISTROS\n4 de 497\nRECORTE EXIBIDO\nsetembro · 2023"
+    },
+    {
+      "year": "2023",
+      "month": {
+        "value": "10",
+        "text": "outubro"
+      },
+      "summary": "REGISTROS NO RS\n9\nMUNICÍPIOS COM REGISTROS\n7 de 497\nRECORTE EXIBIDO\noutubro · 2023"
+    },
+    {
+      "year": "2023",
+      "month": {
+        "value": "11",
+        "text": "novembro"
+      },
+      "summary": "REGISTROS NO RS\n6\nMUNICÍPIOS COM REGISTROS\n6 de 497\nRECORTE EXIBIDO\nnovembro · 2023"
+    },
+    {
+      "year": "2023",
+      "month": {
+        "value": "12",
+        "text": "dezembro"
+      },
+      "summary": "REGISTROS NO RS\n8\nMUNICÍPIOS COM REGISTROS\n8 de 497\nRECORTE EXIBIDO\ndezembro · 2023"
+    },
+    {
+      "year": "2022",
+      "month": {
+        "value": "",
+        "text": "Todos os meses disponíveis"
+      },
+      "summary": "REGISTROS NO RS\n111\nMUNICÍPIOS COM REGISTROS\n71 de 497\nRECORTE EXIBIDO\njaneiro a dezembro de 2022"
+    },
+    {
+      "year": "2022",
+      "month": {
+        "value": "1",
+        "text": "janeiro"
+      },
+      "summary": "REGISTROS NO RS\n12\nMUNICÍPIOS COM REGISTROS\n10 de 497\nRECORTE EXIBIDO\njaneiro · 2022"
+    },
+    {
+      "year": "2022",
+      "month": {
+        "value": "2",
+        "text": "fevereiro"
+      },
+      "summary": "REGISTROS NO RS\n9\nMUNICÍPIOS COM REGISTROS\n9 de 497\nRECORTE EXIBIDO\nfevereiro · 2022"
+    },
+    {
+      "year": "2022",
+      "month": {
+        "value": "3",
+        "text": "março"
+      },
+      "summary": "REGISTROS NO RS\n8\nMUNICÍPIOS COM REGISTROS\n8 de 497\nRECORTE EXIBIDO\nmarço · 2022"
+    },
+    {
+      "year": "2022",
+      "month": {
+        "value": "4",
+        "text": "abril"
+      },
+      "summary": "REGISTROS NO RS\n10\nMUNICÍPIOS COM REGISTROS\n10 de 497\nRECORTE EXIBIDO\nabril · 2022"
+    },
+    {
+      "year": "2022",
+      "month": {
+        "value": "5",
+        "text": "maio"
+      },
+      "summary": "REGISTROS NO RS\n10\nMUNICÍPIOS COM REGISTROS\n9 de 497\nRECORTE EXIBIDO\nmaio · 2022"
+    },
+    {
+      "year": "2022",
+      "month": {
+        "value": "6",
+        "text": "junho"
+      },
+      "summary": "REGISTROS NO RS\n11\nMUNICÍPIOS COM REGISTROS\n11 de 497\nRECORTE EXIBIDO\njunho · 2022"
+    },
+    {
+      "year": "2022",
+      "month": {
+        "value": "7",
+        "text": "julho"
+      },
+      "summary": "REGISTROS NO RS\n10\nMUNICÍPIOS COM REGISTROS\n9 de 497\nRECORTE EXIBIDO\njulho · 2022"
+    },
+    {
+      "year": "2022",
+      "month": {
+        "value": "8",
+        "text": "agosto"
+      },
+      "summary": "REGISTROS NO RS\n8\nMUNICÍPIOS COM REGISTROS\n6 de 497\nRECORTE EXIBIDO\nagosto · 2022"
+    },
+    {
+      "year": "2022",
+      "month": {
+        "value": "9",
+        "text": "setembro"
+      },
+      "summary": "REGISTROS NO RS\n6\nMUNICÍPIOS COM REGISTROS\n5 de 497\nRECORTE EXIBIDO\nsetembro · 2022"
+    },
+    {
+      "year": "2022",
+      "month": {
+        "value": "10",
+        "text": "outubro"
+      },
+      "summary": "REGISTROS NO RS\n9\nMUNICÍPIOS COM REGISTROS\n9 de 497\nRECORTE EXIBIDO\noutubro · 2022"
+    },
+    {
+      "year": "2022",
+      "month": {
+        "value": "11",
+        "text": "novembro"
+      },
+      "summary": "REGISTROS NO RS\n10\nMUNICÍPIOS COM REGISTROS\n9 de 497\nRECORTE EXIBIDO\nnovembro · 2022"
+    },
+    {
+      "year": "2022",
+      "month": {
+        "value": "12",
+        "text": "dezembro"
+      },
+      "summary": "REGISTROS NO RS\n8\nMUNICÍPIOS COM REGISTROS\n8 de 497\nRECORTE EXIBIDO\ndezembro · 2022"
+    },
+    {
+      "year": "2021",
+      "month": {
+        "value": "",
+        "text": "Todos os meses disponíveis"
+      },
+      "summary": "REGISTROS NO RS\n96\nMUNICÍPIOS COM REGISTROS\n59 de 497\nRECORTE EXIBIDO\njaneiro a dezembro de 2021"
+    },
+    {
+      "year": "2021",
+      "month": {
+        "value": "1",
+        "text": "janeiro"
+      },
+      "summary": "REGISTROS NO RS\n11\nMUNICÍPIOS COM REGISTROS\n9 de 497\nRECORTE EXIBIDO\njaneiro · 2021"
+    },
+    {
+      "year": "2021",
+      "month": {
+        "value": "2",
+        "text": "fevereiro"
+      },
+      "summary": "REGISTROS NO RS\n6\nMUNICÍPIOS COM REGISTROS\n6 de 497\nRECORTE EXIBIDO\nfevereiro · 2021"
+    },
+    {
+      "year": "2021",
+      "month": {
+        "value": "3",
+        "text": "março"
+      },
+      "summary": "REGISTROS NO RS\n3\nMUNICÍPIOS COM REGISTROS\n3 de 497\nRECORTE EXIBIDO\nmarço · 2021"
+    },
+    {
+      "year": "2021",
+      "month": {
+        "value": "4",
+        "text": "abril"
+      },
+      "summary": "REGISTROS NO RS\n14\nMUNICÍPIOS COM REGISTROS\n14 de 497\nRECORTE EXIBIDO\nabril · 2021"
+    },
+    {
+      "year": "2021",
+      "month": {
+        "value": "5",
+        "text": "maio"
+      },
+      "summary": "REGISTROS NO RS\n7\nMUNICÍPIOS COM REGISTROS\n6 de 497\nRECORTE EXIBIDO\nmaio · 2021"
+    },
+    {
+      "year": "2021",
+      "month": {
+        "value": "6",
+        "text": "junho"
+      },
+      "summary": "REGISTROS NO RS\n8\nMUNICÍPIOS COM REGISTROS\n6 de 497\nRECORTE EXIBIDO\njunho · 2021"
+    },
+    {
+      "year": "2021",
+      "month": {
+        "value": "7",
+        "text": "julho"
+      },
+      "summary": "REGISTROS NO RS\n9\nMUNICÍPIOS COM REGISTROS\n8 de 497\nRECORTE EXIBIDO\njulho · 2021"
+    },
+    {
+      "year": "2021",
+      "month": {
+        "value": "8",
+        "text": "agosto"
+      },
+      "summary": "REGISTROS NO RS\n14\nMUNICÍPIOS COM REGISTROS\n14 de 497\nRECORTE EXIBIDO\nagosto · 2021"
+    },
+    {
+      "year": "2021",
+      "month": {
+        "value": "9",
+        "text": "setembro"
+      },
+      "summary": "REGISTROS NO RS\n7\nMUNICÍPIOS COM REGISTROS\n6 de 497\nRECORTE EXIBIDO\nsetembro · 2021"
+    },
+    {
+      "year": "2021",
+      "month": {
+        "value": "10",
+        "text": "outubro"
+      },
+      "summary": "REGISTROS NO RS\n3\nMUNICÍPIOS COM REGISTROS\n3 de 497\nRECORTE EXIBIDO\noutubro · 2021"
+    },
+    {
+      "year": "2021",
+      "month": {
+        "value": "11",
+        "text": "novembro"
+      },
+      "summary": "REGISTROS NO RS\n8\nMUNICÍPIOS COM REGISTROS\n8 de 497\nRECORTE EXIBIDO\nnovembro · 2021"
+    },
+    {
+      "year": "2021",
+      "month": {
+        "value": "12",
+        "text": "dezembro"
+      },
+      "summary": "REGISTROS NO RS\n6\nMUNICÍPIOS COM REGISTROS\n6 de 497\nRECORTE EXIBIDO\ndezembro · 2021"
+    },
+    {
+      "year": "2020",
+      "month": {
+        "value": "",
+        "text": "Todos os meses disponíveis"
+      },
+      "summary": "REGISTROS NO RS\n80\nMUNICÍPIOS COM REGISTROS\n54 de 497\nRECORTE EXIBIDO\njaneiro a dezembro de 2020"
+    },
+    {
+      "year": "2020",
+      "month": {
+        "value": "1",
+        "text": "janeiro"
+      },
+      "summary": "REGISTROS NO RS\n10\nMUNICÍPIOS COM REGISTROS\n9 de 497\nRECORTE EXIBIDO\njaneiro · 2020"
+    },
+    {
+      "year": "2020",
+      "month": {
+        "value": "2",
+        "text": "fevereiro"
+      },
+      "summary": "REGISTROS NO RS\n4\nMUNICÍPIOS COM REGISTROS\n4 de 497\nRECORTE EXIBIDO\nfevereiro · 2020"
+    },
+    {
+      "year": "2020",
+      "month": {
+        "value": "3",
+        "text": "março"
+      },
+      "summary": "REGISTROS NO RS\n13\nMUNICÍPIOS COM REGISTROS\n12 de 497\nRECORTE EXIBIDO\nmarço · 2020"
+    },
+    {
+      "year": "2020",
+      "month": {
+        "value": "4",
+        "text": "abril"
+      },
+      "summary": "REGISTROS NO RS\n9\nMUNICÍPIOS COM REGISTROS\n7 de 497\nRECORTE EXIBIDO\nabril · 2020"
+    },
+    {
+      "year": "2020",
+      "month": {
+        "value": "5",
+        "text": "maio"
+      },
+      "summary": "REGISTROS NO RS\n7\nMUNICÍPIOS COM REGISTROS\n7 de 497\nRECORTE EXIBIDO\nmaio · 2020"
+    },
+    {
+      "year": "2020",
+      "month": {
+        "value": "6",
+        "text": "junho"
+      },
+      "summary": "REGISTROS NO RS\n8\nMUNICÍPIOS COM REGISTROS\n7 de 497\nRECORTE EXIBIDO\njunho · 2020"
+    },
+    {
+      "year": "2020",
+      "month": {
+        "value": "7",
+        "text": "julho"
+      },
+      "summary": "REGISTROS NO RS\n2\nMUNICÍPIOS COM REGISTROS\n2 de 497\nRECORTE EXIBIDO\njulho · 2020"
+    },
+    {
+      "year": "2020",
+      "month": {
+        "value": "8",
+        "text": "agosto"
+      },
+      "summary": "REGISTROS NO RS\n4\nMUNICÍPIOS COM REGISTROS\n4 de 497\nRECORTE EXIBIDO\nagosto · 2020"
+    },
+    {
+      "year": "2020",
+      "month": {
+        "value": "9",
+        "text": "setembro"
+      },
+      "summary": "REGISTROS NO RS\n5\nMUNICÍPIOS COM REGISTROS\n5 de 497\nRECORTE EXIBIDO\nsetembro · 2020"
+    },
+    {
+      "year": "2020",
+      "month": {
+        "value": "10",
+        "text": "outubro"
+      },
+      "summary": "REGISTROS NO RS\n6\nMUNICÍPIOS COM REGISTROS\n6 de 497\nRECORTE EXIBIDO\noutubro · 2020"
+    },
+    {
+      "year": "2020",
+      "month": {
+        "value": "11",
+        "text": "novembro"
+      },
+      "summary": "REGISTROS NO RS\n6\nMUNICÍPIOS COM REGISTROS\n6 de 497\nRECORTE EXIBIDO\nnovembro · 2020"
+    },
+    {
+      "year": "2020",
+      "month": {
+        "value": "12",
+        "text": "dezembro"
+      },
+      "summary": "REGISTROS NO RS\n6\nMUNICÍPIOS COM REGISTROS\n6 de 497\nRECORTE EXIBIDO\ndezembro · 2020"
+    }
+  ],
+  "filtros": [
+    {
+      "states": [
+        true,
+        true
+      ],
+      "items": [
+        "Centro de Referência de Atendimento à Mulher (CRAM)\nAlegrete · Centro de Referência da Mulher",
+        "Centro de Referência de Atendimento à Mulher em Situação de Violência – CRM\nAlegria · Centro de Referência da Mulher",
+        "Delegacia de Polícia Especializada de Proteção à Mulher Alvorada\nAlvorada · Unidade policial especializada",
+        "Centro de Referência de Atendimento à Mulher em Situação de Violência – CRM\nAntônio Prado · Centro de Referência da Mulher",
+        "Centro de Referência da Mulher (CRM)\nBagé · Centro de Referência da Mulher",
+        "Delegacia de Polícia Especializada de Proteção à Mulher Bagé – DEAM/9DPRI/DPI\nBagé · Unidade policial especializada",
+        "Centro de Referência para Mulher (CRM)\nBalneário Pinhal · Centro de Referência da Mulher",
+        "Casa da Mulher\nBarão · Centro de Referência da Mulher",
+        "Centro de Referência de Atendimento à Mulher em Situação de Violência – CRM\nBarra do Ribeiro · Centro de Referência da Mulher",
+        "Centro de Referência à Mulher em Situação de Violência (REVIVI)\nBento Gonçalves · Centro de Referência da Mulher",
+        "Delegacia de Polícia Especializada de Proteção à Mulher Bento Gonçalves – DEAM/8DPRI/DPI\nBento Gonçalves · Unidade policial especializada",
+        "Delegacia de Polícia Especializada de Proteção à Mulher Cachoeira do Sul\nCachoeira do Sul · Unidade policial especializada",
+        "Centro de Referência de Atendimento à Mulher em Situação de Violência – CRM\nCachoeirinha · Centro de Referência da Mulher",
+        "Centro de Referência de Atendimento à Mulher em Situação de Violência – CRM\nCanela · Centro de Referência da Mulher",
+        "Posto Policial de Proteção à Mulher de Canela\nCanela · Unidade policial especializada",
+        "Centro de Referência as Mulheres Vítimas de Violências (CRM) Patrícia Esber\nCanoas · Centro de Referência da Mulher",
+        "Delegacia de Polícia Especializada de Proteção à Mulher Canoas – DEAM/2DPRM/DPM\nCanoas · Unidade policial especializada",
+        "Centro de Referência de Atendimento à Mulher (CRAM)\nCapão da Canoa · Centro de Referência da Mulher",
+        "Delegacia de Polícia Especializada de Proteção à Mulher Carazinho\nCarazinho · Unidade policial especializada",
+        "Centro de Referência para Mulher (CRM) Rompendo Paradigmas\nCaxias do Sul · Centro de Referência da Mulher",
+        "Delegacia de Polícia Especializada de Proteção à Mulher Caxias do Sul – DEAM/8DPRI/DPI\nCaxias do Sul · Unidade policial especializada",
+        "Centro de Referência de Atendimento à Mulher em Situação de Violência de Chuvisca\nChuvisca · Centro de Referência da Mulher",
+        "Centro de Referência de Atendimento à Mulher em Situação de Violência – CRM\nCidreira · Centro de Referência da Mulher",
+        "Centro de Referência (CRMM) Maria Mulher\nCruz Alta · Centro de Referência da Mulher",
+        "Delegacia de Polícia Especializada de Proteção à Mulher Cruz Alta – DEAM/5DPRI/DPI\nCruz Alta · Unidade policial especializada",
+        "Centro de Referência de Atendimento à Mulher (CRAM)\nErechim · Centro de Referência da Mulher",
+        "Delegacia de Polícia Especializada de Proteção à Mulher Erechim DEAM/11DPRI/DPI\nErechim · Unidade policial especializada",
+        "Delegacia de Polícia Especializada de Proteção à Mulher Esteio\nEsteio · Unidade policial especializada",
+        "Centro de Referência de Atendimento à Mulher (CRAM)\nEstrela · Centro de Referência da Mulher",
+        "Centro de Referência de Atendimento à Mulher em Situação de Violência – CRM\nFarroupilha · Centro de Referência da Mulher",
+        "Centro de Referência de Atendimento à Mulher (CRAM) Casa Lilás\nGravataí · Centro de Referência da Mulher",
+        "Delegacia de Polícia Especializada de Proteção à Mulher Gravataí – DEAM/1DPRM/DPM\nGravataí · Unidade policial especializada",
+        "Centro de Referência de Atendimento à Mulher (CRAM)\nGuaíba · Centro de Referência da Mulher",
+        "Centro de Referência de Atendimento à Mulher em Situação de Violência – CRM\nHumaitá · Centro de Referência da Mulher",
+        "Centros de Referência de Atendimento à Mulher — Ijuí\nIjuí · Centro de Referência da Mulher",
+        "Delegacia de Polícia Especializada de Proteção à Mulher Ijuí – DEAM/26DPRI/DPI\nIjuí · Unidade policial especializada",
+        "Centro de Referência de Atendimento à Mulher em Situação de Violência – CRM\nImbé · Centro de Referência da Mulher",
+        "Centro de Referência da Mulher – Iracy Cidonha Klein\nIvoti · Centro de Referência da Mulher",
+        "Centro de Referência e Atendimento à Mulher – CRAM\nLajeado · Centro de Referência da Mulher",
+        "Delegacia de Polícia Especializada de Proteção à Mulher Lajeado – DEAM/19DPRI/DPI\nLajeado · Unidade policial especializada",
+        "Centro de Referência da Mulher\nMontenegro · Centro de Referência da Mulher",
+        "Delegacia de Polícia Especializada de Proteção à Mulher Montenegro – DEAM/1DPRI/DPI\nMontenegro · Unidade policial especializada",
+        "CRM\nNonoai · Centro de Referência da Mulher",
+        "Centro de Referência de Atendimento à Mulher em Situação de Violência – CRM\nNovo Barreiro · Centro de Referência da Mulher",
+        "Delegacia de Polícia Especializada de Proteção à Mulher de Novo Hamburgo – DEAM/3DPRM/DPM\nNovo Hamburgo · Unidade policial especializada",
+        "Centro de Referência da Mulher (CRM) Vanessa da Silva Santos\nPanambi · Centro de Referência da Mulher",
+        "Centro de Referência de Atendimento à Mulher (CRAM) Geni Lenyn\nParobé · Centro de Referência da Mulher",
+        "Centro de Referência de Atendimento à Mulher – CRAM\nPasso Fundo · Centro de Referência da Mulher",
+        "Delegacia de Polícia Especializada de Proteção à Mulher Passo Fundo – DEAM/6DPRI/DPI\nPasso Fundo · Unidade policial especializada · Coordenadas não confirmadas",
+        "Centro de Referência da Mulher de Pelotas\nPelotas · Centro de Referência da Mulher",
+        "Delegacia de Polícia Especializada de Proteção à Mulher Pelotas – DEAM/18DPRI/DPI\nPelotas · Unidade policial especializada",
+        "Centro de Referência de Atendimento da Mulher – Márcia Calixto\nPorto Alegre · Centro de Referência da Mulher",
+        "Centro de Referência Estadual da Mulher Vânia Araújo Machado\nPorto Alegre · Centro de Referência da Mulher",
+        "1ª Delegacia de Polícia Especializada de Proteção à Mulher Porto Alegre/DIPAM/DPGV\nPorto Alegre · Unidade policial especializada",
+        "2ª Delegacia de Polícia Especializada de Proteção à Mulher Porto Alegre/DIPAM/DPGV\nPorto Alegre · Unidade policial especializada",
+        "Centro de Referência de Atendimento à Mulher (CRAM)\nQuaraí · Centro de Referência da Mulher",
+        "Centro de Referência de Atendimento à Mulher (CRAM)\nRio Grande · Centro de Referência da Mulher",
+        "Delegacia de Polícia Especializada de Proteção à Mulher Rio Grande – DEAM/7DPRI/DPI\nRio Grande · Unidade policial especializada",
+        "Centro de Referência de Atendimento à Mulher em Situação de Violência – CRM\nSagrada Família · Centro de Referência da Mulher · Endereço público não informado",
+        "Centro de Referência de Atendimento à Mulher (CRAM) Professora Deise\nSant'Ana do Livramento · Centro de Referência da Mulher",
+        "Delegacia de Polícia Especializada de Proteção à Mulher Santa Cruz do Sul – DEAM/16DPRI/DPI\nSanta Cruz do Sul · Unidade policial especializada",
+        "Centro de Referência de Atendimento à Mulher em Situação de Violência – CRM\nSanta Maria · Centro de Referência da Mulher",
+        "Delegacia de Polícia Especializada de Proteção à Mulher Santa Maria – DEAM/3DPRI/DPI\nSanta Maria · Unidade policial especializada",
+        "Centro de Referencia Regional de Atendimento à Mulher Dirce Grösz\nSanta Rosa · Centro de Referência da Mulher",
+        "Delegacia de Polícia Especializada de Proteção à Mulher Santa Rosa DEAM/10DPRI/DPI\nSanta Rosa · Unidade policial especializada",
+        "Centro de Referência de Atendimento à Mulher (CRAM)\nSantiago · Centro de Referência da Mulher",
+        "Centro de Referência de Atendimento à Mulher em Situação de Violência – CRM\nSanto Ângelo · Centro de Referência da Mulher",
+        "Delegacia de Polícia Especializada de Proteção à Mulher Santo Ângelo – DEAM/13DPRI/DPI\nSanto Ângelo · Unidade policial especializada",
+        "Centro Jacobina de Atendimento e Apoio à Mulher\nSão Leopoldo · Centro de Referência da Mulher",
+        "Delegacia de Polícia Especializada de Proteção à Mulher São Leopoldo – DEAM/3DPRM/DPM\nSão Leopoldo · Unidade policial especializada",
+        "Delegacia de Polícia Especializada de Proteção à Mulher São Luiz Gonzaga\nSão Luiz Gonzaga · Unidade policial especializada",
+        "Centro de Referência de Atendimento à Mulher em Situação de Violência – CRM\nSão Sepé · Centro de Referência da Mulher",
+        "Centro de Referência de Atendimento à Mulher (CRAM) Alzira Valesca Lampert Fett\nSapiranga · Centro de Referência da Mulher",
+        "Centro de Referência das Mulheres Vítimas de Violências (CRM)\nSapucaia do Sul · Centro de Referência da Mulher",
+        "Centro de Referência de Atendimento à Mulher em Situação de Violência – CRM\nSarandi · Centro de Referência da Mulher",
+        "Centro de Referência de Atendimento à Mulher em Situação de Violência – CRM\nTaquara · Centro de Referência da Mulher",
+        "Centro de Referência da Mulher Pricila Selau\nTorres · Centro de Referência da Mulher",
+        "Centro de Referência da Mulher Flor de Lis\nTrês de Maio · Centro de Referência da Mulher",
+        "Centro de Referência de Atendimento à Mulher (CRAM)\nUruguaiana · Centro de Referência da Mulher",
+        "Delegacia de Polícia Especializada de Proteção à Mulher Uruguaiana – DEAM/4DPRI/DPI\nUruguaiana · Unidade policial especializada",
+        "Centro de Referência para Mulher (CRM) Márcia Santana\nVacaria · Centro de Referência da Mulher",
+        "Delegacia de Polícia Especializada de Proteção à Mulher Vacaria\nVacaria · Unidade policial especializada",
+        "Centro de Referência de Atendimento à Mulher em Situação de Violência – CRM\nViamão · Centro de Referência da Mulher",
+        "Delegacia de Polícia Especializada de Proteção à Mulher Viamão – DEAM/1DPRM/DPM\nViamão · Unidade policial especializada"
+      ]
+    },
+    {
+      "states": [
+        false,
+        true
+      ],
+      "items": [
+        "Delegacia de Polícia Especializada de Proteção à Mulher Alvorada\nAlvorada · Unidade policial especializada",
+        "Delegacia de Polícia Especializada de Proteção à Mulher Bagé – DEAM/9DPRI/DPI\nBagé · Unidade policial especializada",
+        "Delegacia de Polícia Especializada de Proteção à Mulher Bento Gonçalves – DEAM/8DPRI/DPI\nBento Gonçalves · Unidade policial especializada",
+        "Delegacia de Polícia Especializada de Proteção à Mulher Cachoeira do Sul\nCachoeira do Sul · Unidade policial especializada",
+        "Posto Policial de Proteção à Mulher de Canela\nCanela · Unidade policial especializada",
+        "Delegacia de Polícia Especializada de Proteção à Mulher Canoas – DEAM/2DPRM/DPM\nCanoas · Unidade policial especializada",
+        "Delegacia de Polícia Especializada de Proteção à Mulher Carazinho\nCarazinho · Unidade policial especializada",
+        "Delegacia de Polícia Especializada de Proteção à Mulher Caxias do Sul – DEAM/8DPRI/DPI\nCaxias do Sul · Unidade policial especializada",
+        "Delegacia de Polícia Especializada de Proteção à Mulher Cruz Alta – DEAM/5DPRI/DPI\nCruz Alta · Unidade policial especializada",
+        "Delegacia de Polícia Especializada de Proteção à Mulher Erechim DEAM/11DPRI/DPI\nErechim · Unidade policial especializada",
+        "Delegacia de Polícia Especializada de Proteção à Mulher Esteio\nEsteio · Unidade policial especializada",
+        "Delegacia de Polícia Especializada de Proteção à Mulher Gravataí – DEAM/1DPRM/DPM\nGravataí · Unidade policial especializada",
+        "Delegacia de Polícia Especializada de Proteção à Mulher Ijuí – DEAM/26DPRI/DPI\nIjuí · Unidade policial especializada",
+        "Delegacia de Polícia Especializada de Proteção à Mulher Lajeado – DEAM/19DPRI/DPI\nLajeado · Unidade policial especializada",
+        "Delegacia de Polícia Especializada de Proteção à Mulher Montenegro – DEAM/1DPRI/DPI\nMontenegro · Unidade policial especializada",
+        "Delegacia de Polícia Especializada de Proteção à Mulher de Novo Hamburgo – DEAM/3DPRM/DPM\nNovo Hamburgo · Unidade policial especializada",
+        "Delegacia de Polícia Especializada de Proteção à Mulher Passo Fundo – DEAM/6DPRI/DPI\nPasso Fundo · Unidade policial especializada · Coordenadas não confirmadas",
+        "Delegacia de Polícia Especializada de Proteção à Mulher Pelotas – DEAM/18DPRI/DPI\nPelotas · Unidade policial especializada",
+        "1ª Delegacia de Polícia Especializada de Proteção à Mulher Porto Alegre/DIPAM/DPGV\nPorto Alegre · Unidade policial especializada",
+        "2ª Delegacia de Polícia Especializada de Proteção à Mulher Porto Alegre/DIPAM/DPGV\nPorto Alegre · Unidade policial especializada",
+        "Delegacia de Polícia Especializada de Proteção à Mulher Rio Grande – DEAM/7DPRI/DPI\nRio Grande · Unidade policial especializada",
+        "Delegacia de Polícia Especializada de Proteção à Mulher Santa Cruz do Sul – DEAM/16DPRI/DPI\nSanta Cruz do Sul · Unidade policial especializada",
+        "Delegacia de Polícia Especializada de Proteção à Mulher Santa Maria – DEAM/3DPRI/DPI\nSanta Maria · Unidade policial especializada",
+        "Delegacia de Polícia Especializada de Proteção à Mulher Santa Rosa DEAM/10DPRI/DPI\nSanta Rosa · Unidade policial especializada",
+        "Delegacia de Polícia Especializada de Proteção à Mulher Santo Ângelo – DEAM/13DPRI/DPI\nSanto Ângelo · Unidade policial especializada",
+        "Delegacia de Polícia Especializada de Proteção à Mulher São Leopoldo – DEAM/3DPRM/DPM\nSão Leopoldo · Unidade policial especializada",
+        "Delegacia de Polícia Especializada de Proteção à Mulher São Luiz Gonzaga\nSão Luiz Gonzaga · Unidade policial especializada",
+        "Delegacia de Polícia Especializada de Proteção à Mulher Uruguaiana – DEAM/4DPRI/DPI\nUruguaiana · Unidade policial especializada",
+        "Delegacia de Polícia Especializada de Proteção à Mulher Vacaria\nVacaria · Unidade policial especializada",
+        "Delegacia de Polícia Especializada de Proteção à Mulher Viamão – DEAM/1DPRM/DPM\nViamão · Unidade policial especializada"
+      ]
+    },
+    {
+      "states": [
+        true,
+        false
+      ],
+      "items": [
+        "Centro de Referência de Atendimento à Mulher (CRAM)\nAlegrete · Centro de Referência da Mulher",
+        "Centro de Referência de Atendimento à Mulher em Situação de Violência – CRM\nAlegria · Centro de Referência da Mulher",
+        "Centro de Referência de Atendimento à Mulher em Situação de Violência – CRM\nAntônio Prado · Centro de Referência da Mulher",
+        "Centro de Referência da Mulher (CRM)\nBagé · Centro de Referência da Mulher",
+        "Centro de Referência para Mulher (CRM)\nBalneário Pinhal · Centro de Referência da Mulher",
+        "Casa da Mulher\nBarão · Centro de Referência da Mulher",
+        "Centro de Referência de Atendimento à Mulher em Situação de Violência – CRM\nBarra do Ribeiro · Centro de Referência da Mulher",
+        "Centro de Referência à Mulher em Situação de Violência (REVIVI)\nBento Gonçalves · Centro de Referência da Mulher",
+        "Centro de Referência de Atendimento à Mulher em Situação de Violência – CRM\nCachoeirinha · Centro de Referência da Mulher",
+        "Centro de Referência de Atendimento à Mulher em Situação de Violência – CRM\nCanela · Centro de Referência da Mulher",
+        "Centro de Referência as Mulheres Vítimas de Violências (CRM) Patrícia Esber\nCanoas · Centro de Referência da Mulher",
+        "Centro de Referência de Atendimento à Mulher (CRAM)\nCapão da Canoa · Centro de Referência da Mulher",
+        "Centro de Referência para Mulher (CRM) Rompendo Paradigmas\nCaxias do Sul · Centro de Referência da Mulher",
+        "Centro de Referência de Atendimento à Mulher em Situação de Violência de Chuvisca\nChuvisca · Centro de Referência da Mulher",
+        "Centro de Referência de Atendimento à Mulher em Situação de Violência – CRM\nCidreira · Centro de Referência da Mulher",
+        "Centro de Referência (CRMM) Maria Mulher\nCruz Alta · Centro de Referência da Mulher",
+        "Centro de Referência de Atendimento à Mulher (CRAM)\nErechim · Centro de Referência da Mulher",
+        "Centro de Referência de Atendimento à Mulher (CRAM)\nEstrela · Centro de Referência da Mulher",
+        "Centro de Referência de Atendimento à Mulher em Situação de Violência – CRM\nFarroupilha · Centro de Referência da Mulher",
+        "Centro de Referência de Atendimento à Mulher (CRAM) Casa Lilás\nGravataí · Centro de Referência da Mulher",
+        "Centro de Referência de Atendimento à Mulher (CRAM)\nGuaíba · Centro de Referência da Mulher",
+        "Centro de Referência de Atendimento à Mulher em Situação de Violência – CRM\nHumaitá · Centro de Referência da Mulher",
+        "Centros de Referência de Atendimento à Mulher — Ijuí\nIjuí · Centro de Referência da Mulher",
+        "Centro de Referência de Atendimento à Mulher em Situação de Violência – CRM\nImbé · Centro de Referência da Mulher",
+        "Centro de Referência da Mulher – Iracy Cidonha Klein\nIvoti · Centro de Referência da Mulher",
+        "Centro de Referência e Atendimento à Mulher – CRAM\nLajeado · Centro de Referência da Mulher",
+        "Centro de Referência da Mulher\nMontenegro · Centro de Referência da Mulher",
+        "CRM\nNonoai · Centro de Referência da Mulher",
+        "Centro de Referência de Atendimento à Mulher em Situação de Violência – CRM\nNovo Barreiro · Centro de Referência da Mulher",
+        "Centro de Referência da Mulher (CRM) Vanessa da Silva Santos\nPanambi · Centro de Referência da Mulher",
+        "Centro de Referência de Atendimento à Mulher (CRAM) Geni Lenyn\nParobé · Centro de Referência da Mulher",
+        "Centro de Referência de Atendimento à Mulher – CRAM\nPasso Fundo · Centro de Referência da Mulher",
+        "Centro de Referência da Mulher de Pelotas\nPelotas · Centro de Referência da Mulher",
+        "Centro de Referência de Atendimento da Mulher – Márcia Calixto\nPorto Alegre · Centro de Referência da Mulher",
+        "Centro de Referência Estadual da Mulher Vânia Araújo Machado\nPorto Alegre · Centro de Referência da Mulher",
+        "Centro de Referência de Atendimento à Mulher (CRAM)\nQuaraí · Centro de Referência da Mulher",
+        "Centro de Referência de Atendimento à Mulher (CRAM)\nRio Grande · Centro de Referência da Mulher",
+        "Centro de Referência de Atendimento à Mulher em Situação de Violência – CRM\nSagrada Família · Centro de Referência da Mulher · Endereço público não informado",
+        "Centro de Referência de Atendimento à Mulher (CRAM) Professora Deise\nSant'Ana do Livramento · Centro de Referência da Mulher",
+        "Centro de Referência de Atendimento à Mulher em Situação de Violência – CRM\nSanta Maria · Centro de Referência da Mulher",
+        "Centro de Referencia Regional de Atendimento à Mulher Dirce Grösz\nSanta Rosa · Centro de Referência da Mulher",
+        "Centro de Referência de Atendimento à Mulher (CRAM)\nSantiago · Centro de Referência da Mulher",
+        "Centro de Referência de Atendimento à Mulher em Situação de Violência – CRM\nSanto Ângelo · Centro de Referência da Mulher",
+        "Centro Jacobina de Atendimento e Apoio à Mulher\nSão Leopoldo · Centro de Referência da Mulher",
+        "Centro de Referência de Atendimento à Mulher em Situação de Violência – CRM\nSão Sepé · Centro de Referência da Mulher",
+        "Centro de Referência de Atendimento à Mulher (CRAM) Alzira Valesca Lampert Fett\nSapiranga · Centro de Referência da Mulher",
+        "Centro de Referência das Mulheres Vítimas de Violências (CRM)\nSapucaia do Sul · Centro de Referência da Mulher",
+        "Centro de Referência de Atendimento à Mulher em Situação de Violência – CRM\nSarandi · Centro de Referência da Mulher",
+        "Centro de Referência de Atendimento à Mulher em Situação de Violência – CRM\nTaquara · Centro de Referência da Mulher",
+        "Centro de Referência da Mulher Pricila Selau\nTorres · Centro de Referência da Mulher",
+        "Centro de Referência da Mulher Flor de Lis\nTrês de Maio · Centro de Referência da Mulher",
+        "Centro de Referência de Atendimento à Mulher (CRAM)\nUruguaiana · Centro de Referência da Mulher",
+        "Centro de Referência para Mulher (CRM) Márcia Santana\nVacaria · Centro de Referência da Mulher",
+        "Centro de Referência de Atendimento à Mulher em Situação de Violência – CRM\nViamão · Centro de Referência da Mulher"
+      ]
+    },
+    {
+      "states": [
+        false,
+        false
+      ],
+      "items": [
+        "Nenhum serviço corresponde aos filtros neste recorte."
+      ]
+    }
+  ],
+  "diretorio": [
+    {
+      "term": "Coordenadas não confirmadas",
+      "picked": "Delegacia de Polícia Especializada de Proteção à Mulher Passo Fundo – DEAM/6DPRI/DPI\nPasso Fundo · Unidade policial especializada · Coordenadas não confirmadas",
+      "panel": "MUNICÍPIO SELECIONADO: PASSO FUNDO\nLimpar seleção\nDelegacia de Polícia Especializada de Proteção à Mulher Passo Fundo – DEAM/6DPRI/DPI, Passo Fundo selecionado.\nATENDIMENTO POLICIAL ESPECIALIZADO\nDelegacia de Polícia Especializada de Proteção à Mulher Passo Fundo – DEAM/6DPRI/DPI\n\nPasso Fundo\n\nRua Nascimento Vargas, nº 153, Passo Fundo/RS\n\nTelefone: (54) 3581-0725\n\npassofundo-dm@pc.rs.gov.br\n\nAtendimento: Segunda a sexta, das 8h30min às 12h e das 13h30min às 18h\n\nConferido em\n2026-11-02\nVer endereço no Google Maps\n\nCampos conferidos nesta fonte: telefone, endereço.\n\nConsultar Polícia Civil do Estado do Rio Grande do Sul\n\nConferido em 2026-11-03.\n\nO endereço oficial vigente diverge do endereço associado ao ponto da camada IEDE. O marcador foi ocultado até que as coordenadas do novo endereço sejam confirmadas por fonte adequada.\n\nServiços da rede de proteção em Passo Fundo\nCentro de Referência de Atendimento à Mulher – CRAM\nPasso Fundo · Centro de Referência da Mulher\nDelegacia de Polícia Especializada de Proteção à Mulher Passo Fundo – DEAM/6DPRI/DPI\nPasso Fundo · Unidade policial especializada · Coordenadas não confirmadas · Serviço selecionado"
+    },
+    {
+      "term": "Endereço público não informado",
+      "picked": "Centro de Referência de Atendimento à Mulher em Situação de Violência – CRM\nSagrada Família · Centro de Referência da Mulher · Endereço público não informado",
+      "panel": "MUNICÍPIO SELECIONADO: SAGRADA FAMÍLIA\nLimpar seleção\nCentro de Referência de Atendimento à Mulher em Situação de Violência – CRM, Sagrada Família selecionado.\nCENTRO DE REFERÊNCIA DA MULHER\nCentro de Referência de Atendimento à Mulher em Situação de Violência – CRM\n\nSagrada Família\n\nTelefone: (55) 984454939\n\ncrmdesagradafamilia@gmail.com\n\nConferido em\n2026-11-02\nServiços da rede de proteção em Sagrada Família\nCentro de Referência de Atendimento à Mulher em Situação de Violência – CRM\nSagrada Família · Centro de Referência da Mulher · Endereço público não informado · Serviço selecionado"
+    }
+  ],
+  "anuais": [
+    {
+      "view": "desktop",
+      "first": {
+        "pagination": "Anterior\nPágina 1 de 20\nPróxima",
+        "rows": [
+          "Município (SSP-RS)\tJaneiro\tFevereiro\tMarço\tAbril\tMaio\tJunho\tJulho\tAgosto\tSetembro\tOutubro\tNovembro\tDezembro\tTotal anual",
+          "ACEGUA\t0\t0\t0\t0\t0\t0\t0\t0\t0\tIndisponível\tIndisponível\tIndisponível\t0"
+        ],
+        "mobileVisible": "none",
+        "tableVisible": "block",
+        "info": "497 municípios · exibindo 1–25"
+      },
+      "next": {
+        "pagination": "Anterior\nPágina 2 de 20\nPróxima",
+        "rows": [
+          "Município (SSP-RS)\tJaneiro\tFevereiro\tMarço\tAbril\tMaio\tJunho\tJulho\tAgosto\tSetembro\tOutubro\tNovembro\tDezembro\tTotal anual",
+          "ARROIO GRANDE\t0\t0\t0\t0\t0\t0\t0\t0\t0\tIndisponível\tIndisponível\tIndisponível\t0"
+        ],
+        "mobileVisible": "none",
+        "tableVisible": "block",
+        "info": "497 municípios · exibindo 26–50"
+      },
+      "Porto Alegre": {
+        "pagination": "Anterior\nPágina 1 de 1\nPróxima",
+        "rows": [
+          "Município (SSP-RS)\tJaneiro\tFevereiro\tMarço\tAbril\tMaio\tJunho\tJulho\tAgosto\tSetembro\tOutubro\tNovembro\tDezembro\tTotal anual",
+          "PORTO ALEGRE\t2\t0\t0\t1\t3\t0\t1\t3\t0\tIndisponível\tIndisponível\tIndisponível\t10"
+        ],
+        "mobileVisible": "none",
+        "tableVisible": "block",
+        "info": "1 município · exibindo 1–1"
+      },
+      "zzz inexistente": {
+        "pagination": "Anterior\nPágina 1 de 1\nPróxima",
+        "rows": [
+          "Município (SSP-RS)\tJaneiro\tFevereiro\tMarço\tAbril\tMaio\tJunho\tJulho\tAgosto\tSetembro\tOutubro\tNovembro\tDezembro\tTotal anual",
+          "Nenhum município corresponde à busca."
+        ],
+        "mobileVisible": "none",
+        "tableVisible": "block",
+        "info": "0 municípios · exibindo 0–0"
+      }
+    },
+    {
+      "view": "mobile",
+      "first": {
+        "pagination": "Anterior\nPágina 1 de 50\nPróxima",
+        "rows": [
+          "Município (SSP-RS)JaneiroFevereiroMarçoAbrilMaioJunhoJulhoAgostoSetembroOutubroNovembroDezembroTotal anual",
+          "ACEGUA000000000IndisponívelIndisponívelIndisponível0"
+        ],
+        "mobileVisible": "grid",
+        "tableVisible": "none",
+        "info": "497 municípios · exibindo 1–10"
+      },
+      "next": {
+        "pagination": "Anterior\nPágina 2 de 50\nPróxima",
+        "rows": [
+          "Município (SSP-RS)JaneiroFevereiroMarçoAbrilMaioJunhoJulhoAgostoSetembroOutubroNovembroDezembroTotal anual",
+          "ALTO FELIZ000000000IndisponívelIndisponívelIndisponível0"
+        ],
+        "mobileVisible": "grid",
+        "tableVisible": "none",
+        "info": "497 municípios · exibindo 11–20"
+      },
+      "Porto Alegre": {
+        "pagination": "Anterior\nPágina 1 de 1\nPróxima",
+        "rows": [
+          "Município (SSP-RS)JaneiroFevereiroMarçoAbrilMaioJunhoJulhoAgostoSetembroOutubroNovembroDezembroTotal anual",
+          "PORTO ALEGRE200130130IndisponívelIndisponívelIndisponível10"
+        ],
+        "mobileVisible": "grid",
+        "tableVisible": "none",
+        "info": "1 município · exibindo 1–1"
+      },
+      "zzz inexistente": {
+        "pagination": "Anterior\nPágina 1 de 1\nPróxima",
+        "rows": [
+          "Município (SSP-RS)JaneiroFevereiroMarçoAbrilMaioJunhoJulhoAgostoSetembroOutubroNovembroDezembroTotal anual",
+          "Nenhum município corresponde à busca."
+        ],
+        "mobileVisible": "grid",
+        "tableVisible": "none",
+        "info": "0 municípios · exibindo 0–0"
+      }
+    }
+  ],
+  "erros": [],
+  "municipios": {
+    "zero": {
+      "option": {
+        "value": "4300034",
+        "text": "Aceguá"
+      },
+      "count": "0",
+      "panel": "MUNICÍPIO SELECIONADO\nLimpar seleção\nMunicípio Aceguá selecionado.\nAceguá\n0\n\nNenhum registro informado pela SSP-RS neste recorte.\n\nPeríodo\njaneiro a setembro de 2026\nCódigo IBGE\n4300034\nReferências jornalísticas\nServiços da rede de proteção em Aceguá",
+      "news": "Referências jornalísticas\n\nNenhum registro de feminicídio consumado publicado pela SSP-RS neste recorte."
+    },
+    "positivo": {
+      "option": {
+        "value": "4300307",
+        "text": "Alecrim"
+      },
+      "count": "1",
+      "panel": "MUNICÍPIO SELECIONADO\nLimpar seleção\nMunicípio Alecrim selecionado.\nAlecrim\n1\n\nregistro de feminicídio consumado no recorte.\n\nPeríodo\njaneiro a setembro de 2026\nCódigo IBGE\n4300307\nReferências jornalísticas\nServiços da rede de proteção em Alecrim",
+      "news": "Referências jornalísticas\nAgora RS\n08/06/2026\nMulher é morta a tiros pelo companheiro no município de Alecrim\n, abre em nova aba"
+    }
+  }
+}

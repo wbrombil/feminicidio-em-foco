@@ -1,0 +1,1293 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 168,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.96663160006818,
+          -29.465675299765927
+        ]
+      },
+      "properties": {
+        "objectid": 168,
+        "municipio": "Lajeado",
+        "tp_unidade": "Posto Médico-Legal (PML)",
+        "telefone": "(51) 3748-3060",
+        "email": null,
+        "endereco": "Rua João Batista de Mello, 509, Centro - CEP 95900-182",
+        "complemento": " ",
+        "horario_atendimento": "",
+        "fonte": "Observatório da Violência Contra a Mulher - SSP",
+        "nm_unidade": "Posto Médico-Legal de Lajeado",
+        "status": 1,
+        "cod_ibge": 4311403,
+        "mun_jurisdicionados": null,
+        "latitude": -29.465675299999997,
+        "longitude": -51.9666316
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 402,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0766592000619,
+          -30.000958398792775
+        ]
+      },
+      "properties": {
+        "objectid": 402,
+        "municipio": "Alvorada",
+        "tp_unidade": "Promotoria MPRS",
+        "telefone": null,
+        "email": null,
+        "endereco": "Rua Contabilista Vitor Brum, nº 67",
+        "complemento": null,
+        "horario_atendimento": null,
+        "fonte": "Assessoria CAOEVCM (Centro de Apoio Operacional de Enfrentamento à Violência contra a Mulher) do MP RS",
+        "nm_unidade": "Promotoria de Justiça Especializada de Combate à Violência Doméstica e Familiar contra a Mulher de Alvorada",
+        "status": 1,
+        "cod_ibge": 4300604,
+        "mun_jurisdicionados": null,
+        "latitude": -30.000958400000002,
+        "longitude": -51.0766592
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 403,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.18639679997222,
+          -29.921776899467336
+        ]
+      },
+      "properties": {
+        "objectid": 403,
+        "municipio": "Canoas",
+        "tp_unidade": "Promotoria MPRS",
+        "telefone": null,
+        "email": null,
+        "endereco": "Rua Lenine Nequete, nº 200",
+        "complemento": null,
+        "horario_atendimento": null,
+        "fonte": "Assessoria CAOEVCM (Centro de Apoio Operacional de Enfrentamento à Violência contra a Mulher) do MP RS",
+        "nm_unidade": "Promotoria de Justiça Especializada de Combate à Violência Doméstica e Familiar contra a Mulher de Canoas",
+        "status": 1,
+        "cod_ibge": 4304606,
+        "mun_jurisdicionados": null,
+        "latitude": -29.9217769,
+        "longitude": -51.186396800000004
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 404,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.17905269962227,
+          -29.175975999288532
+        ]
+      },
+      "properties": {
+        "objectid": 404,
+        "municipio": "Caxias do Sul",
+        "tp_unidade": "Promotoria MPRS",
+        "telefone": null,
+        "email": null,
+        "endereco": "Avenida Independência, nº 2372",
+        "complemento": null,
+        "horario_atendimento": null,
+        "fonte": "Assessoria CAOEVCM (Centro de Apoio Operacional de Enfrentamento à Violência contra a Mulher) do MP RS",
+        "nm_unidade": "Promotoria de Justiça Especializada de Combate à Violência Doméstica e Familiar contra a Mulher de Caxias do Sul",
+        "status": 1,
+        "cod_ibge": 4305108,
+        "mun_jurisdicionados": null,
+        "latitude": -29.175976,
+        "longitude": -51.1790527
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 405,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.99860280027888,
+          -29.935989499098866
+        ]
+      },
+      "properties": {
+        "objectid": 405,
+        "municipio": "Gravataí",
+        "tp_unidade": "Promotoria MPRS",
+        "telefone": null,
+        "email": null,
+        "endereco": "Rua Irmão Geraldo, nº 181",
+        "complemento": null,
+        "horario_atendimento": null,
+        "fonte": "Assessoria CAOEVCM (Centro de Apoio Operacional de Enfrentamento à Violência contra a Mulher) do MP RS",
+        "nm_unidade": "Promotoria de Justiça Especializada de Combate à Violência Doméstica e Familiar contra a Mulher de Gravataí",
+        "status": 1,
+        "cod_ibge": 4309209,
+        "mun_jurisdicionados": null,
+        "latitude": -29.9359895,
+        "longitude": -50.9986028
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 406,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.115038700075836,
+          -29.69608579880732
+        ]
+      },
+      "properties": {
+        "objectid": 406,
+        "municipio": "Novo Hamburgo",
+        "tp_unidade": "Promotoria MPRS",
+        "telefone": null,
+        "email": null,
+        "endereco": "Rua Dr. Bayard de Toledo Mércio, nº 160",
+        "complemento": null,
+        "horario_atendimento": null,
+        "fonte": "Assessoria CAOEVCM (Centro de Apoio Operacional de Enfrentamento à Violência contra a Mulher) do MP RS",
+        "nm_unidade": "Promotoria de Justiça Especializada de Combate à Violência Doméstica e Familiar contra a Mulher de Novo Hamburgo",
+        "status": 1,
+        "cod_ibge": 4313409,
+        "mun_jurisdicionados": null,
+        "latitude": -29.696085800000002,
+        "longitude": -51.1150387
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 407,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.405344000425146,
+          -28.26708179959704
+        ]
+      },
+      "properties": {
+        "objectid": 407,
+        "municipio": "Passo Fundo",
+        "tp_unidade": "Promotoria MPRS",
+        "telefone": null,
+        "email": null,
+        "endereco": "Rua Bororós, nº 89",
+        "complemento": null,
+        "horario_atendimento": null,
+        "fonte": "Assessoria CAOEVCM (Centro de Apoio Operacional de Enfrentamento à Violência contra a Mulher) do MP RS",
+        "nm_unidade": "Promotoria de Justiça Especializada de Combate à Violência Doméstica e Familiar contra a Mulher de Passo Fundo",
+        "status": 1,
+        "cod_ibge": 4314100,
+        "mun_jurisdicionados": null,
+        "latitude": -28.2670818,
+        "longitude": -52.405344
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 191,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0978900001233,
+          -30.082089998834753
+        ]
+      },
+      "properties": {
+        "objectid": 191,
+        "municipio": "Viamão",
+        "tp_unidade": "Posto Médico-Legal (PML)",
+        "telefone": "(51) 94475-000",
+        "email": null,
+        "endereco": "Tapir Rocha, 2205",
+        "complemento": null,
+        "horario_atendimento": null,
+        "fonte": "Instituto Geral de Perícias",
+        "nm_unidade": "Posto Médico-Legal de Viamão",
+        "status": 1,
+        "cod_ibge": 4323002,
+        "mun_jurisdicionados": null,
+        "latitude": -30.08209,
+        "longitude": -51.09789
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 111,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.78257100025132,
+          -29.648171000279
+        ]
+      },
+      "properties": {
+        "objectid": 111,
+        "municipio": "Taquara",
+        "tp_unidade": "Posto Médico-Legal (PML)",
+        "telefone": "(51) 3541-7198",
+        "email": null,
+        "endereco": "Rua Guilherme Lahm 1476, Centro - CEP 95600-076",
+        "complemento": " ",
+        "horario_atendimento": "",
+        "fonte": "Observatório da Violência Contra a Mulher - SSP",
+        "nm_unidade": "Posto Médico-Legal de Taquara",
+        "status": 1,
+        "cod_ibge": 4321204,
+        "mun_jurisdicionados": null,
+        "latitude": -29.648170999999998,
+        "longitude": -50.782571
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 112,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.9290858997943,
+          -27.457896999973247
+        ]
+      },
+      "properties": {
+        "objectid": 112,
+        "municipio": "Três Passos",
+        "tp_unidade": "Posto Médico-Legal (PML)",
+        "telefone": "(55) 3522-8376",
+        "email": null,
+        "endereco": "Rua Salgado Filho, 79B - CEP 98600-000",
+        "complemento": "Ao lado da Câmara dos Vereadores",
+        "horario_atendimento": "",
+        "fonte": "Observatório da Violência Contra a Mulher - SSP",
+        "nm_unidade": "Posto Médico-Legal de Três Passos",
+        "status": 1,
+        "cod_ibge": 4321907,
+        "mun_jurisdicionados": null,
+        "latitude": -27.457897,
+        "longitude": -53.929085900000004
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 113,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.07403999984597,
+          -29.758079999278266
+        ]
+      },
+      "properties": {
+        "objectid": 113,
+        "municipio": "Uruguaiana",
+        "tp_unidade": "Posto Médico-Legal (PML)",
+        "telefone": "(55) 3411-1890",
+        "email": null,
+        "endereco": "Avenida Presidente Getúlio Vargas, 3905 - CEP 97500-029",
+        "complemento": " ",
+        "horario_atendimento": "",
+        "fonte": "Observatório da Violência Contra a Mulher - SSP",
+        "nm_unidade": "Posto Médico-Legal de Uruguaiana",
+        "status": 1,
+        "cod_ibge": 4322400,
+        "mun_jurisdicionados": null,
+        "latitude": -29.75808,
+        "longitude": -57.07404
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 114,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.93077289994926,
+          -28.504671799671208
+        ]
+      },
+      "properties": {
+        "objectid": 114,
+        "municipio": "Vacaria",
+        "tp_unidade": "Posto Médico-Legal (PML)",
+        "telefone": "(54) 3232-6230",
+        "email": null,
+        "endereco": "Avenida Julio de Castilhos, 654 - CEP 95200-000",
+        "complemento": " ",
+        "horario_atendimento": "",
+        "fonte": "Observatório da Violência Contra a Mulher - SSP",
+        "nm_unidade": "Posto Médico-Legal de Vacaria",
+        "status": 1,
+        "cod_ibge": 4322509,
+        "mun_jurisdicionados": null,
+        "latitude": -28.5046718,
+        "longitude": -50.9307729
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 115,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.26343810018806,
+          -28.283043800042744
+        ]
+      },
+      "properties": {
+        "objectid": 115,
+        "municipio": "Santo Ângelo",
+        "tp_unidade": "Posto Médico-Legal (PML)",
+        "telefone": "(55) 3312-5502",
+        "email": null,
+        "endereco": "Rua Antunes Ribas, 3609, fundos - CEP 98803-230",
+        "complemento": " ",
+        "horario_atendimento": "",
+        "fonte": "Observatório da Violência Contra a Mulher - SSP",
+        "nm_unidade": "Posto Médico-Legal de Santo Ângelo",
+        "status": 1,
+        "cod_ibge": 4317509,
+        "mun_jurisdicionados": null,
+        "latitude": -28.2830438,
+        "longitude": -54.263438099999995
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 116,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.005604200373455,
+          -28.65263129969953
+        ]
+      },
+      "properties": {
+        "objectid": 116,
+        "municipio": "São Borja",
+        "tp_unidade": "Posto Médico-Legal (PML)",
+        "telefone": "(55) 3431-6069",
+        "email": null,
+        "endereco": "Rua Olinto Arami Silva, 362 - CEP 97670-000",
+        "complemento": " ",
+        "horario_atendimento": "",
+        "fonte": "Observatório da Violência Contra a Mulher - SSP",
+        "nm_unidade": "Posto Médico-Legal de São Borja",
+        "status": 1,
+        "cod_ibge": 4318002,
+        "mun_jurisdicionados": null,
+        "latitude": -28.6526313,
+        "longitude": -56.0056042
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 117,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.318459099607644,
+          -30.338487699823684
+        ]
+      },
+      "properties": {
+        "objectid": 117,
+        "municipio": "São Gabriel",
+        "tp_unidade": "Posto Médico-Legal (PML)",
+        "telefone": "(55) 3232-4782",
+        "email": null,
+        "endereco": "Rua João Manoel, 508 - CEP 97300-000",
+        "complemento": " ",
+        "horario_atendimento": "",
+        "fonte": "Observatório da Violência Contra a Mulher - SSP",
+        "nm_unidade": "Posto Médico-Legal de São Gabriel",
+        "status": 1,
+        "cod_ibge": 4318309,
+        "mun_jurisdicionados": null,
+        "latitude": -30.3384877,
+        "longitude": -54.3184591
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 118,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.947452199759084,
+          -28.407767199805566
+        ]
+      },
+      "properties": {
+        "objectid": 118,
+        "municipio": "São Luiz Gonzaga",
+        "tp_unidade": "Posto Médico-Legal (PML)",
+        "telefone": "(55) 3352-4399",
+        "email": null,
+        "endereco": "Rua Fernando Machado, 2999 - Anexada à Secretaria da Saúde - CEP 97800-000",
+        "complemento": " ",
+        "horario_atendimento": "",
+        "fonte": "Observatório da Violência Contra a Mulher - SSP",
+        "nm_unidade": "Posto Médico-Legal de São Luiz Gonzaga",
+        "status": 1,
+        "cod_ibge": 4318903,
+        "mun_jurisdicionados": null,
+        "latitude": -28.4077672,
+        "longitude": -54.9474522
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 119,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.51045999962918,
+          -28.82746999964244
+        ]
+      },
+      "properties": {
+        "objectid": 119,
+        "municipio": "Soledade",
+        "tp_unidade": "Posto Médico-Legal (PML)",
+        "telefone": "(54) 3381-5846",
+        "email": null,
+        "endereco": "Rua Mauricio Cardoso, 919 - CEP 99300-000",
+        "complemento": " ",
+        "horario_atendimento": "",
+        "fonte": "Observatório da Violência Contra a Mulher - SSP",
+        "nm_unidade": "Posto Médico-Legal de Soledade",
+        "status": 1,
+        "cod_ibge": 4320800,
+        "mun_jurisdicionados": null,
+        "latitude": -28.82747,
+        "longitude": -52.510459999999995
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 160,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.10645299960612,
+          -31.326810500165248
+        ]
+      },
+      "properties": {
+        "objectid": 160,
+        "municipio": "Bagé",
+        "tp_unidade": "Posto Médico-Legal (PML)",
+        "telefone": "(53) 3241-2967",
+        "email": null,
+        "endereco": "Rua Sete de Setembro, 1270 - CEP 96400-003",
+        "complemento": " ",
+        "horario_atendimento": "",
+        "fonte": "Observatório da Violência Contra a Mulher - SSP",
+        "nm_unidade": "Posto Médico-Legal de Bagé",
+        "status": 1,
+        "cod_ibge": 4301602,
+        "mun_jurisdicionados": null,
+        "latitude": -31.326810499999997,
+        "longitude": -54.106453
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 161,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.51539990028505,
+          -29.17957680022469
+        ]
+      },
+      "properties": {
+        "objectid": 161,
+        "municipio": "Bento Gonçalves",
+        "tp_unidade": "Posto Médico-Legal (PML)",
+        "telefone": "(54) 3453-5735",
+        "email": null,
+        "endereco": "Rua Goiania, 590, Bairro Botafogo - CEP 95700-586",
+        "complemento": " ",
+        "horario_atendimento": "",
+        "fonte": "Observatório da Violência Contra a Mulher - SSP",
+        "nm_unidade": "Posto Médico-Legal de Bento Gonçalves",
+        "status": 1,
+        "cod_ibge": 4302105,
+        "mun_jurisdicionados": null,
+        "latitude": -29.1795768,
+        "longitude": -51.515399900000006
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 162,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.89512789973264,
+          -30.03647089969337
+        ]
+      },
+      "properties": {
+        "objectid": 162,
+        "municipio": "Cachoeira do Sul",
+        "tp_unidade": "Posto Médico-Legal (PML)",
+        "telefone": "(51) 3723-4371",
+        "email": null,
+        "endereco": "Rua Comendador Isidoro Neves da Fontoura, 550 - CEP 96501-512",
+        "complemento": " ",
+        "horario_atendimento": "",
+        "fonte": "Observatório da Violência Contra a Mulher - SSP",
+        "nm_unidade": "Posto Médico-Legal de Cachoeira do Sul",
+        "status": 1,
+        "cod_ibge": 4303004,
+        "mun_jurisdicionados": null,
+        "latitude": -30.0364709,
+        "longitude": -52.8951279
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 163,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.1661763999208,
+          -29.883269999694345
+        ]
+      },
+      "properties": {
+        "objectid": 163,
+        "municipio": "Canoas",
+        "tp_unidade": "Posto Médico-Legal (PML)",
+        "telefone": "(51) 3429-1536",
+        "email": null,
+        "endereco": "Avenida Farroupilha 8001, Bairro São José - CEP 92425-900",
+        "complemento": " ",
+        "horario_atendimento": "",
+        "fonte": "Observatório da Violência Contra a Mulher - SSP",
+        "nm_unidade": "Posto Médico-Legal de Canoas",
+        "status": 1,
+        "cod_ibge": 4304606,
+        "mun_jurisdicionados": null,
+        "latitude": -29.88327,
+        "longitude": -51.1661764
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 164,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.794645900188016,
+          -28.283821999596988
+        ]
+      },
+      "properties": {
+        "objectid": 164,
+        "municipio": "Carazinho",
+        "tp_unidade": "Posto Médico-Legal (PML)",
+        "telefone": "(54) 3329-2506",
+        "email": null,
+        "endereco": "Avenida Pátria, 736, Centro - CEP 99500-000",
+        "complemento": " ",
+        "horario_atendimento": "",
+        "fonte": "Observatório da Violência Contra a Mulher - SSP",
+        "nm_unidade": "Posto Médico-Legal de Carazinho",
+        "status": 1,
+        "cod_ibge": 4304705,
+        "mun_jurisdicionados": null,
+        "latitude": -28.283822,
+        "longitude": -52.794645900000006
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 165,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.60716789957877,
+          -28.628862100210966
+        ]
+      },
+      "properties": {
+        "objectid": 165,
+        "municipio": "Cruz Alta",
+        "tp_unidade": "Posto Médico-Legal (PML)",
+        "telefone": "(55) 3322-6946",
+        "email": null,
+        "endereco": "Rua José Gabriel, 21 - CEP 98025-460",
+        "complemento": " ",
+        "horario_atendimento": "",
+        "fonte": "Observatório da Violência Contra a Mulher - SSP",
+        "nm_unidade": "Posto Médico-Legal de Cruz Alta",
+        "status": 1,
+        "cod_ibge": 4306106,
+        "mun_jurisdicionados": null,
+        "latitude": -28.6288621,
+        "longitude": -53.6071679
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 166,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.27046290024254,
+          -27.648285600423222
+        ]
+      },
+      "properties": {
+        "objectid": 166,
+        "municipio": "Erechim",
+        "tp_unidade": "Posto Médico-Legal (PML)",
+        "telefone": "(54) 3519-0418",
+        "email": null,
+        "endereco": "Rua Dom João Hoffmann, 300 - CEP 99709-330",
+        "complemento": " ",
+        "horario_atendimento": "",
+        "fonte": "Observatório da Violência Contra a Mulher - SSP",
+        "nm_unidade": "Posto Médico-Legal de Erechim",
+        "status": 1,
+        "cod_ibge": 4307005,
+        "mun_jurisdicionados": null,
+        "latitude": -27.648285599999998,
+        "longitude": -52.270462900000005
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 167,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.90318849964945,
+          -28.38869130037272
+        ]
+      },
+      "properties": {
+        "objectid": 167,
+        "municipio": "Ijuí",
+        "tp_unidade": "Posto Médico-Legal (PML)",
+        "telefone": "(55) 3332-8800",
+        "email": null,
+        "endereco": "Rua Coronel Dico, 759, fundos - CEP 98700-000",
+        "complemento": " ",
+        "horario_atendimento": "",
+        "fonte": "Observatório da Violência Contra a Mulher - SSP",
+        "nm_unidade": "Posto Médico-Legal de Ijuí",
+        "status": 1,
+        "cod_ibge": 4310207,
+        "mun_jurisdicionados": null,
+        "latitude": -28.3886913,
+        "longitude": -53.9031885
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 226,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.29993750021532,
+          -27.89906249995285
+        ]
+      },
+      "properties": {
+        "objectid": 226,
+        "municipio": "Palmeira das Missões",
+        "tp_unidade": "Posto Médico-Legal (PML)",
+        "telefone": "(55) 3742-1003",
+        "email": null,
+        "endereco": "Rua Nassebe Nassife, s/nº - CEP 98300-100",
+        "complemento": " ",
+        "horario_atendimento": "",
+        "fonte": "Observatório da Violência Contra a Mulher - SSP",
+        "nm_unidade": "Posto Médico-Legal de Palmeira das Missões",
+        "status": 1,
+        "cod_ibge": 4313706,
+        "mun_jurisdicionados": null,
+        "latitude": -27.8990625,
+        "longitude": -53.2999375
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 194,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.152930299893285,
+          -29.166978499853627
+        ]
+      },
+      "properties": {
+        "objectid": 194,
+        "municipio": "Caxias do Sul",
+        "tp_unidade": "Posto Médico-Legal (PML)",
+        "telefone": "(54) 3212-3007",
+        "email": null,
+        "endereco": "Rua Quintino Bocaiúva, s/nº, Bairro Petrópolis - CEP 95070-680",
+        "complemento": "Ao lado do biotério da UCS",
+        "horario_atendimento": "",
+        "fonte": "Observatório da Violência Contra a Mulher - SSP",
+        "nm_unidade": "Posto Médico-Legal de Caxias do Sul",
+        "status": 1,
+        "cod_ibge": 4305108,
+        "mun_jurisdicionados": null,
+        "latitude": -29.1669785,
+        "longitude": -51.1529303
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 195,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.536964199637964,
+          -30.89230980032447
+        ]
+      },
+      "properties": {
+        "objectid": 195,
+        "municipio": "Santana do Livramento",
+        "tp_unidade": "Posto Médico-Legal (PML)",
+        "telefone": "(55) 3241-3904",
+        "email": null,
+        "endereco": "Rua Silveira Martins, 336 - CEP 97573-508",
+        "complemento": " ",
+        "horario_atendimento": "",
+        "fonte": "Observatório da Violência Contra a Mulher - SSP",
+        "nm_unidade": "Posto Médico-Legal de Santana do Livramento",
+        "status": 1,
+        "cod_ibge": 4317103,
+        "mun_jurisdicionados": null,
+        "latitude": -30.8923098,
+        "longitude": -55.5369642
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 200,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.8040599999689,
+          -30.854979998895864
+        ]
+      },
+      "properties": {
+        "objectid": 200,
+        "municipio": "Camaquã",
+        "tp_unidade": "Posto Médico-Legal (PML)",
+        "telefone": "(51) 3671-1194",
+        "email": null,
+        "endereco": "R. Bernardo Viêira Dias, 485 - Centro",
+        "complemento": null,
+        "horario_atendimento": null,
+        "fonte": "Instituto Geral de Perícias",
+        "nm_unidade": "Posto Médico-Legal de Camaquã",
+        "status": 1,
+        "cod_ibge": 4303509,
+        "mun_jurisdicionados": null,
+        "latitude": -30.85498,
+        "longitude": -51.80406
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 201,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.1485099998365,
+          -29.778729999175475
+        ]
+      },
+      "properties": {
+        "objectid": 201,
+        "municipio": "São Leopoldo",
+        "tp_unidade": "Posto Médico-Legal (PML)",
+        "telefone": "(51) 3575-2560",
+        "email": null,
+        "endereco": "Rua Theodomiro Porto da Fonseca, 1105",
+        "complemento": null,
+        "horario_atendimento": null,
+        "fonte": "Instituto Geral de Perícias",
+        "nm_unidade": "Posto Médico-Legal de São Leopoldo",
+        "status": 1,
+        "cod_ibge": 4318705,
+        "mun_jurisdicionados": null,
+        "latitude": -29.77873,
+        "longitude": -51.14851
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 276,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.25947040003882,
+          -29.903359499824354
+        ]
+      },
+      "properties": {
+        "objectid": 276,
+        "municipio": "Osório",
+        "tp_unidade": "Posto Médico-Legal (PML)",
+        "telefone": "(51) 3663-6900",
+        "email": null,
+        "endereco": "Rua Major João Marques da Rosa, 2346, Bairro Albatroz - CEP 95520-000",
+        "complemento": " ",
+        "horario_atendimento": "",
+        "fonte": "Observatório da Violência Contra a Mulher - SSP",
+        "nm_unidade": "Posto Médico-Legal de Osório",
+        "status": 1,
+        "cod_ibge": 4313508,
+        "mun_jurisdicionados": null,
+        "latitude": -29.9033595,
+        "longitude": -50.2594704
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 277,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.41199200033042,
+          -28.261541900250307
+        ]
+      },
+      "properties": {
+        "objectid": 277,
+        "municipio": "Passo Fundo",
+        "tp_unidade": "Posto Médico-Legal (PML)",
+        "telefone": "(54) 3312-0101",
+        "email": null,
+        "endereco": "Rua Paissandú, 1576 - CEP 99010-100",
+        "complemento": " ",
+        "horario_atendimento": "",
+        "fonte": "Observatório da Violência Contra a Mulher - SSP",
+        "nm_unidade": "Posto Médico-Legal de Passo Fundo",
+        "status": 1,
+        "cod_ibge": 4314100,
+        "mun_jurisdicionados": null,
+        "latitude": -28.2615419,
+        "longitude": -52.411992000000005
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 278,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.31177420001921,
+          -31.77098300031938
+        ]
+      },
+      "properties": {
+        "objectid": 278,
+        "municipio": "Pelotas",
+        "tp_unidade": "Posto Médico-Legal (PML)",
+        "telefone": "(53) 3225-5875",
+        "email": null,
+        "endereco": "Avenida Bento Gonçalves, 4.302 - CEP 96015-140",
+        "complemento": " ",
+        "horario_atendimento": "",
+        "fonte": "Observatório da Violência Contra a Mulher - SSP",
+        "nm_unidade": "Posto Médico-Legal de Pelotas",
+        "status": 1,
+        "cod_ibge": 4314407,
+        "mun_jurisdicionados": null,
+        "latitude": -31.770983,
+        "longitude": -52.3117742
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 279,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.210652365414205,
+          -30.04674977656186
+        ]
+      },
+      "properties": {
+        "objectid": 279,
+        "municipio": "Porto Alegre",
+        "tp_unidade": "Posto Médico-Legal (PML)",
+        "telefone": "(51) 3288-2661",
+        "email": null,
+        "endereco": "Avenida Ipiranga, 1807, Bairro Santana - CEP 90160-093",
+        "complemento": "Departamento Médico Legal",
+        "horario_atendimento": "",
+        "fonte": "Observatório da Violência Contra a Mulher - SSP",
+        "nm_unidade": "Posto Médico-Legal de Porto Alegre",
+        "status": 1,
+        "cod_ibge": 4314902,
+        "mun_jurisdicionados": null,
+        "latitude": -30.046749780000003,
+        "longitude": -51.21065237
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 280,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.10255030025604,
+          -32.030778900276424
+        ]
+      },
+      "properties": {
+        "objectid": 280,
+        "municipio": "Rio Grande",
+        "tp_unidade": "Posto Médico-Legal (PML)",
+        "telefone": "(53) 3233-2266",
+        "email": null,
+        "endereco": "Rua General Osório, 625 - CEP 96200-400",
+        "complemento": " ",
+        "horario_atendimento": "",
+        "fonte": "Observatório da Violência Contra a Mulher - SSP",
+        "nm_unidade": "Posto Médico-Legal de Rio Grande",
+        "status": 1,
+        "cod_ibge": 4315602,
+        "mun_jurisdicionados": null,
+        "latitude": -32.0307789,
+        "longitude": -52.1025503
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 281,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.426258099731406,
+          -29.720486200064443
+        ]
+      },
+      "properties": {
+        "objectid": 281,
+        "municipio": "Santa Cruz do Sul",
+        "tp_unidade": "Posto Médico-Legal (PML)",
+        "telefone": "(51) 3711-7564",
+        "email": null,
+        "endereco": "Rua Marechal Deodoro, 805, Centro - CEP 96810-110",
+        "complemento": " ",
+        "horario_atendimento": "",
+        "fonte": "Observatório da Violência Contra a Mulher - SSP",
+        "nm_unidade": "Posto Médico-Legal de Santa Cruz do Sul",
+        "status": 1,
+        "cod_ibge": 4316808,
+        "mun_jurisdicionados": null,
+        "latitude": -29.7204862,
+        "longitude": -52.4262581
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 282,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.80685850001965,
+          -29.693114599745794
+        ]
+      },
+      "properties": {
+        "objectid": 282,
+        "municipio": "Santa Maria",
+        "tp_unidade": "Posto Médico-Legal (PML)",
+        "telefone": "(55) 3217-1282",
+        "email": null,
+        "endereco": "Rua Marechal Floriano Peixoto, 1750, Centro - CEP 97015-372",
+        "complemento": " ",
+        "horario_atendimento": "",
+        "fonte": "Observatório da Violência Contra a Mulher - SSP",
+        "nm_unidade": "Posto Médico-Legal de Santa Maria",
+        "status": 1,
+        "cod_ibge": 4316907,
+        "mun_jurisdicionados": null,
+        "latitude": -29.6931146,
+        "longitude": -53.806858500000004
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 283,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.48405099995358,
+          -27.873859800008653
+        ]
+      },
+      "properties": {
+        "objectid": 283,
+        "municipio": "Santa Rosa",
+        "tp_unidade": "Posto Médico-Legal (PML)",
+        "telefone": "(55) 3512-9257",
+        "email": null,
+        "endereco": "Rua São Luis, 2201 - CEP 98900-000",
+        "complemento": " ",
+        "horario_atendimento": "",
+        "fonte": "Observatório da Violência Contra a Mulher - SSP",
+        "nm_unidade": "Posto Médico-Legal de Santa Rosa",
+        "status": 1,
+        "cod_ibge": 4317202,
+        "mun_jurisdicionados": null,
+        "latitude": -27.873859799999998,
+        "longitude": -54.484051
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 284,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.8645433001331,
+          -29.185329800225528
+        ]
+      },
+      "properties": {
+        "objectid": 284,
+        "municipio": "Santiago",
+        "tp_unidade": "Posto Médico-Legal (PML)",
+        "telefone": "(55) 3249-1005",
+        "email": null,
+        "endereco": "Avenida Severino Azambuja, 103, Bairro Santiago Pompeo - CEP 97700-000",
+        "complemento": " ",
+        "horario_atendimento": "",
+        "fonte": "Observatório da Violência Contra a Mulher - SSP",
+        "nm_unidade": "Posto Médico-Legal de Santiago",
+        "status": 1,
+        "cod_ibge": 4317400,
+        "mun_jurisdicionados": null,
+        "latitude": -29.1853298,
+        "longitude": -54.8645433
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 292,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.791067999888185,
+          -29.775249998773866
+        ]
+      },
+      "properties": {
+        "objectid": 292,
+        "municipio": "Alegrete",
+        "tp_unidade": "Posto Médico-Legal (PML)",
+        "telefone": "(55) 3422-5998",
+        "email": null,
+        "endereco": "Rua Gen. Décio Sampaio, 88 - CEP 97453-000",
+        "complemento": null,
+        "horario_atendimento": null,
+        "fonte": "Observatório da Violência Contra a Mulher - SSP",
+        "nm_unidade": "Posto Médico-Legal de Alegrete",
+        "status": 1,
+        "cod_ibge": 4300406,
+        "mun_jurisdicionados": null,
+        "latitude": -29.775250000000003,
+        "longitude": -55.791067999999996
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 401,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.21178379978243,
+          -30.04216519914566
+        ]
+      },
+      "properties": {
+        "objectid": 401,
+        "municipio": "Porto Alegre",
+        "tp_unidade": "Promotoria MPRS",
+        "telefone": null,
+        "email": null,
+        "endereco": "Rua Santana, 440",
+        "complemento": null,
+        "horario_atendimento": null,
+        "fonte": "Assessoria CAOEVCM (Centro de Apoio Operacional de Enfrentamento à Violência contra a Mulher) do MP RS",
+        "nm_unidade": "Promotoria de Justiça Especializada de Combate à Violência Doméstica e Familiar contra a Mulher Porto Alegre",
+        "status": 1,
+        "cod_ibge": 4314902,
+        "mun_jurisdicionados": null,
+        "latitude": -30.042165200000003,
+        "longitude": -51.2117838
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 408,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.32273550044289,
+          -31.76139429916191
+        ]
+      },
+      "properties": {
+        "objectid": 408,
+        "municipio": "Pelotas",
+        "tp_unidade": "Promotoria MPRS",
+        "telefone": null,
+        "email": null,
+        "endereco": "Rua José Antônio Dias das Costa Moraes, nº 80",
+        "complemento": null,
+        "horario_atendimento": null,
+        "fonte": "Assessoria CAOEVCM (Centro de Apoio Operacional de Enfrentamento à Violência contra a Mulher) do MP RS",
+        "nm_unidade": "Promotoria de Justiça Especializada de Combate à Violência Doméstica e Familiar contra a Mulher de Pelotas",
+        "status": 1,
+        "cod_ibge": 4314407,
+        "mun_jurisdicionados": null,
+        "latitude": -31.7613943,
+        "longitude": -52.3227355
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 409,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.18881090030271,
+          -32.077186598732304
+        ]
+      },
+      "properties": {
+        "objectid": 409,
+        "municipio": "Rio Grande",
+        "tp_unidade": "Promotoria MPRS",
+        "telefone": null,
+        "email": null,
+        "endereco": "Rua Apody dos Reis, nº 40",
+        "complemento": null,
+        "horario_atendimento": null,
+        "fonte": "Assessoria CAOEVCM (Centro de Apoio Operacional de Enfrentamento à Violência contra a Mulher) do MP RS",
+        "nm_unidade": "Promotoria de Justiça Especializada de Combate à Violência Doméstica e Familiar contra a Mulher de Rio Grande",
+        "status": 1,
+        "cod_ibge": 4315602,
+        "mun_jurisdicionados": null,
+        "latitude": -32.077186600000005,
+        "longitude": -52.1888109
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 410,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.43136769955959,
+          -29.719840099227568
+        ]
+      },
+      "properties": {
+        "objectid": 410,
+        "municipio": "Santa Cruz do Sul",
+        "tp_unidade": "Promotoria MPRS",
+        "telefone": null,
+        "email": null,
+        "endereco": "Rua Venâncio Aires, nº 959",
+        "complemento": null,
+        "horario_atendimento": null,
+        "fonte": "Assessoria CAOEVCM (Centro de Apoio Operacional de Enfrentamento à Violência contra a Mulher) do MP RS",
+        "nm_unidade": "Promotoria de Justiça Especializada de Combate à Violência Doméstica e Familiar contra a Mulher de Santa Cruz do Sul",
+        "status": 1,
+        "cod_ibge": 4316808,
+        "mun_jurisdicionados": null,
+        "latitude": -29.7198401,
+        "longitude": -52.4313677
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 411,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.794210000391104,
+          -29.691929999256864
+        ]
+      },
+      "properties": {
+        "objectid": 411,
+        "municipio": "Santa Maria",
+        "tp_unidade": "Promotoria MPRS",
+        "telefone": null,
+        "email": null,
+        "endereco": "Alameda Montevideo, nº 253",
+        "complemento": null,
+        "horario_atendimento": null,
+        "fonte": "Assessoria CAOEVCM (Centro de Apoio Operacional de Enfrentamento à Violência contra a Mulher) do MP RS",
+        "nm_unidade": "Promotoria de Justiça Especializada de Combate à Violência Doméstica e Familiar contra a Mulher de Santa Maria",
+        "status": 1,
+        "cod_ibge": 4316907,
+        "mun_jurisdicionados": null,
+        "latitude": -29.69193,
+        "longitude": -53.79421000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 412,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.14280000001986,
+          -29.787669999556073
+        ]
+      },
+      "properties": {
+        "objectid": 412,
+        "municipio": "São Leopoldo",
+        "tp_unidade": "Promotoria MPRS",
+        "telefone": null,
+        "email": null,
+        "endereco": "Avenida Unisinos, 89",
+        "complemento": null,
+        "horario_atendimento": null,
+        "fonte": "Assessoria CAOEVCM (Centro de Apoio Operacional de Enfrentamento à Violência contra a Mulher) do MP RS",
+        "nm_unidade": "Promotoria de Justiça Especializada de Combate à Violência Doméstica e Familiar contra a Mulher de São Leopoldo",
+        "status": 1,
+        "cod_ibge": 4318705,
+        "mun_jurisdicionados": null,
+        "latitude": -29.787670000000002,
+        "longitude": -51.1428
+      }
+    }
+  ]
+}
