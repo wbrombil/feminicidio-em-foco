@@ -26,4 +26,4 @@ Gere a tabela após preparar a geometria:
 node .\scripts\build-ibge-crosswalk.mjs
 ```
 
-O processo valida todos os anos de 2020 a 2026 e não altera os números das planilhas. Revise os aliases e a tabela gerada antes de conectar a camada ao mapa ou publicar atualizações.
+O processo valida todos os anos de 2020 a 2026 e não altera os números das planilhas. A camada e a tabela já são utilizadas pelo mapa; revise os aliases e a tabela gerada antes de publicar atualizações.

@@ -413,6 +413,12 @@
 }
 .network-marker-acolhimento::after, .network-dot-acolhimento::after { background: var(--service-acolhimento); }
 
+/* Molduras distinguem categorias que compartilham o mesmo pictograma. */
+.network-marker-acolhimento, .network-marker-acolhimento.is-selected, .network-dot.network-dot-acolhimento,
+.network-marker-promotoria, .network-marker-promotoria.is-selected, .network-dot.network-dot-promotoria { border-radius: 2px; }
+.network-marker-patrulha, .network-marker-patrulha.is-selected, .network-dot.network-dot-patrulha { border-radius: 3px; }
+.network-marker-pml, .network-marker-pml.is-selected, .network-dot.network-dot-pml { border-radius: 50% 0; }
+
 .map-legend-swatch {
   width: 0.8rem;
   height: 0.8rem;

@@ -452,6 +452,7 @@ export default function MapExplorer() {
   const [newsRetry, setNewsRetry] = useState(0)
   const [networkRetrying, setNetworkRetrying] = useState(false)
   const geoJsonRef = useRef<LeafletGeoJSON | null>(null)
+  const municipalitySelectRef = useRef<HTMLSelectElement | null>(null)
 
   useEffect(() => {
     let cancelled = false
@@ -780,6 +781,7 @@ export default function MapExplorer() {
         <label className="municipality-search">
           <span>Selecionar município</span>
           <select
+            ref={municipalitySelectRef}
             value={selectedCode ?? ''}
             onChange={(event) => { setSelectedCode(event.target.value || null); setSelectedServiceId(null); setSelectionVersion((value) => value + 1) }}
             disabled={!mesh}
@@ -843,7 +845,14 @@ export default function MapExplorer() {
       ) : mesh && currentData ? (
         <div className={`map-workspace${selectedFeature || selectedService ? ' has-selection' : ''}`}>
           <div className="map-frame">
-            {network && <a className="network-list-jump" href="#lista-servicos">Ir para a lista de serviços</a>}
+            {network && <a className="network-list-jump" href="#lista-servicos" onClick={(event) => {
+              const summary = document.getElementById('lista-servicos')
+              if (!(summary instanceof HTMLElement) || !(summary.parentElement instanceof HTMLDetailsElement)) return
+              event.preventDefault()
+              summary.parentElement.open = true
+              summary.focus({ preventScroll: true })
+              summary.scrollIntoView({ block: 'start' })
+            }}>Ir para a lista de serviços</a>}
             <p className="visually-hidden" id="map-instructions">Mapa interativo do Rio Grande do Sul. Use a busca para selecionar um município ou os controles do mapa para ampliar e deslocar a visualização. Para ampliar ou reduzir com a roda do mouse ou trackpad, mantenha o botão principal pressionado sobre o mapa enquanto rola.</p>
             <MapContainer
               className="rs-map"
@@ -902,7 +911,13 @@ export default function MapExplorer() {
                   <button
                     type="button"
                     className="clear-selection"
-                    onClick={() => { if (selectedService) setSelectedServiceId(null); else setSelectedCode(null) }}
+                    onClick={() => {
+                      if (selectedService) setSelectedServiceId(null)
+                      else {
+                        municipalitySelectRef.current?.focus()
+                        setSelectedCode(null)
+                      }
+                    }}
                   >
                     Limpar seleção
                   </button>
