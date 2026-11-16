@@ -294,6 +294,73 @@ function Read-WorkbookData {
             throw "A soma dos totais municipais ($municipalityTotalSum) diverge da linha Geral ($aggregateTotal) em '$($File.Name)'."
         }
 
+        # A linha Geral da aba municipal não substitui o resumo estadual da aba Geral.
+        $summarySheet = $workbook.SelectSingleNode(
+            "/m:workbook/m:sheets/m:sheet[@name='Geral']", $workbookNamespaces
+        )
+        if ($null -eq $summarySheet) {
+            throw "A aba 'Geral' não foi encontrada para conferir o resumo estadual em '$($File.Name)'."
+        }
+        $summaryRelationshipId = $summarySheet.GetAttribute('id', $script:RelationshipsNamespace)
+        $summaryRelationship = $relationships.SelectSingleNode(
+            "/p:Relationships/p:Relationship[@Id='$summaryRelationshipId']", $relationshipNamespaces
+        )
+        if ($null -eq $summaryRelationship) {
+            throw "Não foi possível resolver a relação da aba Geral em '$($File.Name)'."
+        }
+        $summaryPath = $summaryRelationship.GetAttribute('Target').Replace('\', '/')
+        if ($summaryPath.StartsWith('/')) { $summaryPath = $summaryPath.TrimStart('/') }
+        elseif (-not $summaryPath.StartsWith('xl/')) { $summaryPath = "xl/$summaryPath" }
+        $summary = Read-ZipXml -Archive $archive -EntryName $summaryPath
+        $summaryNamespaces = [System.Xml.XmlNamespaceManager]::new($summary.NameTable)
+        $summaryNamespaces.AddNamespace('m', $script:SpreadsheetNamespace)
+        $summaryRows = $summary.SelectNodes('/m:worksheet/m:sheetData/m:row', $summaryNamespaces)
+        $summaryIndicatorRow = $null
+        $summaryHeaderRow = $null
+        foreach ($row in $summaryRows) {
+            $rowIndex = $row.GetAttribute('r')
+            $label = Get-CellValue -Row $row -Reference "B$rowIndex" -SharedStrings $sharedStrings -NamespaceManager $summaryNamespaces
+            if ([string]$label -eq 'Feminicídio Consumado') { $summaryIndicatorRow = $row }
+            $firstMonth = Get-CellValue -Row $row -Reference "C$rowIndex" -SharedStrings $sharedStrings -NamespaceManager $summaryNamespaces
+            if ([string]$firstMonth -eq 'Jan') { $summaryHeaderRow = $row }
+        }
+        if ($null -eq $summaryIndicatorRow -or $null -eq $summaryHeaderRow) {
+            throw "Cabeçalho mensal ou indicador 'Feminicídio Consumado' ausente na aba Geral de '$($File.Name)'."
+        }
+        $summaryIndex = $summaryIndicatorRow.GetAttribute('r')
+        $differences = [System.Collections.Generic.List[string]]::new()
+        $summarySum = [long]0
+        for ($monthIndex = 0; $monthIndex -lt 12; $monthIndex++) {
+            $monthKey = '{0:D2}' -f ($monthIndex + 1)
+            $column = [char]([int][char]'C' + $monthIndex)
+            $header = Get-CellValue -Row $summaryHeaderRow -Reference "$column$($summaryHeaderRow.GetAttribute('r'))" -SharedStrings $sharedStrings -NamespaceManager $summaryNamespaces
+            if ([string]$header -ne $script:MonthLabels[$monthIndex]) {
+                throw "Cabeçalho mensal inesperado na aba Geral de '$($File.Name)', coluna ${column}: '$header'."
+            }
+            $rawValue = Get-CellValue -Row $summaryIndicatorRow -Reference "$column$summaryIndex" -SharedStrings $sharedStrings -NamespaceManager $summaryNamespaces
+            $summaryValue = $null
+            if ($null -ne $rawValue -and -not [string]::IsNullOrWhiteSpace([string]$rawValue)) {
+                $summaryValue = ConvertTo-NonnegativeInteger -Value $rawValue -Context "$($File.Name), aba Geral, Feminicídio Consumado, mês $monthKey"
+                $summarySum += $summaryValue
+            }
+            $municipalValue = $aggregateMonths[$monthKey]
+            if (($null -eq $summaryValue) -ne ($null -eq $municipalValue) -or $summaryValue -ne $municipalValue) {
+                $stateLabel = if ($null -eq $summaryValue) { 'indisponível' } else { [string]$summaryValue }
+                $municipalLabel = if ($null -eq $municipalValue) { 'indisponível' } else { [string]$municipalValue }
+                $differences.Add("mês ${monthKey}: resumo estadual=$stateLabel, municipal=$municipalLabel")
+            }
+        }
+        $summaryTotal = ConvertTo-NonnegativeInteger -Value (Get-CellValue -Row $summaryIndicatorRow -Reference "O$summaryIndex" -SharedStrings $sharedStrings -NamespaceManager $summaryNamespaces) -Context "$($File.Name), aba Geral, Feminicídio Consumado, total"
+        if ($summaryTotal -ne $summarySum) {
+            throw "O total estadual ($summaryTotal) diverge da soma dos meses publicados ($summarySum) na aba Geral de '$($File.Name)'."
+        }
+        if ($summaryTotal -ne $aggregateTotal) {
+            $differences.Add("total: resumo estadual=$summaryTotal, municipal=$aggregateTotal")
+        }
+        if ($differences.Count -gt 0) {
+            throw "Importação bloqueada: divergência entre a aba Geral (Feminicídio Consumado) e o detalhamento municipal em '$($File.Name)': $($differences -join '; '). Dados existentes preservados."
+        }
+
         $sourceUpdatedAt = $null
         foreach ($row in $rows) {
             $rowLabel = Get-CellValue -Row $row -Reference "B$($row.GetAttribute('r'))" -SharedStrings $sharedStrings -NamespaceManager $worksheetNamespaces

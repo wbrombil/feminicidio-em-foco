@@ -388,6 +388,67 @@
                         "publishedAt":  "2026-09-06",
                         "dateForOrdering":  "2026-09-06",
                         "publicationDateEvidence":  "06/09/2026 - 11h39min; atualizada às 12h06"
-                    }
+                    },
+{
+    "month":  10,
+    "municipality":  "ALEGRETE",
+    "publisher":  "Alegrete Tudo",
+    "title":  "Alegrete registra primeiro feminicídio de 2026",
+    "url":  "https://www.alegretetudo.com.br/irmas-sao-baleadas-dentro-de-residencia-e-alegrete-registra-primeiro-feminicidio-de-2026/",
+    "publishedAt":  "2026-10-04",
+    "dateForOrdering":  "2026-10-04",
+    "publicationDateEvidence":  "Data de publicação exibida na reportagem: 2026-10-04",
+    "checkedAt":  "2026-11-16",
+    "supplementId":  "2026-10-04-alegrete-01"
+},
+{
+    "month":  10,
+    "municipality":  "BARRA DO GUARITA",
+    "publisher":  "Rádio Municipal",
+    "title":  "Polícia conclui investigação de feminicídio em Barra do Guarita",
+    "url":  "https://radiomunicipalam.com.br/noticia/1171/barra-do-guarita-rs-policia-civil-conclui-investigacao-e-indicia-suspeito-por-feminicidio",
+    "publishedAt":  "2026-10-15",
+    "dateForOrdering":  "2026-10-15",
+    "publicationDateEvidence":  "Data de publicação exibida na reportagem: 2026-10-15",
+    "checkedAt":  "2026-11-16",
+    "supplementId":  "2026-10-04-barra-do-guarita-01"
+},
+{
+    "month":  10,
+    "municipality":  "PORTO ALEGRE",
+    "publisher":  "Diário Gaúcho",
+    "title":  "Balanço de feminicídios inclui ocorrência em Porto Alegre em outubro",
+    "url":  "https://diariogaucho.clicrbs.com.br/policia/noticia/2026/10/rio-grande-do-sul-tem-media-de-tres-feminicidios-a-cada-duas-semanas-em-2026-cmv10t3y501y20164kp721l8m.html",
+    "publishedAt":  "2026-10-09",
+    "dateForOrdering":  "2026-10-09",
+    "publicationDateEvidence":  "Data de publicação exibida na reportagem: 2026-10-09",
+    "checkedAt":  "2026-11-16",
+    "supplementId":  "2026-10-05-porto-alegre-01"
+},
+{
+    "month":  10,
+    "municipality":  "CAXIAS DO SUL",
+    "publisher":  "Pioneiro",
+    "title":  "Polícia investiga feminicídio ocorrido em outubro em Caxias do Sul",
+    "url":  "https://gauchazh.clicrbs.com.br/pioneiro/policia/noticia/2026/10/mulher-morta-em-caxias-deixa-dois-filhos-suspeito-preso-pelo-feminicidio-era-companheiro-da-vitima-cmuwqvxhp00iw01645vbnlmss.html",
+    "publishedAt":  "2026-10-06",
+    "dateForOrdering":  "2026-10-06",
+    "publicationDateEvidence":  "Data de publicação exibida na reportagem: 2026-10-06",
+    "checkedAt":  "2026-11-16",
+    "supplementId":  "2026-10-05-caxias-do-sul-01"
+},
+{
+    "month":  10,
+    "municipality":  "ERECHIM",
+    "publisher":  "Diário Gaúcho",
+    "title":  "Balanço de feminicídios inclui ocorrência em Erechim em outubro",
+    "url":  "https://diariogaucho.clicrbs.com.br/policia/noticia/2026/10/rio-grande-do-sul-tem-media-de-tres-feminicidios-a-cada-duas-semanas-em-2026-cmv10t3y501y20164kp721l8m.html",
+    "publishedAt":  "2026-10-09",
+    "dateForOrdering":  "2026-10-09",
+    "publicationDateEvidence":  "Data de publicação exibida na reportagem: 2026-10-09",
+    "checkedAt":  "2026-11-16",
+    "supplementId":  "2026-10-07-erechim-01"
+}
+
                 ]
 }

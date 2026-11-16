@@ -215,7 +215,7 @@ function App() {
             </article>
             <article>
               <span>Período mais recente</span>
-              <p>2026: janeiro a setembro. A planilha foi atualizada pela SSP-RS em 6 de outubro de 2026.</p>
+              <p>2026: janeiro a outubro. A planilha foi atualizada pela SSP-RS em 5 de novembro de 2026.</p>
             </article>
             <article>
               <span>Unidade do mapa</span>
@@ -225,7 +225,8 @@ function App() {
 
           <div className="methodology-reading">
             <h3>Como interpretar</h3>
-            <p><strong>Zero</strong> significa que a planilha publicou zero casos naquele recorte. <strong>Dado indisponível</strong> indica que o mês não foi publicado; não é tratado como zero.</p>
+            <p><strong>Zero</strong> significa que a planilha publicou zero casos naquele recorte. <strong>Dado indisponível</strong> indica que não há valor confirmado para o recorte; não é tratado como zero.</p>
+            <p>Em outubro de 2026, o total estadual oficial é de 9 casos, somando 65 de janeiro a outubro. O detalhamento municipal desse mês é parcial e utiliza fontes oficiais e reportagens com município, mês da ocorrência e classificação explícitos. Os dados municipais de janeiro a setembro foram preservados. Os totais municipais representam os registros confirmados e podem não somar o total estadual. As notícias são referências complementares, sem correspondência individual comprovada com os registros da SSP-RS.</p>
             <p>Os dados refletem as planilhas oficiais disponíveis nas datas indicadas e podem ser revisados pela SSP-RS. A atualização dos arquivos desta versão foi manual; os dados foram conferidos antes da incorporação.</p>
             <p>O mapa não posiciona casos individuais e não infere endereços ou bairros. Os limites municipais servem à visualização temática, não a medições ou decisões sobre limites territoriais.</p>
           </div>
@@ -238,7 +239,7 @@ function App() {
                   <tr><th scope="col">Ano dos dados</th><th scope="col">Meses publicados</th><th scope="col">Atualização informada</th><th scope="col">Visualize os dados</th></tr>
                 </thead>
                 <tbody>
-                  <tr><th scope="row">2026</th><td>Janeiro a setembro</td><td>6 out. 2026</td><td><AnnualDataDialog year={2026} /></td></tr>
+                  <tr><th scope="row">2026</th><td>Janeiro a outubro</td><td>5 nov. 2026</td><td><AnnualDataDialog year={2026} /></td></tr>
                   <tr><th scope="row">2025</th><td>Janeiro a dezembro</td><td>6 out. 2026</td><td><AnnualDataDialog year={2025} /></td></tr>
                   <tr><th scope="row">2024</th><td>Janeiro a dezembro</td><td>5 jan. 2026</td><td><AnnualDataDialog year={2024} /></td></tr>
                   <tr><th scope="row">2023</th><td>Janeiro a dezembro</td><td>5 jan. 2026</td><td><AnnualDataDialog year={2023} /></td></tr>

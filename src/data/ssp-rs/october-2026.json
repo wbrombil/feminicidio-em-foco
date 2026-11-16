@@ -1,0 +1,60 @@
+{
+  "year": 2026,
+  "month": 10,
+  "checkedAt": "2026-11-16",
+  "source": {
+    "file": "12155936-site-violencia-contra-as-mulheres-2026-atualizado-em-05-de-novembro-de-2026-publicacao.xlsx",
+    "updatedAt": "2026-11-05",
+    "sheet": "Geral",
+    "monthlyTotal": 9,
+    "cumulativeTotal": 65,
+    "corroboratingUrl": "https://estado.rs.gov.br/rio-grande-do-sul-registra-queda-nos-crimes-violentos-em-outubro"
+  },
+  "records": [
+    {
+      "id": "2026-10-04-alegrete-01",
+      "municipality": "ALEGRETE",
+      "count": 1,
+      "occurredAt": "2026-10-04",
+      "publisher": "Alegrete Tudo",
+      "url": "https://www.alegretetudo.com.br/irmas-sao-baleadas-dentro-de-residencia-e-alegrete-registra-primeiro-feminicidio-de-2026/",
+      "evidence": "Reportagem publicada em 04/10 registra o primeiro feminicídio municipal naquela madrugada. Uma morte; a outra pessoa ferida não entra na contagem de consumados."
+    },
+    {
+      "id": "2026-10-04-barra-do-guarita-01",
+      "municipality": "BARRA DO GUARITA",
+      "count": 1,
+      "occurredAt": "2026-10-04",
+      "publisher": "Rádio Municipal",
+      "url": "https://radiomunicipalam.com.br/noticia/1171/barra-do-guarita-rs-policia-civil-conclui-investigacao-e-indicia-suspeito-por-feminicidio",
+      "evidence": "Seguimento publicado em 15/10 informa conclusão do inquérito e indiciamento por feminicídio, com ocorrência em 04/10 em Barra do Guarita. Uma morte."
+    },
+    {
+      "id": "2026-10-05-porto-alegre-01",
+      "municipality": "PORTO ALEGRE",
+      "count": 1,
+      "occurredAt": "2026-10-05",
+      "publisher": "Diário Gaúcho",
+      "url": "https://diariogaucho.clicrbs.com.br/policia/noticia/2026/10/rio-grande-do-sul-tem-media-de-tres-feminicidios-a-cada-duas-semanas-em-2026-cmv10t3y501y20164kp721l8m.html",
+      "evidence": "Balanço de 09/10 inclui uma morte em Porto Alegre na madrugada de segunda-feira, dia 5, entre os feminicídios. Contada uma única vez, independentemente das demais reportagens."
+    },
+    {
+      "id": "2026-10-05-caxias-do-sul-01",
+      "municipality": "CAXIAS DO SUL",
+      "count": 1,
+      "occurredAt": "2026-10-05",
+      "publisher": "Pioneiro",
+      "url": "https://gauchazh.clicrbs.com.br/pioneiro/policia/noticia/2026/10/mulher-morta-em-caxias-deixa-dois-filhos-suspeito-preso-pelo-feminicidio-era-companheiro-da-vitima-cmuwqvxhp00iw01645vbnlmss.html",
+      "evidence": "Reportagem de 06/10 identifica explicitamente feminicídio ocorrido em Caxias do Sul em 05/10. Dois suspeitos e uma vítima fatal: incremento de uma unidade."
+    },
+    {
+      "id": "2026-10-07-erechim-01",
+      "municipality": "ERECHIM",
+      "count": 1,
+      "occurredAt": "2026-10-07",
+      "publisher": "Diário Gaúcho",
+      "url": "https://diariogaucho.clicrbs.com.br/policia/noticia/2026/10/rio-grande-do-sul-tem-media-de-tres-feminicidios-a-cada-duas-semanas-em-2026-cmv10t3y501y20164kp721l8m.html",
+      "evidence": "Balanço de 09/10 inclui uma morte em Erechim na noite da quarta-feira, dia 7, no total de feminicídios. Ocorrência distinta da de Porto Alegre descrita na mesma reportagem."
+    }
+  ]
+}

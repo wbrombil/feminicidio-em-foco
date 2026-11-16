@@ -1,31 +1,7 @@
+import { loadAnnualData, type AnnualData } from '../../data/ssp-rs/load-annual-data'
 import { useEffect, useMemo, useRef, useState } from 'react'
-import data2020Url from '../../data/ssp-rs/generated/feminicidio-consumado-2020.json?url'
-import data2021Url from '../../data/ssp-rs/generated/feminicidio-consumado-2021.json?url'
-import data2022Url from '../../data/ssp-rs/generated/feminicidio-consumado-2022.json?url'
-import data2023Url from '../../data/ssp-rs/generated/feminicidio-consumado-2023.json?url'
-import data2024Url from '../../data/ssp-rs/generated/feminicidio-consumado-2024.json?url'
-import data2025Url from '../../data/ssp-rs/generated/feminicidio-consumado-2025.json?url'
-import data2026Url from '../../data/ssp-rs/generated/feminicidio-consumado-2026.json?url'
 
-type AnnualData = {
-  year: number
-  source: { publisher: string; title: string; url: string; updatedAt: string }
-  municipalities: Array<{
-    municipality: string
-    months: Record<string, number | null>
-    total: number
-  }>
-}
 
-const dataUrls: Record<number, string> = {
-  2020: data2020Url,
-  2021: data2021Url,
-  2022: data2022Url,
-  2023: data2023Url,
-  2024: data2024Url,
-  2025: data2025Url,
-  2026: data2026Url,
-}
 
 const monthLabels = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro']
 const annualSourceUrl = 'https://www.ssp.rs.gov.br/indicadores-da-violencia-contra-a-mulher'
@@ -94,9 +70,7 @@ function AnnualDataDialog({ year }: { year: number }) {
     setLoading(true)
     setError(false)
     try {
-      const response = await fetch(dataUrls[year])
-      if (!response.ok) throw new Error('Não foi possível carregar os dados do ano.')
-      const loaded: AnnualData = await response.json()
+      const loaded = await loadAnnualData(year)
       const monthKeys = monthLabels.map((_, index) => String(index + 1).padStart(2, '0'))
       const municipalityNames = new Set<string>()
       const validSource = (() => {
@@ -148,7 +122,7 @@ function AnnualDataDialog({ year }: { year: number }) {
         <div className="annual-dialog-heading">
           <div>
             <h2 id={`annual-dialog-title-${year}`}>Dados municipais de {year}</h2>
-            <p>Fonte: <a href={data?.source.url ?? annualSourceUrl} target="_blank" rel="noreferrer">SSP-RS — Indicadores da Violência Contra a Mulher</a></p>
+            <p>Fonte: <a href={data?.source.url ?? annualSourceUrl} target="_blank" rel="noreferrer">SSP-RS — Indicadores da Violência Contra a Mulher</a>{data?.coverage.complementaryMonths?.length ? ' e referências complementares de outubro (ver metodologia e notícias no mapa).' : ''}</p>
           </div>
           <div className="annual-dialog-actions">
             {data && (
@@ -166,6 +140,7 @@ function AnnualDataDialog({ year }: { year: number }) {
           {error && <p role="alert">Não foi possível carregar os dados municipais deste ano.</p>}
           {data && (
             <>
+              {data.coverage.complementaryMonths?.length ? <p>Outubro: detalhamento municipal parcial, confirmado em fontes complementares. Total estadual SSP-RS: 65 no acumulado, incluindo 9 em outubro.</p> : null}
               <div className="annual-data-controls">
                 <label htmlFor={`municipality-search-${year}`}>Buscar município
                   <input
@@ -190,7 +165,7 @@ function AnnualDataDialog({ year }: { year: number }) {
                     <tr>
                       <th scope="col">Município (SSP-RS)</th>
                       {monthLabels.map((month) => <th scope="col" key={month}>{month}</th>)}
-                      <th scope="col">Total anual</th>
+                      <th scope="col">Total confirmado</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -217,7 +192,7 @@ function AnnualDataDialog({ year }: { year: number }) {
                         const value = municipality.months[String(index + 1).padStart(2, '0')]
                         return <div key={month}><dt>{month}</dt><dd>{value === null ? 'Indisponível' : value}</dd></div>
                       })}
-                      <div className="annual-data-mobile-total"><dt>Total anual</dt><dd>{municipality.total}</dd></div>
+                      <div className="annual-data-mobile-total"><dt>Total confirmado</dt><dd>{municipality.total}</dd></div>
                     </dl>
                   </article>
                 ))}

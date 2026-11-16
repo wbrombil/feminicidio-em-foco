@@ -4,6 +4,7 @@ import caseNewsUrl from '../../data/ssp-rs/case-news-2026.json?url'
 import municipalityCrosswalkUrl from '../../data/ibge/ssp-rs-municipality-crosswalk.json?url'
 
 type CaseNewsRecord = {
+  checkedAt?: string
   municipality: string
   publisher: string
   title: string
@@ -54,18 +55,28 @@ function LatestCaseNews() {
         }
 
         const names = new Map(crosswalkData.municipalities.map((item) => [item.sspMunicipality, item.ibgeMunicipality]))
-        const latest = newsData.records
-          .filter((record): record is CaseNewsRecord & { publishedAt: string } => isValidDate(record.publishedAt))
+        const uniqueArticles = new Map<string, CaseNewsRecord & { municipalityLabel: string }>()
+        for (const record of newsData.records) {
+          const label = names.get(record.municipality) ?? record.municipality
+          const existing = uniqueArticles.get(record.url)
+          if (existing) {
+            if (!existing.municipalityLabel.split(' · ').includes(label)) existing.municipalityLabel += ` · ${label}`
+            existing.title = 'Balanço de feminicídios no Rio Grande do Sul'
+          } else uniqueArticles.set(record.url, { ...record, municipalityLabel: label })
+        }
+        const latest = [...uniqueArticles.values()]
+          .filter((record): record is Highlight => isValidDate(record.publishedAt))
           .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
           .slice(0, 5)
           .map((record) => ({
             ...record,
-            municipalityLabel: names.get(record.municipality) ?? record.municipality,
+            municipalityLabel: record.municipalityLabel,
           }))
 
         if (active) {
           setHighlights(latest)
-          setCheckedAt(isValidDate(newsData.checkedAt) ? newsData.checkedAt : null)
+          const dates = [newsData.checkedAt, ...newsData.records.map(record => record.checkedAt)].filter(isValidDate).sort()
+          setCheckedAt(dates.at(-1) ?? null)
           setError(false)
         }
       } catch {
@@ -85,7 +96,7 @@ function LatestCaseNews() {
         <header className="latest-news-header">
           <div>
             <h2 id="latest-news-title">Notícias recentes sobre feminicídios consumados</h2>
-            {checkedAt ? <p className="latest-news-update">Referências conferidas em: {formatDate(checkedAt)}</p>
+            {checkedAt ? <p className="latest-news-update">Última conferência de referências: {formatDate(checkedAt)}</p>
               : !loading && !error && <p className="latest-news-update">Data de conferência indisponível.</p>}
           </div>
           <p className="latest-news-date-note">A data indicada é a de publicação da matéria e não representa necessariamente a data da ocorrência.</p>
@@ -108,6 +119,7 @@ function LatestCaseNews() {
                   <p className="latest-news-municipality">{record.municipalityLabel}</p>
                   <p className="latest-news-publisher">{record.publisher}</p>
                   <p className="latest-news-title">{record.title}</p>
+                  {isValidDate(record.checkedAt) && <p>Conferida em: {formatDate(record.checkedAt)}</p>}
                   <a href={record.url} target="_blank" rel="noreferrer" aria-label={`Acessar matéria de ${record.publisher} sobre ${record.municipalityLabel}`}>
                     Acessar matéria <span aria-hidden="true">↗</span>
                   </a>

@@ -1,3 +1,4 @@
+import { availableYears, loadAnnualData, type AnnualData } from '../../data/ssp-rs/load-annual-data'
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import type { Feature, FeatureCollection, Geometry } from 'geojson'
 import L, { type GeoJSON as LeafletGeoJSON, type Path } from 'leaflet'
@@ -8,13 +9,6 @@ import crosswalkUrl from '../../data/ibge/ssp-rs-municipality-crosswalk.json?url
 import protectionNetworkUrl from '../../data/rede-protecao/services.json?url'
 import contactEnrichmentsUrl from '../../data/rede-protecao/contact-enrichments.json?url'
 import caseNewsUrl from '../../data/ssp-rs/case-news-2026.json?url'
-import data2020Url from '../../data/ssp-rs/generated/feminicidio-consumado-2020.json?url'
-import data2021Url from '../../data/ssp-rs/generated/feminicidio-consumado-2021.json?url'
-import data2022Url from '../../data/ssp-rs/generated/feminicidio-consumado-2022.json?url'
-import data2023Url from '../../data/ssp-rs/generated/feminicidio-consumado-2023.json?url'
-import data2024Url from '../../data/ssp-rs/generated/feminicidio-consumado-2024.json?url'
-import data2025Url from '../../data/ssp-rs/generated/feminicidio-consumado-2025.json?url'
-import data2026Url from '../../data/ssp-rs/generated/feminicidio-consumado-2026.json?url'
 import './MapExplorer.css'
 
 type MunicipalityProperties = {
@@ -103,24 +97,6 @@ type ProtectionNetwork = {
   services: ProtectionService[]
 }
 
-type AnnualData = {
-  year: number
-  source: {
-    updatedAt: string
-  }
-  coverage: {
-    availableMonths: number[]
-  }
-  statewide: {
-    months: Record<string, number | null>
-    total: number
-  }
-  municipalities: Array<{
-    municipality: string
-    months: Record<string, number | null>
-    total: number
-  }>
-}
 
 type CaseNewsRecord = {
   month: number
@@ -142,15 +118,6 @@ type CaseNewsData = {
   records: CaseNewsRecord[]
 }
 
-const dataUrls: Record<number, string> = {
-  2020: data2020Url,
-  2021: data2021Url,
-  2022: data2022Url,
-  2023: data2023Url,
-  2024: data2024Url,
-  2025: data2025Url,
-  2026: data2026Url,
-}
 
 const months = [
   'janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho',
@@ -611,11 +578,7 @@ export default function MapExplorer() {
     if (!crosswalk) return
     let cancelled = false
 
-    fetch(dataUrls[year])
-      .then((response) => {
-        if (!response.ok) throw new Error('Falha ao ler os dados anuais.')
-        return response.json()
-      })
+    loadAnnualData(year)
       .then((data: AnnualData) => {
         const codeBySspName = new Map(crosswalk.municipalities.map((entry) => [entry.sspMunicipality, entry.ibgeCode]))
         const codes = new Set<string>()
@@ -680,6 +643,7 @@ export default function MapExplorer() {
   const selectedServiceHours = selectedServiceEnrichment?.fields.hours ?? selectedService?.hours
   const selectedServiceEmails = selectedServiceEmail?.split(/\s*\/\s*/).filter(Boolean) ?? []
   const selectedCount = selectedCode ? countByCode.get(selectedCode) ?? null : null
+  const isPartialMunicipalAccumulation = !month && Boolean(currentData?.coverage.complementaryMonths?.length)
   const selectedSspMunicipality = selectedCode
     ? crosswalk?.municipalities.find((entry) => entry.ibgeCode === selectedCode)?.sspMunicipality ?? null
     : null
@@ -700,8 +664,9 @@ export default function MapExplorer() {
       : currentData.statewide.total
     : null
   const coverageText = getCoverageText(availableMonths, year)
-  const lastUpdated = currentData?.source.updatedAt
-    ? new Intl.DateTimeFormat('pt-BR', { dateStyle: 'long', timeZone: 'UTC' }).format(new Date(`${currentData.source.updatedAt}T12:00:00Z`))
+  const sourceUpdatedAt = currentData?.statewideSource?.updatedAt ?? currentData?.source.updatedAt
+  const lastUpdated = sourceUpdatedAt
+    ? new Intl.DateTimeFormat('pt-BR', { dateStyle: 'long', timeZone: 'UTC' }).format(new Date(`${sourceUpdatedAt}T12:00:00Z`))
     : ''
 
   const municipalityOptions = useMemo(
@@ -756,7 +721,7 @@ export default function MapExplorer() {
       <div className="map-explorer-heading">
         <div>
           <h2 id="map-title">Explore os dados por município</h2>
-          <p>Selecione uma área no mapa ou busque um município. Os números mostram registros agregados da SSP-RS.</p>
+          <p>Selecione uma área no mapa ou busque um município. Os números reúnem dados da SSP-RS e referências complementares por município.</p>
         </div>
       </div>
 
@@ -764,7 +729,7 @@ export default function MapExplorer() {
         <label>
           <span>Ano</span>
           <select value={year} onChange={(event) => { setYear(Number(event.target.value)); setMonth(''); setSelectedCode(null); setSelectedServiceId(null); setDataError(false) }}>
-            {Object.keys(dataUrls).sort().reverse().map((availableYear) => (
+            {availableYears.map((availableYear) => (
               <option key={availableYear} value={availableYear}>{availableYear}</option>
             ))}
           </select>
@@ -830,7 +795,7 @@ export default function MapExplorer() {
       {currentData && (
         <div className="map-summary" aria-live="polite">
           <div><span>Registros no RS</span><strong>{statewideCount === null ? 'Indisponível' : formatNumber(statewideCount)}</strong></div>
-          <div><span>Municípios com registros</span><strong>{formatNumber(positiveMunicipalities)} <small>de 497</small></strong></div>
+          <div><span>Municípios com registros confirmados</span><strong>{formatNumber(positiveMunicipalities)} <small>de 497</small></strong></div>
           <div><span>Recorte exibido</span><strong>{month ? `${formatMonth(Number(month))} · ${year}` : coverageText}</strong></div>
         </div>
       )}
@@ -964,7 +929,7 @@ export default function MapExplorer() {
                 <>
                   <h3>{selectedFeature.properties.NM_MUN}</h3>
                   <div className="municipality-count">{selectedCount === null ? '—' : formatNumber(selectedCount)}</div>
-                  <p>{selectedCount === null ? 'Dado indisponível para o recorte selecionado.' : selectedCount === 0 ? 'Nenhum registro informado pela SSP-RS neste recorte.' : `registro${selectedCount === 1 ? '' : 's'} de feminicídio consumado no recorte.`}</p>
+                  <p>{selectedCount === null ? 'Dado indisponível para o recorte selecionado.' : isPartialMunicipalAccumulation ? 'Subtotal municipal confirmado. O detalhamento de outubro é parcial.' : selectedCount === 0 ? 'Nenhum registro informado pela SSP-RS neste recorte.' : `registro${selectedCount === 1 ? '' : 's'} de feminicídio consumado no recorte.`}</p>
                   <dl>
                     <div><dt>Período</dt><dd>{periodLabel}</dd></div>
                     <div><dt>Código IBGE</dt><dd>{selectedFeature.properties.CD_MUN}</dd></div>
@@ -983,7 +948,7 @@ export default function MapExplorer() {
                         ) : selectedCount === null ? (
                           <p>Dado indisponível para o período selecionado.</p>
                         ) : selectedCount === 0 ? (
-                          <p>Nenhum registro de feminicídio consumado publicado pela SSP-RS neste recorte.</p>
+                          <p>{isPartialMunicipalAccumulation ? 'Nenhuma referência jornalística cadastrada para o subtotal confirmado deste município.' : 'Nenhum registro de feminicídio consumado publicado pela SSP-RS neste recorte.'}</p>
                         ) : (
                           <ol className="case-news-list">
                             {selectedCaseNews.map((record) => (
@@ -1040,7 +1005,7 @@ export default function MapExplorer() {
       ) : null}
 
       <div className="map-source-note">
-        <span>Dados SSP-RS · atualização da fonte: {lastUpdated || 'ver metadados do arquivo anual'}</span>
+        <span>Dados SSP-RS{currentData?.coverage.complementaryMonths?.length ? ' e fontes complementares' : ''} · atualização estadual: {lastUpdated || 'ver metadados do arquivo anual'}</span>
         <span>
           Malha municipal: <a href="https://www.ibge.gov.br/geociencias/todos-os-produtos-geociencias/15774-malhas.html" target="_blank" rel="noreferrer">IBGE, edição 2025</a>
           {' · '}
